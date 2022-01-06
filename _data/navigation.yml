@@ -1,4 +1,8 @@
 - title: About
-  url: about
-- title: Documentation
+  url: about#about-us
+- title: Contact
+  url: about#support-and-contact
+- title: News
+  url: news
+- title: Store
   url: docs

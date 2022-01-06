@@ -1,23 +1,260 @@
-- title: Documentation
-  url: docs
+- title: CodeGlass Editions
+  url: docs/Editions
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
+    - title: "Community Edition"
+      url: "docs/Editions/Community"
+    - title: "Pro Edition"
+      url: "docs/Editions/Pro"
+    - title: "Experimental Edition"
+      url: "docs/Editions/Experimental"
+- title: Licenses & Subscriptions
+  url: docs/LicenseTypes
+  links:
+    - title: "Community"
+      url: "docs/LicenseTypes/CommunityLicense"
+    - title: "Enthousiast"
+      url: "docs/LicenseTypes/EnthousiastSubscription"
+    - title: "Pro"
+      url: "docs/LicenseTypes/ProSubscription"
+    - title: "Organisation"
+      url: "docs/LicenseTypes/OrganisationSubscription"
+    - title: "Offline Organisation"
+      url: "docs/LicenseTypes/OfflineOrganisationSubscription"
+    - title: "Education"
+      url: "docs/LicenseTypes/EducationLicense"
+    - title: "Class Room"
+      url: "docs/LicenseTypes/ClassRoomLicense"
+    - title: "Open Source"
+      url: "docs/LicenseTypes/OpenSourceLicense"
+    - title: "Experimental"
+      url: "docs/LicenseTypes/ExperimentalSubscription"
+    - title: "Fallback"
+      url: "docs/LicenseTypes/FallbackLicense"
+    - title: "Special Offers"
+      url: "docs/LicenseTypes/SpecialOffers"
+
+- title: Features
+  url: docs/features
+  links:
+    - title: "Realtime Profiling and Data Collection"
+      url: "docs/features/RealtimeDataCollection"
       children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
-  url: "docs/extras"
+        - title: Callstack
+          url: "docs/features/RealtimeDataCollection#callstack"
+        - title: Statistics
+          url: "docs/features/RealtimeDataCollection#callstack"
+    - title: "Realtime Rendering"
+      url: "docs/features/RealtimeRendering"
+    - title: "Execution Control"
+      url: "docs/features/ApplicationInstanceExecutionControl"
+    - title: "Stepping"
+      url: "docs/features/ApplicationInstanceStepping"
+    - title: "Exceptions"
+      url: "docs/features/Exceptions"
+    - title: "Code Body Reconstruction"
+      url: "docs/features/CodeBodyReconstruction"
+    - title: "Profiling data filtering"
+      url: "docs/features/profilingdatafiltering"
+    - title: "Decompilation"
+      url: "docs/features/Decompilation"
+    - title: "Profiling Snapshots"
+      url: "docs/features/ProfilingSnapshots"
+    - title: "Supported Runtimes"
+      url: "docs/features/supportedruntimes"
+      children:
+        - title: .NET Framework
+          url: "docs/features/supportedruntimes#net-framework"
+        - title: .NET Core
+          url: "docs/features/supportedruntimes#net-core--net-50"
+        - title: .NET
+          url: "docs/features/supportedruntimes#net-core--net-50"
+        - title: ASP.NET Framework
+          url: "docs/features/supportedruntimes#aspnet-framework"
+        - title: ASP.NET Core
+          url: "docs/features/supportedruntimes#aspnet-core"
+        - title: Visual Studio Solution
+          url: "docs/features/supportedruntimes#visual-studio-solution"
+        - title: UWP
+          url: "docs/features/supportedruntimes#uwp"
+        - title: Any .NET
+          url: "docs/features/supportedruntimes#any-net"
+    - title: "Time Messurement"
+      url: "docs/features/TimeMessurement"
+    - title: "Open Console"
+      url: "docs/features/AttachConsole"
+    - title: "Code Glass Client"
+      url: "docs/features/CodeGlassClient"
+    - title: "Code Glass Hub"
+      url: "docs/features/CodeGlassHub"
+    - title: "Code Glass Profilers"
+      url: "docs/features/CodeGlassProfilers"
+- title: Views
+  url: docs/views
   links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
-      url: "tags"
+    - title: "Splashscreen"
+      url: "docs/views/Splashscreen"
+    - title: "Main Menu"
+      url: "docs/views/mainwindow"
+      children:
+        - title: Applications
+          url: "docs/views/mainwindow/application"
+        - title: Application Instances
+          url: "docs/views/mainwindow/applicationinstance"
+        - title: New Application
+          url: "docs/views/mainwindow/newapplication"
+    - title: "Client & User settings"
+      url: "docs/views/clientusersettingswindow"
+      children:
+        - title: Global Filters
+          url: "docs/views/clientusersettingswindow/globalfilters"
+        - title: Profiling Settings
+          url: "docs/views/clientusersettingswindow/profilingsettings"
+        - title: Client Settings
+          url: "docs/views/clientusersettingswindow/ClientSettings"
+    - title: "Application Settings"
+      url: "docs/views/ApplicationSettingsWindow"
+      children:
+        - title: Application filters
+          url: "docs/views/ApplicationSettingsWindow/ApplicationFilters"
+        - title: Profiling Settings
+          url: "docs/views/ApplicationSettingsWindow/ProfilerSettings"
+    - title: "Application Instance Window"
+      url: "docs/views/ApplicationInstanceDockWindow"
+      children:
+        - title: Menu Bar
+          url: "docs/views/ApplicationInstanceDockWindow/MenuBar"
+        - title: Toolbar
+          url: "docs/views/ApplicationInstanceDockWindow/Toolbar"
+        - title: Statistics View
+          url: "docs/views/ApplicationInstanceDockWindow/StatisticsWindow"
+        - title: Object Details View
+          url: "docs/views/ApplicationInstanceDockWindow/ObjectDetailsView"
+        - title: Function Details View
+          url: "docs/views/ApplicationInstanceDockWindow/CodeMemberDetailsView"
+        - title: Code Heat Map Renderer
+          url: "docs/views/ApplicationInstanceDockWindow/CodeHeatMap"
+        - title: Call Tree Rendering
+          url: "docs/views/ApplicationInstanceDockWindow/CallTreeRendering"
+        - title: Call Stack Rendering
+          url: "docs/views/ApplicationInstanceDockWindow/CallStackRendering"
+        - title: Grouped Call Stack Rendering
+          url: "docs/views/ApplicationInstanceDockWindow/GroupedCallStackRendering"
+        - title: Main Window
+          url: "docs/views/ApplicationInstanceDockWindow/MainWindow"
+        - title: Performance View
+          url: "docs/views/ApplicationInstanceDockWindow/PerformanceView"
+        - title: Thread Explorer
+          url: "docs/views/ApplicationInstanceDockWindow/ThreadExplorer"
+        - title: Thread Details View
+          url: "docs/views/ApplicationInstanceDockWindow/ThreadDetailsView"
+        - title: Application Explorer
+          url: "docs/views/ApplicationInstanceDockWindow/ApplicationExplorer"
+    - title: "Application Instance Settings"
+      url: "docs/views/ApplicationInstanceSettingsWindow"
+      children:
+        - title: Instance filters
+          url: "docs/views/ApplicationInstanceSettingsWindow/Filters"
+        - title: Instance Start filters
+          url: "docs/views/ApplicationInstanceSettingsWindow/StartFilters"
+        - title: Instance Information
+          url: "docs/views/ApplicationInstanceSettingsWindow/Information"
+- title: Roadmap
+  url: docs/Roadmap
+  links:
+    - title: "CodeGlass SDK"
+      url: "docs/Roadmap/CodeGlassSDK"
+    - title: "Color Blind Mode"
+      url: "docs/Roadmap/ColorBlindMode"
+    - title: "Compare Profiling Snapshots"
+      url: "docs/Roadmap/CompareProfilingSnapshots"
+    - title: "CPU clock timing"
+      url: "docs/Roadmap/CpuClock"
+    - title: "Disable Time Messurement"
+      url: "docs/Roadmap/ExcludeFunctionTime"
+    - title: "Filter Presets"
+      url: "docs/Roadmap/FilterPreset"
+    - title: "Improving Exceptions"
+      url: "docs/Roadmap/ImprovingExceptions"
+    - title: "Memory Profiler"
+      url: "docs/Roadmap/MemoryProfiler"
+    - title: "Non .NET Profiler"
+      url: "docs/Roadmap/NonDotNetProfiler"
+    - title: "One Click Run"
+      url: "docs/Roadmap/OneClickRun"
+    - title: "Open in Visual Studio"
+      url: "docs/Roadmap/OpenItemInVisualStudio"
+    - title: "Per Function Actions"
+      url: "docs/Roadmap/PerFunctionAction"
+    - title: "Code Glass Presets"
+      url: "docs/Roadmap/Presets"
+    - title: "Public Hub Profiling Api"
+      url: "docs/Roadmap/PublicHubProfilingApi"
+    - title: "Remote Console"
+      url: "docs/Roadmap/RemoteConsole"
+    - title: "Improved render filtering"
+      url: "docs/Roadmap/RenderingFilterType"
+    - title: "Running Application"
+      url: "docs/Roadmap/RunningApplication"
+    - title: "Statistics Snapshots"
+      url: "docs/Roadmap/StatisiticsSnapshots"
+    - title: "Thread Only Stepping"
+      url: "docs/Roadmap/ThreadOnlyStepping"
+    - title: "Thread Rendering"
+      url: "docs/Roadmap/ThreadRendering"
+- title: Troubleshooting
+  url: docs/Troubleshooting
+  links:
+    - title: "Getting Help"
+      url: "docs/Troubleshooting#getting-help"
+    - title: "Getting Support"
+      url: "docs/Troubleshooting#getting-support"
+    - title: "Sending Feedback"
+      url: "docs/Troubleshooting#sending-feedback"
+    - title: "Reporting Issues"
+      url: "docs/Troubleshooting#reporting-issues"
+
+
+- title: Others
+  url: docs/Others
+  links:
+    - title: "CodeGlass Account"
+      url: "docs/Others/Account"
+    - title: "CodeGlass Community"
+      url: "docs/Others/Community"
+    - title: "Credits"
+      url: "docs/Others/Credits"
+    - title: "Rewards"
+      url: "docs/Others/Rewards"
+
+- title: Legal Docs
+  url: docs/Legal
+  links:
+    - title: "Privacy"
+      url: "docs/Legal/Privacy"
+    - title: "Third-Party Software"
+      url: "docs/Legal/ThirdPartySoftware"
+    - title: "Terms and Conditions"
+      url: "docs/Legal/TermsAndConditionsOfPurchase"
+    - title: "Websites"
+      url: "docs/Legal/Websites"
+    - title: "Account Agreement"
+      url: "docs/Legal/AccountAgreement"
+    - title: "EULA"
+      url: "docs/Legal/EULA"
+      children:
+      - title: "Class Room"
+        url: "docs/Legal/EULA/ClassRoomSubscriptionAgreement"
+      - title: "Community"
+        url: "docs/Legal/EULA/CommunitySubscriptionAgreement"
+      - title: "Education"
+        url: "docs/Legal/EULA/EducationSubscriptionAgreement"
+      - title: "Enthusiast"
+        url: "docs/Legal/EULA/EnthusiastSubscriptionAgreement"
+      - title: "Fallback"
+        url: "docs/Legal/EULA/FallbackSubscriptionAgreement"
+      - title: "(Offline) Organisation"
+        url: "docs/Legal/EULA/OrganisationSubscriptionAgreement"
+      - title: "Open Source Projects"
+        url: "docs/Legal/EULA/OpenSourceSubscriptionAgreement"
+      - title: "Pro & Experimental"
+        url: "docs/Legal/EULA/ProExperimentalSubscriptionAgreement"

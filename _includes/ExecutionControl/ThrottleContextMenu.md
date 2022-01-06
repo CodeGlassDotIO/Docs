@@ -1,0 +1,2 @@
+- Throttle, Enables or disables throttling
+- Throttle amount, The amount you want to throttle the application with.

@@ -1,0 +1,1 @@
+non-commercial, educational purposes only (including conducting academic research or providing educational services)

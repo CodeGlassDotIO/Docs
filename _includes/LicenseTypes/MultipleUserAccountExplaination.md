@@ -1,0 +1,1 @@
+You can create different accounts or use the same account; you can manage this over at the [license portal](https://users.licensespring.com/) with the company code "CodeGlass".

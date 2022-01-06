@@ -1,0 +1,9 @@
+- Restart, Restarts the application
+- filters to use, select what filters you want to use on the new instance, clicking on one of the items will directly restart the application with those filters.
+    - Current Filters, Use the [Current application instance filters](../../features/ProfilingDataFiltering#application-instance-filters.md).
+    - Start Filters, Use the same [Start application instance filters](../../features/ProfilingDataFiltering#application-instance-start-filters.md) that this application started with.
+    - Application Filters, Use the [Application Filters](../../features/ProfilingDataFiltering#application-filters.md)
+    - Global Filters, Use the [Global Filters](../../features/ProfilingDataFiltering#user-global-filters.md)
+- Quick settings, 
+    - Close this window, closes the [application instance window](../ApplicationInstanceDockWindow.md) after you press restart.
+- Advanced, See [Roadmap - Advanced Start Settings](../../Roadmap/AdvancedInstanceStartSettings.md)

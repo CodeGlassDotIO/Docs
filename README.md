@@ -45,12 +45,29 @@ rendered on the site.
 
 ### 4. Serve
 
+
+Instructions on installing Jekyll on windows (29-12-2021) (from https://jekyllrb.com/docs/installation/windows/)
+
+- Download and install a Ruby+Devkit version from RubyInstaller Downloads (https://rubyinstaller.org/) 
+- Use default options for installation.
+- Run the ridk install step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find additional information regarding this in the RubyInstaller Documentation
+- Open a new command prompt window (powershell is also fine, administrator mode not needed) from the start menu, so that changes to the PATH environment variable becomes effective. Install Jekyll and Bundler using: gem install jekyll bundler
+- Check if Jekyll has been installed properly: jekyll -v
+
+then open a command promt (powershell is also fine) in the repository folder (where this Readme.md file is located). (I usally go there through file explorer then SHIFT+right click on an empty spot and then "Open PowerShell window here")
+- enter in the command prompt: bundle install
+
+
+
 Depending on how you installed jekyll:
 
-```bash
-jekyll serve
-# or
+
+
+```bash 
+# (Recommended)
 bundle exec jekyll serve
+# or
+jekyll serve
 ```
 
 **NOTE:** If the above serve command throws an error saying `require': cannot load such file -- webrick (LoadError)` try to run `bundle add webrick` to automatically add the webrick gem to your Gemfile, or manually add `gem "webrick"` line to the Gemfile and then run the serve command again.

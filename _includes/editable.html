@@ -1,6 +1,9 @@
-<a href="{{ site.repo }}/edit/{% if site.github_branch %}{{ site.github_branch }}{% else %}master{% endif %}/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="{{ site.repo }}/issues/new?labels={% if page.editable %}{{ page.editable }}{% else %}question{% endif %}&title=Question:&body=Question on: {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
-<a href="{{ site.repo }}/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
+<a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> Contribute to this page</a>
+<a href="{{ site.repo }}/issues/new?assignees=&labels=documentation&template=documentation-feedback-or-issue.md&title=Issue on page {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href="{{ site.repo }}/issues/new?assignees=&labels=bug&template=bug-and-issue-report.md&title=Issue regarding to {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create software issue</a>
+<a href="{{ site.repo }}/issues/new?assignees=&labels=Product&template=codeglass-feedback.md&title=Feedback regarding to {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-comments fa-fw"></i> Provide project feedback</a>
+<a href="{{ site.repo }}/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=Feature request for {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-comment-dots fa-fw"></i> Create feature Request</a>
+<a href="{{ site.repo }}/issues/new?assignees=&labels=question&template=question.md&title=Question for {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-question fa-fw"></i> Ask a question</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
      the post frontend matter, and refer to the label to open the issue for -->
