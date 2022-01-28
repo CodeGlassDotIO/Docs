@@ -1,5 +1,5 @@
 ---
-title: About & Contact
+title: About
 permalink: /about/
 ---
 

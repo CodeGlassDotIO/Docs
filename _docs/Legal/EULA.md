@@ -25,14 +25,14 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 # 2. DEFINITIONS
 2.1. “Affiliate” means, with respect to any Party, any entity that directly, or indirectly through one or more intermediaries, controls, is controlled by, or is under common control of such Party; “control” for such purposes means the possession, direct or indirect, of the power to direct or affect the direction of the management and policies of a person or entity, whether through the ownership of voting securities, by contract, or otherwise.
 
-2.2. “Agreement” means this EULA that is fake in all regards that you cant agree, enter or become party of. check section 3 for the real eulas below.
+2.2. “Agreement” means this EULA that is fake in all regards that you cant agree, enter or become party of. Check section 3 for the real eulas below.
 
 # 3. THE AGREEMENTS
 3.1 For the Community license you find the EULA [here](EULA/CommunitySubscriptionAgreement.md)
 
 3.2 For the Enthusiast Subscription you find the EULA [here](EULA/EnthusiastSubscriptionAgreement.md)
 
-3.3 For the Pro Subscription you find the EULA [here](EULA/ProExperimentalSubscriptionAgreement.md)
+3.3 For the Pro Subscription you find the EULA [here](EULA/ProSubscriptionAgreement.md)
 
 3.4 For the Experimental Subscription you find the EULA [here](EULA/ProExperimentalSubscriptionAgreement.md)
 
@@ -47,6 +47,9 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 3.9 For the Education License you find the EULA [here](EULA/EducationSubscriptionAgreement.md)
 
 3.10 For the Class Room License you find the EULA [here](EULA/ClassRoomSubscriptionAgreement.md)
+
+3.11 For the Experimental Subscription you find the EULA [here](EULA/ExperimentalSubscriptionAgreement.md)
+
 
 
 # 4. FEEDBACK

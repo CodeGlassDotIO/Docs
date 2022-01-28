@@ -64,7 +64,7 @@ Note: In the event that the terms of this Agreement are in conflict with the ter
 
 (B) You may not:
 
-(i) allow the same Subscription to be used concurrently by more than one (1) User, unless the Product is provided via a Floating License Server as specified in Section 5.3.(B & C);
+(i) allow the same Subscription to be used concurrently by more than one (1) User and its Machine, unless the Product is provided via a Floating License Server as specified in Section 5.3.(B & C);
 
 (ii) rent, lease, reproduce, modify, adapt, create derivative works of, distribute, sell, or transfer the Product;
 
@@ -96,7 +96,7 @@ This Agreement applies whether you purchase a Subscription directly from TySoft 
 (B) Private floating License server – via an application provided by TySoft through a ‘floating license server’ that enables Customer to access the Product while being offline on a ‘per machine’ basis (“Floating License Server”) The Private Floating License Server is an option that is provided at the sole discretion of TySoft upon written request and may be subject to separate terms and conditions.
 
 (C) LicenseSpring floating License server – via a ‘floating license server’ provided by LicenseSpring that enables Customer to access the Product on a ‘per machine’ basis (“Floating License Server”).
-You acknowledge and agree that the Product will periodically connect from a Machine to LicenseSpring floating License server via the Internet to confirm your right to use the Product;
+You acknowledge and agree that the Product will periodically connect from a Machine to LicenseSpring floating License server via the Internet to confirm your right to use the Product; The Private Floating License Server is an option that is provided at the sole discretion of TySoft upon written request and may be subject to separate terms and conditions.
 
 # 6. FEES
 6.1. Customer shall pay Subscription fees in accordance with the CodeGlass Terms and Conditions of Purchase (available at [https://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase](../TermsAndConditionsOfPurchase.md) or an authorized TySoft reseller’s terms of purchase, whichever are applicable.

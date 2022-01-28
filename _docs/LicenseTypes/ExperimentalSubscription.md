@@ -30,10 +30,16 @@ No, but it can be granted on specific occasions.
 
 {% include LicenseTypes/OfflineExplaination.md %}
 
-## Concurrent software users
-Yes, 3 concurrent users per subscription <br/>
+## Multiple Users
+Yes, 3 users per subscription <br/>
+
+## Concurrent Use
+3 per subscription.
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
+
+**Note: Uninstalling the application does not remove the device activation due to limitations of our license provider**
+
 
 
 ## Perpetual Fallback License Requirements

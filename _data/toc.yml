@@ -158,6 +158,8 @@
           url: "docs/views/ApplicationInstanceSettingsWindow/StartFilters"
         - title: Instance Information
           url: "docs/views/ApplicationInstanceSettingsWindow/Information"
+    - title: "Dialogs"
+      url: "docs/views/Dialogs"
 - title: Roadmap
   url: docs/Roadmap
   links:
@@ -213,7 +215,6 @@
     - title: "Reporting Issues"
       url: "docs/Troubleshooting#reporting-issues"
 
-
 - title: Others
   url: docs/Others
   links:
@@ -225,6 +226,8 @@
       url: "docs/Others/Credits"
     - title: "Rewards"
       url: "docs/Others/Rewards"
+    - title: "Change or Cancel Subscription"
+      url: "docs/Others/ChangeSubscription"
 
 - title: Legal Docs
   url: docs/Legal
@@ -250,11 +253,13 @@
         url: "docs/Legal/EULA/EducationSubscriptionAgreement"
       - title: "Enthusiast"
         url: "docs/Legal/EULA/EnthusiastSubscriptionAgreement"
+      - title: "Experimental"
+        url: "docs/Legal/EULA/ExperimentalSubscriptionAgreement"
       - title: "Fallback"
         url: "docs/Legal/EULA/FallbackSubscriptionAgreement"
       - title: "(Offline) Organisation"
         url: "docs/Legal/EULA/OrganisationSubscriptionAgreement"
       - title: "Open Source Projects"
         url: "docs/Legal/EULA/OpenSourceSubscriptionAgreement"
-      - title: "Pro & Experimental"
-        url: "docs/Legal/EULA/ProExperimentalSubscriptionAgreement"
+      - title: "Pro"
+        url: "docs/Legal/EULA/ProSubscriptionAgreement"

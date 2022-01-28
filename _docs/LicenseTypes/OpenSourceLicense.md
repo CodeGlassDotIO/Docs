@@ -33,7 +33,7 @@ No
 
 {% include LicenseTypes/OfflineExplaination.md %}
 
-## Concurrent software users
+## Multiple Users
 No (1), per-user license model
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}

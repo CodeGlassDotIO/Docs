@@ -49,12 +49,12 @@ This table is provided for easy comparison of the different license / subscribti
         <tr>
             <th width="10%"></th>
             <th width="10%"><a href="CommunityLicense">Community</a></th>
-            <th width="10%"><a href="EnthousiastSubscription">Enthousiast</a></th>
+            <th width="10%"><a href="EnthousiastSubscription">Enthusiast</a></th>
             <th width="10%"><a href="ProSubscription">Pro</a></th>
             <th width="10%"><a href="EducationLicense">Education</a></th>
             <th width="10%"><a href="ClassRoomLicense">Classroom</a></th>
             <th width="10%"><a href="OpenSourceLicense">Open Source</a></th>
-            <th width="10%">(<a href="OfflineOrganisationSubscription">Offline</a>) <a href="OrganisationSubscription">Organisation</a></th>
+            <th width="10%">(<a href="OfflineOrganisationSubscription">Offline</a>) <a href="OrganisationSubscription">Organization</a></th>
             <th width="10%"><a href="ExperimentalSubscription">Experimental</a></th>
         </tr>
         <tr>
@@ -113,15 +113,26 @@ This table is provided for easy comparison of the different license / subscribti
             <td>General commercial</td>
         </tr>
         <tr>
-            <td><b>Multiple concurrent users?</b></td>
+            <td><b>Multiple user accounts</b></td>
             <td>No, software can be used solely by the authorized person</td>
             <td>No, software can be used solely by the person who purchased a subscription</td>
             <td>No, software can be used solely by the person who purchased a subscription</td>
             <td>No, software can be used solely by the authorized person</td>
             <td>No, per user license model</td>
             <td>No, per user license model</td>
-            <td><a href="#astrics">Yes (1 per) ***</a></td>
-            <td><a href="#astrics">Yes (3 per) ***</a></td>
+            <td>Yes, 1 per subscription</td>
+            <td>Yes, 3 per subscription</td>
+        </tr>
+        <tr>
+            <td><b>Concurrent use</b></td>
+            <td>No</td>
+            <td>1 per subscription</td>
+            <td>1 per subscription</td>
+            <td>No</td>
+            <td>1 per subscription</td>
+            <td>1 per subscription</td>
+            <td>1 per subscription</td>
+            <td>3 per subscription</td>
         </tr>
         <tr>
             <td><b>License term</b></td>
@@ -147,27 +158,28 @@ This table is provided for easy comparison of the different license / subscribti
         </tr>
         <tr>
             <td><b>Price</b></td>
-            <td><a href="#">Free — requires approval</a></td>
-            <td><a href="#">See store</a></td>
-            <td><a href="#">See store</a></td>
-            <td><a href="#">Free — requires approval</a></td>
-            <td><a href="#">Free — requires approval</a></td>
-            <td><a href="#">Free — requires approval</a></td>
-            <td><a href="#">Cloud - See store</a> <br/> <a href="#">Offline - Request</a></td>
-            <td><a href="#">See store</a></td>
+            <td><a href="../../contact">Free — requires approval</a></td>
+            <td><a href="https://codeglass.io/offers#pro">See store</a></td>
+            <td><a href="https://codeglass.io/offers#pro">See store</a></td>
+            <td><a href="../../contact">Free — requires approval</a></td>
+            <td><a href="../../contact">Free — requires approval</a></td>
+            <td><a href="../../contact">Free — requires approval</a></td>
+            <td><a href="https://codeglass.io/offers#pr">See store</a></td>
+            <td><a href="https://codeglass.io/offers#experimental">See store</a></td>
         </tr>
     </tbody>
 </table>
 
 #### Astrics
 \* Is available to private individuals however it can be reimbursed by a [legal entity](#legal-entity) or other third party <br/>
-\*\* [Fallback License](LicenseTypes/FallbackLicense.md) does only support 1 concurrent user and you will lose the others, it also does not support offline usage, see [Fallback license details](LicenseTypes/FallbackLicense.md#license-details) for more information.<br/>
-\*\*\* the total number of concurrent software users and installs cannot exceed the number of purchased subscriptions <br/>
+\*\* [Fallback License](LicenseTypes/FallbackLicense.md) does only support 1 user and you will lose the others, it also does not support offline usage, see [Fallback license details](LicenseTypes/FallbackLicense.md#license-details) for more information.<br/>
 
 # References
 ## Fallback license Type Requirements
 - for Fallback you need 12 preceding months of uninterrupted subscription payments (With a Annual subscription you would instantly get the fallback license)
 - for Community you need 2 preceding months of uninterrupted subscription payments if applicable.
+
+{% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Legal Entity
 With Legal Entities we mean businesses, companies and organizations, including non-profit and governments.

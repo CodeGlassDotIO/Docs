@@ -1,10 +1,10 @@
 ---
-title: Legal - EULA - Enthusiast subscription agreement 
-description: The legal mumbo jumbo for the enthusiast subscription
+title: Legal - EULA - Experimental Subscription Agreement
+description: The legal mumbo jumbo for the Experimental subscription.
 ---
 *We are sorry for the legal text below, our legal advisor foced us to make it this way and include allot....* <br/>
 *And we want to thank Jetbrains for the inspriation for our EULA ♡  ~Development team of CodeGlass*
-# Enthusiast subscription agreement 
+# Experimental Subscription Agreement
 *Version 1, effective as of January 1, 2022*
 
 
@@ -22,9 +22,9 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 # 2. DEFINITIONS
 2.1. “Affiliate” means, with respect to any Party, any entity that directly, or indirectly through one or more intermediaries, controls, is controlled by, or is under common control of such Party; “control” for such purposes means the possession, direct or indirect, of the power to direct or affect the direction of the management and policies of a person or entity, whether through the ownership of voting securities, by contract, or otherwise.
 
-2.2. “Agreement” means this Enthusiast subscription agreement.
+2.2. “Agreement” means this Experimental Subscription Agreement.
 
-2.3. Removed
+2.3. “Authorized User” means any individual who obtains access from and who is authorized to use a Product by Customer (including, for the avoidance of doubt, its Affiliates).
 
 2.4. Removed
 
@@ -51,19 +51,19 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 2.15. "Stripe" means our payment provider at [https://stripe.com/](https://stripe.com/)
 
 # 3. GRANT OF RIGHTS
-3.1 The Product is provided to Customer on a ‘per user’ basis, where Customer may deploy the Product on multiple Machines in accordance with the Product documentation, provided that Customer remains the sole user of the Product.
+3.1. The Product is provided to Customer on a ‘per user’ basis, where Customer must assign a Subscription to a specific Authorized User who may deploy the Product on multiple Machines in accordance with the Product documentation.
 
-3.2. Unless the Subscription has expired or this Agreement is terminated in accordance with Section 10, and subject to the terms and conditions specified in this Agreement, TySoft grants you the non-exclusive and non-transferable right to use each Product covered by the Subscription for non-commercial only as stipulated below:
+3.2. Unless the Subscription has expired or this Agreement is terminated in accordance with Section 12, and subject to the terms and conditions specified in this Agreement, TySoft grants you the non-exclusive and non-transferable right to use each Product covered by the Subscription as stipulated below:
 
 (A) You may:
 
-(i) install and use any version of the Product covered by the Subscription on any number of Machines and on any operating system supported by the Product; use such software for non-commercial; and
+(i) install and use any version of the Product covered by the Subscription on any number of Machines and on any operating system supported by the Product; and
 
 (ii) make one copy of the Product solely for archival, security, and/or backup purposes.
 
 (B) You may not:
 
-(i) allow the same Subscription to be used concurrently by another user apart from yourself and by more than one (1) Machine;
+(i) allow the same Subscription to be used concurrently by more than one (1) Authorized User and its Machine.
 
 (ii) rent, lease, reproduce, modify, adapt, create derivative works of, distribute, sell, or transfer the Product;
 
@@ -73,11 +73,9 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 
 (v) remove or obscure any proprietary or other notices contained in the Product.
 
-(vi) use the Product for any commercial purposes.
+3.3. Customer agrees to take reasonable measures to prevent the use of Product in an inappropriate manner by Authorized Users, and/or access to Product by unauthorized users.
 
-3.3. Removed.
-
-3.4. This subscription is only for natural persons who are purchasing a subscription to Products using only their own funds. Notwithstanding anything to the contrary in this Agreement, you may not use any of the Products, and this grant of rights shall not be in effect, in the event that you do not pay Subscription fees using your own funds. If any third party pays the Subscription fees or if you expect or receive reimbursement for those fees from any third party, this grant of rights shall be invalid and void.
+3.4. This subscription is only for natural persons who are purchasing a subscription to Products using only their own funds however Customer may receive reimbursement for those fees from any third party.
 
 3.5. Customer acknowledges that no ownership rights are conveyed to you, irrespective of the use of terms such as ‘purchase’ or ‘sale’. TySoft has and retains all rights, title, and interest, including all intellectual property rights, in and to the Products, any and all related or underlying technology, and any modifications or derivative works of the Products, including without limitation as they may incorporate Feedback (as defined below).
 
@@ -88,15 +86,11 @@ This Agreement applies whether you purchase a Subscription directly from TySoft 
 
 
 # 5. ACCESS TO PRODUCTS
-5.1. All deliveries under this Agreement will be electronic. You must have an Internet connection in order to access your CodeGlass Account and receive any deliveries. You are responsible for downloading and installing the Products, which are made available for download on the CodeGlass website at [codeglass.io](https://codeglass.io).
+5.1. All deliveries under this Agreement will be electronic. You and your Authorized Users must have an Internet connection in order to access your CodeGlass Account and receive any deliveries. You are responsible for downloading and installing the Products, which are made available for download on the CodeGlass website at [codeglass.io](https://codeglass.io).
 
-5.2 You may use the CGA in accordance with the CodeGlass Account Agreement available at [https://codeglassdotio.github.io/Docs/docs/Legal/Account](../AccountAgreement.md). You are solely responsible for the accuracy of any information provided via, and any action taken through, the CGA.
+5.2 You may use the CGA in accordance with the CodeGlass Account Agreement available at [https://codeglassdotio.github.io/Docs/docs/Legal/Account](../AccountAgreement). You and your Authorized Users are solely responsible for the accuracy of any information provided via, and any action taken through, the CGA.
 
-5.3 You may activate and access Products in one of the following ways:
-
-(A) CodeGlass Account – You acknowledge and agree that the Product will periodically connect from a Machine to LicenseSpring servers via the Internet to confirm your right to use the Product;
-
-(B) Removed.
+5.3 You may activate and access Products only via your CodeGlass Account. You acknowledge and agree that the Product will periodically connect from a Machine to LicenseSpring' servers via the Internet to confirm your right to use the Product.
 
 # 6. FEES
 6.1. Customer shall pay Subscription fees in accordance with the CodeGlass Terms and Conditions of Purchase (available at [https://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase](../TermsAndConditionsOfPurchase.md) or an authorized TySoft reseller’s terms of purchase, whichever are applicable.
@@ -169,13 +163,13 @@ The Products include code and libraries licensed to us by third parties, includi
 14.2. Customer must immediately report any concerns of non-compliance regarding Sanctions to support@codeglass.io, and cooperate with TySoft in its efforts to verify and ensure compliance with Sanctions.
 
 # 15. GENERAL
-15.1. <b>Entire Agreement.</b> The following documents are part of (‘incorporated into’) this Agreement: the CodeGlass Privacy Policy, available at [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md) and the CodeGlass Terms and Conditions of Purchase, available at [https://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase](../TermsAndConditionsOfPurchase.md). Together, these documents form the entire agreement and replace any previous agreement between you and us in relation to its subject matter. Except as expressly mentioned, this Agreement does not apply or give rights to anyone else (‘no third-party beneficiaries’). No purchase order, Customer terms, or other document that purports to modify or supplement this Agreement will vary the terms of this Agreement unless signed by Customer and TySoft.
+15.1. Entire Agreement. The following documents are part of (‘incorporated into’) this Agreement: the CodeGlass Privacy Policy, available at [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md) and the CodeGlass Terms and Conditions of Purchase, available at [https://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase](../TermsAndConditionsOfPurchase.md). Together, these documents form the entire agreement and replace any previous agreement between you and us in relation to its subject matter. Except as expressly mentioned, this Agreement does not apply or give rights to anyone else (‘no third-party beneficiaries’). No purchase order, Customer terms, or other document that purports to modify or supplement this Agreement will vary the terms of this Agreement unless signed by Customer and TySoft.
 
 15.2. Removed.
 
-15.3. <b>Reservation of Rights.</b> TySoft reserves the right at any time to cease its support of the Product and to alter prices, features, specifications, capabilities, functions, terms of use, release dates, general availability, and other characteristics of the Product. Nothing in this Agreement limits any rights a consumer may have under applicable consumer protection laws.
+15.3. Reservation of Rights. TySoft reserves the right at any time to cease its support of the Product and to alter prices, features, specifications, capabilities, functions, terms of use, release dates, general availability, and other characteristics of the Product. Nothing in this Agreement limits any rights a consumer may have under applicable consumer protection laws.
 
-15.4. <b>Changes to this Agreement.</b> The Agreement can be updated from time to time, to reflect changes in the Product and how it is offered to you.
+15.4. Changes to this Agreement. The Agreement can be updated from time to time, to reflect changes in the Product and how it is offered to you.
 
 (A) If this happens, we will update the terms on the CodeGlass website and let you know either:
 
@@ -191,26 +185,26 @@ The Products include code and libraries licensed to us by third parties, includi
 
 (D) Removed
 
-15.5. <b>Opportunity to Review.</b> You declare that you have had sufficient opportunity to review this Agreement, understand the content of all of its sections, negotiate its terms, and seek independent professional legal advice before entering into it. Consequently, any statutory “form contract” (“adhesion contract”) regulations shall not be applicable to this Agreement.
+15.5. Opportunity to Review. You declare that you have had sufficient opportunity to review this Agreement, understand the content of all of its sections, negotiate its terms, and seek independent professional legal advice before entering into it. Consequently, any statutory “form contract” (“adhesion contract”) regulations shall not be applicable to this Agreement.
 
-15.6. <b>Severability.</b> If a particular term of this Agreement is not enforceable, the unenforceability of that term will not affect any other terms of this Agreement.
+15.6. Severability. If a particular term of this Agreement is not enforceable, the unenforceability of that term will not affect any other terms of this Agreement.
 
-15.7. <b>Interpretation.</b> Headings and titles are for convenience only and do not affect the interpretation of this Agreement. Terms such as “including” are not exhaustive.
+15.7. Interpretation. Headings and titles are for convenience only and do not affect the interpretation of this Agreement. Terms such as “including” are not exhaustive.
 
-15.8. <b>No Waiver.</b> Our failure to enforce or exercise any part of this Agreement is not a waiver of that section.
+15.8. No Waiver. Our failure to enforce or exercise any part of this Agreement is not a waiver of that section.
 
-15.9. <b>Notice.</b> TySoft may deliver any notice to Customer via electronic mail to an email address provided by Customer, or via Customer’s CodeGlass Account, registered mail, personal delivery, or reputable express courier (such as DHL, FedEx, or UPS). Any such notice will be deemed to be effective (i) on the day the notice is sent to Customer via email, (ii) upon being uploaded to Customer’s CodeGlass Account (irrespective of when Customer actually receives it), (iii) upon personal delivery, (iv) one (1) day after deposit with an express courier, or (v) five (5) days after deposit in the mail, whichever occurs first.
+15.9. Notice. TySoft may deliver any notice to Customer via electronic mail to an email address provided by Customer, or via Customer’s CodeGlass Account, registered mail, personal delivery, or reputable express courier (such as DHL, FedEx, or UPS). Any such notice will be deemed to be effective (i) on the day the notice is sent to Customer via email, (ii) upon being uploaded to Customer’s CodeGlass Account (irrespective of when Customer actually receives it), (iii) upon personal delivery, (iv) one (1) day after deposit with an express courier, or (v) five (5) days after deposit in the mail, whichever occurs first.
 
-15.10. <b>Governing Law.</b> This Agreement is governed by the laws of the Netherlands, without reference to conflict of laws principles and specifically excluding the United Nations Convention on Contracts for the International Sale of Goods. The Parties to the agreement constituted by this Agreement undertake to use best commercial efforts to amicably settle any disputes arising hereunder (“Dispute”).
+15.10. Governing Law. This Agreement is governed by the laws of the Netherlands, without reference to conflict of laws principles and specifically excluding the United Nations Convention on Contracts for the International Sale of Goods. The Parties to the agreement constituted by this Agreement undertake to use best commercial efforts to amicably settle any disputes arising hereunder (“Dispute”).
 
-15.11. <b>Dispute Resolution.</b> Should the Parties to this Agreement fail to settle a Dispute amicably, the Dispute will be excluded from the jurisdiction of general courts and the Dispute will be finally decided by the Netherlands Commercial Court Court and the language of the proceedings will be English; <b>if you are a consumer</b>, we both agree that any Dispute-related litigation may only be brought in, and shall be subject to the jurisdiction of, any competent court of the Netherlands, unless provided otherwise by applicable consumer law. Consumer Disputes can also be settled out of court through the the European Commission’s online platform for dispute resolution (http://ec.europa.eu/consumers/odr).
+15.11. Dispute Resolution. Should the Parties to this Agreement fail to settle a Dispute amicably, the Dispute will be excluded from the jurisdiction of general courts and the Dispute will be finally decided by the Netherlands Commercial Court Court and the language of the proceedings will be English; <b>if you are a consumer</b>, we both agree that any Dispute-related litigation may only be brought in, and shall be subject to the jurisdiction of, any competent court of the Netherlands, unless provided otherwise by applicable consumer law. Consumer Disputes can also be settled out of court through the the European Commission’s online platform for dispute resolution (http://ec.europa.eu/consumers/odr).
 
-15.12. <b>Data Privacy.</b> By accepting this Agreement, Customer acknowledges that TySoft will process personal data in accordance with CodeGlass’ Privacy Policy (available at [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md)).
+15.12. Data Privacy. By accepting this Agreement, Customer acknowledges that TySoft will process personal data in accordance with CodeGlass’ Privacy Policy (available at [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md)).
 
-15.13. <b>Force Majeure.</b> Neither Party shall be in breach of this Agreement, or otherwise liable to the other, by reason of any delay in performance, or non-performance, of any of its obligations under this Agreement (except payment obligations), arising directly from an act of God, fire, flood, natural disaster, act of terrorism, strike, lock-out, labor dispute, public health emergency, civil commotion, riot, or act of war.
+15.13. Force Majeure. Neither Party shall be in breach of this Agreement, or otherwise liable to the other, by reason of any delay in performance, or non-performance, of any of its obligations under this Agreement (except payment obligations), arising directly from an act of God, fire, flood, natural disaster, act of terrorism, strike, lock-out, labor dispute, public health emergency, civil commotion, riot, or act of war.
 
-15.14. <b>Children and minors.</b> If You are under 18 years old, then by entering into this Agreement you explicitly stipulate that (i) you have legal capacity to conclude this Agreement or that you have valid consent from a parent or legal guardian to do so and (ii) you understand the CodeGlass Privacy Policy available at: [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md). You may not enter into this Agreement if you are under 13 years old. IF YOU DO NOT UNDERSTAND THIS SECTION, DO NOT UNDERSTAND THE CODEGLASS PRIVACY POLICY, OR DO NOT KNOW WHETHER YOU HAVE THE LEGAL CAPACITY TO ACCEPT THESE TERMS, PLEASE ASK YOUR PARENT OR LEGAL GUARDIAN FOR HELP.
+15.14. Children and minors. If You are under 18 years old, then by entering into this Agreement you explicitly stipulate that (i) you have legal capacity to conclude this Agreement or that you have valid consent from a parent or legal guardian to do so and (ii) you understand the CodeGlass Privacy Policy available at: [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md). You may not enter into this Agreement if you are under 13 years old. IF YOU DO NOT UNDERSTAND THIS SECTION, DO NOT UNDERSTAND THE CODEGLASS PRIVACY POLICY, OR DO NOT KNOW WHETHER YOU HAVE THE LEGAL CAPACITY TO ACCEPT THESE TERMS, PLEASE ASK YOUR PARENT OR LEGAL GUARDIAN FOR HELP.
 
-The previous version of this agreement is available in git at [{{ site.repo }}/commits/master/_docs/Legal/EULA/EnthusiastSubscriptionAgreement.md]({{ site.repo }}/commits/master/_docs/Legal/EULA/EnthusiastSubscriptionAgreement.md).
+The previous version of this agreement is available in git at [{{ site.repo }}/commits/master/_docs/Legal/EULA/ProSubscriptionAgreement.md]({{ site.repo }}/commits/master/_docs/Legal/EULA/ProExperimentalSubscriptionAgreement.md).
 
 For further information, please contact us at support@codeglass.io.

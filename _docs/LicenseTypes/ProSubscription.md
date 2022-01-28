@@ -36,11 +36,8 @@ No
 
 {% include LicenseTypes/OfflineExplaination.md %}
 
-## Concurrent software users
+## Multiple Users
 No (1), the software can be used solely by the person who purchased a subscription.
-
-*If you have multiple personal PC's we can increase it for you, so you do not have to go to the license portal every time you want to switch, [contact](../../pages/contact.md) us or send us a quick message on [discord](../../pages/contact.md#discord)*
-
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}
@@ -61,6 +58,6 @@ $10 per month per user
 $100 a year per user
 
 ## EULA
-You can find the EULA by clicking [here](../Legal/EULA/ProExperimentalSubscriptionAgreement.md)
+You can find the EULA by clicking [here](../Legal/EULA/ProSubscriptionAgreement.md)
 
 

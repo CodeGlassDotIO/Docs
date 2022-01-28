@@ -63,7 +63,7 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 
 (B) Customer may not:
 
-(i) allow the same Subscription to be used concurrently by more than one (1) Authorized User;
+(i) allow the same Subscription to be used concurrently by more than one (1) Authorized User and its Machine.
 
 (ii) rent, lease, reproduce, modify, adapt, create derivative works of, distribute, sell, or transfer the Product;
 
@@ -84,7 +84,7 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 # 4. ACCESS TO PRODUCTS
 4.1. All deliveries under this Agreement will be electronic. You and your Authorized Users must have an Internet connection in order to access your CodeGlass Account and receive any deliveries. You are responsible for downloading and installing the Products, which are made available for download on the CodeGlass website at [codeglass.io](https://codeglass.io).
 
-4.2 You may use the CGA in accordance with the CodeGlass Account Agreement available at [https://codeglassdotio.github.io/Docs/docs/Legal/Account](../AccountAgreement). You and your Authorized Users are solely responsible for the accuracy of any information provided via, and any action taken through, the JBA.
+4.2 You may use the CGA in accordance with the CodeGlass Account Agreement available at [https://codeglassdotio.github.io/Docs/docs/Legal/Account](../AccountAgreement). You and your Authorized Users are solely responsible for the accuracy of any information provided via, and any action taken through, the CGA.
 
 4.3 You may activate and access Products only via your CodeGlass Account. You acknowledge and agree that the Product will periodically connect from a Machine to LicenseSpring' servers via the Internet to confirm your right to use the Product.
 

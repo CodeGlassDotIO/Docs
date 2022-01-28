@@ -32,10 +32,15 @@ The reason for it is that this feature cost us actual money as it is a feature w
 
 {% include LicenseTypes/OfflineExplaination.md %}
 
-## Concurrent software users
-No (1), even if your previous subscription allowed it.
+## Multiple Users
+No, even if your previous subscription allowed it.
 
-The reason is that so-called floating licenses cost us actual money as it is a feature we have to pay for to our license provider.
+We have to pay our license provider for this feature, so we can't provide it for free.
+
+## Concurrent Use
+No.
+
+We have to pay our license provider for this feature, so we can't provide it for free.
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}

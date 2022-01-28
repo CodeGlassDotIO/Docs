@@ -27,8 +27,11 @@ See the [EULA](#eula) for the legal mumbo jumbo.
 
 {% include LicenseTypes/OfflineExplaination.md %}
 
-## Concurrent software users
-No (1)
+## Multiple Users
+No
+
+## Concurrent Use
+1 per subscription.
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}

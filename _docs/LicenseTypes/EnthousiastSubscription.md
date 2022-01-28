@@ -48,8 +48,11 @@ No
 
 {% include LicenseTypes/OfflineExplaination.md %}
 
-## Concurrent software users
-No (1), the software can be used solely by the person who purchased a subscription.
+## Multiple Users
+No, the software can be used solely by the person who purchased a subscription.
+
+## Concurrent Use
+1 per subscription.
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}

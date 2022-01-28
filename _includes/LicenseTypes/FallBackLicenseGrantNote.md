@@ -1,2 +1,2 @@
 Please note that converting your subscription to the fallback type is a manual process that we currently cant automate due to limitations with our license and payment provider. <br/>
-So please [contact](/contact) us when your license expired and we will convert it for you.
+So please [contact]({{site.baseurl}}/contact) us when your license expired and we will convert it for you.

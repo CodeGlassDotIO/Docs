@@ -29,11 +29,16 @@ No
 {% include LicenseTypes/OfflineExplaination.md %}
 
 
-## Concurrent software users
-No (1), per-user license model
+## Multiple Users
+No, per-user license model
+
+
+## Concurrent Use
+1 per subscription.
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}
+
 
 ## Perpetual fallback license grant
 Yes, it becomes a [Community License](CommunityLicense.md if not renewed.

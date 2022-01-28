@@ -9,7 +9,7 @@ We do not offer an account ourselves but through our payment provider and licens
 You can read their Account agreements and terms of services here:
 
 - [LicenseSpring](https://licensespring.com/terms-of-service)
-- [Stripe](https://stripe.com/en-nl/customer-portal/legal)
+- [Stripe](https://stripe.com/customer-portal/legal)
 
 
 For more information about your account click [here](../Others/Account.md)

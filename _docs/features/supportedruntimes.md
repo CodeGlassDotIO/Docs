@@ -13,7 +13,7 @@ Below are all our supported runtimes.
 .NET Framework 4.0 and up
 
 ### Notes on .NET Framework 2.0-3.5
-.NET Framework 2.0-3.5 is not officially supported but it might work, take note of the following:
+.NET Framework 2.0-3.5 is not officially supported but it might work in the __[experimental edition](../Editions/Experimental.md)__, take note of the following:
 
 CodeGlass needs to be started as administrator as we need to add some registry keys.
 
@@ -28,8 +28,9 @@ If, in the unlikely case, the registry keys stay behind, is the key to remove:
 ```
 HKEY_CLASSES_ROOT\CLSID\{2091c114-505f-51b5-8145-5eee1ed82fe1}
 ```
+It is an experimental edition only feature because it works on some of our machines, and on some, it does not. It looks like it is a Windows version issue. But since .Net Framework 2.0 - 3.5 are pretty old we decided to not invest more time in it.
 
-Let us know if you need official support of .NET 2.0-3.5; we can make it.
+Let us know if you need official support of .NET Framework 2.0-3.5; we can probably make it. <br/>
 
 ## .NET Core & .NET (5.0+)
 - .NET Core 1.0 and up.

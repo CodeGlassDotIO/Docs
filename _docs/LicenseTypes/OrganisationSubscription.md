@@ -32,7 +32,7 @@ No
 {% include LicenseTypes/OfflineExplaination.md %}
 
 
-## Concurrent software users
+## Multiple Users
 Yes, 1 concurrent software users per purchased subscription <br/>
 {% include LicenseTypes/MultipleUserAccountExplaination.md %}
 

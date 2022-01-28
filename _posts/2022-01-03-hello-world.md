@@ -93,7 +93,7 @@ And really, the others below are primarily methods to do so.
 1. Always work towards MVP, and accept that sometimes that means that not everything is up to your liking; this prevents you from getting lost in the many features you want to have and support.
 
 
-Well, and that is the story of how I came here. I hope to build this company around it and hope you will support me in this endeavor, and if it doesn't, I still learned a lot. <br/>
+Well, and that is the story of  how CodeGlass came to be. I hope to build this company around it and hope you will support me in this endeavor, and if it doesn't, I still learned a lot. <br/>
 
 That is also why if it might ever happen that there is nobody to support CodeGlass anymore, I will make its source code available to everyone, so someone else can learn from it ♥ and you do not have to worry about losing it.
 

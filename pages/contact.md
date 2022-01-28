@@ -15,7 +15,7 @@ We recommend using [discord](#discord) or any other social media below if you wa
 
 ## Discord
 The fastest way to reach us and get answers, or to stay informed or join our community.<br/>
-[https://discord.gg/GeZ6ZgR3kZ](https://discord.gg/GeZ6ZgR3kZ)
+[https://discord.gg/ytczAxSmX4](https://discord.gg/ytczAxSmX4)
 
 
 ## Email
@@ -44,7 +44,7 @@ If you want to stay informed:
 
 ## Linkedin
 If you want to stay informed:
-https://www.linkedin.com/company/codeglass
+[https://www.linkedin.com/company/codeglass](https://www.linkedin.com/company/codeglass)
 
 
 ## TikTok

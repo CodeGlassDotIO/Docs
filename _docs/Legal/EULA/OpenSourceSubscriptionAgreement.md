@@ -57,7 +57,7 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 
 (B) You may not:
 
-(i) allow the same Subscription to be used concurrently by more than one (1) Authorized User;
+(i) allow the same Subscription to be used concurrently by more than one (1) Authorized User and its Machine.
 
 (ii) rent, lease, reproduce, modify, adapt, create derivative works of, distribute, sell, or transfer the Product;
 

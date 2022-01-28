@@ -6,13 +6,13 @@ description: Free Edition of Code Glass
 This is the free edition of Code Glass, with some [limitations](#limitations).
 
 
-This edition is ment for people that do not have the funds or method to pay for the [Pro Edition](Pro.md).<br/>
+This edition is ment for people that do not have the funds or method to pay for the [Pro Edition](Pro.md) subscription.<br/>
 However if you can we would be very greatefull if you looked at getting a [Pro Edition](Pro.md) as it allows us to [future develop](../Roadmap.md) Code Glass.
 
 You can also get this edition as a thank you for previously paying for a subscription as part of the [Fallback License Grant](../LicenseTypes.md#fallback-license-type-requirements)
 
 
-See the [avaiable to licenses](#available-to-licenses) section to see how to get this edition.
+See the [avaiable to](#available-to) section to see how to get this edition.
 
 ## Limitations 
 The limitations of the community edition is mostly feature based.
@@ -32,9 +32,14 @@ These include:
 
 There might be more (as we might have forgotten to update this list...)
 
-## Available to Licenses
+## Available to
 - [Perpentual Community License](../LicenseTypes/CommunityLicense.md)
 - [Perpentual Fallback License](../LicenseTypes/FallbackLicense.md)
+funds or method to pay for the [Pro Edition](Pro.md)
+
+Or, if you do not have the funds or method to pay for the Pro edition subscription, don't hesitate to contact us to provide you with a community subscription.
+
+If you are a student, you can apply for a free [Pro Edtion](Pro.md) Subscription; see our [special offerings](../LicenseTypes/SpecialOffers.md) for more info.
 
 # See Also:
 - [Edition - Pro](Pro.md)

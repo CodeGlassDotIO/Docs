@@ -34,7 +34,7 @@ Yes
 
 This means that you do not require internet at (first) log in, it can vaildate the license to a on premise license server package that you hosted yourself.
 
-## Concurrent software users
+## Multiple Users
 Yes, 1 concurrent software users per purchased subscription <br/>
 {% include LicenseTypes/MultipleUserAccountExplaination.md %}
 
