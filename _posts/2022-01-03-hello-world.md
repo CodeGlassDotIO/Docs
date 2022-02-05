@@ -31,7 +31,7 @@ I did learn better methods to improve it, but again, I did not have time to comm
 So early 2019, I decided to take half a year of unpaid leave to focus on the project entirely and its release; I had enough saved up to support the development.
 
 Together with two friends who were also enthusiastic about my idea, we implemented those methods and developed two different profiler prototypes.
-With these new profilers, we would reach ~200.000 calls a second, a 200x performance gain, and many more statistics we could use in CodeGlass to help developers.
+With these new profilers, we would reach ~200.000 calls a second, a 2.000x performance gain, and many more statistics we could use in CodeGlass to help developers.
 
 Of course, this also did not come without its problems.
 - I did not build the hub to handle that kind of load.

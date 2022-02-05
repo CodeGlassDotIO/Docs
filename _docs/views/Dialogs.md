@@ -78,5 +78,9 @@ The remaining part of the dialog is self-explanatory.
 
 If you are annoyed by the popup, we are sorry, but please understand that we are billed by the number of API calls we make to our license provider. And even we in testing started to click that button frantically.
 
+# Edge Case Excpetion
+
+TODO
+
 # See Also:
 

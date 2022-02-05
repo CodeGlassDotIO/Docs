@@ -19,6 +19,15 @@ By Pressing this button you can set the current filters as the new [Application 
 ## Reset to application filters
 By Pressing this button you reset the filters back to the [Application filters](../../features/ProfilingDataFiltering.md#application-filters)
 
+
+## Create new filter
+By Pressing this button you open the Add Application Filter Window:
+
+![assets/img/ApplicationSettingsWindow/AddApplicationFilter.png](../../../assets/img/ApplicationSettingsWindow/AddApplicationFilter.png)
+
+{% include Filters/BasicNewFilterViewExplaination.md  %}
+You can also here [Decompile](#decompilation) to have more previeuw data on how your new filter would react.
+
 ## Decompilation
 {% include Filters/DecompilationForFilters.md %}
 

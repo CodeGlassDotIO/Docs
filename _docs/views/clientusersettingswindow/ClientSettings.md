@@ -9,6 +9,12 @@ The path to Visual Studio (devenv.exe) is used for the [Visual studio project Ru
 
 Microsoft does not provide a way to detect a Visual Studio installation, because of this if it is not set we we check the following folders in order:
 
+- "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Devenv.exe",
+- "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Devenv.exe",
+- "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Devenv.exe",
+- "C:\Program Files (x86)\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Devenv.exe",
+- "C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\Common7\IDE\Devenv.exe",
+- "C:\Program Files (x86)\Microsoft Visual Studio\2022\Professional\Common7\IDE\Devenv.exe",
 - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Devenv.exe",
 - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Devenv.exe",
 - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Devenv.exe",

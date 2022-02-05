@@ -228,6 +228,8 @@
       url: "docs/Others/Rewards"
     - title: "Change or Cancel Subscription"
       url: "docs/Others/ChangeSubscription"
+    - title: "CodeGlass License Portal"
+      url: "docs/Others/CodeGlassLicensePortal"
 
 - title: Legal Docs
   url: docs/Legal

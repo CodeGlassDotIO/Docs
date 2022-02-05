@@ -16,6 +16,7 @@ Experimental also has access to the [Pro Edition features](Pro.md#pro-features).
 
 - [Visual Studio Solution Support](../features/supportedruntimes.md#visual-studio-solution)
 - [Any .NET runtime Support](../features/supportedruntimes.md)
+- [.Net Framework 2.0 - 3.5 support](../features/supportedruntimes.md#notes-on-net-framework-20-35) (4.0+ is available to all editions)
 - First access to the [new profiler](../Roadmap/NonDotNetProfiler.md) when it is released
 - First access to many [roadmap](../Roadmap.md) items when it is released.
 - Buffer settings in [Global Profiling settings Tab](../views/clientusersettingswindow/profilingsettings.md) (Currently also disabled for experimental, will be enabled again)

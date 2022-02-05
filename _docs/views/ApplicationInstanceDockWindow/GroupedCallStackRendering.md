@@ -53,7 +53,7 @@ You can [filter](../../features/ProfilingDataFiltering.md) the item by:
 Change the grouping by:
 - Add to the parent object (e.g. the function will be added to its class rendering object.)
 - Seperate into children (e.g. a class will seperate itself into the functions.)
-- Collect all children (e.g. a already rendered class will collect all seperated functions rendered.)
+- Collect all children (e.g. an already rendered class will collect all seperated functions rendered.)
 
 ## Threads and Coloring
 ![assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRenderingThreads.png](../../../assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRenderingThreads.png)

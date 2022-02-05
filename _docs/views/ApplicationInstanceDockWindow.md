@@ -9,7 +9,7 @@ This is the view that you get when you [start a new instance](mainwindow/applica
 This view is quete extensive and has allot of functionallity, we go in depth by the different [Menu items](#menu-bar), [Toolbar Items](#toolbar), [Tabs](#tabs) and [Tool panes](#tool-panes).
 
 If you are wondering, the current open Tabs and tool panes in the screenshot are:
-- [Main Tab](MainWindow.md)
+- [Main Tab](ApplicationInstanceDockWindow/MainWindow.md)
 - [Call Tree Render Tab](ApplicationInstanceDockWindow/CallTreeRendering.md) (Other Tab next to Main)
 - [Code Member Details Tab](ApplicationInstanceDockWindow/CodeMemberDetailsView.md) (Other Tab next to Call Tree Render)
 - [Performance Tool Pane](ApplicationInstanceDockWindow/PerformanceView.md)
@@ -25,6 +25,9 @@ Click [here](ApplicationInstanceDockWindow/MenuBar.md) to learn more about the M
 ## Toolbar
 Click [here](ApplicationInstanceDockWindow/Toolbar.md) to learn more about the toolbar and its items.
 
+
+# F1 Info
+If you came here by pressing F1 in the [CodeGlass Client](../features/CodeGlassClient.md) in one of the tabs, make sure that that tab has (keyboard) focus.
 
 # Application Breadcrumbs: 
 - [Splashscreen](../Splashscreen.md) / [Main Menu - Applications](mainwindow/application.md) / [Main Menu - Instances](../mainwindow/applicationInstance.md) / 

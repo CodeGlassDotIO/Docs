@@ -6,7 +6,7 @@ description: How to change your subscription
 
 tldr; click on this button: <br/>
 <button><a href="https://mysuperportal.com/access/codeglass/" target="_blanc"> Click here to upgrade your subscription </a></button> <br/>
-or if you did not have a subscription:<br/>
+or if you did not have a subscription or it is expired:<br/>
 <button><a href="https://codeglass.io/offers" target="_blanc"> Buy Subscription </a></button>
 
 

@@ -8,7 +8,8 @@ description: The toolbar of the main application instance window.
 ## Snapshots
 ![assets/img/ApplicationInstanceWindow/ToolbarSnapshots.png](../../../assets/img/ApplicationInstanceWindow/ToolbarSnapshots.png)
 - Creates a snapshot of the current application, visible as a [snapshot instance](../mainwindow/applicationInstance.md) of this application.
-- Creates a snapshot of the current application and stores it as a file so you can share it. 
+- Creates a snapshot of the current application and stores it as a file so you can share it. <br/>
+    The file is saved in the folder you installed CodeGlass in on the connected [hub](../../features/CodeGlassHub.md).
 
 For more information see [Feature - Profiling Snapshots](../../features/ProfilingSnapshots.md)
 

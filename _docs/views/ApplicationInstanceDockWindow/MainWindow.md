@@ -16,6 +16,9 @@ You can click "Bring process to front" to bring the profiling application in fro
 {% include alertNoTitle.html  type="info" content="The profiled functions value is calculated by the amount of calls and returns happend devided by 2." %}
 
 
+## Issues
+The Gauge can roll over, meaning that if it goes over 500.000 it just keep on rotating.
+
 # Application Breadcrumbs
 - { All paths leading to } /  [Application Instance Window](../ApplicationInstanceDockWindow) / [View Menu](../ApplicationInstanceDockWindow/MenuBar#view-menu) / 
 
