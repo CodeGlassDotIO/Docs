@@ -149,6 +149,10 @@
           url: "docs/views/ApplicationInstanceDockWindow/ThreadDetailsView"
         - title: Application Explorer
           url: "docs/views/ApplicationInstanceDockWindow/ApplicationExplorer"
+        - title: Exception Explorer
+          url: "docs/views/ApplicationInstanceDockWindow/ExceptionExplorer"
+        - title: Exception Details View
+          url: "docs/views/ApplicationInstanceDockWindow/ExceptionDetailsView"
     - title: "Application Instance Settings"
       url: "docs/views/ApplicationInstanceSettingsWindow"
       children:

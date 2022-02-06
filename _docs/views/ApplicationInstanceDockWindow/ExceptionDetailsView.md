@@ -2,7 +2,7 @@
 title: View - Application Instance - Exception Details View
 description: The details of a thrown exception.
 ---
-# Thread Details View
+# Exception Details View
 ![assets/img/ApplicationInstanceWindow/AppInstanceExceptionDetails.png](../../../assets/img/ApplicationInstanceWindow/AppInstanceExceptionDetails.png)
 
 
