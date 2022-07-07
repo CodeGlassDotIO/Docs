@@ -70,12 +70,12 @@ However, this also means that if you set it to, for example, 'C:\', it will ask 
 #### Registery Keys
 For this feature, we have to add some registry keys. To prevent it going all haywire, we do the following to clean them up:
 - We remove them when you close the client on the machine with the active folder.
-- We remove them when you start the client on the machine with the active folder if Code Glass was closed incorrectly.
+- We remove them when you start the client on the machine with the active folder in case that Code Glass was closed incorrectly.
 - We remove them when you uninstall Code Glass on the machine with the active folder
 
 If, in the unlikely case, the registry keys stay behind, these are the keys to remove:
 ```
-HKEY_CURRENT_USER\Environment\clr_app_instance_config_base_file_path
+HKEY_CURRENT_USER\Environment\cg_app_instance_config_base_file_path
 HKEY_CURRENT_USER\Environment\clr_environment_active
 HKEY_CURRENT_USER\Environment\cor_enable_profiling
 HKEY_CURRENT_USER\Environment\cor_profiler
