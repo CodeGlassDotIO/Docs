@@ -148,9 +148,12 @@ It is currently in the early stages. Please check back when we release it to Pro
 
 ### Requirements
 - CodeGlass Browser is installed by the seperated [CodeGlass Browser Installer](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases).
-- CodeGlassBrowser.exe path is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md)
+- CodeGlass Browser path is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md)
 
 ### Known Issues
+- Many features that work for the CLR profiler do not work for this runtime, including:
+    - [Decompilation for Filters](Decompilation.md)
+    - (Add more)
 - New [start filters](ProfilingDataFiltering.md#application-instance-start-filters) will apply when you relaunch the browser through CodeGlass, NOT when you reload the page or use another tab.
 - The browser always opens in a new window instead of another tab.
 - We currently do not update and build the browser for each CodeGlass update with the latest Chromium changes as it takes a lot of time (read hours); because of this, the browser might not have the latest changes of Chromium.
