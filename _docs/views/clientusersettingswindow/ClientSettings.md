@@ -45,4 +45,4 @@ If you have installed IIS Express in "Program Files" folder it will automaticall
  - [Client and user settings Window](../clientusersettingswindow.md)
  - [Global Filters Tab](globalfilters.md)
  - [Profiler setting Tas](profilingsettings.md)
-
+ - [Hub Settings Tab](HubSettings.md)

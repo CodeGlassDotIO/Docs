@@ -24,7 +24,7 @@ Guaranteed that you will get a response: <br/>
 [Support@CodeGlass.io](mailto:Support@CodeGlass.io)
 
 
-## Github
+## GitHub
 For feedback, issues, bug reports, or any in that kind: <br/>
 
 Also please check out the [troubleshooting](../_docs/Troubleshooting.md) page before submitting an isuse.
@@ -42,7 +42,7 @@ If you want to stay informed:
 If you want to stay informed:
 [https://twitter.com/CodeGlassDotIO/](https://twitter.com/CodeGlassDotIO/)
 
-## Linkedin
+## LinkedIn
 If you want to stay informed:
 [https://www.linkedin.com/company/codeglass](https://www.linkedin.com/company/codeglass)
 

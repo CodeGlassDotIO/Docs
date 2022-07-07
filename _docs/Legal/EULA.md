@@ -34,11 +34,11 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 
 3.3 For the Pro Subscription you find the EULA [here](EULA/ProSubscriptionAgreement.md)
 
-3.4 For the Experimental Subscription you find the EULA [here](EULA/ProExperimentalSubscriptionAgreement.md)
+3.4 For the Experimental Subscription you find the EULA [here](EULA/ExperimentalSubscriptionAgreement.md)
 
-3.5 For the Organisation Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
+3.5 For the Organization Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
 
-3.6 For the Offline Organisation Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
+3.6 For the Offline Organization Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
 
 3.7 For the Fallback License you find the EULA [here](EULA/FallbackSubscriptionAgreement.md)
 
@@ -47,8 +47,6 @@ TySoft and Customer may each also be referred to individually as a “Party” o
 3.9 For the Education License you find the EULA [here](EULA/EducationSubscriptionAgreement.md)
 
 3.10 For the Class Room License you find the EULA [here](EULA/ClassRoomSubscriptionAgreement.md)
-
-3.11 For the Experimental Subscription you find the EULA [here](EULA/ExperimentalSubscriptionAgreement.md)
 
 
 

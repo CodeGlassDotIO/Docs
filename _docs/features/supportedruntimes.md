@@ -62,6 +62,7 @@ However, this also means that if you set it to, for example, 'C:\', it will ask 
 
 ### Known issues
 - CodeGlass can set only one enabled folder currently; this limitation will be removed in the future
+- The CodeGlass Client may state that the folder is enabled when restarting the client when it is not; this is due to the clearing of register keys (see [registery keys](#registery-keys) below). We will fix this before the release to the Pro version.
 - If you close the client with the enabled folder, it will stop working (see [registery keys](#registery-keys) below)
 - If you start the client with the enabled folder, it will stop working (see [registery keys](#registery-keys) below)
 - It does not work for ASP.NET projects if the selected folder is not part of the path to your IIS Express installation folder. Because the running application is iisexpress and not your application.

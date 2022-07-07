@@ -8,6 +8,9 @@ Settings used at the start of the application instance can not be changed after 
 - Pause at the start, Pauses the application before it ran any [not filtered](../../features/ProfilingDataFiltering) code.
 - Additional Arguments, the set of command-line arguments to use when starting the application
 
+Keep in mind that currently, with  [Visual Studio Solution Runtime]({{site.baseurl}}/docs/features/supportedruntimes#visual-studio-solution), additional Arguments are supplied to the Visual Studio Process (devenv.exe) process, not to the process you are debugging with Visual Studio.
+If you require CodeGlass to supply it to the debugging process let us know by filing an [issue on github](({{site.baseurl}}/docs/pages/contact.md#github)).
+
 ### Console Settings
 These are the [console]({{site.baseurl}}/docs/features/AttachConsole) settings that you can attach to the application if it does not have one.
 
@@ -17,6 +20,8 @@ These are the [console]({{site.baseurl}}/docs/features/AttachConsole) settings t
 - Disable quick edit mode, Disables text selection on the console of the application (As this causes the application to freeze)
 - Disable Line input mode, Disables being able to type/give input in the application console.  
 - Minimal buffer size, sets the buffer size of the console
+
+
 
 ### Exception Settings
 - Pause while exception search, pauses the application while the catcher of an exception is searched ([Roadmap](../../Roadmap/AdvandedExceptionHandling))

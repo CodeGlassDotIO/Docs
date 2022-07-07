@@ -39,4 +39,5 @@ By Pressing this button you open the Add Global Filter Window:
  - [Client settings Tab](ClientSettings.md)
  - [Feature - Profiling data filtering](../../features/ProfilingDataFiltering.md)
  - [Application filters](../applicationsettingswindow/ApplicationFilters.md)
+ - [Hub Settings Tab](HubSettings.md)
 

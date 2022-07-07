@@ -21,5 +21,5 @@ You can check the [subscription and license matrix](LicenseTypes.md#license-comp
 
 # See Also:
 - [CodeGlass Features](features.md)
-- [CodeGlass Views](views.md)Editions/
+- [CodeGlass Views](views.md)
 - [CodeGlass Licenses & Subscriptions](LicenseTypes.md)

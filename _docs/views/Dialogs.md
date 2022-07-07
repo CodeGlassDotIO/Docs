@@ -7,7 +7,8 @@ These are dialogs not tied explicitly to a view and can happen on many locations
 
 If you can't find the dialog you are searching for, go to the view that triggered it.
 
-## Experimental Edition Required
+## Subscription Dialogs
+#### Experimental Edition Required
 ![assets/img/Dialogs/Dialogs_ExperimentalEditionRequired.png](../../assets/img/Dialogs/Dialogs_ExperimentalEditionRequired.png)
 
 If you encounter this screen, you try to access an experimental feature for which you need the [Experimental Edition](../Editions/Experimental.md).
@@ -16,7 +17,7 @@ You can upgrade your subscription to the [experimental subscription](../LicenseT
 
 Press "Ok" to continue using CodeGlass.
 
-## Upgrade to Experimental Edition
+#### Upgrade to Experimental Edition
 ![assets/img/Dialogs/Dialogs_UpgradeToExperimental.png](../../assets/img/Dialogs/Dialogs_UpgradeToExperimental.png)
 
 When clicking "Upgrade" on the [Experimental Edition Required Dialog](#experimental-edition-required), you encounter this screen. <br/>
@@ -26,7 +27,7 @@ A browser window would have opened to the [change subscription page](../Others/C
 
 The remaining part of the dialog is self-explanatory.
 
-## Upgrade to Experimental Edition not finished 
+#### Upgrade to Experimental Edition not finished 
 ![assets/img/Dialogs/Dialogs_ExperimentalUpgradeNotFinished.png](../../assets/img/Dialogs/Dialogs_ExperimentalUpgradeNotFinished.png)
 
 When clicking "Continue" on the [Experimental Edition Upgrade Dialog](#upgrade-to-experimental-edition), you encounter this screen when your upgrade is not finished yet. 
@@ -38,7 +39,7 @@ The remaining part of the dialog is self-explanatory.
 If you are annoyed by the popup, we are sorry, but please understand that we are billed by the number of API calls we make to our license provider. And even we in testing started to click that button frantically.
 
 
-## Pro Edition Required
+#### Pro Edition Required
 ![assets/img/Dialogs/Dialogs_ProEditionRequired.png](../../assets/img/Dialogs/Dialogs_ProEditionRequired.png)
 
 If you encounter this screen, you try to access a pro feature for which you need the [Pro Edition](../Editions/Pro.md). 
@@ -54,7 +55,7 @@ If you want to learn more about why the feature is pro edition only, click the "
 
 Press "Ok" to continue using CodeGlass.
 
-## Upgrade to Pro Edition
+#### Upgrade to Pro Edition
 ![assets/img/Dialogs/Dialogs_UpgradeToPro.png](../../assets/img/Dialogs/Dialogs_UpgradeToPro.png)
 
 
@@ -66,7 +67,7 @@ A browser window would have opened to the [change subscription page](../Others/C
 The remaining part of the dialog is self-explanatory.
 
 
-## Upgrade to Pro Edition not finished 
+#### Upgrade to Pro Edition not finished 
 
 ![assets/img/Dialogs/Dialogs_ProUpgradeNotFinished.png](../../assets/img/Dialogs/Dialogs_ProUpgradeNotFinished.png)
 
@@ -78,9 +79,25 @@ The remaining part of the dialog is self-explanatory.
 
 If you are annoyed by the popup, we are sorry, but please understand that we are billed by the number of API calls we make to our license provider. And even we in testing started to click that button frantically.
 
-# Edge Case Excpetion
+## Exception Dialogs
 
-TODO
+#### CodeGlass Client not online
+![assets/img/Dialogs/Dialogs_CgClientNotConnected.png](../../assets/img/Dialogs/Dialogs_CgClientNotConnected.png)
+
+You can get this screen when you are trying to start an application that was registered by another [client](../features/CodeGlassClient.md) that is currently not connected to the [hub](../features/CodeGlassHub.md) you are connected to.
+
+
+*In the past, this also happened after a major Windows update that caused CodeGlass to identify existing clients as new clients and assign them a new Id.*
+*Since CodeGlass 1.2 we haven't received any issue regarding this.*
+
+
+#### Edge Case Exception
+![assets/img/Dialogs/Dialogs_EdgeCaseException.png](../../assets/img/Dialogs/Dialogs_EdgeCaseException.png)
+
+Every if should have an else, even if we think that the else might never occur; in those cases, we show this dialogue.
+
+If you ever get this dialog, please report it with a screenshot and how you triggered it.
+
 
 # See Also:
 

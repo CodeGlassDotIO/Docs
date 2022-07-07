@@ -3,7 +3,7 @@ title: View - Client & user settings
 description: Settings of the client & user.
 ---
 ![assets/img/ClientUserSettingsWindow/ClientUserSettingsWindow.png](../../assets/img/ClientUserSettingsWindow/ClientUserSettingsWindow.png)
-# Client & User Settings Window
+# Client, Hub & User Settings Window
 
 This view has a couple of tabs, with  [Global Filters](clientusersettingswindow/globalfilters.md) as opened tab when you open the window.
 
@@ -12,6 +12,7 @@ See each tab for more info:
  - [Global Filters Tab](clientusersettingswindow/globalfilters.md)
  - [Profiler Settings Tab](clientusersettingswindow/profilingsettings.md)
  - [Client settings Tab](clientusersettingswindow/ClientSettings.md)
+ - [Hub Settings Tab](clientusersettingswindow/HubSettings.md)
 
 
 # Application Breadcrumbs: 

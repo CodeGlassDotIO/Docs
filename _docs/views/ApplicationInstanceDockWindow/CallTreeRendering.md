@@ -19,7 +19,7 @@ Right click on an item will open the [Context Menu](#item-context-menu).
 Double clicking or with the conext menu of an item will open the [Function Detail View](CodeMemberDetailsView.md) of that item.
 
 {% include alertNoTitle.html  type="info" content="You can improve the rendering performance in the <a href=\"#settings-window\">Settings Window</a>." %}
-{% include alertNoTitle.html  type="warning" content="This render now does have quite an impact on profiling performance, this will be improved in future releases, like <a href=\"GroupedCallStackRendering\">Grouped Call Stack Rendering</a> does not have such an impact." %}
+{% include alertNoTitle.html  type="warning" content="Rendering does have an impact on profiling performance, this will be improved in future releases." %}
 
 {% include Rendering/RealtimeRenderingCodeMemberToolbar.md %}
 
@@ -41,4 +41,4 @@ Double clicking or with the conext menu of an item will open the [Function Detai
 
 # See Also:
 - [Realtime Call Stack Rendering](CallStackRendering.md)
-- [Realtime Grouped Call Stack Rendering](GroupedCallStackRendering.md)
+- [(Deprecated) Realtime Grouped Call Stack Rendering](GroupedCallStackRendering.md)

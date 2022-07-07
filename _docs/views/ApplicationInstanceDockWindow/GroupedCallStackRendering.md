@@ -3,6 +3,8 @@ title: View - Application Instance - Grouped Call Stack Rendering
 description: The rendering of the call stack grouped by the specified data type, like class or namespace.
 ---
 # Realtime Grouped Call Stack Rendering
+{% include alert.html title="Deprecated"  type="warning" content="This view is deprecated since 1.2 in favor of a new <a href=\"CallStackRendering\">Call Stack Rendering</a> as it offers now the same view and functionality" %}
+
 ![assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png](../../../assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png)
 
 {% include Warnings/RenderingPhotosensitivityWarning.html  %}
