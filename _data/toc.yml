@@ -42,7 +42,7 @@
         - title: Callstack
           url: "docs/features/RealtimeDataCollection#callstack"
         - title: Statistics
-          url: "docs/features/RealtimeDataCollection#callstack"
+          url: "docs/features/RealtimeDataCollection#statistics"
     - title: "Realtime Rendering"
       url: "docs/features/RealtimeRendering"
     - title: "Execution Control"
@@ -72,12 +72,12 @@
           url: "docs/features/supportedruntimes#aspnet-framework"
         - title: ASP.NET Core
           url: "docs/features/supportedruntimes#aspnet-core"
+        - title: Any .NET
+          url: "docs/features/supportedruntimes#any-net"
         - title: Visual Studio Solution
           url: "docs/features/supportedruntimes#visual-studio-solution"
         - title: UWP
           url: "docs/features/supportedruntimes#uwp"
-        - title: Any .NET
-          url: "docs/features/supportedruntimes#any-net"
     - title: "Time Messurement"
       url: "docs/features/TimeMessurement"
     - title: "Open Console"
