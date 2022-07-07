@@ -131,6 +131,35 @@ Please check if it is not running in task manager and kill it if it is, ensure t
 If the application also does not start anymore without CodeGlass even after you restart the PC, you need to rebuild it again to fix it.
 
 
+## JavaScript Website
+{% include alert.html  type="warning" title="Not available to the Community or Pro edition yet" content="This feature is very experimental, because of this only available to the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
+
+{% include alert.html  type="warning" title="Do not use CodeGlass Browser for other use cases." content="The browser should be as safe as the Chromium browser, but for the sake of arguments, just assume it is not, so don't use it when you do not want to profile the website you visit." %}
+
+
+
+The JavaScript website "runtime" makes it possible to profile websites built with Javascript; this includes Typescript and all frameworks built upon JavaScript, as they all compile to JavaScript.<br/>
+It uses a custom version of the Chromium (read Chrome) browser made by us to make this possible.
+
+It is currently in the early stages. Please check back when we release it to Pro and give it an a/another chance.
+
+
+
+
+### Requirements
+- CodeGlass Browser is installed by the seperated [CodeGlass Browser Installer](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases).
+- CodeGlassBrowser.exe path is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md)
+
+### Known Issues
+- New [start filters](ProfilingDataFiltering.md#application-instance-start-filters) will apply when you relaunch the browser through CodeGlass, NOT when you reload the page or use another tab.
+- The browser always opens in a new window instead of another tab.
+- We currently do not update and build the browser for each CodeGlass update with the latest Chromium changes as it takes a lot of time (read hours); because of this, the browser might not have the latest changes of Chromium.
+- When launching the CodeGlass Browser through the CodeGlass client, you decide under which [application](../views/mainwindow/applicationInstance.md) (instance) the browser will put the profiled data. It is unaware if you leave the specified website and will keep putting the other website's data in the same application in CodeGlass. Keep this in mind when reading statistics and such.
+
+## Limitations
+- A new [Application Instance](../views/mainwindow/applicationInstance.md) is made for every separated javascript process that starts in the CodeGlass browser (Like every tab)
+
+
 # See Also:
  - [View - Add new Application](../views/mainwindow/newapplication.md)
  - [View - Client settings](../views/clientusersettingswindow/ClientSettings.md)

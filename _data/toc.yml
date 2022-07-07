@@ -78,6 +78,8 @@
           url: "docs/features/supportedruntimes#uwp"
         - title: Any .NET
           url: "docs/features/supportedruntimes#any-net"
+        - title: JavaScript Website
+          url: "docs/features/supportedruntimes#javascript-website"
     - title: "Time Messurement"
       url: "docs/features/TimeMessurement"
     - title: "Open Console"
