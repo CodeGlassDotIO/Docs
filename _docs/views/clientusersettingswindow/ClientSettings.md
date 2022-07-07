@@ -23,7 +23,7 @@ Microsoft does not provide a way to detect a Visual Studio installation, because
 - "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Devenv.exe",
 - "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Devenv.exe"
 
-Feel free to supply is with more folders.
+Feel free to supply us with more folders.
 
 # IIS Express x86 Location
 The path to IIS Express x86 (iisexpress.exe) is used for the [Visual studio project Runtime](../../features/supportedruntimes.md#visual-studio-solution) so that when you want to profile an IIS Express x86 application it knows where IIS Express is located.
