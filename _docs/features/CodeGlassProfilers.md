@@ -10,7 +10,7 @@ CodeGlass is made with remote profiling and support for any language in mind. Be
 
 At CodeGlass, when we speak of profilers, we mean the **Data Collection** portion of a profiler only, as processing their data in the [hub](CodeGlassHub.md) and display it through the [client](CodeGlassClient.md)
 
-We currently have a .NET Profiler and are working on supporting a [new profiler](../Roadmap/NonDotNetProfiler.md) outside of .NET soon.
+We currently have a .NET Profiler and JavaScript Website profiler and will start working on NodeJS and after that Java Support.
 
 We also might [open up](../Roadmap/PublicHubProfilingApi.md) our specification to the public so anyone can make a language or runtime integration.
 
