@@ -5,38 +5,14 @@ description: The rendering of the call stack grouped by the specified data type,
 # Realtime Call Stack Rendering
 ![assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png](../../../assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png)
 
-{% include Warnings/RenderingPhotosensitivityWarning.html  %}
+{% include Rendering/RealtimeRenderingCallStackHeader.md  isException=false %}
 
-See [Feature - Realtime call stack Rendering](../../features/RealtimeRendering.md#realtime-call-stack-rendering) for more information about the feature.
-
-You can select to wich data object type you want to combines all calls in the [toolbar](#toolbar).
-
-Hovering over an item will show you information about the Last and current threads using that function.
-
-Hovering over a line will show you where it comes from and where it goes to. 
-
-Right click on an item will open the [Context Menu](#item-context-menu).
-
-Double clicking or with the conext menu of an item will open the [Object Detail View](ObjectDetailsView.md) of that item.
-
-{% include alertNoTitle.html  type="info" content="You can improve the rendering performance in the <a href=\"#settings-window\">Settings Window</a>." %}
 
 ## Toolbar
-![assets/img/ApplicationInstanceWindow/GroupedCallStackRenderingToolbar.png](../../../assets/img/ApplicationInstanceWindow/GroupedCallStackRenderingToolbar.png)
-
-With the toolbar you can do the following:
-
-
-- Select what [filter](../../features/ProfilingDataFiltering.md) tyoe you want to use for filtering
-    - Current Filters
-    - Start Filters, see [Roadmap - Rendering Filter Types](../../Roadmap/RenderingFilterType.md)
-    - No Filter, see [Roadmap - Rendering Filter Types](../../Roadmap/RenderingFilterType.md)
-- [Filter](../../features/ProfilingDataFiltering.md) the current rendered items
-- Clear the current render screen
-- Selecting the object type new rendered items will be grouped by.
-- Forcing all rendered items to be grouped by the selected object type.
+{% include Rendering/RealtimeRenderingCallStackToolbar.md %}
 - Open the [Settings window](#settings-window)
 
+## Item Context Menu
 {% include Rendering/RealtimeRenderingCodeMemberContextMenu.md %}
 
 ## Threads and Coloring

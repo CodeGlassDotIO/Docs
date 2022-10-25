@@ -153,14 +153,15 @@ It is currently in the early stages. Please check back when we release it to Pro
 ### Known Issues
 - Many features that work for the CLR profiler do not work for this runtime, including:
     - [Decompilation for Filters](Decompilation.md)
-    - (Add more)
+    - (probably more, we have to update this list manually)
 - New [start filters](ProfilingDataFiltering.md#application-instance-start-filters) will apply when you relaunch the browser through CodeGlass, NOT when you reload the page or use another tab.
 - The browser always opens in a new window instead of another tab.
 - We currently do not update and build the browser for each CodeGlass update with the latest Chromium changes as it takes a lot of time (read hours); because of this, the browser might not have the latest changes of Chromium.
 - When launching the CodeGlass Browser through the CodeGlass client, you decide under which [application](../views/mainwindow/applicationInstance.md) (instance) the browser will put the profiled data. It is unaware if you leave the specified website and will keep putting the other website's data in the same application in CodeGlass. Keep this in mind when reading statistics and such.
+- Running cached pages may result in the page nog loading, reload the page with CTRL+F5
 
 ## Limitations
-- A new [Application Instance](../views/mainwindow/applicationInstance.md) is made for every separated javascript process that starts in the CodeGlass browser (Like every tab)
+- A new [Application Instance](../views/mainwindow/applicationInstance.md) is made for every separated javascript process that starts in the CodeGlass browser (Like every tab and every website)
 
 
 # See Also:

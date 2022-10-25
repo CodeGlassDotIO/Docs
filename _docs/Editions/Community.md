@@ -29,6 +29,7 @@ These include:
 - No [Any .Net Supprt](../features/supportedruntimes.md#any-net)
 - No [Visual Studio Solution Support](../features/supportedruntimes.md#visual-studio-solution.md)
 - Not <b>yet</b> [UWP Supprt](../features/supportedruntimes.md#uwp)
+- No [Decompilation for filters](../features/Decompilation.md#decompilation-for-filters)
 
 There might be more (as we might have forgotten to update this list...)
 
