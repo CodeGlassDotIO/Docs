@@ -44,9 +44,9 @@ For more information see [Feature - Application Instance Execution Control](../.
 ![assets/img/ApplicationInstanceWindow/ToolbarRendering.png](../../../assets/img/ApplicationInstanceWindow/ToolbarRendering.png)
 
 - Opens the [Code Heat Map](CodeHeatMap.md) in a new tab.
-- Opens the [Call Tree Rendering](CallTreeRendering.md) in a new tab.
-- Opens the [Call Stack Rendering](CallStackRendering.md) in a new tab.
-- Opens the [Grouped Call Stack Rendering](GroupedCallStackRendering.md) in a new tab.
+- Opens the [Call Tree](CallTreeRendering.md) in a new tab.
+- Opens the [Call Stack](CallStackRendering.md) in a new tab.
+<!-- - Opens the [Grouped Call Stack Rendering](GroupedCallStackRendering.md) in a new tab. -->
 
 For more information see [Feature - Realtime Rendering](../../features/RealtimeRendering.md)
 # See Also:
