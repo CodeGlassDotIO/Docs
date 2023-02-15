@@ -33,6 +33,7 @@ With the toolbar you can do the following:
     - No Filter, see [Roadmap - Rendering Filter Types](../../Roadmap/RenderingFilterType.md)
 - [Filter](../../features/ProfilingDataFiltering.md) the current rendered items
 - Clear the current render screen
+- Reposition screen to default zoom and position 
 - Selecting the object type new rendered items will be grouped by.
 - Forcing all rendered items to be grouped by the selected object type.
 - Open the [Settings window](#settings-window)
