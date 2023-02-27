@@ -127,7 +127,7 @@ Microsoft does not allow us to query UWP applications without administrator righ
 Microsoft does not allow UWP applications to start in elevated mode. Since Code Glass is started in the elevated mode, it can't start the application with lower permissions (not-elevated). 
 - The application starts but is not visible on the foreground, please press ['Bring to front'](../views/ApplicationInstanceDockWindow/MenuBar.md#bring-to-front) button (multiple times), this might fix it.
 - The application does not start anymore <br/>
-Please check if it is not running in task manager and kill it if it is, ensure that it runs when you normally start it (sometimes after a while it doesn't anymore), restart the pc if necessary, and try again to start it with CodeGlass. <br/>
+Please check if it is not running in task manager and kill it if it is, ensure that it runs when you normally start it (sometimes after a while it doesn't anymore), restart the pc if necessary, and try again to start it with CodeGlass. you could also try locating it in Task Manager under App History, and then left mouse button an Switch to. <br/>
 If the application also does not start anymore without CodeGlass even after you restart the PC, you need to rebuild it again to fix it.
 
 
