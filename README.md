@@ -72,6 +72,8 @@ jekyll serve
 
 **NOTE:** If the above serve command throws an error saying `require': cannot load such file -- webrick (LoadError)` try to run `bundle add webrick` to automatically add the webrick gem to your Gemfile, or manually add `gem "webrick"` line to the Gemfile and then run the serve command again.
 
+**NOTE:** If the above serve command throws an error saying `cannot load such file -- rexml/parsers/baseparser (LoadError)` add the following gems to the gemfile, `gem "github-pages", "212", group: :jekyll_plugins` `gem "webrick"` `gem "jekyll", "3.9.0"` `gem "jekyll-feed", "0.15.1"`. Then run `bundle install` and then run the serve command again. 
+
 
 ### 5. Run as a container in dev or prod
 
