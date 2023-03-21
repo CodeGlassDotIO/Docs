@@ -30,8 +30,17 @@ Shutsdown the [Code Glass Client](../../features/CodeGlassClient.md)
 
 ## View Menu
 ![assets/img/ApplicationInstanceWindow/ViewMenu.png](../../../assets/img/ApplicationInstanceWindow/ViewMenu.png)
-### Statistics Window
-Opens [Statistics Window](StatisticsWindow.md) in a new tab or brings it to the foreground   
+### Main
+Opens the [Main](MainWindow.md) window in a new tab or brings the tab to the foreground   
+
+### Console
+See [Roadmap - Remote Console](../../Roadmap/RemoteConsole.md)
+
+### Memory
+See [Roadmap - MemoryProfiler](../../Roadmap/MemoryProfiler.md)
+
+### Statistics
+Opens the [Statistics](StatisticsWindow.md) window in a new tab or brings it to the foreground   
 
 ### Code Heat Map
 This button opens a [Code Heat Map](CodeHeatMap.md) in a new tab.
@@ -39,25 +48,11 @@ This button opens a [Code Heat Map](CodeHeatMap.md) in a new tab.
 ### Realtime Call Tree Rendering
 This button opens the [Realtime Call Tree Rendering](CallTreeRendering.md) in a new tab.
 
-
 ### Realtime Call Stack Rendering
 This button opens the [Realtime Call Stack Rendering](CallStackRendering.md) in a new tab.
 
-
-### Realtime Grouped Call Stack Rendering
-This button opens the [Realtime Grouped Call Stack Rendering](GroupedCallStackRendering.md) in a new tab.
-
-### Console Window
-See [Roadmap - Remote Console](../../Roadmap/RemoteConsole.md)
-
-### Memory Window
-See [Roadmap - MemoryProfiler](../../Roadmap/MemoryProfiler.md)
-
-### Main Window
-Opens the [Main Window](MainWindow.md) in a new tab or brings the tab to the foreground   
-
-### Performance View
-Opens the [Performance view](PerformanceView.md) in a new tool window or brings it to the foreground   
+### Performance
+Opens the [Performance](PerformanceView.md) view in a new tool window or brings it to the foreground   
 
 ### Thread Explorer
 Opens the [Thread Explorer](ThreadExplorer.md) in a new tool window or brings it to the foreground   

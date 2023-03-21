@@ -14,6 +14,7 @@ In the toolbar on top you can do multiple actioms, in order they appear:
 - Dropdwon to Select wich statistic you want to use
 - Icon Button to Reorder the render to sort the items by the selected statistic.
 - Icon Button to open the [Heat map Visible items Tool pane](#heat-map-visible-items-tool-pane) (Visible on the left of the screenshot).
+- Icon Button to reposition the screen to default zoom and position.
 - Icon Button to open the [Heat map settings Window](#heat-map-settings-window) (Visible on the far right).
 
 

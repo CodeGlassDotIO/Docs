@@ -9,7 +9,20 @@ description: The rendering of the call stack grouped by the specified data type,
 
 
 ## Toolbar
-{% include Rendering/RealtimeRenderingCallStackToolbar.md %}
+![assets/img/ApplicationInstanceWindow/GroupedCallStackRenderingToolbar.png](../../../assets/img/ApplicationInstanceWindow/GroupedCallStackRenderingToolbar.png)
+
+With the toolbar you can do the following:
+
+
+- Select what [filter](../../features/ProfilingDataFiltering.md) tyoe you want to use for filtering
+    - Current Filters
+    - Start Filters, see [Roadmap - Rendering Filter Types](../../Roadmap/RenderingFilterType.md)
+    - No Filter, see [Roadmap - Rendering Filter Types](../../Roadmap/RenderingFilterType.md)
+- [Filter](../../features/ProfilingDataFiltering.md) the current rendered items
+- Clear the current render screen
+- Reposition screen to default zoom and position 
+- Selecting the object type new rendered items will be grouped by.
+- Forcing all rendered items to be grouped by the selected object type.
 - Open the [Settings window](#settings-window)
 
 ## Item Context Menu
