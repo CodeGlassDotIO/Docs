@@ -13,7 +13,6 @@ We also do not have an annoying automated news letter, if you want to keep up to
 However we use 3rd parties that (probably) collects a few things, here they are:
 - [Licensespring](https://licensespring.com/privacy) as our license provider.
 - [Stripe](https://www.stripe.com/privacy) as our payment provider.
-- [SuperPortal](https://mysuperportal.com/access/codeglass/) they state: We don't store any customer data other than an email address—this is required to access the (stripe customer) portal. After each session is over, the data is deleted from our database.
 - [Formspree](https://formspree.io/legal/privacy-policy) in case you use the contact form on the landing site.
 We will not share your data with any other 3rd party. <br/>
 We do not store any of the above data ourself.
@@ -25,6 +24,6 @@ We use their collected data
 - Maybe for really cool mayor updates we will send you an email that we just want to shout from all rooftops (we are proud of our software ok :) ) 
 
 And two legal statement our legal advisor forced us to make....
-- Our sites may contain links to third-party sites. We are not responsible for the content or the privacy practices employed by other sites.
+- Our [sites](Websites.md) may contain links to third-party sites. We are not responsible for the content or the privacy practices employed by other sites.
 - We are not responsible for the privacy practices employed by our 3rd parties.
 

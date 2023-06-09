@@ -3,9 +3,10 @@ title: License Types - Perpetual Community License
 description: Community License for non-commercial use.
 ---
 # Community License
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 The Perpetual Community license is a free license available to Private Individuals to use the [Community Edition](../Editions/Community.md) of Code Glass for non-commercial use.
 
-This license is mainly for people who do not have the funds or method to pay for CodeGlass; we give you free access than none at all.
+This license is mainly for people who do not have the funds or method to pay for CodeGlass; we rather give you free access than none at all.
 
 See the [EULA](#eula) for the legal mumbo jumbo.
 

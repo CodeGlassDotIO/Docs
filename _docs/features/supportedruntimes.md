@@ -4,10 +4,12 @@ description: The runtimes we support in CodeGlass
 ---
 
 # Runtime Support
-At CodeGlass, we are striving to support as many languages as possible. Currently, we support .NET only but are currently working on a [new profiler](../Roadmap/NonDotNetProfiler.md) 
+At CodeGlass, we are striving to support as many languages as possible. Currently, we support .NET and JavaScript*
 
 The requirement is for each runtime to run at least without CodeGlass on your machine.
 Below are all our supported runtimes.
+
+*Experimental Edition feature, as such it is only available to the Experimental Edition.
 
 ## .NET Framework
 .NET Framework 4.0 and up
@@ -125,7 +127,7 @@ Microsoft does not allow UWP applications to start in elevated mode. Since Code 
 Microsoft does not allow us to query UWP applications without administrator rights. <br/>
 - Needs Code Glass NOT to be started as administrator (not-elevated) to start a UWP application.<br/>
 Microsoft does not allow UWP applications to start in elevated mode. Since Code Glass is started in the elevated mode, it can't start the application with lower permissions (not-elevated). 
-- The application starts but is not visible on the foreground, please press ['Bring to front'](../views/ApplicationInstanceDockWindow/MenuBar.md#bring-to-front) button (multiple times), this might fix it.
+- The application starts but is not visible on the foreground, please open Windows Task manager (CTRL + SHIFT + ESC), go to tab 'App History' and then right mouse button and press 'Switch to'.
 - The application does not start anymore <br/>
 Please check if it is not running in task manager and kill it if it is, ensure that it runs when you normally start it (sometimes after a while it doesn't anymore), restart the pc if necessary, and try again to start it with CodeGlass. you could also try locating it in Task Manager under App History, and then left mouse button an Switch to. <br/>
 If the application also does not start anymore without CodeGlass even after you restart the PC, you need to rebuild it again to fix it.
@@ -134,7 +136,7 @@ If the application also does not start anymore without CodeGlass even after you 
 ## JavaScript Website
 {% include alert.html  type="warning" title="Not available to the Community or Pro edition yet" content="This feature is very experimental, because of this only available to the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
 
-{% include alert.html  type="warning" title="Do not use CodeGlass Chromium Browser for other use cases." content="The browser should be as safe as the Chromium browser, but for the sake of arguments, just assume it is not, so don't use it when you do not want to profile the website you visit." %}
+{% include alert.html  type="warning" title="Do not use CodeGlass Chromium Browser for other use cases." content="The browser should be as safe as the Chromium browser (After we fix the security sandbox), but for the sake of arguments, just assume it is not, so don't use it when you do not want to profile the website you visit." %}
 
 The JavaScript website "runtime" makes it possible to profile websites built with Javascript; this includes Typescript and all frameworks built upon JavaScript, as they all compile to JavaScript.<br/>
 It uses a custom version of the Chromium (read Chrome) browser made by us to make this possible.
@@ -149,6 +151,8 @@ It is currently in the early stages. Please check back when we release it to Pro
 - CodeGlass Browser path is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md)
 
 ### Known Issues
+- Security sanbox is disabled, we had fixed this but it broke again when we updated chromium.
+- Page loading will fail with STATUS_BREAKPOINT, this happens because you loaded a cached page, please reload the page with CTRL + F5, and if that does not help open Dev tools (F12), go to network tab and check 'disable cache' and reload the page again with CTRL+F5
 - Many features that work for the CLR profiler do not work for this runtime, including:
     - [Decompilation for Filters](Decompilation.md)
     - (probably more, we have to update this list manually)
@@ -157,8 +161,7 @@ It is currently in the early stages. Please check back when we release it to Pro
 - We currently do not update and build the browser for each CodeGlass update with the latest Chromium changes as it takes a lot of time (read hours); because of this, the browser might not have the latest changes of Chromium.
 - Only x64 and Windows, Chromum takes alot of time to build (See above), we want to first make x64 stable before we start compiling to other architectures.
 - When launching the CodeGlass Browser through the CodeGlass client, you decide under which [application](../views/mainwindow/applicationInstance.md) (instance) the browser will put the profiled data. It is unaware if you leave the specified website and will keep putting the other website's data in the same application in CodeGlass. Keep this in mind when reading statistics and such.
-- Running cached pages may result in the page nog loading, reload the page with CTRL+F5
-- Only x64 
+- The browser is not uninstalled when you uninstall CodeGlass, you have to do it manually (CodeGlassChromium in Apps and Features in Windows)
 
 ## Limitations
 - A new [Application Instance](../views/mainwindow/applicationInstance.md) is made for every separated javascript process that starts in the CodeGlass browser (Like every tab and every website)

@@ -3,13 +3,14 @@ title: Edition - Community Edition
 description: Free Edition of Code Glass
 ---
 # Community Edition
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 This is the free edition of Code Glass, with some [limitations](#limitations).
 
 
 This edition is ment for people that do not have the funds or method to pay for the [Pro Edition](Pro.md) subscription.<br/>
 However if you can we would be very greatefull if you looked at getting a [Pro Edition](Pro.md) as it allows us to [future develop](../Roadmap.md) Code Glass.
 
-You can also get this edition as a thank you for previously paying for a subscription as part of the [Fallback License Grant](../LicenseTypes.md#fallback-license-type-requirements)
+We might also give this edition as a thank you for previously paying for a subscription as part of the [Fallback License Grant](../LicenseTypes.md#fallback-license-type-requirements)
 
 
 See the [avaiable to](#available-to) section to see how to get this edition.

@@ -44,6 +44,7 @@ No (1), the software can be used solely by the person who purchased a subscripti
 
 ## Perpetual fallback license grant
 
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 Yes, it becomes a [Fallback License](FallbackLicense.md) or a [Community License](CommunityLicense.md) by:
 
 - when not renewed after 12 months of uninterrupted subscription payments, it becomes a [Fallback License](FallbackLicense.md).
@@ -54,8 +55,8 @@ Upgrading your subscription to a [Experimental Subscription](ExperimentalSubscri
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Pricing
-$10 per month per user
-$100 a year per user
+$50 per month per user
+$500 a year per user
 
 ## EULA
 You can find the EULA by clicking [here](../Legal/EULA/ProSubscriptionAgreement.md)
