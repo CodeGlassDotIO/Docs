@@ -41,8 +41,8 @@ No, per-user license model
 
 
 ## Perpetual fallback license grant
-{% include alert.html  type="warning" title="We do not offer this yet" %}
-Yes, it becomes a [Community License](CommunityLicense.md if not renewed.
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
+Yes, it becomes a [Community License](CommunityLicense.md) if not renewed.
 
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
