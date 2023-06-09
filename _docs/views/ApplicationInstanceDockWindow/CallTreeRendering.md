@@ -5,24 +5,13 @@ description: The realtime rendering of the call tree.
 # Realtime Call Tree Rendering
 ![assets/img/ApplicationInstanceWindow/RealtimeCallTreeRendering.png](../../../assets/img/ApplicationInstanceWindow/RealtimeCallTreeRendering.png)
 
-{% include Warnings/RenderingPhotosensitivityWarning.html  %}
+{% include Rendering/RealtimeRenderingCodeMemberHeader.md  isException=false %}
 
-
-See [Feature - Realtime call tree Rendering](docs/features/RealtimeRendering.md#realtime-call-tree-rendering) for more information about the feature.
-
-Hovering over an item will show you information about the Last or current thread using that function.
-
-Hovering over a line will show you where it comes from and where it goes to. 
-
-Right click on an item will open the [Context Menu](#item-context-menu).
-
-Double clicking or with the conext menu of an item will open the [Function Detail View](CodeMemberDetailsView.md) of that item.
-
-{% include alertNoTitle.html  type="info" content="You can improve the rendering performance in the <a href=\"#settings-window\">Settings Window</a>." %}
-{% include alertNoTitle.html  type="warning" content="Rendering does have an impact on profiling performance, this will be improved in future releases." %}
-
+## Toolbar
 {% include Rendering/RealtimeRenderingCodeMemberToolbar.md %}
+- Open the [Settings window](#settings-window)
 
+## Item Context Menu
 {% include Rendering/RealtimeRenderingCodeMemberContextMenu.md %}
 
 
@@ -31,8 +20,12 @@ Double clicking or with the conext menu of an item will open the [Function Detai
 
 {% include Rendering/ThreadsAndColoring.md %}
 
+## Settings Window
+![assets/img/ApplicationInstanceWindow/RealtimeCallTreeRenderingSettingsWindow.png](../../../assets/img/ApplicationInstanceWindow/RealtimeCallTreeRenderingSettingsWindow.png)
 
-{% include Rendering/RenderingSettings.md %}
+Most of the settings are quite self explainitory.
+
+You can choose to save these settings as your new default for new renders or only for this render.
 
 
 

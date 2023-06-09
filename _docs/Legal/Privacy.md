@@ -13,6 +13,10 @@ However, it's important to note that we utilize certain third-party services tha
 - [SuperPortal]If you access the SuperPortal, they collect and store minimal customer data, limited to email addresses for accessing the Stripe customer portal. Once the session is concluded, the data is promptly deleted from their database. You can find more details about their privacy practices on their website (https://mysuperportal.com/access/codeglass/) 
 - [Formspree]If you utilize the contact form on our landing site, we utilize Formspree. Their privacy practices can be found on their website at (https://formspree.io/legal/privacy-policy) 
 
+However we use 3rd parties that (probably) collects a few things, here they are:
+- [Licensespring](https://licensespring.com/privacy) as our license provider.
+- [Stripe](https://www.stripe.com/privacy) as our payment provider.
+- [Formspree](https://formspree.io/legal/privacy-policy) in case you use the contact form on the landing site.
 We assure you that we will not share your data with any other third parties, and we do not retain any of the aforementioned data ourselves.
 
 The collected data by these third-party services is used for the following purposes:
@@ -24,7 +28,7 @@ The collected data by these third-party services is used for the following purpo
 
 We would like to include two legal statements as advised by our legal advisor:
 
--   Our website may contain links to third-party sites. Please note that we are not responsible for the content or privacy practices employed by these external sites.
+-   Our [website](Websites.md) may contain links to third-party sites. Please note that we are not responsible for the content or privacy practices employed by these external sites.
 -   We are not responsible for the privacy practices employed by the aforementioned third-party services.
 
 If you have any concerns or questions regarding our privacy practices or these terms, please feel free to reach out to us.

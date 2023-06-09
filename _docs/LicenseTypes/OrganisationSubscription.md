@@ -39,6 +39,7 @@ Yes, 1 concurrent software users per purchased subscription <br/>
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 
 ## Perpentual Fallback License Grant
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 Yes it becomes a [Fallback License](FallbackLicense) when not renewed after 12 preceding months of uninterrupted subscription payments.
 (With a Annual subscription you would instantly get the fallback license)
 
@@ -48,8 +49,8 @@ Take note that the [Fallback License](FallbackLicense) does not support Multiple
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Priceing
-$20 per month per user
-$200 year per user 
+$100 per month per user
+$1000 year per user 
 
 ## EULA
 You can find the EULA by clicking [here](/docs/Legal/EULA/OrganisationSubscriptionAgreement)

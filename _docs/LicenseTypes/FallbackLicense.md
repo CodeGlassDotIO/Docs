@@ -5,6 +5,7 @@ description: About perpetual fallback licenses
 
 # Perpetual Fallback License
 
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 The Fallback license is a free license to use the [Community Edition](../Editions/Community.md) of Code Glass for commercial use.
 (Any other license of subscription may be entitled to a free [Community License](CommunityLicense.md) as fallback)
 

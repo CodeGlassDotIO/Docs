@@ -3,6 +3,6 @@
 - title: Contact
   url: contact
 - title: News
-  url: news
+  external_url: https://codeglass.io/blog.html
 - title: Store
   external_url: https://codeglass.io/offers#prices

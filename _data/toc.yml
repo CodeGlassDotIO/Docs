@@ -78,6 +78,10 @@
           url: "docs/features/supportedruntimes#visual-studio-solution"
         - title: UWP
           url: "docs/features/supportedruntimes#uwp"
+        - title: Any .NET
+          url: "docs/features/supportedruntimes#any-net"
+        - title: JavaScript Website
+          url: "docs/features/supportedruntimes#javascript-website"
     - title: "Time Messurement"
       url: "docs/features/TimeMessurement"
     - title: "Open Console"
@@ -185,8 +189,8 @@
       url: "docs/Roadmap/ImprovingExceptions"
     - title: "Memory Profiler"
       url: "docs/Roadmap/MemoryProfiler"
-    - title: "Non .NET Profiler"
-      url: "docs/Roadmap/NonDotNetProfiler"
+    - title: "More Runtime support"
+      url: "docs/Roadmap/MoreRuntimeSupport"
     - title: "One Click Run"
       url: "docs/Roadmap/OneClickRun"
     - title: "Open in Visual Studio"

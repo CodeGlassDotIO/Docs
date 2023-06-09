@@ -1,4 +1,4 @@
-## Item Context Menu
+
 ![assets/img/ApplicationInstanceWindow/RealtimeRenderingContextMenu.png](../../../assets/img/ApplicationInstanceWindow/RealtimeRenderingContextMenu.png)
 
 {% include Dso/DsoContextMenu.md  %}

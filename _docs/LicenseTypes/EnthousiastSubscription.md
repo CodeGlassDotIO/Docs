@@ -3,6 +3,7 @@ title: License Types - Enthusiast Subscription
 description: The subscription for non-commercial use for those that want to support our development.
 ---
 # Enthusiasts Subscription
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 Enthusiasts are users that support further development of this program by either paying or helping out in the [community](/docs/Others/Community.md), and we can't be more grateful to this group of users!
 
 The Enthusiast license is available to Private Individuals to use the [Pro Edition](../Editions/Pro.md) of Code Glass for non-commercial use.
@@ -66,8 +67,8 @@ Yes, it becomes a [Cummunity License](CommunityLicense.md) when not renewed afte
 ## Pricing
 We give away these mostly, but you can also buy one for
 
-$5 per month per user
-$50 a year per user 
+$TBA per month per user
+$TBA a year per user 
 
 ## EULA
 You can find the EULA by clicking [here](../Legal/EULA/EnthusiastSubscriptionAgreement.md)

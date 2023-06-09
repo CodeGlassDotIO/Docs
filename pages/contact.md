@@ -15,7 +15,7 @@ We recommend using [discord](#discord) or any other social media below if you wa
 
 ## Discord
 The fastest way to reach us and get answers, or to stay informed or join our community.<br/>
-[https://discord.gg/ytczAxSmX4](https://discord.gg/ytczAxSmX4)
+[https://discord.gg/YWyxAym4Hu](https://discord.gg/YWyxAym4Hu)
 
 
 ## Email
@@ -37,7 +37,6 @@ You can also click [here]({{ site.repo }}/issues/new/choose) to create an issue.
 If you want to stay informed:
 [https://www.facebook.com/CodeGlassDotIO/](https://www.facebook.com/CodeGlassDotIO/)
 
-
 ## Twitter
 If you want to stay informed:
 [https://twitter.com/CodeGlassDotIO/](https://twitter.com/CodeGlassDotIO/)
@@ -46,6 +45,20 @@ If you want to stay informed:
 If you want to stay informed:
 [https://www.linkedin.com/company/codeglass](https://www.linkedin.com/company/codeglass)
 
+## Instagram
+If you want to stay informed:
+[https://www.instagram.com/codeglass.io](https://www.instagram.com/codeglass.io)
+
 
 ## TikTok
+
 HAHA no.
+
+# Adress and other info
+Address: Stationsplein 3
+Postal code: 8011CW Zwolle
+Country: The Netherlands
+
+The Netherlands Chamber of Comerce (KVK): 89869273
+Bank account: NL60 RABO 0343 9627 21
+VAT: 865136956B01
