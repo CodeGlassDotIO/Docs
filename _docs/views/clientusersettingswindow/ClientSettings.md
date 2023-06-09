@@ -33,6 +33,11 @@ Make sure that the value is pointing at the x86 installation and not the x64 ins
 
 If you have installed IIS Express in "Program Files" folder it will automatically check if you have IIS Express also installed in "Program Files (x86)".
 
+# CodeGlass Browser Location
+The path to the CodeGlass Browser (CodeGlassChromium.exe) as it is optionally installed by the [CodeGlass Installer](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases).
+We automatically check the following locations to find CodeGlass Browser if it is not set yet:
+- (Parent folder of CodeGlass.Clients.Wpf.exe)\CodeGlass Chromium\Application\CodeGlassChromium.exe"
+- "C:\Program Files\CodeGlass\CodeGlass Chromium\Application\CodeGlassChromium.exe"
 
 
 

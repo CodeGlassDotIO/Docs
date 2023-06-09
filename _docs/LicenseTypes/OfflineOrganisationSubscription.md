@@ -41,6 +41,7 @@ Yes, 1 concurrent software users per purchased subscription <br/>
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 
 ## Perpentual Fallback License Requirements
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 Yes it becomes a [Fallback License](FallbackLicense.md) when not renewed after 12 preceding months of uninterrupted subscription payments.
 (With a Annual subscription you would instantly get the fallback license)
 

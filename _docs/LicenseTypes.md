@@ -48,8 +48,8 @@ This table is provided for easy comparison of the different license / subscribti
     <tbody>
         <tr>
             <th width="10%"></th>
-            <th width="10%"><a href="CommunityLicense">Community</a></th>
-            <th width="10%"><a href="EnthousiastSubscription">Enthusiast</a></th>
+            <th width="10%"><a href="CommunityLicense">Community**</a></th>
+            <th width="10%"><a href="EnthousiastSubscription">Enthusiast**</a></th>
             <th width="10%"><a href="ProSubscription">Pro</a></th>
             <th width="10%"><a href="EducationLicense">Education</a></th>
             <th width="10%"><a href="ClassRoomLicense">Classroom</a></th>
@@ -148,13 +148,13 @@ This table is provided for easy comparison of the different license / subscribti
         <tr>
             <td><a href="#fallback-license-type-requirements">Fallback License Type</a></td>
             <td>N/A (Not needed)</td>
-            <td><a href="CommunityLicense">Community</a></td>
-            <td><a href="FallbackLicense">Fallback</a> or <a href="CommunityLicense">Community</a></td>
-            <td><a href="CommunityLicense">Community</a></td>
-            <td><a href="CommunityLicense">Community</a></td>
-            <td><a href="CommunityLicense">Community</a></td>
-            <td><a href="">Fallback**</a></td>
-            <td><a href="">Fallback**</a></td>
+            <td><a href="CommunityLicense">Community**</a></td>
+            <td><a href="FallbackLicense">Fallback**</a> or <a href="CommunityLicense">Community**</a></td>
+            <td><a href="CommunityLicense">Community**</a></td>
+            <td><a href="CommunityLicense">Community**</a></td>
+            <td><a href="CommunityLicense">Community**</a></td>
+            <td><a href="">Fallback***</a></td>
+            <td><a href="">Fallback***</a></td>
         </tr>
         <tr>
             <td><b>Price</b></td>
@@ -172,7 +172,8 @@ This table is provided for easy comparison of the different license / subscribti
 
 #### Astrics
 \* Is available to private individuals however it can be reimbursed by a [legal entity](#legal-entity) or other third party <br/>
-\*\* [Fallback License](LicenseTypes/FallbackLicense.md) does only support 1 user and you will lose the others, it also does not support offline usage, see [Fallback license details](LicenseTypes/FallbackLicense.md#license-details) for more information.<br/>
+\*\* We have yet to offer this, and we will start offering it after we have enough support to sustain it. <br/>
+\*\*\* [Fallback License](LicenseTypes/FallbackLicense.md) when we offer this, does only support 1 user and you will lose the others, it also does not support offline usage, see [Fallback license details](LicenseTypes/FallbackLicense.md#license-details) for more information.<br/>
 
 # References
 ## Fallback license Type Requirements

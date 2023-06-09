@@ -43,6 +43,7 @@ Yes, 3 users per subscription <br/>
 
 
 ## Perpetual Fallback License Requirements
+{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 Yes, it becomes a [Fallback License](FallbackLicense.md) when not renewed after 12 months of uninterrupted subscription payments.
 (With an annual subscription, you would instantly get the fallback license)
 
@@ -54,8 +55,8 @@ Take note that the [Fallback License](FallbackLicense.md) does not support Multi
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Pricing
-$100 per month
-$1000 year
+$150 per month
+$1500 year
 
 ## EULA
 You can find the EULA by clicking [here](../Legal/EULA/ProExperimentalSubscriptionAgreement.md)

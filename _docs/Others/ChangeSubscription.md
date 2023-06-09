@@ -19,15 +19,9 @@ You can change your subscription any time to better fit your needs.
 You can do this by going to using your [Stripe CodeGlass Account](Account.md#stripe-codeglass-account).
 For most of you it is the same email you use to [login](../views/Splashscreen.md#login) into CodeGlass.
 
-With this email you can get a magic login link mailed to you at [https://mysuperportal.com/access/codeglass/](https://mysuperportal.com/access/codeglass/).
+With this email you can get a magic login link mailed to you at [https://billing.stripe.com/p/login/14kg2Me9F7yu4GA144](https://billing.stripe.com/p/login/14kg2Me9F7yu4GA144).
 
 The link in your email should bring you to a page similar to this:
-
-![assets/img/Stripe/Stripe_MySuperPortal.png](../../assets/img/Stripe/Stripe_MySuperPortal.png)
-
-And click on the "Access - CUS_..." button, if you do not see that button click [here](#no-access-button)
-
-You should get a page similar to this:
 
 ![assets/img/Stripe/Stripe_Subscription.png](../../assets/img/Stripe/Stripe_Subscription.png)
 

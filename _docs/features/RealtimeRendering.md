@@ -17,7 +17,7 @@ Many more render types, like [thread specific rendering](../Roadmap/ThreadRender
 ### Realtime Call Tree Rendering
 ![assets/img/ApplicationInstanceWindow/RealtimeCallTreeRendering.png](../../assets/img/ApplicationInstanceWindow/RealtimeCallTreeRendering.png)
 
-See [View - Realtime Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) for view specific information.
+See [View - Realtime Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) or [View - Exception Call Tree Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-tree-view) for view specific information.
  
 This render type gives you a view into the call tree, it updates in real time while the applciation is running but will also desplay previous collected data. 
 
@@ -51,7 +51,7 @@ For full thread seperated rendering see [Roadmap - Thread rendering](../Roadmap/
 ### Realtime Call Stack Rendering
 ![assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png](../../assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png)
 
-See [View - Realtime Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md) for view specific information.
+See [View - Realtime Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md) or [View - Exception Call Stack Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-stack-view) for view specific information.
 
 This render type gives you a view into the call stack, it updates in real time while the applciation is running but will also desplay previous collected data. 
 

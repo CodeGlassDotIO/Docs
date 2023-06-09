@@ -2,7 +2,7 @@
 title: Feature - (Thread) Stepping Forwards & Backwards
 description: Step the profiled application forwards and backwards
 ---
-# (Thread) Stepping Forwards & Backwards
+# (Thread / Exception) Stepping Forwards & Backwards
 
 Allowing to step the execution of the application forwards, but also watching it back by stepping back through the collected history and emulating the application's state at that point. 
 
@@ -10,6 +10,10 @@ Stepping stops automatically if a specific step instruction is not reached withi
 
 ## Thread stepping
 You can also step specific threads, and please note that this does not cause this thread only to step. Every thread will keep stepping till this particular thread does. <br/> If you are interested in only stepping a specific thread and keeping the other threads paused, see the [thread only stepping](../Roadmap/ThreadOnlyStepping.md) roadmap item.
+
+## Exception stepping
+You can also step within a collected exception, see the [exception details view](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md).
+
 
 ## Step instructions
 
