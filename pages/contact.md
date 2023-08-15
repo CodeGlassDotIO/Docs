@@ -49,6 +49,13 @@ If you want to stay informed:
 If you want to stay informed:
 [https://www.instagram.com/codeglass.io](https://www.instagram.com/codeglass.io)
 
+## Book a meeting:
+You can also book a meeting with us directly at:
+[https://CodeGlass.io](https://codeglass.io)
+
+## For new organizations:
+If your organization wants to start using CodeGlass they can use this link:
+[https://codeglass.io/contactorganization](https://codeglass.io/contactorganization)
 
 ## TikTok
 

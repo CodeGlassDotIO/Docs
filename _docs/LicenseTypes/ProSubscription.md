@@ -8,11 +8,10 @@ The Pro subscription is accessible to Individuals to use the [Pro Edition](../Ed
 See the [EULA](#eula) for the legal mumbo jumbo.
 
 
-
+<!-- 
 ## What is the difference between Enthusiast and Pro Subscription?
 The difference is that Pro is also allowed to be used in general-commercial, and though it is only available to Individuals, it can use funds or be reimbursed by a [legal entity](../LicenseTypes.md#legal-entity) or other third parties 
-
-
+ -->
 
 # Subscription Details
 
@@ -23,7 +22,7 @@ Time-limited, based on monthly and yearly subscription payments
 - [Pro Edition](../Editions/Pro.md)
 
 ## Available to
-Private individuals, however, can be reimbursed by a [legal entity](../LicenseTypes.md#legal-entity) or other third parties 
+Private individuals, however, and may not reimbursed by a [legal entity](../LicenseTypes.md#legal-entity) or other third parties 
 ## License owner
 Private individual
 ## Billed to 
@@ -38,6 +37,10 @@ No
 
 ## Multiple Users
 No (1), the software can be used solely by the person who purchased a subscription.
+
+
+## Concurrent Use
+1 per purchased subscription.
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}
@@ -55,8 +58,7 @@ Upgrading your subscription to a [Experimental Subscription](ExperimentalSubscri
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Pricing
-$50 per month per user
-$500 a year per user
+€49 per month per subscription billed annually
 
 ## EULA
 You can find the EULA by clicking [here](../Legal/EULA/ProSubscriptionAgreement.md)

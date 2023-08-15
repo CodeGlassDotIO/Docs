@@ -18,11 +18,11 @@ Time-limited, based on monthly and yearly subscription payments
 - [Experimental Edition](../Editions/Experimental.md)
 
 ## Available to
-Private individuals, however, can be reimbursed by a [legal entity](../LicenseTypes.md#legal-entity) or other third parties 
+Private individuals
 ## License owner
-Private individual
+Private individuals
 ## Billed to 
-Private individual
+Private individuals
 ## Purpose of use
 General commercial
 ## Offline
@@ -31,14 +31,14 @@ No, but it can be granted on specific occasions.
 {% include LicenseTypes/OfflineExplaination.md %}
 
 ## Multiple Users
-Yes, 3 users per subscription <br/>
+No (1), the software can be used solely by the person who purchased a subscription.
 
 ## Concurrent Use
-3 per subscription.
+1 per purchased subscription.
 
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
+{% include LicenseTypes/DeviceDeactivationNote.md %}
 
-**Note: Uninstalling the application does not remove the device activation due to limitations of our license provider**
 
 
 
@@ -55,8 +55,7 @@ Take note that the [Fallback License](FallbackLicense.md) does not support Multi
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Pricing
-$150 per month
-$1500 year
+€149 per month per subscription billed annually
 
 ## EULA
 You can find the EULA by clicking [here](../Legal/EULA/ProExperimentalSubscriptionAgreement.md)

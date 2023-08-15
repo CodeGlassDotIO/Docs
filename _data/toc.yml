@@ -10,10 +10,10 @@
 - title: Licenses & Subscriptions
   url: docs/LicenseTypes
   links:
-    - title: "Community"
-      url: "docs/LicenseTypes/CommunityLicense"
-    - title: "Enthousiast"
-      url: "docs/LicenseTypes/EnthousiastSubscription"
+    # - title: "Community"
+    #   url: "docs/LicenseTypes/CommunityLicense"
+    # - title: "Enthousiast"
+    #   url: "docs/LicenseTypes/EnthousiastSubscription"
     - title: "Pro"
       url: "docs/LicenseTypes/ProSubscription"
     - title: "Organisation"
@@ -28,8 +28,8 @@
       url: "docs/LicenseTypes/OpenSourceLicense"
     - title: "Experimental"
       url: "docs/LicenseTypes/ExperimentalSubscription"
-    - title: "Fallback"
-      url: "docs/LicenseTypes/FallbackLicense"
+    # - title: "Fallback"
+    #   url: "docs/LicenseTypes/FallbackLicense"
     - title: "Special Offers"
       url: "docs/LicenseTypes/SpecialOffers"
 
@@ -259,12 +259,12 @@
       children:
       - title: "Class Room"
         url: "docs/Legal/EULA/ClassRoomSubscriptionAgreement"
-      - title: "Community"
-        url: "docs/Legal/EULA/CommunitySubscriptionAgreement"
+      # - title: "Community"
+      #   url: "docs/Legal/EULA/CommunitySubscriptionAgreement"
       - title: "Education"
         url: "docs/Legal/EULA/EducationSubscriptionAgreement"
-      - title: "Enthusiast"
-        url: "docs/Legal/EULA/EnthusiastSubscriptionAgreement"
+      # - title: "Enthusiast"
+      #   url: "docs/Legal/EULA/EnthusiastSubscriptionAgreement"
       - title: "Experimental"
         url: "docs/Legal/EULA/ExperimentalSubscriptionAgreement"
       - title: "Fallback"
