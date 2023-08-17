@@ -18,7 +18,7 @@ Time-limited, based on monthly and yearly subscription payments
 - [Experimental Edition](../Editions/Experimental.md)
 
 ## Available to
-Private individuals
+Private individuals and may not reimbursed by a [legal entity](../LicenseTypes.md#legal-entity) or other third parties 
 ## License owner
 Private individuals
 ## Billed to 
@@ -55,7 +55,7 @@ Take note that the [Fallback License](FallbackLicense.md) does not support Multi
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Pricing
-€149 per month per subscription billed annually
+See [Store](https://codeglass.io/main.html#prices)
 
 ## EULA
 You can find the EULA by clicking [here](../Legal/EULA/ProExperimentalSubscriptionAgreement.md)
