@@ -1,6 +1,7 @@
 ---
 title: Roadmap - Color Blind Mode
 description: To make support for the various types of color blindness.
+doNotShow: true
 ---
 # Color Blind Mode.
 
