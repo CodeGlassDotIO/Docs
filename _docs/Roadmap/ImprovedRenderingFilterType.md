@@ -2,6 +2,8 @@
 title: Roadmap - Improved Render Filtering
 description: To make rendering work with more than only the current filter group type.
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Improved Render filtering
 ![assets/img/ApplicationInstanceWindow/RealtimeRenderingContextMenu.png](../../../assets/img/ApplicationInstanceWindow/RealtimeRenderingContextMenu.png)
 

@@ -2,6 +2,8 @@
 title: Roadmap - Open item in IDE
 description: To Integrate into common IDEs so data items like classes can be viewed within the IDE.
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Open Item in IDE
 Just like with Visual Studio we want to automatically match profiled items with items in the IDE of the user because it might be pretty handy for the user.
 

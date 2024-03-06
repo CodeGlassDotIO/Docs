@@ -3,6 +3,8 @@ title: Roadmap - Color Blind Mode
 description: To make support for the various types of color blindness.
 doNotShow: true
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Color Blind Mode.
 
 Currently we are not offering some sort of mode for the various types of color blindness, however we would love to have it! 

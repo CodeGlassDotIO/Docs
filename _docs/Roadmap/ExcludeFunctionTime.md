@@ -2,6 +2,8 @@
 title: Roadmap - Disable Time Messurment while profiling.
 description: To Increase performance when you do not need time based metrics.
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Disable Time Messurment while profiling.
 We spend allot of time optimizing our pipeline between the [profilers](../features/CodeGlassProfilers.md) and [hub](../features/CodeGlassHub.md) so that code glass has as little overhead as possible.
 

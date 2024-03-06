@@ -2,6 +2,8 @@
 title: Roadmap - Open item in Visual Studio
 description: To Integrate into Visual Studio so data items like classes can be viewed within Visual Studio.
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Open Item in Visual Studio
 We want to automatically match profiled items with items in Visual Studio because it might be pretty handy for the user.
 

@@ -2,6 +2,8 @@
 title: Roadmap - CodeGlass SDK
 description: SDK to control CodeGlass from within the profiled application.
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Code Glass SDK
 Sdk to control certain parts of Code Glass from within the application when you try to profile the application with Code Glass
 

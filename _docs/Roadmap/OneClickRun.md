@@ -2,6 +2,8 @@
 title: Roadmap - One Click run
 description: To Run CodeGlass with one click, especially on remote hardware.
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # One click Run solution
 A one click run preconfigured Code Glass to profile a specific application with a set of [presets](Presets.md)
 

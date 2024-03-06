@@ -2,6 +2,8 @@
 title: Roadmap - Memory Profiler
 description: To add memory profiling. 
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Memory Profiler
 With our [realtime profiling](../features/RealtimeDataCollection.md) we are able to solve many problems other profilers cant, next step is to incorperate a memory profiler so we can can also help with those problems and in the end help solve memory leaks.
 

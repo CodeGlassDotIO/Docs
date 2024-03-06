@@ -2,6 +2,8 @@
 title: Roadmap - Compare Profiling Snapshots
 description: To easily and automatically compare snaphots.
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 #  Compare Profiling Snapshots
 It is currently possible to manually compare [snapshots](../features/ProfilingSnapshots.md) however we would like to make it possible to automatically detect differences between the snapshots.
 
