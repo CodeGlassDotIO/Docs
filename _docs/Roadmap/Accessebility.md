@@ -16,3 +16,6 @@ So if you are color blind please contact us so we can work on a solution and mak
 
 ## Multiple Languages
 We want to support multiple languages in the future.
+
+## Touchscreen Support
+Adding touchscreen support to CodeGlass.
