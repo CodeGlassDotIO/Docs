@@ -121,7 +121,7 @@ This table is provided for easy comparison of the different license / subscribti
             <td>No, per user license model</td>
             <td>No, per user license model</td>
             <td>Yes, 1 per subscription</td>
-            <td>Yes, 3 per subscription</td>
+            <td>Yes, 1 per subscription</td>
         </tr>
         <tr>
             <td><b>Concurrent use</b></td>
@@ -132,7 +132,7 @@ This table is provided for easy comparison of the different license / subscribti
             <td>1 per subscription</td>
             <td>1 per subscription</td>
             <td>1 per subscription</td>
-            <td>3 per subscription</td>
+            <td>1 per subscription</td>
         </tr>
         <tr>
             <td><b>License term</b></td>
@@ -159,13 +159,13 @@ This table is provided for easy comparison of the different license / subscribti
         <tr>
             <td><b>Price</b></td>
             <td><a href="../../contact">Free — requires approval</a></td>
-            <td><a href="https://codeglass.io/offers#pro">See store</a></td>
-            <td><a href="https://codeglass.io/offers#pro">See store</a></td>
+            <td><a href="https://codeglass.io/main#prices">See store</a></td>
+            <td><a href="https://codeglass.io/main#prices">See store</a></td>
             <td><a href="../../contact">Free — requires approval</a></td>
             <td><a href="../../contact">Free — requires approval</a></td>
             <td><a href="../../contact">Free — requires approval</a></td>
-            <td><a href="https://codeglass.io/offers#pr">See store</a></td>
-            <td><a href="https://codeglass.io/offers#experimental">See store</a></td>
+            <td><a href="https://codeglass.io/main#prices">See store</a></td>
+            <td><a href="https://codeglass.io/main#prices">See store</a></td>
         </tr>
     </tbody>
 </table>

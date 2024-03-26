@@ -35,10 +35,15 @@ Yes
 This means that you do not require internet at (first) log in, it can vaildate the license to a on premise license server package that you hosted yourself.
 
 ## Multiple Users
-Yes, 1 concurrent software users per purchased subscription <br/>
+Yes, 1 User per purchased subscription <br/>
 {% include LicenseTypes/MultipleUserAccountExplaination.md %}
 
+
+## Concurrent Use
+1 per purchased subscription.
+
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
+{% include LicenseTypes/DeviceDeactivationNote.md %}
 
 ## Perpentual Fallback License Requirements
 {% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
@@ -51,7 +56,7 @@ Take note that the [Fallback License](FallbackLicense.md) does not support Multi
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Priceing
-On request 
+Please [contact us](https://codeglass.io/contactorganization)
 
 ## EULA
 You can find the EULA by clicking [here](../Legal/EULA/OrganisationSubscriptionAgreement.md)

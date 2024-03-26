@@ -36,6 +36,9 @@ No
 ## Multiple Users
 No (1), per-user license model
 
+## Concurrent Use
+1 per purchased subscription.
+
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}
 

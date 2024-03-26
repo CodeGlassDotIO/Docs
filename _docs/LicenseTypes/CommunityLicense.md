@@ -39,8 +39,6 @@ No, the software can be used solely by the authorized person.
 ## Concurrent Use
 No.
 
-We have to pay our license provider for this feature, so we can't provide it for free.
-
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}
 

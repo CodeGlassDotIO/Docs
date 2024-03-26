@@ -10,6 +10,18 @@ Hey there,
 
 We understand that the legal text below might come across as a bit dry and lengthy. Our legal team, being the sticklers they are, made us include all this stuff to stay on the right side of the law. We hope you'll bear with us and appreciate your understanding. Thanks!
 
+In case you were looking for the EULA's that this Terms and Conditions of purchase applies to, you can find them here:
+
+- For the Pro Subscription you find the EULA [here](EULA/ProSubscriptionAgreement.md)
+- For the Experimental Subscription you find the EULA [here](EULA/ExperimentalSubscriptionAgreement.md)
+- For the Organization Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
+- For the Offline Organization Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
+- For the Open Source Project License you find the EULA [here](EULA/OpenSourceSubscriptionAgreement.md)
+- For the Education License you find the EULA [here](EULA/EducationSubscriptionAgreement.md)
+- For the Class Room License you find the EULA [here](EULA/ClassRoomSubscriptionAgreement.md)
+
+
+
 *Version 2, effective as of june 1, 2023*
 
 

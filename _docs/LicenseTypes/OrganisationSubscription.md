@@ -4,7 +4,9 @@ description: Organisation Subscription for legal entities to use code glass for 
 ---
 # Organisation Subscription 
 
-The Organisation Subscription is available to Businesses or Organisations to run as many [Pro Edition](../Editions/Pro) concurrently for users within their company as they have Cloud Subscriptions.
+The Organisation Subscription is available to Businesses or Organisations to run as many CodeGlass instances concurrently for users within their company.
+Within this subscription comes extended support and training to use CodeGlass efficiently within your company.
+
 
 
 # Subscription Details
@@ -12,16 +14,18 @@ The Organisation Subscription is available to Businesses or Organisations to run
 Time-limited, based on monthly and yearly subscription payments
 
 ## Code Glass Editions
+Dependent on your needs:
 - [Pro Edition](../Editions/Pro)
+- [Experimental Edtion](../Editions/Experimental.md)
 
 ## Available to
-Any [legal entity](../LicenseTypes/#legal-entity)
+Any [legal entity](../LicenseTypes#legal-entity)
 
 ## License owner
-[Legal entity](../LicenseTypes/#legal-entity)
+[Legal entity](../LicenseTypes#legal-entity)
 
 ## Billed to 
-[Legal entity](../LicenseTypes/#legal-entity)
+[Legal entity](../LicenseTypes#legal-entity)
 
 ## Purpose of use
 General commercial
@@ -33,10 +37,15 @@ No
 
 
 ## Multiple Users
-Yes, 1 concurrent software users per purchased subscription <br/>
+Yes, 1 User per purchased subscription <br/>
 {% include LicenseTypes/MultipleUserAccountExplaination.md %}
 
+
+## Concurrent Use
+1 per purchased subscription.
+
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
+{% include LicenseTypes/DeviceDeactivationNote.md %}
 
 ## Perpentual Fallback License Grant
 {% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
@@ -49,8 +58,7 @@ Take note that the [Fallback License](FallbackLicense) does not support Multiple
 {% include LicenseTypes/FallBackLicenseGrantNote.md %}
 
 ## Priceing
-$100 per month per user
-$1000 year per user 
+Please [contact us](https://codeglass.io/contactorganization)
 
 ## EULA
-You can find the EULA by clicking [here](/docs/Legal/EULA/OrganisationSubscriptionAgreement)
+You can find the EULA by clicking [here](../Legal/EULA/OrganisationSubscriptionAgreement)

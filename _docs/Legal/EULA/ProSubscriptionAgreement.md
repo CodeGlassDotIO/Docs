@@ -4,7 +4,7 @@ description: The legal mumbo jumbo for the pro subscription.
 ---
 
 # Pro Subscription Agreement
-*Version 2, effective as of June, 2023*
+*Version 3, effective as of August, 2023*
 
 
 IMPORTANT! PLEASE READ THIS AGREEMENT CAREFULLY.
@@ -66,7 +66,7 @@ CodeGlass BV and Customer may each also be referred to individually as a “Part
 
 3.3. Removed.
 
-3.4. This subscription is only for natural persons who are purchasing a subscription to Products using only their own funds however Customer may receive reimbursement for those fees from any third party.
+3.4. This subscription is only for natural persons who are purchasing a subscription to Products using only their own funds and the Customer may not receive reimbursement for those fees from any third party.
 
 3.5. Customer acknowledges that no ownership rights are conveyed to you, irrespective of the use of terms such as ‘purchase’ or ‘sale’. CodeGlass BV has and retains all rights, title, and interest, including all intellectual property rights, in and to the Products, any and all related or underlying technology, and any modifications or derivative works of the Products, including without limitation as they may incorporate Feedback (as defined below).
 
@@ -205,6 +205,6 @@ The Products include code and libraries licensed to us by third parties, includi
 
 15.14. <b>Children and minors.</b> If You are under 18 years old, then by entering into this Agreement you explicitly stipulate that (i) you have legal capacity to conclude this Agreement or that you have valid consent from a parent or legal guardian to do so and (ii) you understand the CodeGlass Privacy Policy available at: [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md). You may not enter into this Agreement if you are under 13 years old. IF YOU DO NOT UNDERSTAND THIS SECTION, DO NOT UNDERSTAND THE CODEGLASS PRIVACY POLICY, OR DO NOT KNOW WHETHER YOU HAVE THE LEGAL CAPACITY TO ACCEPT THESE TERMS, PLEASE ASK YOUR PARENT OR LEGAL GUARDIAN FOR HELP.
 
-The previous version of this agreement is available in git at [{{ site.repo }}/commits/master/_docs/Legal/EULA/EnthusiastSubscriptionAgreement.md]({{ site.repo }}/commits/master/_docs/Legal/EULA/EnthusiastSubscriptionAgreement.md).
+The previous version of this agreement is available in git at [{{ site.repo }}/commits/master/_docs/Legal/EULA/ProSubscriptionAgreement.md]({{ site.repo }}/commits/master/_docs/Legal/EULA/ProSubscriptionAgreement.md).
 
 For further information, please contact us at support@codeglass.io.
