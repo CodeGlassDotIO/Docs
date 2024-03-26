@@ -1,7 +1,6 @@
 ---
 title: Roadmap - More Platforms
-description: 
-doNotShow: false
+description: More places to use CodeGlass
 ---
 {% include Warnings/RoadmapWarning.html %}
 
@@ -9,8 +8,14 @@ doNotShow: false
 
 At CodeGlass we want to support more platforms to expand the capabilities of CodeGlass.
 
-## Cloud Profiders
-We want to support cloud providers, like AWS & Azure, in the future.
+## MacOS support
+Able to use codeglass on MacOS
+
+## Linux Support
+Able to use CodeGlass on Linux
+
+## Cloud Providers
+We want to directly support cloud providers, like AWS & Azure without needing manual steps taken by the developer  in the future.
 
 ## CodeGlass as Cloud Tool
 We want to provide the option to use CodeGlass as a cloud tool in the future.
@@ -30,11 +35,8 @@ We want to support GPU processes in the future.
 ## Mobile Apps Suport
 We want to support Mobile Apps in the future.
 
-## Unreal Support
+## Unreal Engine Support
 We want to support Unreal in the future.
 
-## Unity Support
+## Unity (game engine) Support
 We want to support Unity in the future.
-
-## Virtual CPU
-We want to implement a Virtual CPU mode to trace more indepth.

@@ -1,7 +1,7 @@
 ---
 title: Roadmap - Accessebility
-description: 
-doNotShow: false
+description: More Accesebility features.
+doNotShow: true
 ---
 {% include Warnings/RoadmapWarning.html %}
 

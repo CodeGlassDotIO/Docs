@@ -1,6 +1,6 @@
 ---
-title: Roadmap - Codebody Reconstructoin
-description: Implementation of a new and better Codebody reconstructor.
+title: Roadmap - Improve Codebody Reconstruction
+description: Improve Codebody reconstrution 
 ---
 {% include Warnings/RoadmapWarning.html %}
 

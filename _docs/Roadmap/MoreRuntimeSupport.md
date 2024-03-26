@@ -1,7 +1,6 @@
 ---
 title: Roadmap - More Runtimes
-description: 
-doNotShow: false
+description: More languages, more fun.
 ---
 {% include Warnings/RoadmapWarning.html %}
 
@@ -20,8 +19,7 @@ We want to support PHP in the future.
 
 ## LLVM Support
 We want to support LLVM languages in the future.
-
-
+These include:
 - ### C++
 We want to implement C++ in the future.
 
@@ -41,7 +39,7 @@ We want to support Ruby in the future.
 ## Python Support
 We want to support Python in the future.
 
-## Cobal Support
+## Cobalt Support
 We want to support Cobal in the future.
 
 ## Go Support

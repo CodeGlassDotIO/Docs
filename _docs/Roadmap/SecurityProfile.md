@@ -1,9 +1,9 @@
 ---
 title: Roadmap - Security Profile (AI)
-description: AI to automaticly detect security risks.
+description: Detect security risks.
 ---
 {% include Warnings/RoadmapWarning.html %}
 
 # Security Profile (AI)
-An AI implementation to detect security risks and abnormalities.
+CodeGlass can see what the application does, so we could detect security risks but also Cryptomining for example.
 
