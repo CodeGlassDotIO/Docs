@@ -9,7 +9,7 @@ These are only the ones we wrote down here so we could reference them from other
 
 We might (and probably will) make that you can vote on roadmap items that you want to see next.
 
-## items
+## Items
 <div class="section-index">
     {% for post in site.docs  %}
     {% if post.title contains 'Roadmap -' %}

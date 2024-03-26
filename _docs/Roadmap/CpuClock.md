@@ -2,6 +2,8 @@
 title: Roadmap - CPU Clock
 description: To Support CPU clock time messurment
 ---
+{% include Warnings/RoadmapWarning.html %}
+
 # Cpu Clock Time messurment
 Currently we only support wall clock time messurement, we want to also support Cpu Clock time messurement.
 
