@@ -34,7 +34,7 @@ In these Terms and Conditions of Purchase ("Purchase Terms"):
 
 3. "Individual Consumer" means an individual who purchases CodeGlass BV Products or is otherwise in a contractual relationship or deals with CodeGlass BV in relation to CodeGlass BV Products outside the scope of their trade, business, craft or profession.
 
-4. ““CodeGlass BV” or “we” means Codevlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
+4. ““CodeGlass BV” or “we” means CodeGlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
 
 5. "Product" means any software program or service made available by CodeGlass BV, unless otherwise expressly stated in these Purchase Terms. The use of Product by Customer is governed by the applicable Terms of Use.
 

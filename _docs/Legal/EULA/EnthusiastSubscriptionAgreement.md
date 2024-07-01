@@ -15,7 +15,7 @@ CodeGlass BV and Customer may each also be referred to individually as a “Part
 # 1. PARTIES
 1.1. “Customer” or “you” means the individual specified in the Subscription Confirmation who is at least 13 years old. For the avoidance of doubt, Customer is a natural person and not a corporation, company, partnership, association, or other entity or organization.
 
-1.2. “CodeGlass BV” or “we” means Codevlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
+1.2. “CodeGlass BV” or “we” means CodeGlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
 
 `
 `

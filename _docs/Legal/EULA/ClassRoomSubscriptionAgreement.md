@@ -17,7 +17,7 @@ CodeGlass BV and Customer may each also be referred to individually as a “Part
 # 1. PARTIES
 1.1. "Customer" or "you" means a public or private school, college, training course provider, university, or other post-secondary educational establishment specified in the Subscription Confirmation.
 
-1.2. “CodeGlass BV” or “we” means Codevlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
+1.2. “CodeGlass BV” or “we” means CodeGlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
 
 # 2. DEFINITIONS
 2.1. “Affiliate” means, with respect to any Party, any entity that directly, or indirectly through one or more intermediaries, controls, is controlled by, or is under common control of such Party; “control” for such purposes means the possession, direct or indirect, of the power to direct or affect the direction of the management and policies of a person or entity, whether through the ownership of voting securities, by contract, or otherwise.
