@@ -7,6 +7,7 @@ Settings used at the start of the application instance can not be changed after 
 - Disable all function inlining
 - Pause at the start, Pauses the application before it ran any [not filtered](../../features/ProfilingDataFiltering) code.
 - Additional Arguments, the set of command-line arguments to use when starting the application
+- Memory profiling
 
 Keep in mind that currently, with  [Visual Studio Solution Runtime]({{site.baseurl}}/docs/features/supportedruntimes#visual-studio-solution), additional Arguments are supplied to the Visual Studio Process (devenv.exe) process, not to the process you are debugging with Visual Studio.
 If you require CodeGlass to supply it to the debugging process let us know by filing an [issue on github](({{site.baseurl}}/docs/pages/contact.md#github)).
@@ -43,7 +44,6 @@ It shows an estimate of how much memory it costs to store it.
 ### Roadmap settings
 Currently not changeable but will in the future release:
 - Enable Object counters, counting of objects and instances. ([Roadmap](../../Roadmap/ObjectCounters))
-- Enable memory profiler, basic memory profiler. ([Roadmap](../../Roadmap/MemoryProfiler))
 - Enable Advanced Memory profiler ([Pro Edition](../../Editions/Pro)), advanced memory profiling functions. ([Roadmap](../../Roadmap/AdvancedMemoryProfiler))
 - Exclude function time ([Pro Edition](../../Editions/Pro)), able to exclude function time each function call. (Currently included and will stay included by default for all [editions](../../Editions)) ([Roadmap](../../Roadmap/ExcludeFunctionTime))
 - Enable per function [execution control](../../features/ApplicationInstanceExecutionControl) ([Pro Edition](../../Editions/Pro)), allowes execution control but on function niveau. ([Roadmap](../../Roadmap/PerFunctionAction))

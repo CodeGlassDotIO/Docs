@@ -36,11 +36,11 @@ Opens the [Main](MainWindow.md) window in a new tab or brings the tab to the for
 ### Console
 See [Roadmap - Remote Console](../../Roadmap/RemoteConsole.md)
 
-### Memory
-See [Roadmap - MemoryProfiler](../../Roadmap/MemoryProfiler.md)
-
 ### Statistics
 Opens the [Statistics](StatisticsWindow.md) window in a new tab or brings it to the foreground   
+
+### Memory Statistics
+Opens the [Memory Statistics](MemoryStatisticsWindow) window in a new tab or brings it to the foreground.
 
 ### Code Heat Map
 This button opens a [Code Heat Map](CodeHeatMap.md) in a new tab.

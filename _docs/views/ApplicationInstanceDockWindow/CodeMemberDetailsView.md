@@ -21,7 +21,7 @@ See them for more information.
 {% include alert.html  type="warning" title="This is not done by decompiling your application!" content="This feature does <b>not</b> work by decompiling your application and inspecting your code, for info on how it does work see the the <a href=\"../../features/CodeBodyReconstruction\" >Code Body Reconstruction feature</a> description." %}
 From this view you can see on the left what functions call this function and how much time the function took for the caller.
 
-On the Right you see the embodiement  of our [Code Body Reconstruction feature](../../features/CodeBodyReconstruction.md). <br/>
+On the right you see the embodiement of our [Code Body Reconstruction feature](../../features/CodeBodyReconstruction.md). <br/>
 This view shows you not only wich functions were called in real time by this function but so much more, inluding:
 - Where in the code a function call was made. 
 - What paths needs to be taken inside the function to reach a specific function call 
@@ -33,6 +33,8 @@ This view shows you not only wich functions were called in real time by this fun
 - Cold Paths
 - Possibilities for optimizations, like loop unroling. 
 - How your code really behaves against what you wrote.
+- How much memory this function has allocated. (Only available with an [Experimental license](../../Editions/Experimental.md))
+- Where memory gets allocated. (Only available with an [Experimental license](../../Editions/Experimental.md))
 - see [Code Body Reconstruction feature](../../features/CodeBodyReconstruction.md) for more.
 
 {% include alertNoTitle.html  type="info" content="Keep in mind that what you will see is highly dependent on the <a href=\"../../features/ProfilingDataFiltering#application-instance-start-filters\" >Application Instance Start Filters</a>." %}
@@ -46,7 +48,16 @@ This view gives you statistics on the code paths within the function, it shows y
 
 {% include Statistics/BasicStatisticsColumnExplaination.md %}
 
+## Memory Statistics
+If you have an [Experimental License](../../Editions/Experimental.md) and you have Memory Profiling enabled, this view will give more information about allocations in your code.<br>
 
+In this case the following statistics columns have been added:
+- Total Allocations, the amount of times an object has been allocated, or the sum of all allocated objects in that namespace.
+- Total Deallocations, the amount of times an object has been deallocated, or the sum of all deallocated objects in that namespace.
+- Total Bytes Allocated, the amount of bytes an object has been allocated, or the sum of all allocated bytes in that namespace.
+- Total Bytes Deallocated, the amount of bytes an object has been deallocated, or the sum of all deallocated bytes in that namespace.
+
+Code Paths that allocate can also be expanded to see which objects it has allocated. Double clicking on the allocated object will open the [Allocated by Code Path View](AllocatedByCodePathView).
 
 
 ## Statistics View
