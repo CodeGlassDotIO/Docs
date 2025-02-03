@@ -92,6 +92,8 @@
       url: "docs/features/CodeGlassHub"
     - title: "Code Glass Profilers"
       url: "docs/features/CodeGlassProfilers"
+    - title: "JetBrains editor support"
+      url: "docs/features/JetbrainsEditors"
 - title: Views
   url: docs/views
   links:
