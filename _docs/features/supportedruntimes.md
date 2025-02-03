@@ -92,7 +92,7 @@ HKEY_CURRENT_USER\Environment\coreclr_profiler_path_64
 ## Visual Studio Solution
 {% include alert.html  type="warning" title="Not available to the Community or Pro edition yet" content="This feature is very experimental, because of this only available to the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
 
-The Visual studio "runtime" makes it possible to profile supported runtime applications while debugging them in Visual Studio. 
+The Visual studio "runtime" makes it possible to profile supported runtime applications while debugging them in Visual Studio. JetBrains editors like Rider are also supported. To use Rider checkout [this](JetbrainsEditors.md) page.
 
 The supported runtimes are described in this document also.
 
