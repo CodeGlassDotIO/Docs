@@ -18,7 +18,7 @@ Time-limited, based on monthly and yearly subscription payments
 - [Experimental Edition](../Editions/Experimental.md)
 
 ## Available to
-Private individuals and may not reimbursed by a [legal entity](../LicenseTypes.md#legal-entity) or other third parties 
+Private individuals and may not reimbursed by a legal entity or other third parties 
 ## License owner
 Private individuals
 ## Billed to 
@@ -39,30 +39,8 @@ No (1), the software can be used solely by the person who purchased a subscripti
 {% include LicenseTypes/ConcurrentSoftwareUsersExplaination.md %}
 {% include LicenseTypes/DeviceDeactivationNote.md %}
 
-
-
-
-## Perpetual Fallback License Requirements
-{% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
-Yes, it becomes a [Fallback License](FallbackLicense.md) when not renewed after 12 months of uninterrupted subscription payments.
-(With an annual subscription, you would instantly get the fallback license)
-
-Downgrading your subscription to a [Pro Subscription](ProSubscription.md) does not reset this time; we don't want to punish you for trying out new features :) 
-
-Take note that the [Fallback License](FallbackLicense.md) does not support Multiple concurrent software users or Offline.
-
-
-{% include LicenseTypes/FallBackLicenseGrantNote.md %}
-
 ## Pricing
-See [Store](https://codeglass.io/main.html#prices)
+See [store](https://codeglass.io/pricing){:target="_blank"}
 
 ## EULA
-You can find the EULA by clicking [here](../Legal/EULA/ProExperimentalSubscriptionAgreement.md)
-
-# See Also:
-
-
-
-
-
+You can find the EULA by clicking [here](../Legal/EULA/ExperimentalSubscriptionAgreement.md)
