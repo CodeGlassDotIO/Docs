@@ -6,7 +6,7 @@ In the toolbar, you have multiple options; the first 3 define what data you want
 - [Application Instance Start Filters](../../features/ProfilingDataFiltering#application-instance-start-filters)
 - Show all, CodeGlass will apply no filter.
 
-Nest to that, you also have to option to collapse all items in the tree view.<br/>
+Next to that, you also have to option to collapse all items in the tree view.<br/>
 The last one is to reset the current Shortest and Longest call; this will be expanded on in the future to reset more statistics. ([Roadmap](../../Roadmap/StatisiticsSnapshots))
 
 {% include Statistics/BasicStatisticsColumnExplaination.md %}

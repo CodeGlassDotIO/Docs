@@ -92,6 +92,8 @@
       url: "docs/features/CodeGlassHub"
     - title: "Code Glass Profilers"
       url: "docs/features/CodeGlassProfilers"
+    - title: "Memory Profiling"
+      url: "docs/features/MemoryProfiling"
     - title: "JetBrains editor support"
       url: "docs/features/JetbrainsEditors"
 - title: Views
@@ -135,6 +137,10 @@
           url: "docs/views/ApplicationInstanceDockWindow/Toolbar"
         - title: Statistics View
           url: "docs/views/ApplicationInstanceDockWindow/StatisticsWindow"
+        - title: Memory Statistics View
+          url: "docs/views/ApplicationInstanceDockWindow/MemoryStatisticsWindow"
+        - title: Memory Allocations by CodePath View
+          url: "docs/views/ApplicationInstanceDockWindow/AllocatedByCodePathView"
         - title: Object Details View
           url: "docs/views/ApplicationInstanceDockWindow/ObjectDetailsView"
         - title: Function Details View
@@ -211,8 +217,6 @@
       url: "docs/Roadmap/InAppTutorial"
     - title: "Integration"
       url: "docs/Roadmap/Integration"
-    - title: "Memory Profiler"
-      url: "docs/Roadmap/MemoryProfiler"
     - title: "MemoryReading"
       url: "docs/Roadmap/MemoryReading"
     - title: "More Platform Support"
