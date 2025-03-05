@@ -35,30 +35,106 @@
           url: "docs/features/RealtimeDataCollection#callstack"
         - title: Statistics
           url: "docs/features/RealtimeDataCollection#statistics"
+        - title: Exceptions
+          url: "docs/features/RealtimeDataCollection#exceptions"
+        - title: Memory
+          url: "docs/features/RealtimeDataCollection#memory"
+        - title: Garbage Collection
+          url: "docs/features/RealtimeDataCollection#garbage-collection-invocations"
     - title: "Realtime Rendering"
       url: "docs/features/RealtimeRendering"
+      children:
+        - title: Realtime Call Tree
+          url: "docs/features/RealtimeRendering#realtime-call-tree-rendering"
+        - title: Realtime Call Stack
+          url: "docs/features/RealtimeRendering#realtime-call-stack-rendering"
+        - title: Realtime Code Heatmap
+          url: "docs/features/RealtimeRendering#realtime-code-heatmap"
+        - title: Use Cases
+          url: "docs/features/RealtimeRendering#example-use-cases"
     - title: "Execution Control"
       url: "docs/features/ApplicationInstanceExecutionControl"
+      children:
+        - title: Soft Off
+          url: "docs/features/ApplicationInstanceExecutionControl#soft-off"
+        - title: Pause 
+          url: "docs/features/ApplicationInstanceExecutionControl#pause"
+        - title: Resume 
+          url: "docs/features/ApplicationInstanceExecutionControl#resume"
+        - title: Throttle 
+          url: "docs/features/ApplicationInstanceExecutionControl#throttle"
+        - title: Stop 
+          url: "docs/features/ApplicationInstanceExecutionControl#stop"
+        - title: Restart 
+          url: "docs/features/ApplicationInstanceExecutionControl#restart"
+        - title: Stepping 
+          url: "docs/features/ApplicationInstanceExecutionControl#thread-stepping-backwards--forwards"
     - title: "Stepping"
       url: "docs/features/ApplicationInstanceStepping"
+      children:
+        - title: Step Into
+          url: "docs/features/ApplicationInstanceStepping#step-into"
+        - title: Step Over
+          url: "docs/features/ApplicationInstanceStepping#step-over"
+        - title: Step Out
+          url: "docs/features/ApplicationInstanceStepping#step-out"
+        - title: Step Back Into 
+          url: "docs/features/ApplicationInstanceStepping#step-back-into"
+        - title: Step Back Over 
+          url: "docs/features/ApplicationInstanceStepping#step-back-over"
+        - title: Step Back Out 
+          url: "docs/features/ApplicationInstanceStepping#step-back-out"
     - title: "Exceptions"
       url: "docs/features/Exceptions"
+      children:
+        - title: Collection of Exceptions
+          url: "docs/features/Exceptions#collection-of-exceptions"
+        - title: Pause Execution on Exception
+          url: "docs/features/Exceptions#pause-execution-on-exception"
     - title: "Code Body Reconstruction"
       url: "docs/features/CodeBodyReconstruction"
-    - title: "Profiling data filtering"
+      children:
+        - title: Experimental Warning 
+          url: "docs/features/CodeBodyReconstruction#experimental-warning"
+        - title: Limitations
+          url: "docs/features/CodeBodyReconstruction#limitations"
+    - title: "Profiling Data Filtering"
       url: "docs/features/profilingdatafiltering"
+      children:
+        - title: Filtering in General
+          url: "docs/features/profilingdatafiltering#filtering-in-general"
+        - title: Matching Filters
+          url: "docs/features/profilingdatafiltering#matching-filters"
+        - title: Access Modifiers
+          url: "docs/features/profilingdatafiltering#access-modifiers"
+        - title: Filter Order
+          url: "docs/features/profilingdatafiltering#filter-order"
+        - title: Filter Rule Types
+          url: "docs/features/profilingdatafiltering#filter-rule-types"
+        - title: Namespace Filter Rule
+          url: "docs/features/profilingdatafiltering#namespace-filter-rule"
+        - title: Regex Filter Rule
+          url: "docs/features/profilingdatafiltering#regex-filter-rule"
+        - title: Root Filter Rule
+          url: "docs/features/profilingdatafiltering#root-filter-rule"
+        - title: Filter Groups 
+          url: "docs/features/profilingdatafiltering#filter-groups"
     - title: "Decompilation"
       url: "docs/features/Decompilation"
+      children:
+        - title: "Decompilation for Filters"
+          url: "docs/features/Decompilation#decompilation-for-filters"
     - title: "Profiling Snapshots"
       url: "docs/features/ProfilingSnapshots"
+      children:
+        - title: "Use Cases"
+          url: "docs/features/ProfilingSnapshots#use-cases"
     - title: "Supported Runtimes"
       url: "docs/features/supportedruntimes"
       children:
         - title: .NET Framework
           url: "docs/features/supportedruntimes#net-framework"
         - title: .NET Core
-          url: "docs/features/supportedruntimes#net-core--net-50"
-        - title: .NET
           url: "docs/features/supportedruntimes#net-core--net-50"
         - title: ASP.NET Framework
           url: "docs/features/supportedruntimes#aspnet-framework"
@@ -74,20 +150,51 @@
           url: "docs/features/supportedruntimes#any-net"
         - title: JavaScript Website
           url: "docs/features/supportedruntimes#javascript-website"
-    - title: "Time Messurement"
+        - title: Julia 
+          url: "docs/features/supportedruntimes#julia"
+        - title: Java 
+          url: "docs/features/supportedruntimes#java"
+    - title: "Time Measurements"
       url: "docs/features/TimeMessurement"
-    - title: "Open Console"
-      url: "docs/features/AttachConsole"
-    - title: "Code Glass Client"
+      children:
+        - title: Known Issues
+          url: "docs/features/TimeMessurement#known-issues"
+    - title: "CodeGlass Client"
       url: "docs/features/CodeGlassClient"
-    - title: "Code Glass Hub"
+    - title: "CodeGlass Hub"
       url: "docs/features/CodeGlassHub"
-    - title: "Code Glass Profilers"
+      children:
+        - title: Remote Hub
+          url: "docs/features/CodeGlassHub#remote-hub"
+        - title: Local Hub
+          url: "docs/features/CodeGlassHub#local-hub"
+    - title: "CodeGlass Profilers"
       url: "docs/features/CodeGlassProfilers"
     - title: "Memory Profiling"
       url: "docs/features/MemoryProfiling"
-    - title: "JetBrains editor support"
+      children:
+        - title: Available Statistics
+          url: "docs/features/MemoryProfiling#available-statistics"
+    - title: "Garbage Collection Invocations"
+      url: "docs/features/GarbageCollection"
+      children:
+        - title: Garbage Collection Explorer
+          url: "docs/features/GarbageCollection#garbage-collection-invocations-explorer"
+        - title: Garbage Collection Statistics
+          url: "docs/features/GarbageCollection#garbage-collection-statistics"
+    - title: "Interaction Tracking"
+      url: "docs/features/Interactions"
+    - title: "JetBrains Editor Support"
       url: "docs/features/JetbrainsEditors"
+      children:
+        - title: Adding Your Application
+          url: "docs/features/JetbrainsEditors#adding-your-application"
+        - title: Getting Start Instructions
+          url: "docs/features/JetbrainsEditors#getting-start-instructions"
+        - title: Integrating With Your Editor
+          url: "docs/features/JetbrainsEditors#integrating-with-your-editor"
+        - title: Trouble Shooting
+          url: "docs/features/JetbrainsEditors#trouble-shooting"
 - title: Views
   url: docs/views
   links:

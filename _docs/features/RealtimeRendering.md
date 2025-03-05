@@ -1,15 +1,14 @@
 ---
 title: Feature - Realtime Rendering
-description: Realtime rendering of differnt kinds of data in CodeGlass
+description: Realtime rendering of different kinds of data in CodeGlass
 ---
 # Realtime Rendering
 
-With code glass you can visualise in realtime the data from the profiled application, these [render types](#render-types) include:
+With CodeGlass you can visualize the data from the profiled application in realtime. CodeGlass provides three different views to visualize your data.
+These [render types](#render-types) include:
 - [Call Tree](#realtime-call-tree-rendering)
 - [Call Stack](#realtime-call-stack-rendering)
 - [Code Heat map](#realtime-code-heatmap)
-
-Many more render types, like [thread specific rendering](../Roadmap/ThreadRendering.md) will be added in the future.
 
 {% include Warnings/RenderingPhotosensitivityWarning.html  %}
 
@@ -19,16 +18,14 @@ Many more render types, like [thread specific rendering](../Roadmap/ThreadRender
 
 See [View - Realtime Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) or [View - Exception Call Tree Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-tree-view) for view specific information.
  
-This render type gives you a view into the call tree, it updates in real time while the applciation is running but will also desplay previous collected data. 
-
-What is rendered is reflected with what [profiling data filters](ProfilingDataFiltering.md) you have set.
+This rendering view gives you a look into the call tree of your application as it is running. Because the amount of data can sometimes be overwhelming, you can apply filters. These filters allow you to focus on the parts that really matter to you. More information about filters can be found here: [profiling data filters](ProfilingDataFiltering.md).
 
 The rendering does also reflect [call stack steps](ApplicationInstanceStepping.md) that you might have made, forwards but also backwards! 
 
-Every thread rendered is assigned the most diferent color available, this is why the first 3 threads are Reg, Green and Blue (RGB) Then it will start using the most different shades of RGB and so forward.
+To differentiate different threads, CodeGlass gives every thread its own color. 
+Every thread is assigned the most different color available. This is why the first 3 threads are red, green and blue (RGB). Then it will start using the most different shades of RGB and so forward.
 
-This render type does not combine calls to the same function (Like ([grouped](#realtime-grouped-call-stack-rendering)) [Call Stack rendering](#realtime-call-stack-rendering)) 
-but instead seperates them per root function.
+This render view does not combine calls to the same function, like the [call stack rendering](#realtime-call-stack-rendering) would do, but instead separates them per root function.
 
 So for example
 ```
@@ -44,24 +41,18 @@ A() r-> B() r-> C()
 B() g-> C()
 ```
 
-For full thread seperated rendering see [Roadmap - Thread rendering](../Roadmap/ThreadRendering.md)
-
-
-
 ### Realtime Call Stack Rendering
 ![assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png](../../assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png)
 
 See [View - Realtime Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md) or [View - Exception Call Stack Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-stack-view) for view specific information.
 
-This render type gives you a view into the call stack, it updates in real time while the applciation is running but will also desplay previous collected data. 
+This rendering view gives you a look into the call stack of your application as it is running. Because the amount of data can sometimes be overwhelming, you can apply filters. These filters allow you to focus on the parts that really matter to you. More information about filters can be found here: [profiling data filters](ProfilingDataFiltering.md).
 
-The rendering does also reflect [call stack steps](ApplicationInstanceStepping.md) that you might have made, forwards but also backwards! 
+The rendering does also reflect [call stack steps](ApplicationInstanceStepping.md) that you might have made, forwards but also backwards!
 
-What is rendered is reflected with what [profiling data filters](ProfilingDataFiltering.md) you have set.
+To differentiate different threads, CodeGlass gives every thread its own color. Every thread is assigned the most different color available. This is why the first 3 threads are red, green and blue (RGB). Then it will start using the most different shades of RGB and so forward.
 
-Every thread rendered is assigned the most diferent color available, this is why the first 3 threads are Reg, Green and Blue (RGB) Then it will start using the most different shades of RGB and so forward.
-
-It combines all calls to the same specified data item type (like class or namespace) instead of only to function.
+Unlike the [call tree rendering](#realtime-call-tree-rendering) this rendering view does combine all the calls to the same function.
 
 So for example
 ```
@@ -78,27 +69,23 @@ A() r-> B()
 |   b-> F() b -> E();
 ```
 
-
-{% include alertNoTitle.html  type="info" content="You can improve the rendering performance in the <a href=\"#settings-window\">Settings Window</a>." %}
-
 ### Realtime Code Heatmap
 ![assets/img/ApplicationInstanceWindow/CodeHeatMapWindow.png](../../assets/img/ApplicationInstanceWindow/CodeHeatMapWindow.png)
 
 
 See [View - Realtime Code Heat map](../views/ApplicationInstanceDockWindow/CodeHeatMap.md) for view specific information.
 
-This render type gives you a Heat map kind of view into the realtime or previous collected data.
+This rendering view shows the statistics of your application in the form of a heat map.
+In this view you can group and sort your data in multiple different ways.
 
-With this you can view multiple realtime heat maps based on the data object type and statistics.<br/>
-For C# applications those are:
+For C# applications you can group the data by setting the `Object Type` option to one of the following values:
 - Method
 - Property
 - Class
 - Namespace
 - Process
 
-
-And the current selectable statistics are:
+To change what type of statistics it should sort by you can change the `Statistics` value. You can choose from the following options:
 - None
 - Total Calls
 - Total Call Duration
@@ -110,35 +97,19 @@ And the current selectable statistics are:
 
 
 ## Example Use cases
-
 ### Find racing conditions
-By using ([grouped](#realtime-grouped-call-stack-rendering)) [Call Stack rendering](#realtime-call-stack-rendering) it will show you when threads cross eachother, which can greatly help you find bugs relating to racing conditions in your code. 
+To find racing conditions in your code using CodeGlass, you can use the [call stack rendering](#realtime-call-stack-rendering) view. By looking where two active threads cross each other when calling the same function you can get an idea of where the racing might be happening.
 
-What is rendered is reflected with what [profiling data filters](ProfilingDataFiltering.md) you have set.
-
-The rendering does also reflect [call stack steps](ApplicationInstanceStepping.md) that you might have made, forwards but also backwards! 
+To see exactly what happened in your code, you can use [stepping](ApplicationInstanceStepping.md) to go forwards or backwards into the call stack of your application.
 
 
-### Find why your application is slowing down or unresponsesive
-by using one of the [call tree](#realtime-call-tree-rendering) or ([grouped](#realtime-grouped-call-stack-rendering)) [Call Stack](#realtime-call-stack-rendering) renderers you can instantly see what code the application is running and find our where it is slowing down on what causes it to be unresponsive.
-
-
-### Find bad behaving code
-By using the [code heat map](#realtime-code-heatmap) you can easily find out which part of your program is behaving badly. 
-
-
+### Find why your application is slowing down or why it is unresponsive
+By using the [call tree renderer](#realtime-call-tree-rendering) or the [call stack renderer](#realtime-call-stack-rendering) you can instantly see what code your application is running. This way you can find out what it is slowing down on what causes it to be unresponsive.
 
 ## Limitations
-Currently it does not show when code throws or causes an exception, this will be added in the future. 
+Currently non of the renderers show you where an exception was thrown. This is an feature that will be added in the future. To see all the exceptions that your application has thrown you can take a look at the [exception explorer](../views/ApplicationInstanceDockWindow/ExceptionExplorer).
 
 ## Views using this feature
 - [View - Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md)
 - [View - Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md)
-- [View - Grouped Call Stack Rendering](../views/ApplicationInstanceDockWindow/GroupedCallStackRendering.md)
 - [View - Code heat map](../views/ApplicationInstanceDockWindow/CodeHeatMap.md)
-
-
-# See Also:
-
-
-

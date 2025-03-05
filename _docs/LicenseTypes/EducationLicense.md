@@ -1,6 +1,7 @@
 ---
 title: License Types - Education License
 description: License for students or teachers
+doNotShow: true
 ---
 # Education License
 

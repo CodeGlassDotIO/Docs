@@ -1,6 +1,7 @@
 ---
 title: License Types - Classroom License
 description: License for educating students in classes
+doNotShow: true
 ---
 # Classroom License
 

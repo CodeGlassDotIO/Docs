@@ -1,6 +1,7 @@
 ---
 title: License Types - Perpetual Fallback Licenses
 description: About perpetual fallback licenses
+doNotShow: true
 ---
 
 # Perpetual Fallback License

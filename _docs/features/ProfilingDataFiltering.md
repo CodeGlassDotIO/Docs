@@ -3,26 +3,22 @@ title: Feature - Profiling Data Filtering
 description: Filter what data you want to collect while profiling.
 ---
 # Profiling Data Filtering
-To improve the performance of your program while profiling, it is essential to filter out the data you need. We try to make this as easy as possible for you by the many ways you can filter and configure them.
+Profiling every function in your application can affect its performance. To help mitigate this, CodeGlass allows you to filter which parts of your application you want to profile.
+
+By filtering out unnecessary data, you can improve your application's performance while profiling. We make this easy by offering a variety of options to configure and manage what gets profiled, so you can focus on the data that matters most.
 
 {% include alertNoTitle.html  type="info" content="This page does not go into much detail on how to configure them but more on how they work. However, you will find links to the views where you can configure them." %}
 
 
-## Filtering in general
-Our filter systems work with a set of rules you can give them. Each [data item](#data-item) in the application will run against the ruleset. 
-The rules will be processed in [Order](#filter-order) and [match](#matching-filters) against a filter rule that will decide if it will or will not filter the item.
+## Filtering in General
+Our filtering system operates based on a set of rules that you define. Each [data item](#data-item) in the application is evaluated against this ruleset. The rules are processed in [Order](#filter-order) and [matched](#matching-filters) against filter rules to determine whether the item will be filtered or not.
 
+Currently, there are 3 [types of filters rules](#filter-rule-types) that you can apply to every [filter groups](#filter-groups).
 
-We currently have 3 [types of filters rules](#filter-rule-types) that you can apply on every [Filter Groups](#filter-groups). 
+## Matching Filters
+Every [data item](#data-item) is evaluated against the rules you define in [order](#filter-order). The first [filter](#filter-rule-types) that the [data item](#data-item) matches will determine whether the item should be filtered, based on the filter's [allowed access modifiers](#access-modifiers).
 
-
-
-## Matching Filters.
-Every [data item](#data-item) is run agains the rules you provide in [Order](#filter-order) 
-Only the first [filter](#filter-types) that a [data item](#data-item) matches against is checked if it should filter the item or not.
-It does this by checking that filter's [allowed access modifiers](#access-modifiers).
-
-It should always find a user-specified rule or the [root filter](#root-filter); however, if it does not, the default behavior is that it will not be filtered.
+The system will always find either a user-specified rule or the [root filter](#root-filter-rule). If no match is found, the default behavior is to not filter the item.
 
 
 ## Access Modifiers
@@ -38,13 +34,13 @@ The assignable access modifiers are:
 ## Filter Order
 The order of the filters is critical as this is the order they will try to [match](#matching-filters) with [data items](#data-item).
 
-We manage the order by processing the rules on the known [data items](#data-items) from previous [application instances](../views/mainwindow/applicationInstance.md); or [decompilations](#decompilation) and making it through various views easy to manage.
+We manage the order by processing the rules on the known [data items](#data-item) from previous [application instances](../views/mainwindow/applicationInstance.md); or by [decompiling](Decompilation.md) (decompilation is only used to extract the [data items](#data-item)).
 
 However, it might be handy to know how it works in the background.
 The order is made by the creation / update date of the [filter rule](#filter-rule-types).
 Currently, there is no direct way to see the order as this is not needed by how we show it in our views.
 
-( if you have a use case for it, please let us know by creating a GitHub issue. )
+(If you have a use case for it, please let us know by creating a GitHub issue. )
 
 
 
@@ -145,19 +141,14 @@ id: 4: Root filter  : <namespaces>       : All Modifiers Allowed.
 id: 7: Regex filter : Debug              : All modifiers allowed. <- Is unreachable, but we do not remove regex filters automatically.
 ```
 
-
-
-
-
-
 # Filter Rule Types
-We currently have three types of filters rules that you can apply on every [Filter Groups](#filter-groups). 
+We currently have three types of filters rules that you can apply on every [filter groups](#filter-groups). 
 
 
 Below we go into more detail about each type.
 
-## Namespace filter Rule
-With this filter, you can supply a [namespace path](#namespace-path) to an item you want to filter or not by setting the allowed [Access modifiers](#access-modifiers).
+## Namespace Filter Rule
+With this filter, you can supply a [namespace path](#namespace-path) to an item you want to filter or not by setting the allowed [access modifiers](#access-modifiers).
 If you supply a path that has other items below it (like a namespace), the rule will also apply to those items. To exempt an item you have to override it with another rule.
 
 If a namespace filter becomes unreachable by another [rule](#filter-rule-types) it will be deleted to improve performance.
@@ -175,7 +166,7 @@ id: 4: Root filter      : <namespaces>      : All Modifiers Allowed.
 ```
 
 
-## Regex filter Rule
+## Regex Filter Rule
 With this filter, you can supply a regex pattern to match a [data item](#data-item). For example, if you fill in "Debug" you can filter any item that has Debug in its [namespace path](#namespace-path).
 
 We do not remove regex filters automatically when it becomes unreachable by another [rule](#filter-rule-types). Because regex filters are all created by the user, and we can imagine that it is not very pleasant to have your well-written regexes removed by one click (e.g. by Changing the [root filter](#root-filter-rule))
@@ -195,9 +186,9 @@ id: 6: Regex Filter     : Debug             : Public modifiers are allowed <= Ru
 
 
 
-## Root filter Rule
+## Root Filter Rule
 This rule is a special rule that matches every [data item](#data-item), and you can only have one in each [group](#filter-groups); you cant also create it yourself.
-By setting the [Allowed access modifiers](#access-modifiers), you can define what the default behavior is of every [data item](#data-item), and you can override it by creating new rules on top of it.
+By setting the [allowed access modifiers](#access-modifiers), you can define what the default behavior is of every [data item](#data-item), and you can override it by creating new rules on top of it.
 
 {% include alertNoTitle.html  type="info" content="In the views where you can change the root filter rule, it is visible as <namespaces\>." %}
 
@@ -207,56 +198,55 @@ We define the filters in multiple groups; we do this to prevent you from having 
 Below we go into more detail about each group.
 
 ## Default Filters
-The default filter group is the default filters that will be created for new [users](../Others/Account.md) as [User Global Filters](#user-global-filters]) on the current [Hub](CodeGlassHub.md).
-We shipped this list with Code Glass as we thought most people were not interested in profiling anyway. 
+The default filter group is the default filters that will be created for new [users](../Others/Account.md) as [user global filters](#user-global-filters) on the current [hub](CodeGlassHub.md).
+We shipped this list with CodeGlass as we thought most people were not interested in profiling anyway. 
 It currently exists out of the following [namespace filters](#namespace-filter-rule) that are [fully filtered](#access-modifiers):
 - System
 - Microsoft
 - Windows
 - MS (Also from Microsoft)
 
-You cant edit this group, but you can remove or edit them on your [User Global Filters](#user-global-filters)
+You can't edit this group, but you can remove or edit them on your [user global filters](#user-global-filters)
 
 This group will grow over time, and if you have recommendations for default namespaces, please suggest them by creating a GitHub issue.
 
 
 ## User Global Filters
-The User Global Filters group is the filters of the current [User](../Others/Account.md) on the current [Hub](CodeGlassHub.md); these filters act as a template for [new applications](../views/mainwindow/new application).
+The user global filters group is the filters of the current [user](../Others/Account.md) on the current [hub](CodeGlassHub.md); these filters act as a template for [new applications](../views/mainwindow/newapplication.md).
 
-You can manage these filters from the [Global Filters view](../views/clientusersettingswindow/global filters)
+You can manage these filters from the [global filters view](../views/clientusersettingswindow/globalfilters.md)
 
 
 
 ## Application Filters
-The Application Filters group are filters of an [Application](../views/mainwindow/application.md) and is used as a template for new [application instances](../views/mainwindow/applicationInstance.md)
+The application filters group are filters of an [application](../views/mainwindow/application.md) and is used as a template for new [application instances](../views/mainwindow/applicationInstance.md)
 
-You can manage these filters from the [Application filters view](../views/applicationsettingswindow/ApplicationFilters.md) 
+You can manage these filters from the [application filters view](../views/ApplicationSettingsWindow/ApplicationFilters.md) 
 
 
 
 ## Application Instance Start Filters
-The Application Instance Start Filters Group is a special group that you cant manage. This group is created from the current [application instance filters](#application-instance-filters.md) when the application starts and makes sure the data is not collected.
+The application instance start filters group is a special group that you can't manage. This group is created from the current [application instance filters](#application-instance-filters) when the application starts and makes sure the data is not collected.
 
 The reason why you can't change or manage them is that all supported [profilers](CodeGlassProfilers.md) do not allow you to change what you want and do not want to collect after the [data items](#data-item) is loaded for the first time.
 
-You can view the current start filters of an application instance in the [Application Instance Settings Window](../views/ApplicationInstanceSettingsWindow/StartFilters.md)
+You can view the current start filters of an application instance in the [application instance settings window](../views/ApplicationInstanceSettingsWindow/StartFilters.md)
 
 
 ## Application Instance Filters
-The Application Instance Filters group are the current filters of an [application instance](../views/ApplicationInstanceDockWindow.md). These filters are used to filter [data](#data-item) visually instead of preventing them from being profiled in the first place. 
+The application instance filters group are the current filters of an [application instance](../views/ApplicationInstanceDockWindow.md). These filters are used to filter [data items](#data-item) visually instead of preventing them from being profiled in the first place. 
 
 You can manage these from various places, including:
 - [Application Instance Settings Window](../views/ApplicationInstanceSettingsWindow/Filters.md)
 - [Application Explorer Tool Window](../views/ApplicationInstanceDockWindow/ApplicationExplorer.md) 
-- [Application Instance statistics window](../views/ApplicationInstanceDockWindow/StatisticsWIndow.md)
+- [Application Instance statistics window](../views/ApplicationInstanceDockWindow/StatisticsWindow.md)
 - [Application Instance Heatmap rendering](../views/ApplicationInstanceDockWindow/CodeHeatMap.md)
 - [Application Instance Call Tree rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md)
 - [Application Instance Call Stack rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md)
-- [Application Instance Grouped Call Stack rendering](../views/ApplicationInstanceDockWindow/GroupedCallStackRendering.md)
 
 
 # References
-### Namespace path
+### Namespace Path
 With the namespace path, we mean the path to the [data item](#data-item). This is best explained with an example:
 
 ```csharp
@@ -282,23 +272,19 @@ namespace CodeGlass.Profiler.Engine //Path is: CodeGlass.Profiler.Engine
 Currently, it is not possible to filter functions based on their parameters. If you want this, please let us know by submitting a ticket.
 
 
-### Data item
+### Data Item
 We mean anything our profiler can stumble upon with data items, like modules, namespaces, properties, functions/methods, etc.
-Data items can also be already known by previous [application instances](../views/mainwindow/applicationInstance.md) or [decompilations](decompilation.md) if the view allows it. 
+Data items can also be already known by previous [application instances](../views/mainwindow/applicationInstance.md) or [decompilations](Decompilation.md) if the view allows it. 
 
-# Views using this feature
- - [Global Fitlers](../views/clientusersettingswindow/globalfilters.md)
- - [Application Fitlers](../views/applicationsettingswindow/ApplicationFilters.md)
+# Views Using This Feature
+ - [Global Filters](../views/clientusersettingswindow/globalfilters.md)
+ - [Application Filters](../views/ApplicationSettingsWindow/ApplicationFilters.md)
  - [Application Instance Window - File Menu](../views/ApplicationInstanceDockWindow/MenuBar.md#file-menu)
  - [Application Explorer](../views/ApplicationInstanceDockWindow/ApplicationExplorer.md)
  - [Realtime Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md)
  - [Realtime Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md)
- - [Realtime Grouped Call Stack Rendering](../views/ApplicationInstanceDockWindow/GroupedCallStackRendering.md)
-
 
 
 # See Also:
  - [CodeGlass Account](../Others/Account.md)
  - [Code Glass Hub](CodeGlassHub.md)
-```
-

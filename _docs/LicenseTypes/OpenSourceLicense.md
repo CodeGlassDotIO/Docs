@@ -1,6 +1,7 @@
 ---
 title: License Types - Open Source License
 description: Free License for development of non-commercial open-source projects
+doNotShow: true
 ---
 # Open-Source License
 

@@ -22,7 +22,6 @@ This edition is available to the [Experimental Subscription](../LicenseTypes/Exp
 ## Runtimes that will soon be made available
 - [Java](../features/supportedruntimes.md#java)
 - [Julia](../features/supportedruntimes.md#julia)
-- [Python](../features/supportedruntimes.md#julia)
 
 
 # See Also:

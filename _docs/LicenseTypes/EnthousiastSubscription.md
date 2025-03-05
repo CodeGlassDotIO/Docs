@@ -1,6 +1,7 @@
 ---
 title: License Types - Enthusiast Subscription
 description: The subscription for non-commercial use for those that want to support our development.
+doNotShow: true
 ---
 # Enthusiasts Subscription
 {% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
