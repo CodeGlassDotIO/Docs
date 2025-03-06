@@ -1,6 +1,7 @@
 ---
 title: View - Application Instance Settings - Information Tab
 description: Information about the (previously) profiled application instance.
+doNotShow: true
 ---
 # Appliction Instance Information
 ![assets/img/AppInstanceSettingsWindow/AppInstanceInformation.png](../../../assets/img/AppInstanceSettingsWindow/AppInstanceInformation.png)

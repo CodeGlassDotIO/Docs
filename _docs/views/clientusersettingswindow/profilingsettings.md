@@ -1,6 +1,7 @@
 ---
 title: View - Client & User settings - Profiler settings 
 description: The Profiler settings to use as template when a new application is added to CodeGlass
+doNotShow: true
 ---
 # Profiling Settings
 ![assets/img/ClientUserSettingsWindow/GlobalProfilingSettings.png](../../../assets/img/ClientUserSettingsWindow/GlobalProfilingSettings.png)

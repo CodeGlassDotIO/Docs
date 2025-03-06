@@ -5,9 +5,9 @@ description: The UI Of Code Glass.
 # CodeGlass Client
 
 CodeGlass is from the ground up designed for remote profiling and to support any language, because of this, CodeGlass exists out of multiple parts:
-- Code Glass Client
-- [Code Glass Hub](CodeGlassHub.md)
-- [Code Glass Profilers](CodeGlassProfilers.md)
+- CodeGlass Client
+- [CodeGlass Hub](CodeGlassHub.md)
+- [CodeGlass Profilers](CodeGlassProfilers.md)
 
 The Code GlassClient is nothing more than a light weight UI to manage the CodeGlass [profilers](CodeGlassProfilers.md) and display the data of the [CodeGlass Hub](CodeGlassHub.md), this allows us to easily adapt other clients, like a web interface, in the future.
 

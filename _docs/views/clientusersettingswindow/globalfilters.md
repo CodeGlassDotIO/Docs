@@ -1,6 +1,7 @@
 ---
 title: View - Client & User settings - Global Filters 
 description: The Filters to use as template when you add a new application to CodeGlass.
+doNotShow: true
 ---
 
 # Global Filters

@@ -1,6 +1,7 @@
 ---
 title: View - Client & User settings - Client Settings 
 description: The CodeGlass Client settings 
+doNotShow: true
 ---
 ![assets/img/ClientUserSettingsWindow/ClientSettingsHub.png](../../../assets/img/ClientUserSettingsWindow/ClientSettingsHub.png)
 

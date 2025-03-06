@@ -213,20 +213,15 @@
       url: "docs/views/clientusersettingswindow"
       children:
         - title: Global Filters
-          url: "docs/views/clientusersettingswindow/globalfilters"
+          url: "docs/views/clientusersettingswindow#global-filters"
         - title: Profiling Settings
-          url: "docs/views/clientusersettingswindow/profilingsettings"
+          url: "docs/views/clientusersettingswindow#profiler-settings"
         - title: Client Settings
-          url: "docs/views/clientusersettingswindow/ClientSettings"
+          url: "docs/views/clientusersettingswindow#client-settings"
         - title: Hub Settings
-          url: "docs/views/clientusersettingswindow/HubSettings"
+          url: "docs/views/clientusersettingswindow#hub-settings"
     - title: "Application Settings"
       url: "docs/views/ApplicationSettingsWindow"
-      children:
-        - title: Application filters
-          url: "docs/views/ApplicationSettingsWindow/ApplicationFilters"
-        - title: Profiling Settings
-          url: "docs/views/ApplicationSettingsWindow/ProfilerSettings"
     - title: "Application Instance Window"
       url: "docs/views/ApplicationInstanceDockWindow"
       children:
@@ -269,14 +264,21 @@
     - title: "Application Instance Settings"
       url: "docs/views/ApplicationInstanceSettingsWindow"
       children:
-        - title: Instance filters
-          url: "docs/views/ApplicationInstanceSettingsWindow/Filters"
         - title: Instance Start filters
-          url: "docs/views/ApplicationInstanceSettingsWindow/StartFilters"
+          url: "docs/views/ApplicationInstanceSettingsWindow#start-filters"
+        - title: Instance filters
+          url: "docs/views/ApplicationInstanceSettingsWindow#filters"
         - title: Instance Information
-          url: "docs/views/ApplicationInstanceSettingsWindow/Information"
+          url: "docs/views/ApplicationInstanceSettingsWindow#information"
+        - title: Decompilation
+          url: "docs/views/ApplicationInstanceSettingsWindow#decompilation"
     - title: "Dialogs"
       url: "docs/views/Dialogs"
+      children:
+        - title: Subscription Dialogs
+          url: "docs/views/Dialogs#subscription-dialogs"
+        - title: Exception Dialogs
+          url: "docs/views/Dialogs#exception-dialogs"
 - title: Roadmap
   url: docs/Roadmap
   links:

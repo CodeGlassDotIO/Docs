@@ -4,9 +4,9 @@ description: The different supported data collection profilers of CodeGlass
 ---
 # CodeGlass Data Collection Profilers
 CodeGlass is made with remote profiling and support for any language in mind. Because of this, CodeGlass exists out of multiple parts:
-- [Code Glass Client](CodeGlassClient.md)
-- [Code Glass Hub](CodeGlassHub.md)
-- Code Glass Profilers
+- [CodeGlass Client](CodeGlassClient.md)
+- [CodeGlass Hub](CodeGlassHub.md)
+- CodeGlass Profilers
 
 At CodeGlass, when we speak of profilers, we only mean the **Data Collection** portion of a profiler. This is because processing the data is done on the [Hub](CodeGlassHub.md) and display the data is done on the [Client](CodeGlassClient.md).
 

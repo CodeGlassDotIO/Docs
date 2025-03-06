@@ -6,9 +6,9 @@ description: The main view of an application that you are profiling
 ![assets/img/ApplicationInstanceWindow/AppInstanceDockWindow.png](../../assets/img/ApplicationInstanceWindow/AppInstanceDockWindow.png)
 
 This is the view that you get when you [start a new instance](mainwindow/applicationInstance.md). 
-This view is quete extensive and has allot of functionallity, we go in depth by the different [Menu items](#menu-bar), [Toolbar Items](#toolbar), [Tabs](#tabs) and [Tool panes](#tool-panes).
+This view is quite extensive and has allot of functionality, we go in depth by the different [menu items](#menu-bar) and [toolbar items](#toolbar).
 
-If you are wondering, the current open Tabs and tool panes in the screenshot are:
+If you are wondering, the current open tabs and tool panes in the screenshot are:
 - [Main Tab](ApplicationInstanceDockWindow/MainWindow.md)
 - [Call Tree Render Tab](ApplicationInstanceDockWindow/CallTreeRendering.md) (Other Tab next to Main)
 - [Code Member Details Tab](ApplicationInstanceDockWindow/CodeMemberDetailsView.md) (Other Tab next to Call Tree Render)
@@ -30,4 +30,4 @@ Click [here](ApplicationInstanceDockWindow/Toolbar.md) to learn more about the t
 If you came here by pressing F1 in the [CodeGlass Client](../features/CodeGlassClient.md) in one of the tabs, make sure that that tab has (keyboard) focus.
 
 # Application Breadcrumbs: 
-- [Splashscreen](../Splashscreen.md) / [Main Menu - Applications](mainwindow/application.md) / [Main Menu - Instances](../mainwindow/applicationInstance.md) / 
+- [Splashscreen](Splashscreen.md) / [Main Menu - Applications](mainwindow/application.md) / [Main Menu - Instances](mainwindow/applicationInstance.md) / 
