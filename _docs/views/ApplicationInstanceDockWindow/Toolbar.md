@@ -16,22 +16,16 @@ For more information see [Feature - Profiling Snapshots](../../features/Profilin
 ## Execution control
 ![assets/img/ApplicationInstanceWindow/ToolbarExecutionControl.png](../../../assets/img/ApplicationInstanceWindow/ToolbarExecutionControl.png)
 - [Soft off](../../features/ApplicationInstanceExecutionControl.md#soft-off), disables the collection of data but keeps the application running.
-- [Continues](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the applicatio when it is paused
+- [Continues](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the application when it is paused
 - [Throttle](../../features/ApplicationInstanceExecutionControl.md#throttle) the application to a specific fps (Functions per second)
-- [Pauses](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the applicatio when it is running or stops [stepping](../../features/ApplicationInstanceStepping.md)
+- [Pauses](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the application when it is running or stops [stepping](../../features/ApplicationInstanceStepping.md)
 - [Stops](../../features/ApplicationInstanceExecutionControl.md#stop) the application if it is not stopped yet.
-- [Restars](../../features/ApplicationInstanceExecutionControl.md#restart) the application
+- [Restarts](../../features/ApplicationInstanceExecutionControl.md#restart) the application
 
 ![assets/img/ApplicationInstanceWindow/ToolbarThrottle.png](../../../assets/img/ApplicationInstanceWindow/ToolbarThrottle.png)
 
 The Throttle button also has a dropdown with the following items:
 {% include ExecutionControl/ThrottleContextMenu.md %}
-
-
-![assets/img/ApplicationInstanceWindow/ToolbarRestart.png](../../../assets/img/ApplicationInstanceWindow/ToolbarRestart.png)
-
-The restart button also has a dropdown with the following items:
-{% include ExecutionControl/RestartContextMenu.md %}
 
 For more information see [Feature - Application Instance Execution Control](../../features/ApplicationInstanceExecutionControl.md)
 
@@ -43,10 +37,9 @@ For more information see [Feature - Application Instance Execution Control](../.
 ## Realtime Rendering
 ![assets/img/ApplicationInstanceWindow/ToolbarRendering.png](../../../assets/img/ApplicationInstanceWindow/ToolbarRendering.png)
 
-- Opens the [Code Heat Map](CodeHeatMap.md) in a new tab.
-- Opens the [Call Tree](CallTreeRendering.md) in a new tab.
-- Opens the [Call Stack](CallStackRendering.md) in a new tab.
-<!-- - Opens the [Grouped Call Stack Rendering](GroupedCallStackRendering.md) in a new tab. -->
+- Opens the [statistics view](StatisticsWindow.md) in a new tab.
+- Opens the [call tree](CallTreeRendering.md) in a new tab.
+- Opens the [call stack](CallStackRendering.md) in a new tab.
 
 For more information see [Feature - Realtime Rendering](../../features/RealtimeRendering.md)
 # See Also:

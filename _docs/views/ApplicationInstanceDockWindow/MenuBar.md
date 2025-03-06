@@ -8,60 +8,62 @@ description: The menu bar of the main application instance window.
 ## File Menu
 ![assets/img/ApplicationInstanceWindow/FileMenu.png](../../../assets/img/ApplicationInstanceWindow/FileMenu.png)
 ### New Instance
-Clicking here will bring up the sub-menu to select what [filter](../../features/ProfilingDataFiltering.md) you want to use for the new instance.
-Then clicking on "Start new instance" will start the new instance and open a new [Application Instance Window](../ApplicationInstanceDockWindow).
+Clicking here will bring up a sub-menu. Clicking on "Start new instance" will start the new instance and open a new [application instance window](../ApplicationInstanceDockWindow).
 
-Double-clicking "New Instance" will directly start a new instance, and it will use the filters that are checked in the sub-menu. 
+Double-clicking "New Instance" will directly start a new instance. 
 ### Open Instance
-Shows a sub-menu with the other profiled instances of this application; clicking on them will open another [Application instance Window](../ApplicationInstanceDockWindow.md) of that instance.
+Shows a sub-menu with the other profiled instances of this application; clicking on them will open another [application instance window](../ApplicationInstanceDockWindow.md) of that instance.
 ### Main Menu Window
-Opens or brings the [Main menu window](../mainwindow.md) to the foreground
+Opens or brings the [main menu window](../mainwindow.md) to the foreground.
 ### Application Settings
-Opens or brings the [Application Settings Window](../applicationsettingswindow.md) to the foreground
+Opens or brings the [application settings window](../ApplicationSettingsWindow.md) to the foreground.
 ### Instance Settings 
-Opens or brings the [Application Instance Settings Window](../ApplicationInstanceSettingsWindow.md) to the foreground
+Opens or brings the [application instance settings window](../ApplicationInstanceSettingsWindow.md) to the foreground.
 ### User & Client Settings
-Opens or brings the [Client & User Settings Window](../clientusersettingswindow.md) to the foreground
+Opens or brings the [client & user settings window](../clientusersettingswindow.md) to the foreground
 ### Close
-Closes this  [Application Instance Window](../ApplicationInstanceDockWindow.md).
+Closes this  [application instance window](../ApplicationInstanceDockWindow.md).
 ### Exit
-Shutsdown the [Code Glass Client](../../features/CodeGlassClient.md)
-{% include alertNoTitle.html  type="warning" content="This does not cause the <a href=\"../../features/CodeGlassHub\" target=\"_blanc\">Code Glass Hub</a> to be shutdown." %}
+Shuts down the [CodeGlass client](../../features/CodeGlassClient.md)
+{% include alertNoTitle.html  type="warning" content="This does not cause the <a href=\"../../features/CodeGlassHub\" target=\"_blanc\">CodeGlass Hub</a> to be shutdown." %}
 
 ## View Menu
 ![assets/img/ApplicationInstanceWindow/ViewMenu.png](../../../assets/img/ApplicationInstanceWindow/ViewMenu.png)
 ### Main
-Opens the [Main](MainWindow.md) window in a new tab or brings the tab to the foreground   
+Opens the [main](MainWindow.md) window in a new tab or brings the tab to the foreground   
 
 ### Console
 See [Roadmap - Remote Console](../../Roadmap/RemoteConsole.md)
 
 ### Statistics
-Opens the [Statistics](StatisticsWindow.md) window in a new tab or brings it to the foreground   
+Opens the [statistics](StatisticsWindow.md) window in a new tab or brings it to the foreground   
 
 ### Memory Statistics
-Opens the [Memory Statistics](MemoryStatisticsWindow) window in a new tab or brings it to the foreground.
+Opens the [memory statistics](MemoryStatisticsWindow) window in a new tab or brings it to the foreground.
 
 ### Code Heat Map
-This button opens a [Code Heat Map](CodeHeatMap.md) in a new tab.
+This button opens a [code heat map](CodeHeatMap.md) in a new tab.
 
-### Realtime Call Tree Rendering
-This button opens the [Realtime Call Tree Rendering](CallTreeRendering.md) in a new tab.
+### Call Tree 
+This button opens the [realtime call tree rendering](CallTreeRendering.md) in a new tab.
 
-### Realtime Call Stack Rendering
-This button opens the [Realtime Call Stack Rendering](CallStackRendering.md) in a new tab.
+### Call Stack 
+This button opens the [realtime call stack rendering](CallStackRendering.md) in a new tab.
 
 ### Performance
-Opens the [Performance](PerformanceView.md) view in a new tool window or brings it to the foreground   
+Opens the [performance](PerformanceView.md) view in a new tool window or brings it to the foreground   
 
 ### Thread Explorer
-Opens the [Thread Explorer](ThreadExplorer.md) in a new tool window or brings it to the foreground   
+Opens the [thread Explorer](ThreadExplorer.md) in a new tool window or brings it to the foreground   
 
 ### Application Explorer
-Opens the [Application Explorer](ApplicationExplorer.md) in a new tool window or brings it to the foreground   
+Opens the [application explorer](ApplicationExplorer.md) in a new tool window or brings it to the foreground   
 
 ### Exceptions Explorer
-Opens the [Exceptions Explorer](ExceptionExplorer.md) in a new tool window or brings it to the foreground.
+Opens the [exceptions explorer](ExceptionExplorer.md) in a new tool window or brings it to the foreground.
+
+### GC Invocations Explorer
+Opens the [GC invocations explorer](GCInvocationsExplorer.md) in a new tool window or brings it to the foreground.
 
 ## Process menu
 ![assets/img/ApplicationInstanceWindow/ProcessMenu.png](../../../assets/img/ApplicationInstanceWindow/ProcessMenu.png)
@@ -70,27 +72,22 @@ Opens the [Exceptions Explorer](ExceptionExplorer.md) in a new tool window or br
 [Starts](../../features/ApplicationInstanceExecutionControl.md#start) the application if it is not already.
 
 ### Continue
-[Continues](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the applicatio when it is paused
+[Continues](../../features/ApplicationInstanceExecutionControl.md#resume) the application when it is paused.
 
 ### Break
-[Pauses](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the applicatio when it is running or stops [stepping](../../features/ApplicationInstanceStepping.md).
+[Pauses](../../features/ApplicationInstanceExecutionControl.md#pause) the application when it is running or stops [stepping](../../features/ApplicationInstanceStepping.md).
 
 ### Stop
-[Stops](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the application if it is not stopped yet.
+[Stops](../../features/ApplicationInstanceExecutionControl.md#stop) the application if it is not stopped yet.
 
 ### Restart
-![assets/img/ApplicationInstanceWindow/ProcessMenuRestart.png](../../../assets/img/ApplicationInstanceWindow/ProcessMenuRestart.png)
-
-Double-clicking Restart on the main menu will immediately start a new instance with the settings already selected below.
-
-
-{% include ExecutionControl/RestartContextMenu.md %}
+[Restarts](../../features/ApplicationInstanceExecutionControl.md#restart) the application.
 
 ### Throttle
 
 ![assets/img/ApplicationInstanceWindow/ProcessMenuThrottle.png](../../../assets/img/ApplicationInstanceWindow/ProcessMenuThrottle.png)
 
-Double clicking [Throttle](../../features/ApplicationInstanceExecutionControl.md#throttle) on the main menu will enable or disable the throttling.
+Double clicking [throttle](../../features/ApplicationInstanceExecutionControl.md#throttle) on the main menu will enable or disable the throttling.
 
 {% include ExecutionControl/ThrottleContextMenu.md %}
 
@@ -100,55 +97,51 @@ Double clicking [Throttle](../../features/ApplicationInstanceExecutionControl.md
 Create, attach a new console to the application, and close the old one if it had one.
 - Show, shows the console if it had one.
 - Hide, hide the console if it had one.
-- Console Settings, Opens or brings the [console settings](../applicationsettingswindow/ProfilerSettings.md#console-settings) to the foreground
+- Console Settings, opens or brings the console settings to the foreground.
 
 ## Bring to Front
 It brings the application to the front, if it is still running.
 
 
 ### Step Into 
-[Steps Into](../../features/ApplicationInstanceStepping.md#step-into) (F11) the next function while the application is paused
+[Steps into](../../features/ApplicationInstanceStepping.md#step-into) (F11) the next function while the application is paused
 
 ### Step Back Into 
-[Steps Back Into](../../features/ApplicationInstanceStepping.md#step-back-into) (Ctrl + F11) the previous function while the application is paused
+[Steps back into](../../features/ApplicationInstanceStepping.md#step-back-into) (Ctrl + F11) the previous function while the application is paused
 
 ### Step Over 
-[Steps Over](../../features/ApplicationInstanceStepping.md#step-over) (F10) the next function while the application is paused
+[Steps over](../../features/ApplicationInstanceStepping.md#step-over) (F10) the next function while the application is paused
 
 ### Step Back Over 
-[Steps Back Over](../../features/ApplicationInstanceStepping.md#step-back-over) (Ctrl + F10) the previous function while the application is paused
+[Steps back over](../../features/ApplicationInstanceStepping.md#step-back-over) (Ctrl + F10) the previous function while the application is paused
 
 ### Step Out 
-[Steps Out](../../features/ApplicationInstanceStepping.md#step-out) (Shift + F11) the current function while the application is paused
+[Steps out](../../features/ApplicationInstanceStepping.md#step-out) (Shift + F11) the current function while the application is paused
 
 ### Step Back Out 
-[Steps Back Out](../../features/ApplicationInstanceStepping.md#step-back-out) (Ctrl + Shift + F11) the current function back to before the current function was called while the application is paused
+[Steps back out](../../features/ApplicationInstanceStepping.md#step-back-out) (Ctrl + Shift + F11) the current function back to before the current function was called while the application is paused
 
 ### Instance Settings
-Opens or brings the [Application Instance Settings Window](../ApplicationInstanceSettingsWindow.md) to the foreground
+Opens or brings the [application instance settings window](../ApplicationInstanceSettingsWindow.md) to the foreground
 
 ## Help Menu
 ![assets/img/ApplicationInstanceWindow/AppInstanceHelpMenu.png](../../../assets/img/ApplicationInstanceWindow/AppInstanceHelpMenu.png)
 
 ### View Help
-Opens this website on the [Getting Help](../../Troubleshooting.md#getting-help) Page.
+Opens this website on the [getting help](../../Troubleshooting.md#getting-help) page.
 
 ### Send Feedback
-Opens this website on the [Sending Feedback](../../Troubleshooting.md#sending-feedback) Page.
+Opens this website on the [sending feedback](../../Troubleshooting.md#sending-feedback) page.
 
 ### Get Support
-Opens this website on the [Getting Support](../../Troubleshooting.md#getting-support) Page.
+Opens this website on the [getting support](../../Troubleshooting.md#getting-support) page.
 
 
 ### Online Privacy Statement
-Opens this website on the [Privacy Statement](../../Legal/Privacy.md) Page.
+Opens this website on the [privacy statement](../../Legal/Privacy.md) page.
 
 ### Check for updates
-Opens the [Releases page](https://github.com/CodeGlassDotIO/Docs/releases)
+Opens the [releases page](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases){:target="_blank"}
 
 ### About CodeGlass
-Opens this website on the [About page](../../../pages/about.md)
-
-
-# Application Breadcrumbs
-- {All paths leading to} /  [Application Instance Window](../ApplicationInstanceDockWindow.md) / 
+Opens this website on the [about page](../../../pages/about.md)

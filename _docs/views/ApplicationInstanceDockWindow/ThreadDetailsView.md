@@ -19,7 +19,7 @@ But you can also step this thread specifically by the [thread stepping controls]
 {% include alertNoTitle.html  type="info" content="Please note that this does not cause this thread only to step, every thread will keep stepping till this specific thread does. <br/> If you are interested in only stepping this thread and keep the other threads paused see the <a href=\"../../Roadmap/ThreadOnlyStepping\">thread only stepping</a> roadmap item." %}
 
 ### Known Issues
-The Thread stepping control hotkeys only work when there is focus on the Thread Details View, else it will use the regular Stepping controls from the [Toolbar](Toolbar#stepping.md) above it.
+The thread stepping control hotkeys only work when there is focus on the thread details view, else it will use the regular stepping controls from the [toolbar](Toolbar#stepping.md) above it.
 
 # Application Breadcrumbs
-- { All paths leading to } /  [Thread Explorer](ThreadExplorer.md) / 
+- [Thread Explorer](ThreadExplorer.md) / 

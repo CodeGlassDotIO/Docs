@@ -235,6 +235,10 @@
           url: "docs/views/ApplicationInstanceDockWindow/MemoryStatisticsWindow"
         - title: Memory Allocations by CodePath View
           url: "docs/views/ApplicationInstanceDockWindow/AllocatedByCodePathView"
+        - title: GC Invocations Explorer
+          url: "docs/views/ApplicationInstanceDockWindow/GCInvocationsExplorer"
+        - title: GC Invocations Details View
+          url: "docs/views/ApplicationInstanceDockWindow/GCInvocationsDetailsView"
         - title: Object Details View
           url: "docs/views/ApplicationInstanceDockWindow/ObjectDetailsView"
         - title: Function Details View
@@ -245,8 +249,6 @@
           url: "docs/views/ApplicationInstanceDockWindow/CallTreeRendering"
         - title: Call Stack Rendering
           url: "docs/views/ApplicationInstanceDockWindow/CallStackRendering"
-        - title: Grouped Call Stack Rendering
-          url: "docs/views/ApplicationInstanceDockWindow/GroupedCallStackRendering"
         - title: Main Window
           url: "docs/views/ApplicationInstanceDockWindow/MainWindow"
         - title: Performance View
