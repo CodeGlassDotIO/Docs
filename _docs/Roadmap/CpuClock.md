@@ -1,14 +1,14 @@
 ---
 title: Roadmap - CPU Clock
-description: To Support CPU clock time messurment
+description: To Support CPU clock time measurement
 ---
 {% include Warnings/RoadmapWarning.html %}
 
-# Cpu Clock Time messurment
-Currently we only support wall clock time messurement, we want to also support Cpu Clock time messurement.
+# Cpu Clock Time measurement
+Currently we only support wall clock time measurement, we want to also support Cpu Clock time measurement.
 
 CPU Clock takes for example the time a thread was suspended into account
 
 
 # See Also:
-- [Feature - Time Messurement](../features/TimeMessurement.md)
+- [Feature - Time Measurement](../features/TimeMessurement.md)

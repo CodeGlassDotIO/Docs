@@ -1,6 +1,6 @@
 ---
 title: Roadmap - CodeGlass Visual Studio Code Extension (CGVSCE)
-description: Extention for VS Code to show (some) CodeGlass data.
+description: Extension for VS Code to show (some) CodeGlass data.
 ---
 {% include Warnings/RoadmapWarning.html %}
 

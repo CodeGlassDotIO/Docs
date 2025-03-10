@@ -15,6 +15,4 @@ We also want to introduce bounties, something you can do to gain a specific rewa
 
 Like someone that would already reward someone for is a working sample of using the JVM TI (Java Virtual Machine Tool Interface), additional points if it is working with the profiling API for our future support of Java :D 
 
-Like we said, we are still working this program out, but if you already have something, please join our [discord](../../pages/contact.md#discord)
-
-
+Like we said, we are still working this program out, but if you already have something, please join our [discord](../../pages/contact.md#discord).

@@ -12,10 +12,3 @@ However, we do have some concerns about this; this idea started not to have to d
 But maybe giving us access to your visual studio solution to fully index it might be even worse...?
 
 Feel free to give your opinion about this.
-
-
-# See Also:
-- [View - Application Explorer](../views/ApplicationInstanceDockWindow/ApplicationExplorer.md)
-- [View - Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md)
-- [View - Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md)
-- [View - Grouped Call Stack Rendering](../views/ApplicationInstanceDockWindow/GroupedCallStackRendering.md)

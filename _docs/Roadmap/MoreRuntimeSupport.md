@@ -11,9 +11,6 @@ At CodeGlass we are always working on integrating other languages into CodeGlass
 ## NodeJS support
 After our JavaScript Website support, NodeJS is a easy step and should not take us long as we can reuse allot from our JavaScript Website support.
 
-## Java Support
-We want to support Java in the future.
-
 ## PHP Support
 We want to support PHP in the future.
 
@@ -32,15 +29,14 @@ We want to implement Rust in the future.
 - ### Other
 We want to implement other LLVM based languages in the future.
 
-
 ## Ruby Support
 We want to support Ruby in the future.
 
 ## Python Support
 We want to support Python in the future.
 
-## Cobalt Support
-We want to support Cobal in the future.
+## Cobol Support
+We want to support Cobol in the future.
 
 ## Go Support
 We want to support Go in the future.

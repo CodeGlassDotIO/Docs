@@ -12,7 +12,7 @@ This includes:
 - Giving [credits](Credits.md) where credits are due
 - Giving out [rewards](Rewards.md) to community members
 
-in return the community would:
+In return the community would:
 - Give quality feedback.
 - Help out with issues.
 - Help other users with CodeGlass.
