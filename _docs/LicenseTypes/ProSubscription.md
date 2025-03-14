@@ -17,7 +17,7 @@ The difference is that Pro is also allowed to be used in general-commercial, and
 ## Subscription term
 Time-limited, based on monthly and yearly subscription payments
 
-## Code Glass Editions
+## CodeGlass Editions
 - [Pro Edition](../Editions/Pro.md)
 
 ## Available to

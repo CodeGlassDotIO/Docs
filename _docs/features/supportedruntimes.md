@@ -24,7 +24,7 @@ CodeGlass needs to be started as administrator as we need to add some registry k
 These keys will be removed when:
 - You close the client on the machine that registered them.
 - You start the client in administrator mode on the machine that registered them.
-- You uninstall Code Glass on the machine that registered them.
+- You uninstall CodeGlass on the machine that registered them.
 
 
 If, in the unlikely case, the registry keys stay behind, this is the key to remove:

@@ -44,7 +44,7 @@ By buying multiple subscriptions, you can use the software concurrently for the 
 Changes to your subscription are immediately applied, and the cost difference is prorated.
 
 
-{% include alertNoTitle.html  type="warning" content="Remaining prorated credit will got to your Stipe account balance and will be used on next payments."  %}
+{% include alertNoTitle.html  type="warning" content="Remaining prorated credit will got to your Stripe account balance and will be used on next payments."  %}
 
 
 
@@ -91,5 +91,5 @@ If you think this is incorrect or need any support, don't hesitate to contact [c
 ![assets/img/Stripe/Stripe_NoUpdatePlan.png](../../assets/img/Stripe/Stripe_NoUpdatePlan.png)
 
 
-If your screen looks like this then there is an issue with your Stipe Account and have to [contact](../../contact) us to make changes to your subscription. <br/>
-We are very sorry if this happens to you, we are in contact with Stipe to solve this issue.
+If your screen looks like this then there is an issue with your Stripe Account and have to [contact](../../contact) us to make changes to your subscription. <br/>
+We are very sorry if this happens to you, we are in contact with Stripe to solve this issue.

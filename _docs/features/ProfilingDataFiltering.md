@@ -287,4 +287,4 @@ Data items can also be already known by previous [application instances](../view
 
 # See Also:
  - [CodeGlass Account](../Others/Account.md)
- - [Code Glass Hub](CodeGlassHub.md)
+ - [CodeGlass Hub](CodeGlassHub.md)

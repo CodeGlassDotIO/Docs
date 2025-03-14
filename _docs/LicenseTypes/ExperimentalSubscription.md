@@ -13,7 +13,7 @@ See the [EULA](#eula) for the legal mumbo jumbo.
 Time-limited, based on monthly and yearly subscription payments
 
 
-## Code Glass Editions
+## CodeGlass Editions
 - [Pro Edition](../Editions/Pro.md)
 - [Experimental Edition](../Editions/Experimental.md)
 

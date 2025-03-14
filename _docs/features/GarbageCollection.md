@@ -4,6 +4,8 @@ description: The tracking of every executed garbage collection
 ---
 
 # Garbage Collection Invocations
+![assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png](../../assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png)
+
 This feature allows you to gain insights into what your application does during garbage collection. This can help you track down objects that do not get removed or find objects that get removed to fast.
 
 {% include alert.html  type="warning" title="Limited support" content="At this point the only language to support this feature is Julia, but more will be added soon." %}

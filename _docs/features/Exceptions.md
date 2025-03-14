@@ -22,8 +22,8 @@ You can configure CodeGlass to pause execution when specific exceptions occur.
 This feature will be further enhanced in future updates. For more details, see [improving exceptions](../Roadmap/ImprovingExceptions.md).
 
 You can configure these exceptions in the following views:
-- [Applications Profiler Settings](../views/ApplicationSettingsWindow/ProfilerSettings.md)
-- [Client & User Profiler Settings](../views/clientusersettingswindow/profilingsettings.md)
+- [Applications Profiler Settings](../views/ApplicationSettingsWindow.md)
+- [Client & User Profiler Settings](../views/clientusersettingswindow.md)
 
 
 

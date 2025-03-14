@@ -30,8 +30,8 @@ You can also read the above as the famous "it works on my pc" one.
  - [Main Menu - Application Instances](../views/mainwindow/applicationInstance.md)
  
 # See Also:
-- [Feature - Code Glass Client](CodeGlassClient.md)
-- [Feature - Code Glass Hub](CodeGlassHub.md)
+- [Feature - CodeGlass Client](CodeGlassClient.md)
+- [Feature - CodeGlass Hub](CodeGlassHub.md)
 - [Feature - Realtime Rendering](RealtimeRendering.md)
 - [Feature - Stepping](ApplicationInstanceStepping.md)
 

@@ -3,7 +3,7 @@ title: Edition - Experimental Edition
 description: Expensive Edition with all the new toys.
 ---
 # Experimental Edition
-The Experimental edition are experimental builds of Code Glass with features that might not be released yet to the public as they are not proven stable enough.
+The Experimental edition are experimental builds of CodeGlass with features that might not be released yet to the public as they are not proven stable enough.
 
 The Experimental edition also include all the features of the [Pro Edition](Pro.md).
 

@@ -4,7 +4,7 @@ description: SDK to control CodeGlass from within the profiled application.
 ---
 {% include Warnings/RoadmapWarning.html %}
 
-# Code Glass SDK
+# CodeGlass SDK
 Sdk to control certain parts of CodeGlass from within the application when you try to profile the application with CodeGlass
 
 For example: 

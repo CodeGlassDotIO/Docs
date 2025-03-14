@@ -13,9 +13,9 @@ You can add new applications by pressing the "[add an application button](newapp
 You can also add an application by a log file you created with the [profiling snapshots](../../features/ProfilingSnapshots.md) by pressing the "Add by log file" button. <br/>
 If the application is already known to this client it will not add another application but open a new [instance](applicationInstance.md) instead
 
-You can also connect to a [remote code glass hub](../../features/CodeGlassHub.md#remote-hub) by pressing the "[Connect to another hub](#connect-to-another-hub)" button.
+You can also connect to a [remote CodeGlass hub](../../features/CodeGlassHub.md#remote-hub) by pressing the "[Connect to another hub](#connect-to-another-hub)" button.
 
-You can also deside to logout and quit Code Glass by clicking on the "Logout and Quit" button.
+You can also decide to logout and quit CodeGlass by clicking on the "Logout and Quit" button.
 
 
 

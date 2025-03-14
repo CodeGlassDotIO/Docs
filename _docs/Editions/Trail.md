@@ -1,6 +1,6 @@
 ---
 title: Edition - Trail
-description: Free Version of Code Glass
+description: Free Version of CodeGlass
 ---
 # Trail Version
 Not sure if CodeGlass is right for you? Our trial version lets you explore its features and experiment before making a commitment. It is a great way to get a feel for CodeGlass without any pressure. Just dive in and see what it can do.

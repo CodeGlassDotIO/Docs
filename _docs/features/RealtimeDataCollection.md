@@ -97,5 +97,5 @@ More information about garbage collection information can be found at the [garba
 # See Also:
 - [Feature - Realtime Rendering](RealtimeRendering.md)
 - [Feature - Execution Control](ApplicationInstanceExecutionControl.md)
-- [Feature - Code Glass Client](CodeGlassClient.md)
+- [Feature - CodeGlass Client](CodeGlassClient.md)
 - [Feature - Profiling Data Filtering](ProfilingDataFiltering.md)

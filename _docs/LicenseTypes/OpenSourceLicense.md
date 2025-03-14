@@ -5,7 +5,7 @@ doNotShow: true
 ---
 # Open-Source License
 
-The Open source license is a free license available to Open source projects to use the [Pro Edition](../Editions/Pro) of Code Glass for working on a specific open source project. We also want to support Open source projects!
+The Open source license is a free license available to Open source projects to use the [Pro Edition](../Editions/Pro) of CodeGlass for working on a specific open source project. We also want to support Open source projects!
 
 
 See the [EULA](#eula) for the legal mumbo jumbo.
@@ -14,7 +14,7 @@ See the [EULA](#eula) for the legal mumbo jumbo.
 ## License term
 One year renewable.
 
-## Code Glass Editions
+## CodeGlass Editions
 - [Pro Edition](../Editions/Pro)
 
 ## Available to

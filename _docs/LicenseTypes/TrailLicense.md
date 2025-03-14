@@ -11,7 +11,7 @@ See the [EULA](#eula) for the legal mumbo jumbo.
 ## License Terms
 30 days
 
-## Code Glass Editions
+## CodeGlass Editions
 - [Pro Edition](../Editions/Pro.md)
 
 ## Available to

@@ -5,15 +5,15 @@ doNotShow: true
 ---
 # Classroom License
 
-The Classroom license is a free license available to Educational institutes to use the [Pro Edition](../Editions/Pro.md) of Code Glass to educate students in classes.
+The Classroom license is a free license available to Educational institutes to use the [Pro Edition](../Editions/Pro.md) of CodeGlass to educate students in classes.
 
 
-{% include alert.html title="Internal development?"  type="info" content="If you want to use Code Glass for internal development please check our <a href=\"SpecialOffers\" target=\"_blanc\">offers</a> for Educational institutes" %}
+{% include alert.html title="Internal development?"  type="info" content="If you want to use CodeGlass for internal development please check our <a href=\"SpecialOffers\" target=\"_blanc\">offers</a> for Educational institutes" %}
 
 # License Details
 ## License term
 One year renewable.
-## Code Glass Editions
+## CodeGlass Editions
 - [Pro edition](../Editions/Pro.md)
 
 ## Available to

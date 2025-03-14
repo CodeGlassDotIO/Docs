@@ -26,8 +26,8 @@ So it is up to the user to keep the remote hub safe, we recommend keeping access
 If you want to keep your hub local, the only thing you have to do is prevent access to it trough you PC's firewall. 
 
 # See Also:
-- [Feature - Code Glass Client](CodeGlassClient.md)
-- [Feature - Code Glass Profilers](CodeGlassProfilers.md)
+- [Feature - CodeGlass Client](CodeGlassClient.md)
+- [Feature - CodeGlass Profilers](CodeGlassProfilers.md)
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: View - Application Instance - function Details View
+title: View - Application Instance - Function Details View
 description: Details about the function / method
 ---
 # Function Details View

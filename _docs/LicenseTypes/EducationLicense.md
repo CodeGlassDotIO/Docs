@@ -5,7 +5,7 @@ doNotShow: true
 ---
 # Education License
 
-The Education License is a free License available to students and instructors to use the [Pro Edition](../Editions/Pro.md) of Code Glass for education and academic research.
+The Education License is a free License available to students and instructors to use the [Pro Edition](../Editions/Pro.md) of CodeGlass for education and academic research.
 
 
 {% include alert.html title="Non-commercial right?"  type="info" content="Though our EULA says it, we have never enforced the rule for students, being a student is already expensive enough but think of us if you make enough, ok? :) If you are an instructor and use it commercially, shame on you! That said, here is a message from our \"friend\" the legal advisor: Our failure to enforce or exercise any part of the EULA is not a waiver of that section. " %}
@@ -20,7 +20,7 @@ See the [EULA](#eula) for the legal mumbo jumbo.
 ## License term
 One year renewable.
 
-## Code Glass Editions
+## CodeGlass Editions
 - [Pro Edition](../Editions/Pro.md)
 
 ## Available to

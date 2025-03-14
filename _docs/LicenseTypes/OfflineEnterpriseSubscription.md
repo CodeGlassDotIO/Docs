@@ -14,7 +14,7 @@ The Offline Enterprise subscription differs from [Enterprise subscription](Enter
 Time-limited, based on yearly subscription payments
 
 
-## Code Glass Editions
+## CodeGlass Editions
 - [Pro Edition](../Editions/Pro.md)
 
 ## Available to

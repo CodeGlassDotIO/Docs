@@ -49,14 +49,14 @@ It is recommended to remove all the double quotes that CodeGlass placed around t
 
 ![assets/img/Features/JetBrainsSupport/EnvironmentSettings.png](../../assets/img/Features/JetBrainsSupport/EnvironmentSettings.png)
 
-If you now run your application and switch back to CodeGlass, you can see that a new instance has been added. Everytime you run your application a new instance will be added here.
+If you now run your application and switch back to CodeGlass, you can see that a new instance has been added. Every time you run your application a new instance will be added here.
 
 ![assets/img/Features/JetBrainsSupport/RunningApplication.png](../../assets/img/Features/JetBrainsSupport/RunningApplication.png)
 
 ## Trouble Shooting
 If your instance is not showing up after following the steps above and running your application, validate the following things.
 * Is `CG_ENABLE` set to '1' in the environment settings in Rider?
-* Try readding the value of `CG_TOKEN` in the environment settings by getting the token from CodeGlass. It is possible that CodeGlass invalidated your previous token.
+* Try re-adding the value of `CG_TOKEN` in the environment settings by getting the token from CodeGlass. It is possible that CodeGlass invalidated your previous token.
 * Validate that the path of `CORECLR_PROFILER_PATH_32`, `CORECLR_PROFILER_PATH_64`, `COR_PROFILER_PATH_32` and `COR_PROFILER_PATH_64` are pointing to a valid path.
 
 If you checked these things and keep on having problems, feel free to join our [Discord server](https://discord.com/invite/ytczAxSmX4){:target="_blank"} and ask a question.

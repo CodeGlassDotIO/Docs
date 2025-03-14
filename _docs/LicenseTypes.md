@@ -43,7 +43,7 @@ This table is provided for easy comparison of the different license / subscripti
             <th width="10%">(<a href="OfflineEnterpriseSubscription">Offline</a>) <a href="EnterpriseSubscription">Enterprise</a></th>
         </tr>
         <tr>
-            <td><b>Code Glass Edition</b></td>
+            <td><b>CodeGlass Edition</b></td>
             <td>Pro (trail)</td>
             <td>Pro</td>
             <td>Pro + Experimental</td>

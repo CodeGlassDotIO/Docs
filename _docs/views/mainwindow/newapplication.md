@@ -1,5 +1,5 @@
 ---
-title: View - Main Menu - Add Applciation
+title: View - Main Menu - Add Application
 description: How to add a new application to profile
 ---
 # Add a new Application

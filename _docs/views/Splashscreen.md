@@ -1,5 +1,5 @@
 ---
-title: View - Splashscreeen
+title: View - Splashscreen
 description: The splashscreen with login.
 ---
 # Splashscreen
