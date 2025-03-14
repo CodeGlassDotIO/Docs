@@ -14,7 +14,7 @@ With the toolbar you can do the following:
 - [Filter](../../features/ProfilingDataFiltering) the current rendered items
 - Clear the current render screen
 - Reposition screen to default zoom and position 
-- Opens the interactions explorer pane.
+- Opens the [interactions explorer](../../features/Interactions) pane.
  {% if include.stepping %}
 - [Steps Back Out](../../features/ApplicationInstanceStepping#step-back-out) (Ctrl + Shift + F11) the current function back to before the current function was called
 - [Steps Back Over](../../features/ApplicationInstanceStepping#step-back-over) (Ctrl + F10) the previous function

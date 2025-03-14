@@ -20,6 +20,7 @@ With the toolbar you can do the following:
 - [Filter](../../features/ProfilingDataFiltering.md) the current rendered items
 - Clear the current render screen
 - Reposition screen to default zoom and position 
+- Opens the [interactions explorer](../../features/Interactions.md) pane.
 - Selecting the object type new rendered items will be grouped by.
 - Forcing all rendered items to be grouped by the selected object type.
 - Search bar to search for methods by their name. Clicking on the search result will move the renderer to this method. By default you can only search for items within your rendering view.

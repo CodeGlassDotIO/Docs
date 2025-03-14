@@ -184,6 +184,13 @@
           url: "docs/features/GarbageCollection#garbage-collection-statistics"
     - title: "Interaction Tracking"
       url: "docs/features/Interactions"
+      children:
+        - title: How It Works
+          url: "docs/features/Interactions#how-it-works"
+        - title: Coloring
+          url: "docs/features/Interactions#coloring"
+        - title: Max Interactions Reached
+          url: "docs/features/Interactions#max-interactions-reached"
     - title: "JetBrains Editor Support"
       url: "docs/features/JetbrainsEditors"
       children:
