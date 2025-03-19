@@ -162,7 +162,7 @@ It is currently in the early stages. Please check back when we release it to Pro
 - When launching the CodeGlass Browser through the CodeGlass client, you decide under which [application](../views/mainwindow/applicationInstance.md) (instance) the browser will put the profiled data. It is unaware if you leave the specified website and will keep putting the other website's data in the same application in CodeGlass. Keep this in mind when reading statistics and such.
 - The browser is not uninstalled when you uninstall CodeGlass, you have to do it manually (CodeGlassChromium in Apps and Features in Windows)
 
-## Limitations
+### Limitations
 - A new [Application Instance](../views/mainwindow/applicationInstance.md) is made for every separated javascript process that starts in the CodeGlass browser (Like every tab and every website)
 
 ## Julia
@@ -184,6 +184,24 @@ The Julia runtime allows you to profile your Julia applications. You can profile
 - CodeGlass Julia does not automatically get uninstalled when you uninstall CodeGlass. You can do this in your Windows Settings.
 
 ## Java
+{% include alert.html  type="warning" title="Only available for experimental" content="This feature is very experimental, because of this only available to the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
+
+The Java runtime allows you to profile your Java applications. You can profile .jar files or get Start Instruction on how to run your code using Gradle or Maven.
+
+### Requirements
+- Java is installed on the system
+- (optional) Java path is set in the Client settings view
+
+### Known Issues
+- Inner classes are for now displayed as one class like OuterClass$InnerClass instead of sub classes.
+- Object names are displayed including namespaces instead of just the object names. E.g. java/lang/Object instead of Object
+- The generic type part \<T> is not yet profiled and displayed in CodeGlass. Instead, generic java/lang/Object will be displayed.
+- Memory profiling is not yet implemented for Java.
+
+### Limitations
+- It is not possible to profile Java specific/own namespaces.
+- It is not possible to profile some specific libraries and packages like org.xml and org.apache.
+- An error may occur if some not yet excluded libraries and packages that are like org.xml and org.apace are profiled. These packages can be added to the filter to bypass this issue. 
 
 # See Also:
  - [View - Add new Application](../views/mainwindow/newapplication.md)
