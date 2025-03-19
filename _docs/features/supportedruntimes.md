@@ -196,12 +196,12 @@ The Java runtime allows you to profile your Java applications. You can profile .
 - Inner classes are for now displayed as one class like OuterClass$InnerClass instead of sub classes.
 - Object names are displayed including namespaces instead of just the object names. E.g. java/lang/Object instead of Object
 - The generic type part \<T> is not yet profiled and displayed in CodeGlass. Instead, generic java/lang/Object will be displayed.
-- Memory profiling is not yet implemented for Java.
 
 ### Limitations
 - It is not possible to profile Java specific/own namespaces.
 - It is not possible to profile some specific libraries and packages like org.xml and org.apache.
-- An error may occur if some not yet excluded libraries and packages that are like org.xml and org.apace are profiled. These packages can be added to the filter to bypass this issue. 
+- An error may occur if some not yet excluded libraries and packages that are like org.xml and org.apache are profiled. These packages can be added to the filter to bypass this issue. 
+- Memory profiling is not yet implemented for Java.
 
 # See Also:
  - [View - Add new Application](../views/mainwindow/newapplication.md)
