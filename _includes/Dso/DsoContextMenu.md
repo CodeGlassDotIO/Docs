@@ -1,6 +1,6 @@
 When you right click an item you have the following options:
 - Open in item view, this opens the [function detail](CodeMemberDetailsView) or [object detail](ObjectDetailsView) view.
-- Open in Visual Studio, see [Roadmap - Open Item In Visual Studio](../../Roadmap/OpenItemInVisualStudio).
+- Open in Visual Studio, see [Feature - Open Item In Visual Studio](../../features/OpenInVisualStudio) for more information.
 
 You can [filter](../../features/ProfilingDataFiltering) the item by:
 - Filter (Remove all allowed access modifiers)

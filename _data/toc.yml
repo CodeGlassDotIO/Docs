@@ -202,6 +202,11 @@
           url: "docs/features/JetbrainsEditors#integrating-with-your-editor"
         - title: Trouble Shooting
           url: "docs/features/JetbrainsEditors#trouble-shooting"
+    - title: "Open in Visual Studio"
+      url: "docs/features/OpenInVisualStudio"
+      children:
+        - title: Limitations
+          url: "docs/features/OpenInVisualStudio#limitations"
 - title: Views
   url: docs/views
   links:
@@ -339,8 +344,6 @@
       url: "docs/Roadmap/OneClickRun"
     - title: "Open Item In IDE"
       url: "docs/Roadmap/OpenItemInIDE"
-    - title: "Open in Visual Studio"
-      url: "docs/Roadmap/OpenItemInVisualStudio"
     - title: "Open With CodeGlass"
       url: "docs/Roadmap/OpenWithContextMenu"
     - title: "Over Process Tracing"
