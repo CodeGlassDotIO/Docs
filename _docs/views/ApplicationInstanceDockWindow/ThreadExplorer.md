@@ -15,6 +15,8 @@ You can order the list by the thread status by the button in the toolbar.
 
 When you double click a thread it opens the [thread details view](ThreadDetailsView.md).
 
+Each threads is also identified by color, as shown on the thread icon. For more information about the coloring see [this](../../views/ApplicationInstanceDockWindow/CallTreeRendering.md#threads-and-coloring) page.
+
 # Application Breadcrumbs
 -  [Application Instance Window](../ApplicationInstanceDockWindow.md) / [View Menu](../ApplicationInstanceDockWindow/MenuBar.md#view-menu) / 
 

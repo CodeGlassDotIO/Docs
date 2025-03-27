@@ -21,5 +21,5 @@ But you can also step this thread specifically by the [thread stepping controls]
 ### Known Issues
 The thread stepping control hotkeys only work when there is focus on the thread details view, else it will use the regular stepping controls from the [toolbar](Toolbar#stepping.md) above it.
 
-# Application Breadcrumbs
-- [Thread Explorer](ThreadExplorer.md) / 
+<!-- # Application Breadcrumbs
+- [Thread Explorer](ThreadExplorer.md) /  -->

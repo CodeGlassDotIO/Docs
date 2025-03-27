@@ -13,15 +13,15 @@ The screenshot below shows the toolbar that contains all the buttons used to per
 ## Soft Off
 Soft Off temporarily stops most data collection, allowing the application to run at near full performance.
 
-This mode is designed for production environments where performance may degrade over time. When needed, Soft Off can be disabled to begin profiling without restarting the application.
+This mode is designed for production environments where performance may degrade over time. Soft Off can be enabled to address this without losing performance to CodeGlass. When the performance issue arises, Soft Off can be disabled to begin profiling without restarting the application.
 
 ## Pause 
 Pause temporarily stops the execution of the application on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
 
 It can be triggered manually or configured to pause automatically in response to specific events, such as [exceptions](Exceptions.md).
 
-## Resume
-Resumes the execution of an application on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
+## Continue
+Continues the execution of an application on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
 
 ## Throttle
 Limits the amount of functions that can be executed per seconds 
@@ -32,8 +32,8 @@ Stops the execution of an application on the ([remote](CodeGlassHub.md#remote-hu
 ## Restart
 Restarts the execution of an application on the ([remote](CodeGlassHub.md#remote-hub.md)) [client](CodeGlassClient.md).
 
-## (Thread) Stepping Backwards / Forwards
-See [Feature - Stepping](ApplicationInstanceStepping.md)
+<!-- ## (Thread) Stepping Backwards / Forwards
+See [Feature - Stepping](ApplicationInstanceStepping.md) -->
 
 
 # See Also:
