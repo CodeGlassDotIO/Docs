@@ -3,62 +3,42 @@ title: Feature - Code Body Reconstruction
 description: Reconstructing the code body of a function without decompilation.
 ---
 # Code body Reconstruction
+{% include alert.html  type="warning" title="Experimental feature" content="This feature is still very experimental, though it is available in all <a href=\"../Editions\" >editions</a>, for more info see the <a href=\"#experimental-warning\" >Experimental warning</a> below." %}
+
 ![assets/img/Features/CodeBodyReconstruction.png](../../assets/img/Features/CodeBodyReconstruction.png)
 
-{% include alert.html  type="warning" title="Experimental feature" content="This feature is still very experimental, though it is available in all <a href=\"../../Editions\" >Editions</a>, for more info see the <a href=\"#experimental-warning\" >Experimental warning</a> below." %}
+Unlike other profilers that simply show how much time is spent in a function, CodeGlass goes a step further by analyzing the collected data to reconstruct the function body as accurately as possible, without decompiling or needing access to your source code!
 
-Where other profilers stop and only show you how much time is spent in a code body, Code glass goes further and analyses the collected data and reconstructs the function body to is best of its ability, without using decompilation!
+This allows CodeGlass to provide a detailed view of your function's behavior, including:
+- Where time is spent within the function.
+- The number of times a loop is executed.
+- How often different code paths are taken (hot and cold paths).
+- The current position of a thread within the function.
+- Time taken by the function when called from different functions (e.g., Function "A" vs. Function "B").
+- The exact point where a function call was made in the code.
+- The paths that need to be taken inside the function to reach a specific call.
+- Time spent in the function body between function calls.
+- Insights into potential optimizations, like loop unrolling.
+- How your code behaves compared to your expectations.
 
-With this, it can show you not only how much time is spent in the function but much more, including:
-- Show you where time is spent in the function
-- How many times a loop is executed
-- How many times a code path is called (Hot and cold paths)
-- Where a current thread is in a function
-- What time this function took when it was called from function "A" versus when it was called by Function "B"
-- Where in the code a function call was made. 
-- What paths need to be taken inside the function to reach a specific function call 
-- How much time is spent in the function's body between each function call.
-- How many times a loop was executed
-- How many times a path is taken
-- Where a thread is in the function.
-- Possibilities for optimizations, like loop unrolling. 
-- How your code behaves against what you wrote.
+Because this analysis is based on collected data instead of decompilation, CodeGlass shows you what your function is actually doing, and showing you the difference between your expectations and its actual behavior. Paths that are never taken are excluded from the analysis, ensuring only relevant information is displayed.
 
+With these insights, you can uncover surprises like unexpected loop iterations or frequently called code paths. It also eliminates the need to manually add stopwatches to your code, as CodeGlass provides similar insights in environments where adding them is not possible.
 
-Because this is based on the collected data and not on decompilation, it shows you what your function is doing versus what you assumed it would do with your written code.
-It also causes that paths that are never taken will not be shown. 
+## Experimental Warning
+This feature is still highly experimental but is available in all [editions](../Editions.md). We didn’t want to limit it to paid versions only, even though it’s currently in a testing phase. It’s already proving to be very helpful, so we’ve made it accessible beyond just the [experimental Edition](../Editions/Experimental.md).
 
-With this information, you can make discoveries, like a loop that runs far more than you expected, or a code path is called far more often than you assumed.
+We encourage you to report any issues you encounter in CodeGlass, but please note that you don’t need to report when this render fails, as you will receive an appropriate error message. We understand that this feature doesn't always perform perfectly, but we feel it’s too valuable to restrict it to the [experimental Edition](../Editions/Experimental.md) despite its current state.
 
-It also eliminates a massive need to add stopwatches through your code, as it can give you the same information, even in environments where you can not add them to the source code. 
-
-
-## Experimental warning
-This feature is still very experimental but is available in all [editions](../Editions.md); We did not want to make it a paid-only feature. Still, it would be a shame to currently only release it to the [experimental Edition](../Editions/Experimental.md) as it is already so helpful.  
-
-We encourage you to make a (bug) report for everything you find in Code Glass, but you do not have to report when the render fails, and you get an appropriate message about it.
-As we are aware that this feature does not play nice all the time, but like stated above, it would be a shame to only put this feature in the [experimental Edition](../Editions/Experimental.md) as it is already so helpful in the current state 
-
-This feature should never cause Code Glass to Crash; it is not that experimental ;)
-
+Rest assured, this feature should never cause CodeGlass to crash; it’s not that experimental ;)
 
 ## Limitations
-Because it is assumptions based on data, it can never be perfect. Collecting every possible path would take a massive amount of RAM (even downloading more is not enough), so we settled on doing it within the confinement of limited ram.
-That does not mean that it will not improve in the future; currently, it is far from perfect and can still be improved on a lot which we are also planning to do. 
+Because this rendering is an assumptions based on data, it can never be perfect. Collecting every possible path would take a massive amount of RAM (even downloading more is not enough), so we settled on doing it within the confinement of limited ram.
+That does not mean that it will not improve in the future, but currently it is far from perfect and can still be improved on a lot (which we are also planning to do). 
 
 
 ## Known issues
 - In some cases where reconstruction should be possible, it still fails.
-- Currently, it does not show where an exception happens or is thrown in the code body. In the future, we will add this.
-
-
 
 ## Views using this feature
 - [Function Details View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md#code-body-view)
-
-
-
-# See Also:
-
-
-

@@ -1,6 +1,7 @@
 ---
 title: Feature - Console
 description: Attaching a new or opening the current console of the profiled application.
+doNotShow: true
 ---
 # Console
 It is possible to attach a console to a running application, even if it is not a console application. <br/>

@@ -1,6 +1,7 @@
 ---
 title: View - Application Instance Settings - Filters Tab
 description: The Current filters used by the application instance.
+doNotShow: true
 ---
 # Application Instance Filters Tab
 ![assets/img/AppInstanceSettingsWindow/AppInstanceFilters.png](../../../assets/img/AppInstanceSettingsWindow/AppInstanceFilters.png)

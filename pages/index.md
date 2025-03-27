@@ -4,7 +4,7 @@ title: CodeGlass Documentation
 permalink: /
 ---
 
-# Welcome to CodeGlass Documentation Pages
+# Welcome to the CodeGlass Documentation Pages
 
 This is our collaborative GitHub pages website containing all documentation for CodeGlass.
 

@@ -1,11 +1,12 @@
 ---
 title: View - Client & User settings - Client Settings 
 description: The CodeGlass Client settings 
+doNotShow: true
 ---
 ![assets/img/ClientUserSettingsWindow/ClientSettings.png](../../../assets/img/ClientUserSettingsWindow/ClientSettings.png)
 
 # Visual Studio Location
-The path to Visual Studio (devenv.exe) is used for the [Visual studio project Runtime](../../features/supportedruntimes.md#visual-studio-solution) so that it can open the solution and start profiling the application when you start debugging.
+The path to Visual Studio (devenv.exe) is used for the [Visual studio project runtime](../../features/supportedruntimes.md#visual-studio-solution) so that it can open the solution and start profiling the application when you start debugging.
 
 Microsoft does not provide a way to detect a Visual Studio installation, because of this if it is not set we we check the following folders in order:
 
@@ -26,7 +27,7 @@ Microsoft does not provide a way to detect a Visual Studio installation, because
 Feel free to supply us with more folders.
 
 # IIS Express x86 Location
-The path to IIS Express x86 (iisexpress.exe) is used for the [Visual studio project Runtime](../../features/supportedruntimes.md#visual-studio-solution) so that when you want to profile an IIS Express x86 application it knows where IIS Express is located.
+The path to IIS Express x86 (iisexpress.exe) is used for the [Visual studio project runtime](../../features/supportedruntimes.md#visual-studio-solution) so that when you want to profile an IIS Express x86 application it knows where IIS Express is located.
 
 Microsoft does only provide a way to detect one IIS Express installation, so if you have both x64 and x86 installed it will will only detect the x64 installation.
 Make sure that the value is pointing at the x86 installation and not the x64 installation.

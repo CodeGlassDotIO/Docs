@@ -10,6 +10,18 @@ Hey there,
 
 We understand that the legal text below might come across as a bit dry and lengthy. Our legal team, being the sticklers they are, made us include all this stuff to stay on the right side of the law. We hope you'll bear with us and appreciate your understanding. Thanks!
 
+In case you were looking for the EULA's that this Terms and Conditions of purchase applies to, you can find them here:
+
+- For the Pro Subscription you find the EULA [here](EULA/ProSubscriptionAgreement.md)
+- For the Experimental Subscription you find the EULA [here](EULA/ExperimentalSubscriptionAgreement.md)
+- For the Organization Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
+- For the Offline Organization Subscription you find the EULA [here](EULA/OrganisationSubscriptionAgreement.md)
+- For the Open Source Project License you find the EULA [here](EULA/OpenSourceSubscriptionAgreement.md)
+- For the Education License you find the EULA [here](EULA/EducationSubscriptionAgreement.md)
+- For the Class Room License you find the EULA [here](EULA/ClassRoomSubscriptionAgreement.md)
+
+
+
 *Version 2, effective as of june 1, 2023*
 
 
@@ -22,7 +34,7 @@ In these Terms and Conditions of Purchase ("Purchase Terms"):
 
 3. "Individual Consumer" means an individual who purchases CodeGlass BV Products or is otherwise in a contractual relationship or deals with CodeGlass BV in relation to CodeGlass BV Products outside the scope of their trade, business, craft or profession.
 
-4. ““CodeGlass BV” or “we” means Codevlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
+4. ““CodeGlass BV” or “we” means CodeGlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
 
 5. "Product" means any software program or service made available by CodeGlass BV, unless otherwise expressly stated in these Purchase Terms. The use of Product by Customer is governed by the applicable Terms of Use.
 

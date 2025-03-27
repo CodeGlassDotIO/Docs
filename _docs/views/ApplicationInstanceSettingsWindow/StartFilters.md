@@ -1,6 +1,7 @@
 ---
 title: View - Application Instance Settings - Start Filters Tab
 description: The Filters that this application started with.
+doNotShow: true
 ---
 # Application Instance Start Filters
 ![assets/img/AppInstanceSettingsWindow/AppInstanceStartFilters.png](../../../assets/img/AppInstanceSettingsWindow/AppInstanceStartFilters.png)

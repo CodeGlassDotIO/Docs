@@ -6,13 +6,11 @@ description: The profiling statistics of a (previously) profiled application.
 ![assets/img/ApplicationInstanceWindow/StatisticsWindow.png](../../../assets/img/ApplicationInstanceWindow/StatisticsWindow.png)
 
 
-This view contains the general statistics of the profiled application by namespace, classes, methods, etc.
-
 {% include Statistics/BasicStatisticsExplaination.md %}
 
-
-# Application Breadcrumbs
-- { All paths leading to [Application Instance Window](../ApplicationInstanceDockWindow.md) } /   / [View Menu](../ApplicationInstanceDockWindow/MenuBar.md#view-menu) / 
+## Memory Statistics
+If you have an [experimental license](../../Editions/Experimental.md) and you have memory profiling enabled in the [application settings](../ApplicationSettingsWindow.md), this view will also give insight in the memory usage per namespace, class and method.<br>
+In this view you can choose to toggle the visibility of the memory statistics by pressing the "Toggle Memory Stats" button.
 
 # See Also:
 - [Application Instance Window](../ApplicationInstanceDockWindow.md)
@@ -20,4 +18,3 @@ This view contains the general statistics of the profiled application by namespa
 - [Function Details View](CodeMemberDetailsView.md)
 - [Feature - Time Messurement](../../features/TimeMessurement.md)
 - [Feature - Profiling data filtering](../../features/ProfilingDataFiltering.md)
-

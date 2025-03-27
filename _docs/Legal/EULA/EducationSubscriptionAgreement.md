@@ -16,7 +16,7 @@ CodeGlass BV and Customer may each also be referred to individually as a “Part
 # 1. PARTIES
 1.1. “Customer” or “you” means a student or an instructor specified in the Subscription Confirmation who is at least 13 years old, or in the case of Redistributable Products, the sole proprietor or legal entity with sufficient legal capacity to enter into this Agreement using the Redistributable Product in accordance with this Agreement. For the purpose of this Agreement:
 
-(A) “student” is an individual who is enrolled at a recognized educational institution (university, college, high school, primary school, or a similar institution with educational goals), and upon request from JetBrains is able to provide proof of such enrollment;
+(A) “student” is an individual who is enrolled at a recognized educational institution (university, college, high school, primary school, or a similar institution with educational goals), and upon request from CodeGlass is able to provide proof of such enrollment;
 
 (B) “instructor” is an individual who gives lectures and/or seminars at a recognized educational institution (university, college, high school, primary school, or a similar institution with educational goals), and upon request by CodeGlass is able to provide proof of such involvement.
 
@@ -114,7 +114,7 @@ The Products include code and libraries licensed to us by third parties, includi
 9.1. TO THE MAXIMUM EXTENT EMPOWERED BY APPLICABLE LAW, IN NO EVENT WILL CODEGLASS PARTIES BE LIABLE TO CUSTOMER, CUSTOMER'S AFFILIATES, AUTHORIZED USERS, OR ANYONE ELSE FOR:
      (A) ANY LOSS OF USE, DATA, GOODWILL, OR PROFITS, WHETHER OR NOT FORESEEABLE; 
      (B) ANY LOSS OR DAMAGES IN CONNECTION WITH TERMINATION OR SUSPENSION OF CUSTOMER'S ACCESS TO THE PRODUCTS IN ACCORDANCE WITH THIS AGREEMENT; OR 
-     (C) ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES WHATSOEVER (EVEN IF THE RELEVANT JETBRAINS PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), INCLUDING THOSE (X) RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT THEY ARE FORESEEABLE, (Y) BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, STRICT LIABILITY, NEGLIGENCE, OR OTHER TORTIOUS ACTION, OR (Z) ARISING FROM ANY OTHER CLAIM ARISING OUT OF OR IN CONNECTION WITH CUSTOMER'S USE OF OR ACCESS TO THE PRODUCTS OR SUPPORT. THIS LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
+     (C) ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES WHATSOEVER (EVEN IF THE RELEVANT CODEGLASS PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), INCLUDING THOSE (X) RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT THEY ARE FORESEEABLE, (Y) BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, STRICT LIABILITY, NEGLIGENCE, OR OTHER TORTIOUS ACTION, OR (Z) ARISING FROM ANY OTHER CLAIM ARISING OUT OF OR IN CONNECTION WITH CUSTOMER'S USE OF OR ACCESS TO THE PRODUCTS OR SUPPORT. THIS LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
 
 9.2. THE TOTAL LIABILITY OF THE CODEGLASS PARTIES IN ANY MATTER ARISING OUT OF OR IN RELATION TO THIS AGREEMENT IS LIMITED TO TEN (10) US DOLLARS. THIS LIMITATION WILL APPLY EVEN IF THE CODEGLASS PARTIES HAVE BEEN ADVISED OF THE POSSIBILITY OF LIABILITY EXCEEDING SUCH AN AMOUNT AND NOTWITHSTANDING ANY FAILURE OF THE ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
 

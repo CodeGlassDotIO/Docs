@@ -1,6 +1,6 @@
 ---
 title: Legal - Third party and open source software
-description: Third party and open source software used in Code Glass or others we would like to thank.
+description: Third party and open source software used in CodeGlass or others we would like to thank.
 ---
 
 # Third party software

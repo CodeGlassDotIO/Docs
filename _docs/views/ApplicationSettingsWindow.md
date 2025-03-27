@@ -3,16 +3,9 @@ title: View - Application Settings
 description: Settings of an application you added to CodeGlass
 ---
 # Application Settings Window
-![assets/img/ApplicationSettingsWindow/ApplicationSettingsWindow.png](../../assets/img/ApplicationSettingsWindow/ApplicationSettingsWindow.png)
+![assets/img/ClientUserSettingsWindow/ClientUserSettingsWindow.png](../../assets/img/ClientUserSettingsWindow/ClientUserSettingsWindow.png)
 
-This view has a couple of tabs, with [Application Filters](ApplicationSettingsWindow/ApplicationFilters.md) as opened tab when you open the window.
-
-
-See each tab for more info:
-## Tabs
- - [Application Filters Tab](ApplicationSettingsWindow/ApplicationFilters.md)
- - [Profiler settings Tab](ApplicationSettingsWindow/ProfilerSettings.md)
-
+This view stores all the settings that are directly bound to an application. This view contains all the settings as described on [here](clientusersettingswindow.md#profiler-settings).
 
 # Application Breadcrumbs: 
 - [Splashscreen](Splashscreen.md) / [Main Menu - Applications](mainwindow/application.md) / [Main Menu - Instances](mainwindow/applicationInstance.md) /

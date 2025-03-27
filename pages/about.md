@@ -4,18 +4,16 @@ permalink: /about/
 ---
 
 # About Us
-We are CodeGlass, an ambitious startup company based in the Netherlands to make the best next-generation profilers and tooling available to and for everyone.
+We're CodeGlass, an ambitious startup based in the Netherlands, dedicated to building the ultimate next-generation profiler and tooling — accessible to everyone.
 
-
-We are currently exceeding on many fronts with the current version of CodeGlass; however, many are still on its roadmap that we will make with your support.
+We’re already making significant strides with the current version of CodeGlass, but there’s still much more on our roadmap. With your support, we’ll bring those ideas to life.
 
 
 ## Our Vision.
-Creating the best solution together with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.
-
+To develop the best solution in full transparency, free from marketing gimmicks, making it truly available to all. 
 
 ## Open Source promise
-CodeGlass is not open-source. However, suppose it would ever happen that there is nobody to support CodeGlass anymore. In that case, we will make its source code available to everyone for free, so someone else can learn from it, and you do not have to worry about not being able to use it anymore.
+While CodeGlass isn’t open-source, if the day ever comes when no one is left to support it, we’ll release the source code for free. That way, others can learn from it, and you won’t have to worry about losing access.
 <br/><br/>
 
 # Support and Contact

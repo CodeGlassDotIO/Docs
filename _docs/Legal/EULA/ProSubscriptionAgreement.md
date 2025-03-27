@@ -4,7 +4,7 @@ description: The legal mumbo jumbo for the pro subscription.
 ---
 
 # Pro Subscription Agreement
-*Version 2, effective as of June, 2023*
+*Version 3, effective as of August, 2023*
 
 
 IMPORTANT! PLEASE READ THIS AGREEMENT CAREFULLY.
@@ -16,7 +16,7 @@ CodeGlass BV and Customer may each also be referred to individually as a “Part
 # 1. PARTIES
 1.1. “Customer” or “you” means the individual specified in the Subscription Confirmation who is at least 13 years old. For the avoidance of doubt, Customer is a natural person and not a corporation, company, partnership, association, or other entity or organization.
 
-1.2. “CodeGlass BV” or “we” means Codevlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
+1.2. “CodeGlass BV” or “we” means CodeGlass BV. having its principal place of business at Baarslagweg 1, 7722HN Dalfsen, in the Netherlands, registerd at the legal registered company at the Netherlands chamber of commerce under number  89866975
 
 # 2. DEFINITIONS
 2.1. “Affiliate” means, with respect to any Party, any entity that directly, or indirectly through one or more intermediaries, controls, is controlled by, or is under common control of such Party; “control” for such purposes means the possession, direct or indirect, of the power to direct or affect the direction of the management and policies of a person or entity, whether through the ownership of voting securities, by contract, or otherwise.
@@ -66,7 +66,7 @@ CodeGlass BV and Customer may each also be referred to individually as a “Part
 
 3.3. Removed.
 
-3.4. This subscription is only for natural persons who are purchasing a subscription to Products using only their own funds however Customer may receive reimbursement for those fees from any third party.
+3.4. This subscription is only for natural persons who are purchasing a subscription to Products using only their own funds and the Customer may not receive reimbursement for those fees from any third party.
 
 3.5. Customer acknowledges that no ownership rights are conveyed to you, irrespective of the use of terms such as ‘purchase’ or ‘sale’. CodeGlass BV has and retains all rights, title, and interest, including all intellectual property rights, in and to the Products, any and all related or underlying technology, and any modifications or derivative works of the Products, including without limitation as they may incorporate Feedback (as defined below).
 
@@ -101,7 +101,7 @@ The Products include code and libraries licensed to us by third parties, includi
 9.1. TO THE MAXIMUM EXTENT EMPOWERED BY APPLICABLE LAW, IN NO EVENT WILL CODEGLASS PARTIES BE LIABLE TO CUSTOMER, CUSTOMER'S AFFILIATES, AUTHORIZED USERS, OR ANYONE ELSE FOR:
      (A) ANY LOSS OF USE, DATA, GOODWILL, OR PROFITS, WHETHER OR NOT FORESEEABLE; 
      (B) ANY LOSS OR DAMAGES IN CONNECTION WITH TERMINATION OR SUSPENSION OF CUSTOMER'S ACCESS TO THE PRODUCTS IN ACCORDANCE WITH THIS AGREEMENT; OR 
-     (C) ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES WHATSOEVER (EVEN IF THE RELEVANT JETBRAINS PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), INCLUDING THOSE (X) RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT THEY ARE FORESEEABLE, (Y) BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, STRICT LIABILITY, NEGLIGENCE, OR OTHER TORTIOUS ACTION, OR (Z) ARISING FROM ANY OTHER CLAIM ARISING OUT OF OR IN CONNECTION WITH CUSTOMER'S USE OF OR ACCESS TO THE PRODUCTS OR SUPPORT. THIS LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
+     (C) ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES WHATSOEVER (EVEN IF THE RELEVANT CODEGLASS PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), INCLUDING THOSE (X) RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT THEY ARE FORESEEABLE, (Y) BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, STRICT LIABILITY, NEGLIGENCE, OR OTHER TORTIOUS ACTION, OR (Z) ARISING FROM ANY OTHER CLAIM ARISING OUT OF OR IN CONNECTION WITH CUSTOMER'S USE OF OR ACCESS TO THE PRODUCTS OR SUPPORT. THIS LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
 
 9.2. THE TOTAL LIABILITY OF THE CODEGLASS PARTIES IN ANY MATTER ARISING OUT OF OR IN RELATION TO THIS AGREEMENT IS LIMITED TO TEN (10) US DOLLARS. THIS LIMITATION WILL APPLY EVEN IF THE CODEGLASS PARTIES HAVE BEEN ADVISED OF THE POSSIBILITY OF LIABILITY EXCEEDING SUCH AN AMOUNT AND NOTWITHSTANDING ANY FAILURE OF THE ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
 
@@ -205,6 +205,6 @@ The Products include code and libraries licensed to us by third parties, includi
 
 15.14. <b>Children and minors.</b> If You are under 18 years old, then by entering into this Agreement you explicitly stipulate that (i) you have legal capacity to conclude this Agreement or that you have valid consent from a parent or legal guardian to do so and (ii) you understand the CodeGlass Privacy Policy available at: [https://codeglassdotio.github.io/Docs/docs/Legal/Privacy](../Privacy.md). You may not enter into this Agreement if you are under 13 years old. IF YOU DO NOT UNDERSTAND THIS SECTION, DO NOT UNDERSTAND THE CODEGLASS PRIVACY POLICY, OR DO NOT KNOW WHETHER YOU HAVE THE LEGAL CAPACITY TO ACCEPT THESE TERMS, PLEASE ASK YOUR PARENT OR LEGAL GUARDIAN FOR HELP.
 
-The previous version of this agreement is available in git at [{{ site.repo }}/commits/master/_docs/Legal/EULA/EnthusiastSubscriptionAgreement.md]({{ site.repo }}/commits/master/_docs/Legal/EULA/EnthusiastSubscriptionAgreement.md).
+The previous version of this agreement is available in git at [{{ site.repo }}/commits/master/_docs/Legal/EULA/ProSubscriptionAgreement.md]({{ site.repo }}/commits/master/_docs/Legal/EULA/ProSubscriptionAgreement.md).
 
 For further information, please contact us at support@codeglass.io.

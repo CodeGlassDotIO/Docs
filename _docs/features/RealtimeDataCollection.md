@@ -1,69 +1,101 @@
 ---
-title: Feature - Real-time profiling and data collection
+title: Feature - Real-Time Profiling and Data Collection
 description: The real-time data collection of CodeGlass instead of logging.
 ---
-# Realtime Profiling and Data Collection
-Code Glass is the first and only program that allows you to profile and use this data in real-time! 
+# Real-Time Profiling and Data Collection
+What sets CodeGlass apart from many other profilers is its ability to capture and use profiling data in real time. Instead of waiting for a recorded log file, you get immediate access to live data as your application runs.
 
-Code Glass collects the data in real-time, including a real-time [callstack](#callstack) and [statistics](#statistics). It makes this data accessible to the user through the [client](CodeGlassClient.md), where all other profilers record it to some log file that you get access to after you finish recording.
+CodeGlass continuously collects real-time data, including a live [call stack](#callstack) and [statistics](#statistics). This information is instantly available through our [client](CodeGlassClient.md). While traditional profilers require you to stop and analyze logs afterward, CodeGlass gives you insights as it is happening.
 
-The real-time data means that with Code Glass, you can press a button, call the API, enter a command, etc., on the profiled application and immediately see in Code Glass what happened with your application.
+With real-time data, you can interact with your application—press a button, call an API, or execute a command—and immediately see what happens inside. This helps you quickly identify unresponsive behavior, race conditions, or other performance issues using one of our [real-time renderers](RealtimeRendering.md).
 
-It can show you why your application is unresponsive at this moment, where a racing condition occurred, or what else it is doing through [real-time rendering](RealtimeRendering.md)
-And so much more as it is one of the core components that makes Code Glass Special.
+Despite its continuous data collection, CodeGlass keeps overhead low to ensure the application remains usable. However, we recommend configuring [profiling data filters](ProfilingDataFiltering.md) to optimize performance.
 
+Unlike sampling profilers, CodeGlass captures every function call without missing anything. Calls can be skipped only if they are specifically excluded using a [start filter](ProfilingDataFiltering.md#application-instance-start-filters).
 
-It does this all without such an overhead that the profiled application becomes unusable, though we recommend settings up [profiling data filters](ProfilingDataFiltering.md) to improve performance.
+You can also temporarily pause data collection using the profiler’s [Soft Off](ApplicationInstanceExecutionControl.md#soft-off) mode, allowing your application to run with nearly full performance.
 
-It is also not sampling, so it will never miss a call. However, it skips a call if you have it as a [start filter](profilingdatafiltering.md#application-instance-start-filters)
-
-It is also possible to temporarily stop data collection by setting the profiler [Soft off](ApplicationInstanceExecutionControl.md#soft-off), which causes the application to run at nearly complete performance.
-
-
-The Prominent data we collect in realtime currently is:
+The prominent data we collect in realtime currently are:
 - The [callstack](#callstack)
 - All kind of [statistics](#statistics)
 - All [exceptions](#exceptions)
+- All [memory allocations and deallocations (experimental)](#memory)
+- All [garbage collection invocations (experimental)](#garbage-collection-invocations)
 
-## Callstack
-We collect the application's call stack in real-time, or more specific: every change to the call stack, be it a call, return, or tail call.
+## Call Stack
+CodeGlass collects the application's call stack in real time, capturing every change, bit it a function call, a return, or tail calls.
 
-It is not sampling, so it will not miss a call; it, however, can skip a call if you have it as a [start filter](profilingdatafiltering.md#application-instance-start-filters)
+Unlike sampling profilers, CodeGlass does not miss any calls. However, calls can be skipped if they are excluded using a [start filter](ProfilingDataFiltering.md#application-instance-start-filters).
 
-This data is primarely used for our [realtime rendering](RealtimeRendering.md) and [code body reconstruction](CodeBodyReconstruction.md) feature.
+This data is primarily used for our [realtime rendering](RealtimeRendering.md) and [code body reconstruction](CodeBodyReconstruction.md) feature.
 
 ## Statistics
 We collect all kinds of statistics in real-time; these include but are not limited to:
 
-- CPU, the percentage of CPU usage
+- CPU, the percentage of CPU usage.
 - Memory, the amount of memory in use.
-- Active Calls, The number of active calls under one item
-- Active Threads, The number of active threads under one item <br/>
-- Total Calls, The number of total calls made while profiling under one item.
-- Total Call Duration, the total amount of [messured time](#time-messurement) spent under one item
-- AVG, the average amount of [messured time](#time-messurement) spend under one item
-- Longest Call, the longest [messured time](#time-messurement) spend under one item
-- Shortest Call, the shortest [messured time](#time-messurement) spend under one item
-- Δ Calls, Amount of calls Last second under one item
-- Δ Duration, the amount of [messured time](#time-messurement) spend last second under one item
+- Active Calls, the number of active calls in a class, namespace or function.
+- Active Threads, the number of active threads in a class, namespace or function. <br/>
+- Total Calls, the total number of calls made to a function.
+- Total Call Duration, the total amount of [measured time](#time-measurement) spent in a function.
+- AVG, the average amount of [measured time](#time-measurement) spend in a function.
+- Longest Call, the longest [measured time](#time-measurement) spend in a function.
+- Shortest Call, the shortest [measured time](#time-measurement) spend in a function.
+- Δ Calls, amount of calls that were made to a function in the last second.
+- Δ Duration, the amount of [measured time](#time-measurement) spend in a function in the last second.
 
+
+<br>
+
+![assets/img/ApplicationInstanceWindow/StatisticsWindow.png](../../assets/img/ApplicationInstanceWindow/StatisticsWindow.png)
 When you double-click an item in the tree view, it will open the [Object Details View](../views/ApplicationInstanceDockWindow/ObjectDetailsView.md) or [Function Details View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md) of the selected item.
 
-### Time messurement
-To get more information on how we messure time, see [Feature - Time Messurement](TimeMessurement.md)
+### Time Measurement
+To get more information on how we measure time, see [Feature - Time Measurement](TimeMessurement.md)
 
 ## Exceptions
-We currently collect any exceptions that occur in your application, even if you don't catch them. 
-With the exception, we also collect the unrolled stack till it found a catch block and the [realtime collected callstack](#callstack), though this heavily depends on how you configured your [profiling data filters](ProfilingDataFiltering.md)
+CodeGlass captures all exceptions that occur in your application, even if they are not caught.
+Along with the exception, we collect the unrolled stack trace up to the nearest catch block, as well as the [real-time collected callstack](#call-stack). However, the level of detail depends on how you have configured your [profiling data filters](ProfilingDataFiltering.md).
 
 More information about our exception collection can be found at the [exceptions feature page](Exceptions)
+<br>
+
+![assets/img/ApplicationInstanceWindow/AppInstanceExceptionDetails.png](../../assets/img/ApplicationInstanceWindow/AppInstanceExceptionDetails.png)
 
 ## Memory
-We currently do not collect memory data (except total memory usage) in real-time; however, we will implement that in the future.
+Memory profiling is a new feature in CodeGlass and is still under development. Currently, it is available only as an experimental feature in our [Experimental Edition](../Editions/Experimental.md) and supports a limited number of [supported runtimes](supportedruntimes.md).
 
+We collect various memory related data, including:
+- Total allocations, the number of times an object was allocated.
+- Total bytes allocated, the total memory allocated by an object.
+- Total deallocations, the number of times an object was deallocated.
+- Total bytes deallocated, the total memory freed from deallocations.
+
+Besides showing you the objects that consume a lot of memory, CodeGlass also tracks which functions allocated them, how often they were allocated, and the exact points within the function body these allocations occurred.
+
+More information about our memory profiler can be found at the [memory profiling feature page](MemoryProfiling)
+<br>
+
+![assets/img/ApplicationInstanceWindow/MemoryStatisticsOverview.png](../../assets/img/ApplicationInstanceWindow/MemoryStatisticsOverview.png)
+
+## Garbage Collection Invocations
+Garbage collection invocations is a new feature in CodeGlass and is still under development. Currently, it is available only as an experimental feature in our [Experimental Edition](../Editions/Experimental.md) and at this point it is only supported by the [Julia runtime](supportedruntimes.md#julia).
+
+If your applications creates a lot of memory, garbage collection can take a lot of time and significantly slow your application down. To be able to track these kind of issues down CodeGlass will track every garbage collection that gets triggered by your application. 
+
+We collect various garbage collection related data, including:
+- The function that triggered the garbage collection.
+- How long it took to execute garbage collection.
+- How much memory was deallocated during this garbage collection.
+- Every object that was deallocated and the function that that piece of memory was originally allocated in.
+
+More information about garbage collection information can be found at the [garbage collection feature page](GarbageCollection)
+<br>
+
+![assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png](../../assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png)
 
 # See Also:
 - [Feature - Realtime Rendering](RealtimeRendering.md)
 - [Feature - Execution Control](ApplicationInstanceExecutionControl.md)
-- [Feature - Code Glass Client](CodeGlassClient.md)
+- [Feature - CodeGlass Client](CodeGlassClient.md)
 - [Feature - Profiling Data Filtering](ProfilingDataFiltering.md)
