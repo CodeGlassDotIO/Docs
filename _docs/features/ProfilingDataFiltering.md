@@ -214,14 +214,14 @@ This group will grow over time, and if you have recommendations for default name
 ## User Global Filters
 The user global filters group is the filters of the current [user](../Others/Account.md) on the current [hub](CodeGlassHub.md); these filters act as a template for [new applications](../views/mainwindow/newapplication.md).
 
-You can manage these filters from the [global filters view](../views/clientusersettingswindow/globalfilters.md)
+You can manage these filters from the [global filters view](../views/clientusersettingswindow.md#global-filters)
 
 
 
 ## Application Filters
 The application filters group are filters of an [application](../views/mainwindow/application.md) and is used as a template for new [application instances](../views/mainwindow/applicationInstance.md)
 
-You can manage these filters from the [application filters view](../views/ApplicationSettingsWindow/ApplicationFilters.md) 
+You can manage these filters from the [application filters view](../views/ApplicationSettingsWindow#application-filters) 
 
 
 
@@ -230,14 +230,14 @@ The application instance start filters group is a special group that you can't m
 
 The reason why you can't change or manage them is that all supported [profilers](CodeGlassProfilers.md) do not allow you to change what you want and do not want to collect after the [data items](#data-item) is loaded for the first time.
 
-You can view the current start filters of an application instance in the [application instance settings window](../views/ApplicationInstanceSettingsWindow/StartFilters.md)
+You can view the current start filters of an application instance in the [application instance settings window](../views/ApplicationInstanceSettingsWindow.md#start-filters)
 
 
 ## Application Instance Filters
 The application instance filters group are the current filters of an [application instance](../views/ApplicationInstanceDockWindow.md). These filters are used to filter [data items](#data-item) visually instead of preventing them from being profiled in the first place. 
 
 You can manage these from various places, including:
-- [Application Instance Settings Window](../views/ApplicationInstanceSettingsWindow/Filters.md)
+- [Application Instance Settings Window](../views/ApplicationInstanceSettingsWindow.md#filters)
 - [Application Explorer Tool Window](../views/ApplicationInstanceDockWindow/ApplicationExplorer.md) 
 - [Application Instance statistics window](../views/ApplicationInstanceDockWindow/StatisticsWindow.md)
 - [Application Instance Heatmap rendering](../views/ApplicationInstanceDockWindow/CodeHeatMap.md)
@@ -277,8 +277,8 @@ We mean anything our profiler can stumble upon with data items, like modules, na
 Data items can also be already known by previous [application instances](../views/mainwindow/applicationInstance.md) or [decompilations](Decompilation.md) if the view allows it. 
 
 # Views Using This Feature
- - [Global Filters](../views/clientusersettingswindow/globalfilters.md)
- - [Application Filters](../views/ApplicationSettingsWindow/ApplicationFilters.md)
+ - [Global Filters](../views/clientusersettingswindow.md#global-filters)
+ - [Application Filters](../views/ApplicationSettingsWindow#application-filters)
  - [Application Instance Window - File Menu](../views/ApplicationInstanceDockWindow/MenuBar.md#file-menu)
  - [Application Explorer](../views/ApplicationInstanceDockWindow/ApplicationExplorer.md)
  - [Realtime Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md)

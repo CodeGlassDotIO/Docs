@@ -221,7 +221,7 @@
           url: "docs/views/mainwindow/applicationinstance"
         - title: New Application
           url: "docs/views/mainwindow/newapplication"
-    - title: "Client & Hub settings"
+    - title: "Global Settings"
       url: "docs/views/clientusersettingswindow"
       children:
         - title: Global Filters
@@ -234,6 +234,17 @@
           url: "docs/views/clientusersettingswindow#hub-settings"
     - title: "Application Settings"
       url: "docs/views/ApplicationSettingsWindow"
+      children:
+        - title: Application Filters
+          url: "docs/views/ApplicationSettingsWindow#application-filters"
+        - title: Application Start Settings
+          url: "docs/views/ApplicationSettingsWindow#application-start-settings"
+        - title: Profiler Optimization Settings
+          url: "docs/views/ApplicationSettingsWindow#profiler-optimizations-settings"
+        - title: Exception Settings
+          url: "docs/views/ApplicationSettingsWindow#exception-settings"
+        - title: Callstack Settings
+          url: "docs/views/ApplicationSettingsWindow#callstack-settings"
     - title: "Application Instance Window"
       url: "docs/views/ApplicationInstanceDockWindow"
       children:

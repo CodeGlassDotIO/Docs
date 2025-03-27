@@ -1,6 +1,6 @@
 ---
 title: View - Application Instance Settings Window
-description: Settings of an application instance you are or had profiled.
+description: Settings of an application instance you are profiling or have profiled.
 ---
 # Application Instance Settings Window
 ![assets/img/AppInstanceSettingsWindow/AppInstanceSettingsWindow.png](../../assets/img/AppInstanceSettingsWindow/AppInstanceSettingsWindow.png)
@@ -8,10 +8,9 @@ description: Settings of an application instance you are or had profiled.
 This view contains all the settings that apply to this application instance. Here you can see things like the start filters of the instance or the filters that are currently applied. Here you can also see some general information about the instance.
 
 ## Start Filters
-In start filter section you can see the filters that were used at the start of the instance, for more information on this type of filter see [feature - application instance start filters](../features/ProfilingDataFiltering.md#application-instance-start-filters)
+In start filter section you can see the filters that were used at the start of the instance, for more information on this type of filter see [application instance start filters](../features/ProfilingDataFiltering.md#application-instance-start-filters)
 
 To see how your filters are behaving it loads in data from previously run instances, if you do not want to first run your application you can choose to [decompile](#decompilation) the application.
-
 
 ## Filters
 In the filters section you can manage the [application instance filters](../features/ProfilingDataFiltering.md#application-instance-filters) that are currently used for the application instance.
