@@ -1,12 +1,12 @@
 ---
 title: View - Application Instance - Allocated by Code Path Memory Statistics View
-description: The profiling statistics of a (previously) profiled application.
+description: The profiling memory statistics of a profiled application by code path.
 ---
 
 # Allocated by Code Path Memory Statistics View
 ![assets/img/ApplicationInstanceWindow/AllocatedByCodePathMemoryStatsWindow.png](../../../assets/img/ApplicationInstanceWindow/AllocatedByCodePathMemoryStatsWindow.png)
 
-This view shows all the function that have allocated this specific object. The nested function shows the code path that caused the object to get allocated.
+This view shows all the function that have allocated this specific object. The nested functions shows between which function calls, in the body of the parent function, the object was allocated.
 
 {% include MemoryStatistics/BasicMemoryStatisticsExplaination.md %}
 
