@@ -33,8 +33,8 @@ Most of the settings are quite self explanatory.
 
 You can choose to save these settings as your new default for heat map rendering or only for this heat map.
 
-# Application Breadcrumbs
-- [Application Instance Window](../ApplicationInstanceDockWindow.md) / [View Menu](../ApplicationInstanceDockWindow/MenuBar.md#view-menu) / 
+<!-- # Application Breadcrumbs
+- [Application Instance Window](../ApplicationInstanceDockWindow.md) / [View Menu](../ApplicationInstanceDockWindow/MenuBar.md#view-menu) /  -->
 
 
 # See Also

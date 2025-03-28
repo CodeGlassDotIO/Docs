@@ -23,7 +23,7 @@ With the toolbar you can do the following:
 - [Steps Over](../../features/ApplicationInstanceStepping#step-over) (F10) the next function
 - [Steps Out](../../features/ApplicationInstanceStepping#step-out) (Shift + F11) the current function 
 {% endif %}
-- Search bar to search for methods by their name. Clicking on the search result will move the renderer to this method. By default you can only search for items within your rendering view.
+- Search bar to search for methods by their name (Ctrl + F). Clicking on the search result will move the renderer to this method. By default you can only search for items within your rendering view.
 - Prev and Next. These buttons behave different based if the "stepping in history" toggle is enabled. If this toggle is not enabled, Prev and Next will jump between occurrences of the searched method within the rendering view. If "stepping in history" is enabled, Prev and Next will jump in the callstack towards the searched method.
 - Toggling this button allows you to search for methods in history. This allows you to search for methods that are not in the rendering view right now.
 - Toggling this button enables "stepping in history".

@@ -19,6 +19,7 @@ This view shows you data from the thrown exception, this includes:
 - The exception type
 - When the exception occurred.
 - What function threw the exception.
+- Where in the function the exception was thrown.
 - What function caught the exception.
 - The call stack that got unwound when the exception happened.
 - The [collected call stack](../../features/RealtimeDataCollection.md#callstack) of the remaining stack after it was caught.
@@ -63,5 +64,5 @@ You can choose to save these settings as your new default for new renders or onl
 {% include Rendering/ThreadsAndColoring.md %}
 
 
-# Application Breadcrumbs
-- [Exception Explorer](ExceptionExplorer.md) / 
+<!-- # Application Breadcrumbs
+- [Exception Explorer](ExceptionExplorer.md) /  -->
