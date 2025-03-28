@@ -14,7 +14,7 @@ So we made this page to clarify why there are standard decompilation libraries i
 We wanted to make this page as we want to be transparent with everything CodeGlass does, and we can imagine that people might get anxious when they see standard decompilation libraries in our assembly.
 And that the use-case we use it for here is very useful.
 
-We only use decompilation when the user presses the decompilation buttons in [application filter views](../views/ApplicationSettingsWindow/ApplicationFilters.md#decompilation). You supply data for the [profiling data filtering feature](ProfilingDataFiltering.md) with this.
+We only use decompilation when the user presses the decompilation buttons in [application filter views](../views/ApplicationSettingsWindow#decompilation). You supply data for the [profiling data filtering feature](ProfilingDataFiltering.md) with this.
 Then you do not have to run the application first and maybe a while to get the data you want to filter.
 Decompilation can be very helpful, especially in cases where you do not want to run it the first time (like solving bugs that only happen at first launch after installation).
 
@@ -25,6 +25,5 @@ Of course, you have to take our word for it, and we hope that is enough. However
 
 # See Also:
 - [Profiling data filtering](ProfilingDataFiltering.md)
-- [View - Application Filters](../views/ApplicationSettingsWindow/ApplicationFilters.md)
-
+- [View - Application Filters](../views/ApplicationSettingsWindow.md#application-filters)
 

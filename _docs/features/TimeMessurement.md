@@ -6,7 +6,7 @@ description: How CodeGlass Measures time.
 We measure time in our application in Ticks; this is the smallest amount of time measurement you can currently get on a pc without specialized hardware.
 
 How long a tick is might differ per CPU and vary each time you start your PC.
-You can see how long a tick is for each application instance in [view - application instance information](../views/ApplicationInstanceSettingsWindow/Information.md#tick-duration)
+You can see how long a tick is for each application instance in [view - application instance information](../views/ApplicationInstanceSettingsWindow.md#tick-duration)
 
 
 Take note we are not talking about [DateTime.Ticks](https://docs.microsoft.com/en-us/dotnet/api/system.datetime.ticks) but we are talking about [low-level hardware clock ticks](https://docs.microsoft.com/en-us/windows/win32/sysinfo/acquiring-high-resolution-time-stamps#low-level-hardware-clock-characteristics)
@@ -35,4 +35,4 @@ We will support other time measurements like [CPU clock](../Roadmap/CpuClock.md)
 - [Roadmap - CPU Clock](../Roadmap/CpuClock.md)
 - [Feature - Stepping](ApplicationInstanceStepping.md)
 - [Feature - Execution Control](ApplicationInstanceExecutionControl.md)
-- [View - application instance information](../views/ApplicationInstanceSettingsWindow/Information.md)
+- [View - application instance information](../views/ApplicationInstanceSettingsWindow.md#information)

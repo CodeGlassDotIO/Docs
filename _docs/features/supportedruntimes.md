@@ -99,9 +99,9 @@ The Visual Studio "runtime" allow you to profile supported runtime applications 
 
 
 ### Requirements
-- Devenv.exe is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md)
+- Devenv.exe is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings)
 - Requires the build folder to be in the same or the subfolder of the solution
-- ASP.NET Framework specific requirement: iisexpress.exe x86 path is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md) or enforce using x64 IIS Express in the Visual Studio Settings.
+- ASP.NET Framework specific requirement: iisexpress.exe x86 path is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings) or enforce using x64 IIS Express in the Visual Studio Settings.
 
 
 ### Known Issues
@@ -145,7 +145,7 @@ It is currently in the early stages. Please check back when we release it to Pro
 
 ### Requirements
 - CodeGlass Chromium Browser is installed (optional install option in the [CodeGlass Installer](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases){:target="_blank"}).
-- CodeGlass Browser path is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md)
+- CodeGlass Browser path is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings)
 
 ### Known Issues
 - Security sanbox is disabled, we had fixed this but it broke again when we updated chromium.
@@ -172,7 +172,7 @@ The Julia runtime allows you to profile your Julia applications. You can profile
 
 ### Requirements
 - CodeGlass Julia is installed using the provided installer. The installer can be found [here](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases){:target="_blank"} when it has been released.
-- CodeGlass Julia path is set in the [Client settings view](../views/clientusersettingswindow/ClientSettings.md)
+- CodeGlass Julia path is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings)
 
 ### Known Issues
 - It is not possible to set any [filters](ProfilingDataFiltering.md). This is due to a bug in how we track exceptions in Julia. We are working on making filtering possible again.
@@ -205,5 +205,5 @@ The Java runtime allows you to profile your Java applications. You can profile .
 
 # See Also:
  - [View - Add new Application](../views/mainwindow/newapplication.md)
- - [View - Client settings](../views/clientusersettingswindow/ClientSettings.md)
+ - [View - Client settings](../views/clientusersettingswindow.md#client-settings)
  - [Roadmap - Non .NET Profiler](../Roadmap/NonDotNetProfiler.md)

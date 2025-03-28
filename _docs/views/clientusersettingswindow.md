@@ -1,8 +1,8 @@
 ---
-title: View - Client & user settings
-description: Settings of the client & user.
+title: View - Global Settings
+description: Global settings.
 ---
-# Client, Hub & User Settings Window
+# Global Settings Window
 
 This view contains all the global settings of CodeGlass. In this window you can set settings that apply as a template for all future applications you add, but it also contains some general settings.
 
@@ -27,25 +27,23 @@ By pressing the "Create new filter" button you open the add global filter window
 ## Profiler Settings
 ![assets/img/ClientUserSettingsWindow/GlobalProfilingSettings.png](../../assets/img/ClientUserSettingsWindow/GlobalProfilingSettings.png)
 
-The settings defined here are used as template for new applications, each setting is detailed below.
-
-{% include ProfilerSettings/BasicProfilerSettingsViewExplaination.md  %}
+These profiler settings are the the same as the [application settings](ApplicationSettingsWindow.md) and are explained in more detail there.
 
 ## Client Settings
 In the client settings you can set the path to different important locations, such as the path to custom CodeGlass runtimes.
 
 ![assets/img/ClientUserSettingsWindow/ClientSettings.png](../../assets/img/ClientUserSettingsWindow/ClientSettings.png)
 
-For a list of possible locations where a program can be stored, look [here](clientusersettingswindow/ClientSettings.md).
+For a list of possible locations where a program can be stored, look [here](clientusersettingswindow/CodeGlassPathSettings.md).
 
 ## Hub Settings
-Right now there is only one hub specific setting. This is the option on if you want to shut the hub down if there are no [clients](../features/CodeGlassClient.md) or [profilers](../features/CodeGlassProfilers.md) connected to it anymore.
+Right now there is only one hub specific setting. This is the option for if you want to shut the hub down if there are no [clients](../features/CodeGlassClient.md) or [profilers](../features/CodeGlassProfilers.md) connected to it anymore.
 
 ![assets/img/ClientUserSettingsWindow/ClientSettingsHub.png](../../assets/img/ClientUserSettingsWindow/ClientSettingsHub.png)
 
-# Application Breadcrumbs: 
+<!-- # Application Breadcrumbs: 
 - [Splashscreen](Splashscreen.md) / [Main Menu](mainwindow.md)
-- [Splashscreen](Splashscreen.md) / [Main Menu - Applications](mainwindow/application.md) / [Main Menu - Instances](mainwindow/applicationInstance.md) /  [Application Instance Window](ApplicationInstanceDockWindow.md) / [File Menu](ApplicationInstanceDockWindow/MenuBar.md#file-menu) /
+- [Splashscreen](Splashscreen.md) / [Main Menu - Applications](mainwindow/application.md) / [Main Menu - Instances](mainwindow/applicationInstance.md) /  [Application Instance Window](ApplicationInstanceDockWindow.md) / [File Menu](ApplicationInstanceDockWindow/MenuBar.md#file-menu) / -->
 
 # See Also:
  - [Main Window](mainwindow.md)

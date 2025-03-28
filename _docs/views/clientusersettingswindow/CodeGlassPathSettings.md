@@ -1,6 +1,6 @@
 ---
-title: View - Client & User settings - Client Settings 
-description: The CodeGlass Client settings 
+title: View - CodeGlass Path Settings
+description: A list of all the possible paths for CodeGlass supported runtimes.
 doNotShow: true
 ---
 ![assets/img/ClientUserSettingsWindow/ClientSettings.png](../../../assets/img/ClientUserSettingsWindow/ClientSettings.png)
@@ -42,13 +42,6 @@ We automatically check the following locations to find CodeGlass Browser if it i
 
 
 
-# Application Breadcrumbs: 
-- [Splashscreen](../Splashscreen.md) / [Main Menu](../mainwindow.md) / [Client and user settings Window](../clientusersettingswindow.md)
-
-
 # See Also:
  - [Visual studio project Runtime](../../features/supportedruntimes.md#visual-studio-solution)
  - [Client and user settings Window](../clientusersettingswindow.md)
- - [Global Filters Tab](globalfilters.md)
- - [Profiler setting Tas](profilingsettings.md)
- - [Hub Settings Tab](HubSettings.md)
