@@ -16,9 +16,9 @@ For more information see [Feature - Profiling Snapshots](../../features/Profilin
 ## Execution control
 ![assets/img/ApplicationInstanceWindow/ToolbarExecutionControl.png](../../../assets/img/ApplicationInstanceWindow/ToolbarExecutionControl.png)
 - [Soft off](../../features/ApplicationInstanceExecutionControl.md#soft-off), disables the collection of data but keeps the application running.
-- [Continues](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the application when it is paused
+- [Continues](../../features/ApplicationInstanceExecutionControl.md#continue) the application when it is paused
 - [Throttle](../../features/ApplicationInstanceExecutionControl.md#throttle) the application to a specific fps (Functions per second)
-- [Pauses](../../features/ApplicationInstanceExecutionControl.md#pause--resume) the application when it is running or stops [stepping](../../features/ApplicationInstanceStepping.md)
+- [Pauses](../../features/ApplicationInstanceExecutionControl.md#pause) the application when it is running or stops [stepping](../../features/ApplicationInstanceStepping.md)
 - [Stops](../../features/ApplicationInstanceExecutionControl.md#stop) the application if it is not stopped yet.
 - [Restarts](../../features/ApplicationInstanceExecutionControl.md#restart) the application
 
@@ -40,6 +40,7 @@ For more information see [Feature - Application Instance Execution Control](../.
 - Opens the [statistics view](StatisticsWindow.md) in a new tab.
 - Opens the [call tree](CallTreeRendering.md) in a new tab.
 - Opens the [call stack](CallStackRendering.md) in a new tab.
+- Opens the [heat map](CodeHeatMap.md) in a new tab.
 
 For more information see [Feature - Realtime Rendering](../../features/RealtimeRendering.md)
 # See Also:

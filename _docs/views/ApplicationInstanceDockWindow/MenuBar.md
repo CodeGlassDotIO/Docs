@@ -8,7 +8,7 @@ description: The menu bar of the main application instance window.
 ## File Menu
 ![assets/img/ApplicationInstanceWindow/FileMenu.png](../../../assets/img/ApplicationInstanceWindow/FileMenu.png)
 ### New Instance
-Clicking here will bring up a sub-menu. Clicking on "Start new instance" will start the new instance and open a new [application instance window](../ApplicationInstanceDockWindow).
+Clicking here will bring up a sub-menu. Clicking on "Start new instance" will start the new instance and open a new [application instance window](../ApplicationInstanceDockWindow). It also closes the current instance.
 
 Double-clicking "New Instance" will directly start a new instance. 
 ### Open Instance
@@ -32,8 +32,8 @@ Shuts down the [CodeGlass client](../../features/CodeGlassClient.md)
 ### Main
 Opens the [main](MainWindow.md) window in a new tab or brings the tab to the foreground   
 
-### Console
-See [Roadmap - Remote Console](../../Roadmap/RemoteConsole.md)
+<!-- ### Console
+See [Roadmap - Remote Console](../../Roadmap/RemoteConsole.md) -->
 
 ### Statistics
 Opens the [statistics](StatisticsWindow.md) window in a new tab or brings it to the foreground   
@@ -91,7 +91,7 @@ Double clicking [throttle](../../features/ApplicationInstanceExecutionControl.md
 
 {% include ExecutionControl/ThrottleContextMenu.md %}
 
-### Console
+<!-- ### Console
 ![assets/img/ApplicationInstanceWindow/ProcessMenuConsole.png](../../../assets/img/ApplicationInstanceWindow/ProcessMenuConsole.png)
 
 Create, attach a new console to the application, and close the old one if it had one.
@@ -100,7 +100,7 @@ Create, attach a new console to the application, and close the old one if it had
 - Console Settings, opens or brings the console settings to the foreground.
 
 ## Bring to Front
-It brings the application to the front, if it is still running.
+It brings the application to the front, if it is still running. -->
 
 
 ### Step Into 
@@ -122,7 +122,7 @@ It brings the application to the front, if it is still running.
 [Steps back out](../../features/ApplicationInstanceStepping.md#step-back-out) (Ctrl + Shift + F11) the current function back to before the current function was called while the application is paused
 
 ### Instance Settings
-Opens or brings the [application instance settings window](../ApplicationInstanceSettingsWindow.md) to the foreground
+Opens [application instance settings window](../ApplicationInstanceSettingsWindow.md) or brings it to the foreground
 
 ## Help Menu
 ![assets/img/ApplicationInstanceWindow/AppInstanceHelpMenu.png](../../../assets/img/ApplicationInstanceWindow/AppInstanceHelpMenu.png)
