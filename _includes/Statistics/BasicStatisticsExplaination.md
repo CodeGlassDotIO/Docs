@@ -9,6 +9,6 @@ In the toolbar, you have multiple buttons. Each of them are described below.
 - Open the snapshot menu.
 - Toggle showing memory statistics in the tree view (this options is automatically enabled if you have memory profiling enabled).
 
-Below all these buttons, there is a search bar. Here you search for method using its name. When you select one of the suggestions, it will automatically expand the tree view until the searched method.
+Below all these buttons, there is a search bar (Ctrl + F). Here you search for method using its name. When you select one of the suggestions, it will automatically expand the tree view until the searched method.
 
 {% include Statistics/BasicStatisticsColumnExplaination.md %}
