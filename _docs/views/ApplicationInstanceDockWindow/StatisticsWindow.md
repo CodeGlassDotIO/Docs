@@ -16,5 +16,5 @@ In this view you can choose to toggle the visibility of the memory statistics by
 - [Application Instance Window](../ApplicationInstanceDockWindow.md)
 - [Object Details View](ObjectDetailsView.md)
 - [Function Details View](CodeMemberDetailsView.md)
-- [Feature - Time Messurement](../../features/TimeMessurement.md)
+- [Feature - Time Measurement](../../features/TimeMessurement.md)
 - [Feature - Profiling data filtering](../../features/ProfilingDataFiltering.md)

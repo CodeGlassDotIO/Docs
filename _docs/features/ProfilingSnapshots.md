@@ -14,12 +14,12 @@ Below are some examples how you can use this function.
 
 ### Feature That Used to Work
 You created a snapshot of a specific feature of your application. 
-After an update that feature stats to fail, now you can replay that snapshot  to see what is different between the working state and current state.
+After an update that feature starts to fail, now you can replay that snapshot to see what is different between the working state and current state.
 
 
 ### Issue Only Happens on Specific PC.
 Your application fails on a specific pc, like on one of a customer.
-You create a snapshot of the application on their pc and then takes that snapshot to your pc and compare what your pc does and their snapshot. 
+You create a snapshot of the application on their pc and then take that snapshot to your pc. There you compare what your pc does with their snapshot. 
 
 You can also read the above as the famous "it works on my pc" one. 
 
