@@ -19,7 +19,7 @@ After an update that feature starts to fail, now you can replay that snapshot to
 
 ### Issue Only Happens on Specific PC.
 Your application fails on a specific pc, like on one of a customer.
-You create a snapshot of the application on their pc and then take that snapshot to your pc. There you compare what your pc does with their snapshot. 
+You create a snapshot of the application on their pc and then take that snapshot to your pc. There you compare the execution flow on your pc with the execution flow in their snapshot. 
 
 You can also read the above as the famous "it works on my pc" one. 
 
