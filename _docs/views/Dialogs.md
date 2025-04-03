@@ -96,3 +96,12 @@ You can get this screen when you are trying to start an application that was reg
 Every if should have an else, even if we think that the else might never occur; in those cases, we show this dialogue.
 
 If you ever get this dialog, please report it with a screenshot and how you triggered it.
+
+## Warning Dialogs
+
+#### Force Garbage Collection Warning
+![assets/img/Dialogs/Dialogs_ForceGCWarning.png](../../assets/img/Dialogs/Dialogs_ForceGCWarning.png)
+
+You can get this dialog when you try to force the garbage collection to run while your application is in a paused state. Here you can choose to either cancel or force the garbage collection anyways. When you cancel nothing happens. When you force the garbage collection anyways CodeGlass first has to unpause your application to schedule the garbage collection. After that your application will be paused again.
+
+This unpausing is needed due to how garbage collection works. For garbage collection to work, the garbage collector needs to gain a "lock" on every executing thread. Because the application is paused, CodeGlass prevents some functions from continuing which prevents the garbage collector from gaining that lock. To bypass this problem CodeGlass needs to unpause your application and than schedule the garbage collector. This way it can get the locks on the executing threads. After the garbage collection has been scheduled CodeGlass re-pauses the application. This unpausing does have the downside that some new data will be send to CodeGlass during this unpaused moment. So keep in mind that your data might change when you force the garbage collection when in a paused state.
