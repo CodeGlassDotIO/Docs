@@ -7,7 +7,7 @@ You can also click the "Search Root Folder" button and decompile any decompilabl
 
 When you click on advanced you will get the following view:
 
-![assets/img/ApplicationSettingsWindow/ApplicationFiltersAdvanceDecompile.png](../../../assets/img/ApplicationSettingsWindow/ApplicationFiltersAdvanceDecompile.png)
+![assets/img/ApplicationSettingsWindow/ApplicationFiltersAdvanceDecompile.png](../../assets/img/ApplicationSettingsWindow/ApplicationFiltersAdvanceDecompile.png)
 
 Here you can select which files you would like to decompile.
 
