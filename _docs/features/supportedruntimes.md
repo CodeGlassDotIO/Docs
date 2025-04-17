@@ -108,7 +108,7 @@ At this moment we do not fully support profiling your application on an Azure Ap
 
 When setting the CG_IP variable, make sure that the device you are sending the data to can be reached by the App Service. If you are sending the data to a virtual machine that is also running in Azure, make sure that they are on the same VNet and use the internal IP address of that VM.
 
-CG_PORT is set to the default port that CodeGlass profiler use to communicate with to the hub. Make sure that the receiving device has this port open to receive TCP data.
+CG_PORT is set to the default port that CodeGlass profiler uses to communicate with to the hub. Make sure that the receiving device has this port open to receive TCP data.
 
 The CG_TOKEN can be found in the [start instructions](../views/mainwindow/applicationInstance.md#start-instructions) of CodeGlass. Make sure to copy the token from the CodeGlass instance that is running on the receiving device.
 
