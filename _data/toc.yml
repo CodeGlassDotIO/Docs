@@ -256,8 +256,8 @@
           url: "docs/views/ApplicationInstanceDockWindow/Toolbar"
         - title: Statistics View
           url: "docs/views/ApplicationInstanceDockWindow/StatisticsWindow"
-        - title: Statistics Snapshots View
-          url: "docs/views/ApplicationInstanceDockWindow/StatsSnapshotView"
+        - title: Statistics Recording View
+          url: "docs/views/ApplicationInstanceDockWindow/StatsRecordingView"
         - title: Memory Statistics View
           url: "docs/views/ApplicationInstanceDockWindow/MemoryStatisticsWindow"
         - title: Memory Allocations by CodePath View

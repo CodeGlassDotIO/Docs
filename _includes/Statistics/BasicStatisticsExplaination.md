@@ -6,7 +6,7 @@ In the toolbar, you have multiple buttons. Each of them are described below.
 - Show [application instance start filters](../../features/ProfilingDataFiltering#application-instance-start-filters).
 - Apply no filters.
 - Collapse all items in the tree view.
-- Open the [snapshot](../../views/applicationInstanceDockWindow/StatsSnapshotView) menu.
+- Open the [recording](../../views/applicationInstanceDockWindow/StatsRecordingView) menu.
 - Toggle showing memory statistics in the tree view (this options is automatically enabled if you have memory profiling enabled).
 - Force Garbage Collection allows you to force the garbage collection to run. (This option is grayed out if the integration does not support this feature.)
 
