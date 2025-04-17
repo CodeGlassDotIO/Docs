@@ -142,6 +142,8 @@
           url: "docs/features/supportedruntimes#aspnet-core"
         - title: Any .NET
           url: "docs/features/supportedruntimes#any-net"
+        - title: Azure App Service
+          url: "docs/features/supportedruntimes#azure-app-service"
         - title: Visual Studio Solution
           url: "docs/features/supportedruntimes#visual-studio-solution"
         - title: UWP

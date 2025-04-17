@@ -91,6 +91,29 @@ HKEY_CURRENT_USER\Environment\coreclr_profiler_path_32
 HKEY_CURRENT_USER\Environment\coreclr_profiler_path_64
 ```
 
+## Azure App Service
+At this moment we do not fully support profiling your application on an Azure App Service, but you can make it work. Below are the rough outlines of what you would need to do to set this up. If you have any questions please reach out and we are glad to help you.
+- Copy the CodeGlass profiler dll files into a folder in the project that you want to publish on Azure. Make sure to add them to your solution and that those files get copied to your build folder.
+- Publish your project to Azure.
+- In the Azure portal, go to the App Service that you just published. In the side bar, unfold "Settings" and click on "Environment variables".
+- In the environment variables add the following values (key, value). Make sure to check "Deployment slot settings" for all of these:
+    - CG_ENABLE, 1
+    - CORCLR_ENABLE_PROFILING, 1
+    - CORECLR_PROFILER, {2091c114-505f-51b5-8145-5eee1ed82fe1}
+    - CG_IP, {Ip address of the device you want to send the profiling data to}
+    - CG_PORT, 60341
+    - CG_TOKEN, {the CodeGlass token of the application you added in CodeGlass}
+    - CORCLR_PROFILER_PATH_64, {absolute path to the x64 version of the CodeGlass profiling dll}
+    - CORCLR_PROFILER_PATH_32, {absolute path to the Win32 version of the CodeGlass profiling dll}
+
+When setting the CG_IP variable, make sure that the device you are sending the data to can be reached by the App Service. If you are sending the data to a virtual machine that is also running in Azure, make sure that they are on the same VNet and use the internal IP address of that VM.
+
+CG_PORT is set to the default port that CodeGlass profiler uses to communicate with to the hub. Make sure that the receiving device has this port open to receive TCP data.
+
+The CG_TOKEN can be found in the [start instructions](../views/mainwindow/applicationInstance.md#start-instructions) of CodeGlass. Make sure to copy the token from the CodeGlass instance that is running on the receiving device.
+
+The profiler paths should be absolute paths to the dll. This most likely is something like: `C:\home\site\wwwroot\{folder you placed the profiler dlls in}`. If you are not sure what the first part of your path is like, you can open a "Console" in Azure. The starting directory is the first part of your path.
+
 ## Visual Studio Solution
 {% include alert.html  type="warning" title="Only available for experimental" content="This feature is still very experimental, therefor this is only available in the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
 {% include alert.html  type="success" title="JetBrains editors are also supported" content="If you want to use a JetBrains editor like Rider checkout <a href=\"JetbrainsEditors\" target=\"_blank\">this</a> page." %}
