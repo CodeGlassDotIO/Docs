@@ -16,14 +16,14 @@ In the toolbar, you have multiple buttons. Each of them are described below.
 - Show [application instance start filters](../../features/ProfilingDataFiltering#application-instance-start-filters).
 - Apply no filters.
 - Collapse all items in the tree view.
-- Open the recording side bar that gives an overview of all you recordings.
-- Stop recording. This stops the recording current snapshot.
-- Enable comparing recordings. Enabling this allows you to select a snapshot to compare to. This causes the statistics table to show relative statistics. For example, lets say we are comparing snapshot 1 with snapshot 2. If snapshot 1 takes 50 ms to execute a function, and snapshot 2 takes 150 ms. The table would show -100 ms, as the current snapshot is 100ms faster.
-- Stats recording to compare against. Here you can select the snapshot to compare to. This only affects the statistics table if "Enable comparing recordings" is enabled!
+- Open the recording side bar that gives an overview of all your recordings.
+- Stop recording. This stops the logging of data into the current recording.
+- Enable comparing recordings. Enabling this allows you to select a recording to compare to. This causes the statistics table to show relative statistics. For example, lets say we are comparing recording 1 with recording 2. If recording 1 takes 50 ms to execute a function, and recording 2 takes 150 ms. The table would show -100 ms, as the current recording is 100ms faster.
+- Stats recording to compare against. Here you can select the recording to compare to. This only affects the statistics table if "Enable comparing recordings" is enabled!
 
 Below all these buttons, there is a search bar (Ctrl + F). Here you search for method using its name. When you select one of the suggestions, it will automatically expand the tree view until the searched method.
 
-## Snapshots Statistics Difference
+## Recording Statistics Difference
 When comparing of recordings is enabled, you see the difference between the statistics of the current snapshot and the selected one.
 
 ![assets/img/ApplicationInstanceWindow/StatisticSnapshotComparison.png](../../../assets/img/ApplicationInstanceWindow/StatisticSnapshotComparison.png)
@@ -33,7 +33,7 @@ The statistics table shows both namespaces/classes and methods. Because a namesp
 
 Currently we have the following data sets in order that they appear:
 - Formatted Name, the name of the namespace, class or method.
-- Active Calls, the amount of function being called in this item.
+- Active Calls, the amount of function being called right now in this item.
 - Active Threads, the amount of active threads in this item.
 - Total Calls, the total amount of calls made in this item.
 - Exclusive Call, the total amount of [measured time](#time-measurement) spend in this item, excluding the duration of calls made in this item.
