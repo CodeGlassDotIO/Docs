@@ -10,7 +10,7 @@ See [Feature - Realtime Code Heat Map](../../features/RealtimeRendering.md#realt
 In the toolbar on top you can do multiple actions, in order they appear:
 - Dropdown to select which object types you want to see.
 - Dropdown to select which statistic you want to use
-- Icon button to reorder the render to sort the items by the selected statistic.
+- Icon button(sort) to automatically sort the render by the selected statistic, which is enabled by default.
 - Icon button to open the [heat map visible items tool pane](#heat-map-visible-items-tool-pane) (Visible on the left of the screenshot).
 - Icon button to reposition the screen to default zoom and position.
 - Icon button to open the [heat map settings window](#heat-map-settings-window).
