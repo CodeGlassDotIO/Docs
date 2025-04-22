@@ -8,7 +8,7 @@ It creates a copy of all information CodeGlass collected so you can compare diff
 
 You can even dump this information to a file to later reload (on a different [client](CodeGlassClient.md) / [hub](CodeGlassHub.md)) to replay that snapshot (By [realtime rendering](RealtimeRendering.md) and [stepping](ApplicationInstanceStepping.md) for example).
 
-Snapshot files (.cgf) can be assosiated with CodeGlass within the [Client Settings](../views/clientusersettingswindow.md#client-settings). This allows snapshot files to be open from the file explorer.
+Snapshot files (.cgf) can be associated with CodeGlass within the [Client Settings](../views/clientusersettingswindow.md#client-settings). This allows snapshot files to be opened from the file explorer.
 
 ## Use Cases
 Below are some examples how you can use this function. 
