@@ -241,6 +241,8 @@
           url: "docs/views/ApplicationSettingsWindow#application-start-settings"
         - title: Profiler Optimization Settings
           url: "docs/views/ApplicationSettingsWindow#profiler-optimizations-settings"
+        - title: Profiling Features
+          url: "docs/views/ApplicationSettingsWindow#profiling-features"
         - title: Exception Settings
           url: "docs/views/ApplicationSettingsWindow#exception-settings"
         - title: Callstack Settings

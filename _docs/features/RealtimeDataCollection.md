@@ -79,7 +79,7 @@ More information about our memory profiler can be found at the [memory profiling
 ![assets/img/ApplicationInstanceWindow/MemoryStatisticsOverview.png](../../assets/img/ApplicationInstanceWindow/MemoryStatisticsOverview.png)
 
 ## Garbage Collection Invocations
-Garbage collection invocations is a new feature in CodeGlass and is still under development. Currently, it is available only as an experimental feature in our [Experimental Edition](../Editions/Experimental.md) and at this point it is only supported by the [Julia runtime](supportedruntimes.md#julia).
+Garbage collection invocations is a new feature in CodeGlass and is still under development. Currently, it is available only as an experimental feature in our [Experimental Edition](../Editions/Experimental.md) and at this point it is only supported by the [Julia](supportedruntimes.md#julia) and [.NET](supportedruntimes.md#net-framework) runtimes.
 
 If your applications creates a lot of memory, garbage collection can take a lot of time and significantly slow your application down. To be able to track these kind of issues down CodeGlass will track every garbage collection that gets triggered by your application. 
 
@@ -89,7 +89,7 @@ We collect various garbage collection related data, including:
 - How much memory was deallocated during this garbage collection.
 - Every object that was deallocated and the function that that piece of memory was originally allocated in.
 
-More information about garbage collection information can be found at the [garbage collection feature page](GarbageCollection)
+More information about garbage collection information can be found at the [garbage collection feature page](GarbageCollection).
 <br>
 
 ![assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png](../../assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png)
