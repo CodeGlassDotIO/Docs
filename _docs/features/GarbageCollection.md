@@ -8,7 +8,7 @@ description: The tracking of every executed garbage collection
 
 This feature allows you to gain insights into what your application does during garbage collection. This can help you track down objects that do not get removed or find objects that get removed to fast.
 
-{% include alert.html  type="warning" title="Limited support" content="At this point the only language to support this feature is Julia, but more will be added soon." %}
+{% include alert.html  type="warning" title="Limited support" content="At this point the only languages to support this feature are Julia and .NET, but more will be added soon." %}
 
 ## Garbage Collection Invocations Explorer
 The garbage collection invocations explorer shows you all the rounds of garbage collection that have occurred during the execution of your application. This allows you to quickly see if your application is running more or less rounds of garbage collection than you expected.

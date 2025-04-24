@@ -42,11 +42,6 @@ Right now there is only one hub specific setting. This is the option for if you 
 
 ![assets/img/ClientUserSettingsWindow/ClientSettingsHub.png](../../assets/img/ClientUserSettingsWindow/ClientSettingsHub.png)
 
-<!-- # Application Breadcrumbs: 
-- [Splashscreen](Splashscreen.md) / [Main Menu](mainwindow.md)
-- [Splashscreen](Splashscreen.md) / [Main Menu - Applications](mainwindow/application.md) / [Main Menu - Instances](mainwindow/applicationInstance.md) /  [Application Instance Window](ApplicationInstanceDockWindow.md) / [File Menu](ApplicationInstanceDockWindow/MenuBar.md#file-menu) / -->
-
 # See Also:
  - [Main Window](mainwindow.md)
  - [Application Instance Window - File Menu](ApplicationInstanceDockWindow/MenuBar.md#file-menu)
-
