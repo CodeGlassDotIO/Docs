@@ -30,7 +30,8 @@ By pressing the "Create new filter" button you open the add global filter window
 These profiler settings are the the same as the [application settings](ApplicationSettingsWindow.md) and are explained in more detail there.
 
 ## Client Settings
-In the client settings you can set the path to different important locations, such as the path to custom CodeGlass runtimes.
+In the client settings you can set the path to different important locations, such as the path to custom CodeGlass runtimes.<br>
+You can also add or remove associations for .cgf files in this section.
 
 ![assets/img/ClientUserSettingsWindow/ClientSettings.png](../../assets/img/ClientUserSettingsWindow/ClientSettings.png)
 

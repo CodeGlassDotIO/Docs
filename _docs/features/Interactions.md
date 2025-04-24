@@ -13,7 +13,7 @@ This feature allows you to easily see key interactions that occurred in your app
 ## How It Works
 This view can be found on both the [call tree renderer](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) and the [call stack renderer](../views/ApplicationInstanceDockWindow/CallStackRendering.md)
 
-The interactions view has two lists. The "Active Interactions" and "Interactions History" lists. The active list shows all the interactions that have been called but have not yet returned. The history list shows all the interactions that can be found in the stored call stack history. The amount of items shown in the history list is limited to the value that is set in [render settings](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#settings-window).
+The interactions view has two lists. The "Active Interactions" and "Interactions History" lists. The active list shows all the interactions that have been called but have not yet returned. The history list shows all the interactions that can be found in the stored call stack history. The arrow in the history list points to the current position in the callstack. The amount of items shown in the history list is limited to the value that is set in [render settings](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#settings-window).
 
 The interaction lists are updated based on stepping events. If you step into or out of an method that is also an interaction, the "Active Interactions" list will add or remove the item. In the "Interaction History" list items are grayed out when they are in the "future" of the current position in the callstack. The further you step back into the history of the callstack, the more items will be grayed out.
 
