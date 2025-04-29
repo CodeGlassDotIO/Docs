@@ -56,7 +56,7 @@ We still have never made a version that is EOL.
 ## Failed To Validate Subscription
 ![assets/img/splashscreen/SplashScreen_FailedToValidateSubscription.png](../../assets/img/Splashscreen/SplashScreen_FailedToValidateSubscription.png)
 
-You get this screen when we cannot validate your license for any reason. You can continue using the application, but you are locked to [Trail Edition](../Editions/Trail.md) Features only.
+You get this screen when we cannot validate your license for any reason. You can continue using the application, but you are locked to [Trial Edition](../Editions/Trial.md) Features only.
 
 ## Subscription Expired
 ![assets/img/splashscreen/SplashScreen_SubscriptionExpired.png](../../assets/img/Splashscreen/SplashScreen_SubscriptionExpired.png)

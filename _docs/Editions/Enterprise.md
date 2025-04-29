@@ -10,6 +10,6 @@ The Enterprise edition gives you benefits like:
 - Dedicated support
 
 # See Also:
-- [Edition - Trail](Trail.md)
+- [Edition - Trial](Trial.md)
 - [Edition - Pro](Pro.md)
 - [Edition - Experimental](Experimental.md)

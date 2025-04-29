@@ -1,8 +1,8 @@
 - title: CodeGlass Editions
   url: docs/Editions
   links:
-    - title: "Trail"
-      url: "docs/Editions/Trail"
+    - title: "Trial"
+      url: "docs/Editions/Trial"
     - title: "Pro Edition"
       url: "docs/Editions/Pro"
     - title: "Experimental Edition"
@@ -12,8 +12,8 @@
 - title: Licenses & Subscriptions
   url: docs/LicenseTypes
   links:
-    - title: "Trail"
-      url: "docs/LicenseTypes/TrailLicense"
+    - title: "Trial"
+      url: "docs/LicenseTypes/TrialLicense"
     - title: "Pro"
       url: "docs/LicenseTypes/ProSubscription"
     - title: "Experimental"

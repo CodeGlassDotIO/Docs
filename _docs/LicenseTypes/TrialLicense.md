@@ -1,9 +1,9 @@
 ---
-title: License Types - Trail License
-description: Trail License for non-commercial use.
+title: License Types - Trial License
+description: Trial License for non-commercial use.
 ---
-# Trail License
-The Trail license is a free license available for private individuals that want to try out the [Pro Edition](../Editions/Pro.md) of CodeGlass for non-commercial use.
+# Trial License
+The Trial license is a free license available for private individuals that want to try out the [Pro Edition](../Editions/Pro.md) of CodeGlass for non-commercial use.
 
 See the [EULA](#eula) for the legal mumbo jumbo.
 

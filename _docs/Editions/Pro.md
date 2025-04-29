@@ -9,6 +9,6 @@ If you are a student or a teacher, you can apply for a free [Pro Edition](Pro.md
 
 
 # See Also:
-- [Edition - Trail](Trail.md)
+- [Edition - Trial](Trial.md)
 - [Edition - Experimental](Experimental.md)
 - [Edition - Enterprise](Enterprise.md)

@@ -3,6 +3,8 @@ title: License Types - Experimental Subscription
 description: Experimental Subscription if you want everything CodeGlass has to offer (and don't mind the hassle)
 ---
 # Experimental Subscription
+{% include alertNoTitle.html type="info" content="This subscription is only available on request." %}
+
 {% include LicenseTypes/ExperimentalExplaination.md   %}
 
 See the [EULA](#eula) for the legal mumbo jumbo.
