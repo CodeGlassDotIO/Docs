@@ -37,14 +37,14 @@ This table is provided for easy comparison of the different license / subscripti
     <tbody>
         <tr>
             <th width="10%"></th>
-            <th width="10%"><a href="TrailLicense">Trail</a></th>
+            <th width="10%"><a href="TrialLicense">Trial</a></th>
             <th width="10%"><a href="ProSubscription">Pro</a></th>
             <th width="10%"><a href="ExperimentalSubscription">Experimental</a></th>
             <th width="10%">(<a href="OfflineEnterpriseSubscription">Offline</a>) <a href="EnterpriseSubscription">Enterprise</a></th>
         </tr>
         <tr>
             <td><b>CodeGlass Edition</b></td>
-            <td>Pro (trail)</td>
+            <td>Pro (trial)</td>
             <td>Pro</td>
             <td>Pro + Experimental</td>
             <td>Pro</td>
@@ -53,7 +53,7 @@ This table is provided for easy comparison of the different license / subscripti
             <td><b>Available to</b></td>
             <td>Private individuals</td>
             <td><a href="#astrics">Private individuals*</a></td>
-            <td><a href="#astrics">Private individuals*</a></td>
+            <td><a href="#astrics">Private individuals*</a><br>(on request)</td>
             <td>Any <a href="#astrics">legal entity**</a></td>
         </tr>
         <tr>

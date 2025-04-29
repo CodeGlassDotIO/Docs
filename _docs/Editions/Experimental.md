@@ -3,7 +3,9 @@ title: Edition - Experimental Edition
 description: Expensive Edition with all the new toys.
 ---
 # Experimental Edition
-The Experimental edition are experimental builds of CodeGlass with features that might not be released yet to the public as they are not proven stable enough.
+{% include alertNoTitle.html type="info" content="This edition is only available on request." %}
+
+The Experimental edition are experimental builds of CodeGlass with features that might not be released yet to the public as they are not proven stable enough. It is only available on request, and pricing is decided per request.
 
 The Experimental edition also include all the features of the [Pro Edition](Pro.md).
 
@@ -25,7 +27,7 @@ This edition is available to the [Experimental Subscription](../LicenseTypes/Exp
 
 
 # See Also:
-- [Edition - Trail](Trail.md)
+- [Edition - Trial](Trial.md)
 - [Edition - Pro](Pro.md)
 - [Edition - Enterprise](Enterprise.md)
 

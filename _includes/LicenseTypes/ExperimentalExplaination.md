@@ -1,4 +1,4 @@
-The experimental subscription is the highest tier of license we provide to individuals and provides many things.
+The experimental subscription is the highest tier of license we provide to individuals and provides many things. It is only available on request, and pricing is decided per request.
 It allows the user to use [Pro Edition](../Editions/Pro) and [Experimental Edition](../Editions/Experimental) for commercial use.
 
 The [Experimental Edition](../Editions/Experimental) is an experimental build with many experimental and new features or tweaks that are not stable enough for the Pro Edition.
