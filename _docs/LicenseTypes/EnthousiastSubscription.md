@@ -1,12 +1,13 @@
 ---
 title: License Types - Enthusiast Subscription
 description: The subscription for non-commercial use for those that want to support our development.
+doNotShow: true
 ---
 # Enthusiasts Subscription
 {% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
 Enthusiasts are users that support further development of this program by either paying or helping out in the [community](/docs/Others/Community.md), and we can't be more grateful to this group of users!
 
-The Enthusiast license is available to Private Individuals to use the [Pro Edition](../Editions/Pro.md) of Code Glass for non-commercial use.
+The Enthusiast license is available to Private Individuals to use the [Pro Edition](../Editions/Pro.md) of CodeGlass for non-commercial use.
 
 See the [EULA](#eula) for the legal mumbo jumbo.
 
@@ -23,17 +24,17 @@ or for free by:
 
 ## What is the difference between Enthusiast and Pro Users?
 The difference is:
-- Enthusiasts are not allowed to use Code Glass in commercial environments, like at work, and cannot be funded or reimbursed for by a company.
+- Enthusiasts are not allowed to use CodeGlass in commercial environments, like at work, and cannot be funded or reimbursed for by a company.
 - Requesting more free Concurrent device activations.
 
 ## Why should you become an enthusiast
-By starters, they get access to the [Pro Edition](../Editions/Pro.md) of Code Glass. More importantly, you support the development of Code Glass because we would like nothing more than keep developing on it, but without your support, that is not possible.
+By starters, they get access to the [Pro Edition](../Editions/Pro.md) of CodeGlass. More importantly, you support the development of CodeGlass because we would like nothing more than keep developing on it, but without your support, that is not possible.
 
 # Subscription Details
 ## Subscription term
 Time-limited, based on monthly and yearly subscription payments
 
-## Code Glass Editions
+## CodeGlass Editions
 -  [Pro Edition](../Editions/Pro.md)
 
 ## Available to

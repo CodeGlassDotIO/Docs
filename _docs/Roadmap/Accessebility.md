@@ -1,14 +1,13 @@
 ---
-title: Roadmap - Accessebility
-description: More Accesebility features.
+title: Roadmap - Accessability
+description: More Accessability features.
 doNotShow: true
 ---
 {% include Warnings/RoadmapWarning.html %}
 
-# Accessebility
+# Accessability
 
-At CodeGlass we want to help by providing better accessebility.
-
+At CodeGlass we want to help by providing better accessability.
 
 ## Color Blind Mode
 Currently we are not offering some sort of mode for the various types of color blindness, however we would love to have it! 

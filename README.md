@@ -1,31 +1,18 @@
-# Docsy Jekyll Theme
+# CodeGlass Docs
 
-[![CircleCI](https://circleci.com/gh/vsoch/docsy-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/vsoch/docsy-jekyll/tree/master)
-<a href="https://jekyll-themes.com/docsy-jekyll/">
-    <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
-
-![https://raw.githubusercontent.com/vsoch/docsy-jekyll/master/assets/img/docsy-jekyll.png](https://raw.githubusercontent.com/vsoch/docsy-jekyll/master/assets/img/docsy-jekyll.png)
-
-This is a [starter template](https://vsoch.github.com/docsy-jekyll/) for a Docsy jekyll theme, based
-on the Beautiful [Docsy](https://github.com/google/docsy) that renders with Hugo. This version is intended for
+These are the CodeGlass docs based on a [starter template](https://vsoch.github.com/docsy-jekyll/) for a Docsy jekyll theme, based on the Beautiful [Docsy](https://github.com/google/docsy) that renders with Hugo. This version is intended for
 native deployment on GitHub pages. The original [Apache License](https://github.com/vsoch/docsy-jekyll/blob/master/LICENSE) is included.
 
-## Changes
-
-The site is intended for purely documentation, so while the front page banner
-is useful for business or similar, this author (@vsoch) preferred to have
-the main site page go directly to the Documentation view. Posts
-are still provided via a feed.
+CodeGlass specific instructions are prefixed with CG.
 
 ## Usage
 
-### 1. Get the code
+### 1. CG Get the code
 
 You can clone the repository right to where you want to host the docs:
 
 ```bash
-git clone https://github.com/vsoch/docsy-jekyll.git docs
+git clone https://github.com/CodeGlassDotIO/Docs.git docs
 cd docs
 ```
 
@@ -43,19 +30,19 @@ Most of the configuration values in the [_config.yml](https://github.com/vsoch/d
 and for more details, see the [getting started page](https://vsoch.github.io/docsy-jekyll/docs/getting-started)
 rendered on the site.
 
-### 4. Serve
+### 4. CG Serve
 
 
-Instructions on installing Jekyll on windows (29-12-2021) (from https://jekyllrb.com/docs/installation/windows/)
+Instructions on installing Jekyll on windows (29-12-2021) (based on https://jekyllrb.com/docs/installation/windows/)
 
-- Download and install a Ruby+Devkit version from RubyInstaller Downloads (https://rubyinstaller.org/) 
+- Download and install Ruby+Devkit 3.3.7-1 from RubyInstaller Downloads (https://rubyinstaller.org/downloads/) 
 - Use default options for installation.
 - Run the ridk install step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find additional information regarding this in the RubyInstaller Documentation
-- Open a new command prompt window (powershell is also fine, administrator mode not needed) from the start menu, so that changes to the PATH environment variable becomes effective. Install Jekyll and Bundler using: gem install jekyll bundler
-- Check if Jekyll has been installed properly: jekyll -v
+- Open a **new** command prompt window (or powershell, no admin mode needed) from the start menu. This ensures that changes to the PATH environment variable becomes effective. Install Jekyll and Bundler using: `gem install jekyll bundler`
+- Check if Jekyll has been installed properly: `jekyll -v`
 
-then open a command promt (powershell is also fine) in the repository folder (where this Readme.md file is located). (I usally go there through file explorer then SHIFT+right click on an empty spot and then "Open PowerShell window here")
-- enter in the command prompt: bundle install
+Then open a command promt (or powershell) in the repository folder (where this Readme.md file is located). (I usally go there through file explorer then SHIFT+right click on an empty spot and then "Open PowerShell window here")
+- enter in the command prompt: `bundle install`
 
 
 

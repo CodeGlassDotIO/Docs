@@ -15,7 +15,7 @@ We recommend using [discord](#discord) or any other social media below if you wa
 
 ## Discord
 The fastest way to reach us and get answers, or to stay informed or join our community.<br/>
-[https://discord.gg/YWyxAym4Hu](https://discord.gg/YWyxAym4Hu)
+[https://discord.gg/YWyxAym4Hu](https://discord.gg/YWyxAym4Hu){:target="_blank"}
 
 
 ## Email
@@ -29,33 +29,33 @@ For feedback, issues, bug reports, or any in that kind: <br/>
 
 Also please check out the [troubleshooting](../_docs/Troubleshooting.md) page before submitting an isuse.
 
-[http://github.com/CodeGlassDotIO/](http://github.com/CodeGlassDotIO/)
+[http://github.com/CodeGlassDotIO/](http://github.com/CodeGlassDotIO/){:target="_blank"}
 
 You can also click [here]({{ site.repo }}/issues/new/choose) to create an issue. 
 
 ## Facebook
 If you want to stay informed:
-[https://www.facebook.com/CodeGlassDotIO/](https://www.facebook.com/CodeGlassDotIO/)
+[https://www.facebook.com/CodeGlassDotIO/](https://www.facebook.com/CodeGlassDotIO/){:target="_blank"}
 
 ## Twitter
 If you want to stay informed:
-[https://twitter.com/CodeGlassDotIO/](https://twitter.com/CodeGlassDotIO/)
+[https://twitter.com/CodeGlassDotIO/](https://twitter.com/CodeGlassDotIO/){:target="_blank"}
 
 ## LinkedIn
 If you want to stay informed:
-[https://www.linkedin.com/company/codeglass](https://www.linkedin.com/company/codeglass)
+[https://www.linkedin.com/company/codeglass](https://www.linkedin.com/company/codeglass){:target="_blank"}
 
 ## Instagram
 If you want to stay informed:
-[https://www.instagram.com/codeglass.io](https://www.instagram.com/codeglass.io)
+[https://www.instagram.com/codeglass.io](https://www.instagram.com/codeglass.io){:target="_blank"}
 
 ## Book a meeting:
 You can also book a meeting with us directly at:
-[https://CodeGlass.io](https://codeglass.io)
+[https://CodeGlass.io](https://codeglass.io){:target="_blank"}
 
 ## For new organizations:
 If your organization wants to start using CodeGlass they can use this link:
-[https://codeglass.io/contactorganization](https://codeglass.io/contactorganization)
+[https://codeglass.io/contact](https://codeglass.io/contact){:target="_blank"}
 
 ## TikTok
 

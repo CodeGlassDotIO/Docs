@@ -11,7 +11,7 @@ See the [EULA](#eula) for the legal mumbo jumbo.
 # License Details
 ## License Terms
 
-## Code Glass Editions
+## CodeGlass Editions
 
 ## Available to
 

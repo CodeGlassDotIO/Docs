@@ -9,34 +9,13 @@ To apply for them you have to [contact us](../../pages/contact.md).
 If you are not part of this group but think you should be part of it, then please [contact us](../../pages/contact.md)
 
 ## Students and Teachers
-Free [Education Subscription](EducationLicense.md) ([Pro Edition](../Editions/Pro.md)).
-
-## Classroom assistance
-Free [ClassRoom Subscription](ClassRoomLicense.md) ([Pro Edition](../Editions/Pro.md)).
+Students and teachers can get access to the [Pro Edition](../Editions/Pro.md). Please [contact us](../../pages/contact.md) to request a license.
 
 ## For Open Source projects
-Free [Open Source Subscription](OpenSourceLicense.md) ([Pro Edition](../Editions/Pro.md)).
+If you run an open source project you can get access to the [Pro Edition](../Editions/Pro.md). Please [contact us](../../pages/contact.md) to request a license.
 
-## Universities and educational organizations
-66% off for the [Organization Subscription](OrganisationSubscription.md) ([Pro Edition](../Editions/Pro.md)).
-
-## Startups
-66% off for the [Organization Subscription](OrganisationSubscription.md) ([Pro Edition](../Editions/Pro.md)).
-
-## Training courses, coding schools, and bootcamps
-Free [ClassRoom Subscription](ClassRoomLicense.md) ([Pro Edition](../Editions/Pro.md)).
-
-## Former student license holders
-33% off for the [Pro Subscription](ProSubscription.md) ([Pro Edition](../Editions/Pro.md)).
-
-## Developer Recognition Program
-Free [Pro Subscription](ProSubscription.md) ([Pro Edition](../Editions/Pro.md)) for: Active Microsoft Most Valuable Professionals, ASPInsiders, Java Champions, Docker Captains, Google Developers Experts, and more.
+## Universities, educational organizations and startups
+Universities, educational organizations and startups can get 66% off a [Pro Subscription](ProSubscription.md). Please [contact us](../../pages/contact.md) to request a license.
 
 ## Non-profit organizations
-Ranging to 100% off for the [Organization Subscription](OrganisationSubscription.md) ([Pro Edition](../Editions/Pro.md))
-
-## For competitive tools users 
-33% off for the [Pro Subscription](ProSubscription.md) ([Pro Edition](../Editions/Pro.md))
-
-## For competitive tools organizations 
-33% off for the [Organization Subscription](OrganisationSubscription.md) ([Pro Edition](../Editions/Pro.md))
+Ranging up to 100% off for the [Pro Subscription](ProSubscription.md). Please [contact us](../../pages/contact.md) to request a license.

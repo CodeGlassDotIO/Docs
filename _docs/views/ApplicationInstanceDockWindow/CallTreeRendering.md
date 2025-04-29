@@ -9,7 +9,6 @@ description: The realtime rendering of the call tree.
 
 ## Toolbar
 {% include Rendering/RealtimeRenderingCodeMemberToolbar.md %}
-- Open the [Settings window](#settings-window)
 
 ## Item Context Menu
 {% include Rendering/RealtimeRenderingCodeMemberContextMenu.md %}
@@ -23,15 +22,14 @@ description: The realtime rendering of the call tree.
 ## Settings Window
 ![assets/img/ApplicationInstanceWindow/RealtimeCallTreeRenderingSettingsWindow.png](../../../assets/img/ApplicationInstanceWindow/RealtimeCallTreeRenderingSettingsWindow.png)
 
-Most of the settings are quite self explainitory.
+Most of the settings are quite self explanatory.
 
 You can choose to save these settings as your new default for new renders or only for this render.
 
 
 
-# Application Breadcrumbs
-- { All paths leading to } /  [Application Instance Window](../ApplicationInstanceDockWindow.md) / [View Menu](../ApplicationInstanceDockWindow/MenuBar.md#view-menu) / 
+<!-- # Application Breadcrumbs
+- [Application Instance Window](../ApplicationInstanceDockWindow.md) / [View Menu](../ApplicationInstanceDockWindow/MenuBar.md#view-menu) /  -->
 
 # See Also:
 - [Realtime Call Stack Rendering](CallStackRendering.md)
-- [(Deprecated) Realtime Grouped Call Stack Rendering](GroupedCallStackRendering.md)

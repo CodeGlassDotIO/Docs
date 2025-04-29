@@ -2,7 +2,5 @@
   url: about
 - title: Contact
   url: contact
-- title: News
-  external_url: https://codeglass.io/blog.html
 - title: Store
-  external_url: https://codeglass.io/offers#prices
+  external_url: https://codeglass.io/pricing

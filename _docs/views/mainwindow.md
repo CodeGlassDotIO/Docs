@@ -5,26 +5,17 @@ description: The main menu of CodeGlass that you get after logging in.
 # Main Menu
 ![assets/img/mainwindow/Applications.png](../../assets/img/MainMenu/Applications.png)
 
-The main menu is where you first land after logging in. This view has a couple of different tabs with [Applications](mainwindow/application.md) as the root tab.
+The main menu is where you first land after logging in. Here you have an overview of all the applications that you have already added. Here you can also do things like adding new applications or loading log files.
+From this window you can also edit your [client and user settings](clientusersettingswindow.md) by clicking the gear icon in the top right.
 
-You can get to the [Client and user settings](clientusersettingswindow.md) From within any tabs by clicking on the Gear Icon in the top right.
-
-The Currently shown tab is [Applications](mainwindow/application.md) tab
-
-## Tabs
+From this window you can navigate to different other windows. These windows are described on the following pages.
 - [Applications](mainwindow/application.md)
-- [Application instances](mainwindow/applicationInstance.md)
+- [Application Instances](mainwindow/applicationInstance.md)
 - [New Application](mainwindow/newapplication.md)
-
-The blue text marks the Tabs in the Top Left corner, by clicking on "Applications," you can return to the [Applications](mainwindow/application.md) tab within the other tabs views.
-
-# Application Breadcrumbs: 
-- [Splashscreen](Splashscreen.md) /
-
 
 # See Also
  - [Applications](mainwindow/application.md)
- - [Application instances](mainwindow/applicationInstance.md)
+ - [Application Instances](mainwindow/applicationInstance.md)
  - [New Application](mainwindow/newapplication.md)
- - [Client and user settings](clientusersettingswindow.md)
+ - [Client and User Settings](clientusersettingswindow.md)
  - [Application Instance Window - File Menu](ApplicationInstanceDockWindow/Menubar.md#file-menu)

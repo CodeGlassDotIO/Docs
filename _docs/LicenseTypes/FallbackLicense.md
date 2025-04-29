@@ -1,12 +1,13 @@
 ---
 title: License Types - Perpetual Fallback Licenses
 description: About perpetual fallback licenses
+doNotShow: true
 ---
 
 # Perpetual Fallback License
 
 {% include alert.html  type="warning" title="We do not offer this yet, but below you can see our idea about it" %}
-The Fallback license is a free license to use the [Community Edition](../Editions/Community.md) of Code Glass for commercial use.
+The Fallback license is a free license to use the [Community Edition](../Editions/Community.md) of CodeGlass for commercial use.
 (Any other license of subscription may be entitled to a free [Community License](CommunityLicense.md) as fallback)
 
 
@@ -14,7 +15,7 @@ The Fallback license is a free license to use the [Community Edition](../Edition
 ## License Terms
 Perpetual 
 
-## Code Glass Editions
+## CodeGlass Editions
 - [Community Edition](../Editions/Community.md)
 
 ## Available to

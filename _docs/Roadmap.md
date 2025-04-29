@@ -1,9 +1,9 @@
 ---
 title: Roadmap
-description:  The Future of Code Glass
+description:  The Future of CodeGlass
 ---
 # Roadmap
-This is not our entire roadmap, as we have so much more planned for Code Glass as the sky is not anymore the limit, this generation goes to Mars!
+This is not our entire roadmap, as we have so much more planned for CodeGlass as the sky is not anymore the limit, this generation goes to Mars!
 
 These are only the ones we wrote down here so we could reference them from other pages.
 

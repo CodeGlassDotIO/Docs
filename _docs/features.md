@@ -1,20 +1,16 @@
 ---
-title: Features of Code Glass
+title: Features of CodeGlass
 description: Documentation by feature
 ---
 
-# Features of Code Glass
+# Features of CodeGlass
 
-Code Glass has many features that might not even be described in the items below.
-This is because the documentation is written from the [View](views.md) perspective, when multime views where referencing a feature it was wrote down in the items below.
+CodeGlass has many features that might not even be described in the items below.
+This is because the documentation is written from the [View](views.md) perspective. When multiple views reference a feature it is written down in the items below.
 
-Keep in mind that the featuers do not go into much detail how they are used or configured but more on how they work, however links are provided on each page to the view where they are used.
-
-
+Keep in mind that the features described here do not go into much detail about how they are used or configured but about how they work, however links are provided on each page to the view where they are used.
 
 ## Features
-
-
 
 <div class="section-index">
     {% for post in site.docs  %}
@@ -31,9 +27,3 @@ Keep in mind that the featuers do not go into much detail how they are used or c
     {% endfor %}
     
 </div>
-
-
-
-
-
-
