@@ -4,37 +4,33 @@ description: Control the execution of the profiled application.
 ---
 
 # Execution Control
-When profiling an application, CodeGlass provides various actions to modify its execution. These functions allow control at the application level. In the future, we plan to extend this functionality to the function level as well ([roadmap](../Roadmap/PerFunctionAction.md)).
+When profiling an application, CodeGlass provides several actions to control its execution. These actions operate at the application level. In the future, we plan to extend this functionality to the function level ([roadmap](../Roadmap/PerFunctionAction.md)).
 
-The screenshot below shows the toolbar that contains all the buttons used to perform the available action described below.
+The screenshot below shows the toolbar containing the buttons for the available actions described below:
 
 ![assets/img/ApplicationInstanceWindow/Toolbar.png](../../assets/img/ApplicationInstanceWindow/Toolbar.png)
 
 ## Soft Off
-Soft Off temporarily stops most data collection, allowing the application to run at near full performance.
+Temporarily suspends most data collection while allowing the application to continue running at near full performance.
 
-This mode is designed for production environments where performance may degrade over time. Soft Off can be enabled to address this without losing performance to CodeGlass. When the performance issue arises, Soft Off can be disabled to begin profiling without restarting the application.
+This mode is useful in production environments where long-term profiling overhead may impact performance. Soft Off can be enabled to minimize impact and later disabled when detailed profiling is required.
 
 ## Pause 
-Pause temporarily stops the execution of the application on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
+Temporarily halts application execution on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
 
-It can be triggered manually or configured to pause automatically in response to specific events, such as [exceptions](Exceptions.md).
+This can be triggered manually or automatically in response to specific events, such as [exceptions](Exceptions.md).
 
 ## Continue
-Continues the execution of an application on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
+Resumes execution of the application on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
 
 ## Throttle
-Limits the amount of functions that can be executed per seconds 
+Limits the number of functions that can execute per second.
 
 ## Stop
-Stops the execution of an application on the ([remote](CodeGlassHub.md#remote-hub.md)) [client](CodeGlassClient.md).
+Terminates application execution on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
 
 ## Restart
-Restarts the execution of an application on the ([remote](CodeGlassHub.md#remote-hub.md)) [client](CodeGlassClient.md).
-
-<!-- ## (Thread) Stepping Backwards / Forwards
-See [Feature - Stepping](ApplicationInstanceStepping.md) -->
-
+Restarts the application on the ([remote](CodeGlassHub.md#remote-hub)) [client](CodeGlassClient.md).
 
 # See Also:
 - [Feature - Stepping](ApplicationInstanceStepping.md)

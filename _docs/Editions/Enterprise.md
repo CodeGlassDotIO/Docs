@@ -2,10 +2,10 @@
 title: Edition - Enterprise Edition
 description: Enterprise Edition of CodeGlass
 ---
-# Enterprise edition
-The Enterprise edition gives you access to all the [pro features](../features.md) plus some extra benefits.
-The Enterprise edition gives you benefits like:
-- Multiple users on a single license
+
+# Enterprise Edition
+The Enterprise Edition includes all [Pro features](../features.md), along with additional benefits designed for teams and organizations:
+- Multi-user licensing
 - Official training sessions
 - Dedicated support
 

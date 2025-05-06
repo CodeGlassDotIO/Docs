@@ -4,68 +4,52 @@ permalink: /contact/
 ---
 
 # Contact
-We are on multiple platforms, and they all have their usage when you want to contact us.
+CodeGlass is accessible through multiple platforms. Each serves a different purpose, depending on the nature of your inquiry.
 
-If you want a quick answer, we recommend joining our [discord](#discord); however, we might overlook your message due to the nature of the platform.
-So, If you want to be sure that you will get a reaction, we recommend using [email](#email).
-
-If you need support or have feedback, issues, bug reports, or any of that kind, we recommend going to our [github](#github), but if you are unfamiliar with the platform, we recommend [emailing](#email) it :) 
-
-We recommend using [discord](#discord) or any other social media below if you want to stay informed.
+- For **quick questions or informal interactions**, we recommend joining our [Discord](#discord). Please note that due to the platform’s dynamic nature, messages may occasionally be overlooked.
+- For **reliable responses or formal communication**, we advise reaching out via [email](#email).
+- For **technical support, bug reports, or feature requests**, please use [GitHub](#github). If you’re unfamiliar with GitHub, [email](#email) is a valid alternative.
+- To **stay informed about updates and announcements**, consider following us on [Discord](#discord) or one of our [social media](#facebook) channels.
 
 ## Discord
-The fastest way to reach us and get answers, or to stay informed or join our community.<br/>
+Ideal for real-time interaction, Q&A, and staying engaged with the community.  
 [https://discord.gg/YWyxAym4Hu](https://discord.gg/YWyxAym4Hu){:target="_blank"}
 
-
 ## Email
-Guaranteed that you will get a response: <br/>
-
+For guaranteed replies and formal communication:  
 [Support@CodeGlass.io](mailto:Support@CodeGlass.io)
 
-
 ## GitHub
-For feedback, issues, bug reports, or any in that kind: <br/>
-
-Also please check out the [troubleshooting](../_docs/Troubleshooting.md) page before submitting an isuse.
-
+For technical support, feature suggestions, and bug reporting:  
 [http://github.com/CodeGlassDotIO/](http://github.com/CodeGlassDotIO/){:target="_blank"}
 
-You can also click [here]({{ site.repo }}/issues/new/choose) to create an issue. 
+Before creating an issue, please consult the [Troubleshooting guide](../_docs/Troubleshooting.md).  
+You can also submit an issue directly via [this link]({{ site.repo }}/issues/new/choose).
 
-## Facebook
-If you want to stay informed:
-[https://www.facebook.com/CodeGlassDotIO/](https://www.facebook.com/CodeGlassDotIO/){:target="_blank"}
+## Social Media
+Follow us for product updates, news, and announcements:
 
-## Twitter
-If you want to stay informed:
-[https://twitter.com/CodeGlassDotIO/](https://twitter.com/CodeGlassDotIO/){:target="_blank"}
+- **Facebook**: [https://www.facebook.com/CodeGlassDotIO/](https://www.facebook.com/CodeGlassDotIO/){:target="_blank"}
+- **Twitter**: [https://twitter.com/CodeGlassDotIO/](https://twitter.com/CodeGlassDotIO/){:target="_blank"}
+- **LinkedIn**: [https://www.linkedin.com/company/codeglass](https://www.linkedin.com/company/codeglass){:target="_blank"}
+- **Instagram**: [https://www.instagram.com/codeglass.io](https://www.instagram.com/codeglass.io){:target="_blank"}
 
-## LinkedIn
-If you want to stay informed:
-[https://www.linkedin.com/company/codeglass](https://www.linkedin.com/company/codeglass){:target="_blank"}
-
-## Instagram
-If you want to stay informed:
-[https://www.instagram.com/codeglass.io](https://www.instagram.com/codeglass.io){:target="_blank"}
-
-## Book a meeting:
-You can also book a meeting with us directly at:
+## Book a Meeting
+To schedule a meeting with our team:  
 [https://CodeGlass.io](https://codeglass.io){:target="_blank"}
 
-## For new organizations:
-If your organization wants to start using CodeGlass they can use this link:
+## For Organizations
+Organizations interested in using CodeGlass can contact us directly via:  
 [https://codeglass.io/contact](https://codeglass.io/contact){:target="_blank"}
 
-## TikTok
+---
 
-HAHA no.
+# Company Details
+**Address**:  
+Stationsplein 5  
+8011CW Zwolle  
+The Netherlands
 
-# Adress and other info
-Address: Stationsplein 3
-Postal code: 8011CW Zwolle
-Country: The Netherlands
-
-The Netherlands Chamber of Comerce (KVK): 89869273
-Bank account: NL60 RABO 0343 9627 21
-VAT: 865136956B01
+**Chamber of Commerce (KVK)**: 89869273  
+**Bank Account**: NL60 RABO 0343 9627 21  
+**VAT Number**: 865136956B01

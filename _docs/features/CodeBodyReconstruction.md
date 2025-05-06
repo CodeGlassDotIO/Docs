@@ -2,43 +2,49 @@
 title: Feature - Code Body Reconstruction
 description: Reconstructing the code body of a function without decompilation.
 ---
-# Code body Reconstruction
-{% include alert.html  type="warning" title="Experimental feature" content="This feature is still very experimental, though it is available in all <a href=\"../Editions\" >editions</a>, for more info see the <a href=\"#experimental-warning\" >Experimental warning</a> below." %}
+
+# Code Body Reconstruction
+{% include alert.html  type="warning" title="Experimental feature" content="This feature is still very experimental, though it is available in all <a href=\"../Editions\" >editions</a>. For more info, see the <a href=\"#experimental-warning\">experimental warning</a> below." %}
 
 ![assets/img/Features/CodeBodyReconstruction.png](../../assets/img/Features/CodeBodyReconstruction.png)
 
-Unlike other profilers that simply show how much time is spent in a function, CodeGlass goes a step further by analyzing the collected data to reconstruct the function body as accurately as possible, without decompiling or needing access to your source code!
+Unlike traditional profilers that only show time spent per function, CodeGlass analyzes collected runtime data to **reconstruct the function body**—without decompilation or access to your source code.
 
-This allows CodeGlass to provide a detailed view of your function's behavior, including:
-- Where time is spent within the function.
-- The number of times a loop is executed.
-- How often different code paths are taken (hot and cold paths).
-- The current position of a thread within the function.
-- Time taken by the function when called from different functions (e.g., Function "A" vs. Function "B").
-- The exact point where a function call was made in the code.
-- The paths that need to be taken inside the function to reach a specific call.
-- Time spent in the function body between function calls.
-- Insights into potential optimizations, like loop unrolling.
-- How your code behaves compared to your expectations.
+This enables detailed insights into how a function behaves during execution, including:
 
-Because this analysis is based on collected data instead of decompilation, CodeGlass shows you what your function is actually doing, and showing you the difference between your expectations and its actual behavior. Paths that are never taken are excluded from the analysis, ensuring only relevant information is displayed.
+- Time spent within specific parts of the function
+- Loop iteration counts
+- Hot vs. cold code paths
+- The current thread position within the function
+- Execution time by call origin (e.g., Function A vs. Function B)
+- Exact call sites within the function body
+- Required execution paths to reach a call
+- Time between internal function calls
+- Optimization candidates (e.g., loop unrolling)
+- Gaps between expected and actual behavior
 
-With these insights, you can uncover surprises like unexpected loop iterations or frequently called code paths. It also eliminates the need to manually add stopwatches to your code, as CodeGlass provides similar insights in environments where adding them is not possible.
+Because reconstruction is based on runtime data, only the paths actually taken during execution are shown. This avoids clutter and focuses on relevant control flow, exposing unexpected behavior without requiring manual instrumentation.
+
+This feature can reveal:
+- Hidden loop iterations
+- Frequently hit branches
+- Timing irregularities
+- Profiling insights in environments where code instrumentation isn’t possible
 
 ## Experimental Warning
-This feature is still highly experimental but is available in all [editions](../Editions.md). We didn’t want to limit it to paid versions only, even though it’s currently in a testing phase. It’s already proving to be very helpful, so we’ve made it accessible beyond just the [experimental Edition](../Editions/Experimental.md).
+This feature is still highly experimental but is available in all [editions](../Editions.md), including free tiers. We chose not to restrict access to the [Experimental Edition](../Editions/Experimental.md), as the feature is already proving valuable, even in its current state.
 
-We encourage you to report any issues you encounter in CodeGlass, but please note that you don’t need to report when this render fails, as you will receive an appropriate error message. We understand that this feature doesn't always perform perfectly, but we feel it’s too valuable to restrict it to the [experimental Edition](../Editions/Experimental.md) despite its current state.
+We encourage you to report any issues encountered in CodeGlass. However, if reconstruction fails, you will receive a descriptive error, so reporting these specific failures is not required.
 
-Rest assured, this feature should never cause CodeGlass to crash; it’s not that experimental ;)
+Despite being experimental, this feature is stable: it will never cause CodeGlass to crash.
 
 ## Limitations
-Because this rendering is an assumptions based on data, it can never be perfect. Collecting every possible path would take a massive amount of RAM (even downloading more is not enough), so we settled on doing it within the confinement of limited ram.
-That does not mean that it will not improve in the future, but currently it is far from perfect and can still be improved on a lot (which we are also planning to do). 
+Because this reconstruction is based on execution data, it is inherently imperfect. Mapping every possible path would require excessive memory, so we currently operate within practical memory constraints (We tried downloading some more, but even that wouldn't work).
 
+We continue to improve accuracy and coverage over time.
 
-## Known issues
-- In some cases where reconstruction should be possible, it still fails.
+## Known Issues
+- In some cases, reconstruction may fail even when sufficient data appears to be available.
 
-## Views using this feature
+## Views Using This Feature
 - [Function Details View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md#code-body-view)

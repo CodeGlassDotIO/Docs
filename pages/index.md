@@ -4,12 +4,10 @@ title: CodeGlass Documentation
 permalink: /
 ---
 
-# Welcome to the CodeGlass Documentation Pages
+# CodeGlass Documentation
 
-This is our collaborative GitHub pages website containing all documentation for CodeGlass.
+Welcome to the official CodeGlass documentation portal. This site serves as the centralized source of technical documentation for all features and components of the CodeGlass platform.
 
-Here you can find detailed instructions and information about features and views inside the application.
+Use the navigation to explore comprehensive guides, configuration details, and usage instructions for each available view and capability within the application.
 
-Have a look around!
-
-And if you have any questions, do not hesitate to [contact](contact.md) us or hit us up on [github](https://github.com/CodeGlassDotIO/Docs/issues).
+For questions, feedback, or to report issues, please [contact us](contact.md) or open a ticket on our [GitHub repository](https://github.com/CodeGlassDotIO/Docs/issues).
