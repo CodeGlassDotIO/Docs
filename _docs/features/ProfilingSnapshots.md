@@ -2,38 +2,35 @@
 title: Feature - Profiling Snapshots
 description: Snapshots of the current or previously profiled applications.
 ---
+
 # Profiling Snapshots
-In CodeGlass you can make profiling snapshots of a (running) application instance or even other snapshots.
-It creates a copy of all information CodeGlass collected so you can compare different states of the application.
 
-You can even dump this information to a file to later reload (on a different [client](CodeGlassClient.md) / [hub](CodeGlassHub.md)) to replay that snapshot (By [realtime rendering](RealtimeRendering.md) and [stepping](ApplicationInstanceStepping.md) for example).
+CodeGlass allows you to create profiling snapshots of a running application instance, or even from existing snapshots. A snapshot captures all runtime data collected by CodeGlass at that moment, enabling side-by-side comparisons of different application states.
 
-Snapshot files (.cgf) can be associated with CodeGlass within the [Client Settings](../views/clientusersettingswindow.md#client-settings). This allows snapshot files to be opened from the file explorer.
+Snapshots can be exported to `.cgf` files, which can later be loaded on another [client](CodeGlassClient.md) or [hub](CodeGlassHub.md). This allows for detailed offline analysis using features like [realtime rendering](RealtimeRendering.md) and [stepping](ApplicationInstanceStepping.md).
+
+Snapshot files can be associated with CodeGlass via the [Client Settings](../views/clientusersettingswindow.md#client-settings), making them directly openable from your file explorer.
 
 ## Use Cases
-Below are some examples how you can use this function. 
 
 ### Feature That Used to Work
-You created a snapshot of a specific feature of your application. 
-After an update that feature starts to fail, now you can replay that snapshot to see what is different between the working state and current state.
 
+Create a snapshot when a specific feature is working correctly. If the feature breaks after a change, you can replay the earlier snapshot to identify differences in control flow or memory usage between the working and broken versions.
 
-### Issue Only Happens on Specific PC.
-Your application fails on a specific pc, like on one of a customer.
-You create a snapshot of the application on their pc and then take that snapshot to your pc. There you compare the execution flow on your pc with the execution flow in their snapshot. 
+### Issue Only Happens on a Specific PC
 
-You can also read the above as the famous "it works on my pc" one. 
+If an issue only reproduces on a specific machine, such as a customer's system, you can create a snapshot on that device and analyze it on your own machine. Compare its runtime behavior with your local execution to uncover environment-specific issues.
 
+In other words, this is your tool for debugging the classic _"It works on my machine."_ problem.
 
-# Views using this feature
- - [Application Instance - Toolbar](../views/ApplicationInstanceDockWindow/Toolbar.md#snapshots)
- - [Main Menu - Applications ](../views/mainwindow/application.md)
- - [Main Menu - Application Instances](../views/mainwindow/applicationInstance.md)
- 
+# Views Using This Feature
+
+- [Application Instance - Toolbar](../views/ApplicationInstanceDockWindow/Toolbar.md#snapshots)  
+- [Main Menu - Applications](../views/mainwindow/application.md)  
+- [Main Menu - Application Instances](../views/mainwindow/applicationInstance.md)
+
 # See Also:
-- [Feature - CodeGlass Client](CodeGlassClient.md)
-- [Feature - CodeGlass Hub](CodeGlassHub.md)
-- [Feature - Realtime Rendering](RealtimeRendering.md)
+- [Feature - CodeGlass Client](CodeGlassClient.md)  
+- [Feature - CodeGlass Hub](CodeGlassHub.md)  
+- [Feature - Realtime Rendering](RealtimeRendering.md)  
 - [Feature - Stepping](ApplicationInstanceStepping.md)
-
-

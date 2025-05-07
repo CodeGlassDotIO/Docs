@@ -4,229 +4,228 @@ description: The runtimes we support in CodeGlass
 ---
 
 # Runtime Support
-At CodeGlass, we are striving to support as many languages as possible. Currently we only fully support .NET, but we have a few other languages available in our [Experimental Edition](../Editions/Experimental.md). 
 
-Languages that are only supported in our Experimental Edition are:
+CodeGlass is designed to support as many languages and runtimes as possible. Full support is currently available for .NET, with additional runtimes accessible in the [Experimental Edition](../Editions/Experimental.md).
+
+Languages supported only in the Experimental Edition:
 - [JavaScript for websites](#javascript-website)
 - [Julia](#julia)
 - [Java](#java)
 
-On of our requirements is that each supported runtime needs to be runnable without having CodeGlass installed.
-
 ## .NET Framework
-.NET Framework 4.0 and up
 
-### Notes on .NET Framework 2.0-3.5
-.NET Framework 2.0-3.5 is not officially supported but it might work in the __[Experimental Edition](../Editions/Experimental.md)__, but please take note of the following:
+Supported versions: .NET Framework 4.0 and above.
 
-CodeGlass needs to be started as administrator as we need to add some registry keys.
+### Notes on .NET Framework 2.0–3.5
+
+While not officially supported, these versions may work in the [Experimental Edition](../Editions/Experimental.md). For this functionality, CodeGlass requires Admin rights to apply registry keys.
 
 These keys will be removed when:
 - You close the client on the machine that registered them.
 - You start the client in administrator mode on the machine that registered them.
 - You uninstall CodeGlass on the machine that registered them.
 
-
 If, in the unlikely case, the registry keys stay behind, this is the key to remove:
 
 ```
 HKEY_CLASSES_ROOT\CLSID\{2091c114-505f-51b5-8145-5eee1ed82fe1}
 ```
-It is an Experimental Edition only feature because it works on some of our machines, but not all. It looks like it is a Windows version issue. But since .Net Framework 2.0 - 3.5 are pretty old we decided to not invest more time in it.
 
-Let us know if you need official support of .NET Framework 2.0-3.5; we can probably make it. <br/>
+Let us know if you require full support for .NET Framework 2.0–3.5.
 
-## .NET Core & .NET (5.0+)
-- .NET Core 1.0 and up.
-- .NET 5 and up.
+## .NET Core and .NET 5+
+
+- Supported: .NET Core 1.0 and newer
+- Supported: .NET 5 and newer
 
 ## ASP.NET Framework
-- ASP.NET for .NET Framework 4 and up.
+
+- Supported: ASP.NET for .NET Framework 4 and newer
 
 ### Requirements
-- IIS Express needs to be installed, which can be done from the CodeGlass Installer as an optional feature. 
+
+- IIS Express must be installed
 
 ### Known Issues
-- If you have to make it work with IIS server installation, let us know; support can be made.
 
-## ASP.NET Core 
-.ASP.NET Core 1.0 And up.
+- For support with full IIS (non-Express), contact us.
 
+## ASP.NET Core
 
-### Known Issues
-- Make sure that your appsettings.json and other configuration files are getting loaded. Some older ASP.NET Projects do not load them when starting with the dotnet CLI.
-- The folder name must be the same as your built assembly ".dll."
-
-## Any .NET
-
-{% include alert.html  type="warning" title="Experimental Edition Feature" content="This feature is not user friendly and we are unsure if we can ever make it user friendly due to limitations by Microsoft. Because of this, it is only available to the <a href=\"../Editions/Experimental\">Experimental Edition</a> till it is more user friendly." %}
-
-This "runtime" works that if a program starts in a specified folder or subfolder and then requests the user if it wants to profile the application or not.
-However, this also means that if you set it to, for example, 'C:\', it will ask you if you want to profile any application that starts on that drive!
+- Supported: ASP.NET Core 1.0 and newer
 
 ### Known Issues
-- At this moment CodeGlass can only set one folder as enabled; this limitation will be removed in the future.
-- The CodeGlass Client may state that the folder is enabled, but when restarting the client it states that it is not; this is due to the clearing of register keys (see [registry keys](#registry-keys) below). We will fix this before the release to the Pro version.
-- If you close the client with the enabled folder, it will stop working (see [registry keys](#registry-keys) below)
-- If you start the client with the enabled folder, it will stop working (see [registry keys](#registry-keys) below)
-- It does not work for ASP.NET projects if the selected folder is not part of the path to your IIS Express installation folder. Because the running application is IIS Express and not your application.
 
-#### Registry Keys
-For this feature, we have to add some registry keys. To prevent it going all haywire, we do the following to clean them up:
-- We remove them when you close the client on the machine with the active folder.
-- We remove them when you start the client on the machine with the active folder in case that CodeGlass was closed incorrectly.
-- We remove them when you uninstall CodeGlass on the machine with the active folder
-
-If, in the unlikely case, the registry keys stay behind, these are the keys to remove:
-```
-HKEY_CURRENT_USER\Environment\cg_app_instance_config_base_file_path
-HKEY_CURRENT_USER\Environment\clr_environment_active
-HKEY_CURRENT_USER\Environment\cor_enable_profiling
-HKEY_CURRENT_USER\Environment\cor_profiler
-HKEY_CURRENT_USER\Environment\cor_profiler_path_32
-HKEY_CURRENT_USER\Environment\cor_profiler_path_64
-HKEY_CURRENT_USER\Environment\coreclr_enable_profiling
-HKEY_CURRENT_USER\Environment\coreclr_profiler
-HKEY_CURRENT_USER\Environment\coreclr_profiler_path_32
-HKEY_CURRENT_USER\Environment\coreclr_profiler_path_64
-```
+- Some older ASP.NET Projects do not load configuration fileswith the .NET CLI. Ensure configuration files (e.g., `appsettings.json`) are correctly loaded.
+- The folder name must match the output `.dll` file name.
 
 ## Azure App Service
-At this moment we do not fully support profiling your application on an Azure App Service, but you can make it work. Below are the rough outlines of what you would need to do to set this up. If you have any questions please reach out and we are glad to help you.
-- Copy the CodeGlass profiler dll files into a folder in the project that you want to publish on Azure. Make sure to add them to your solution and that those files get copied to your build folder.
-- Publish your project to Azure.
-- In the Azure portal, go to the App Service that you just published. In the side bar, unfold "Settings" and click on "Environment variables".
-- In the environment variables add the following values (key, value). Make sure to check "Deployment slot settings" for all of these:
-    - CG_ENABLE, 1
-    - CORCLR_ENABLE_PROFILING, 1
-    - CORECLR_PROFILER, {2091c114-505f-51b5-8145-5eee1ed82fe1}
-    - CG_IP, {Ip address of the device you want to send the profiling data to}
-    - CG_PORT, 60341
-    - CG_TOKEN, {the CodeGlass token of the application you added in CodeGlass}
-    - CORCLR_PROFILER_PATH_64, {absolute path to the x64 version of the CodeGlass profiling dll}
-    - CORCLR_PROFILER_PATH_32, {absolute path to the Win32 version of the CodeGlass profiling dll}
 
-When setting the CG_IP variable, make sure that the device you are sending the data to can be reached by the App Service. If you are sending the data to a virtual machine that is also running in Azure, make sure that they are on the same VNet and use the internal IP address of that VM.
+At this moment, profiling applications on Azure App Service is not officially supported by CodeGlass, but it is possible to configure manually. Below is a general outline of the steps required. If you encounter issues, feel free to contact us — we are happy to assist.
 
-CG_PORT is set to the default port that CodeGlass profiler uses to communicate with to the hub. Make sure that the receiving device has this port open to receive TCP data.
+### Setup Instructions
 
-The CG_TOKEN can be found in the [start instructions](../views/mainwindow/applicationInstance.md#start-instructions) of CodeGlass. Make sure to copy the token from the CodeGlass instance that is running on the receiving device.
+1. **Add Profiler DLLs to Your Project**  
+   Copy the CodeGlass profiler DLLs into a folder within your project. Ensure the files are included in your solution and are marked to be copied to the output directory on build.
 
-The profiler paths should be absolute paths to the dll. This most likely is something like: `C:\home\site\wwwroot\{folder you placed the profiler dlls in}`. If you are not sure what the first part of your path is like, you can open a "Console" in Azure. The starting directory is the first part of your path.
+2. **Publish Your Project to Azure**  
+   Deploy the project to your Azure App Service as you normally would.
+
+3. **Configure Environment Variables**  
+   In the Azure Portal, navigate to your App Service. Under the **Settings** section in the sidebar, click **Configuration**, then under the **Application settings** tab, add the following environment variables. Ensure "Deployment slot setting" is checked for each one:
+
+   | Key                      | Value                                                              |
+   |--------------------------|--------------------------------------------------------------------|
+   | `CG_ENABLE`              | `1`                                                                |
+   | `CORCLR_ENABLE_PROFILING`| `1`                                                                |
+   | `CORECLR_PROFILER`       | `{2091c114-505f-51b5-8145-5eee1ed82fe1}`                           |
+   | `CG_IP`                  | IP address of the device running CodeGlass Hub                     |
+   | `CG_PORT`                | `60341` (default port used by CodeGlass)                           |
+   | `CG_TOKEN`               | Token of the application you created in CodeGlass                  |
+   | `CORCLR_PROFILER_PATH_64`| Absolute path to x64 CodeGlass profiler DLL                        |
+   | `CORCLR_PROFILER_PATH_32`| Absolute path to Win32 CodeGlass profiler DLL                      |
+
+### Additional Notes
+
+- **CG_IP** should point to a reachable device from the App Service. If targeting an Azure VM, ensure both services are on the same Virtual Network (VNet) and use the VM's internal IP address.
+- **CG_PORT** must be open for inbound TCP traffic on the receiving device.
+- **CG_TOKEN** is found in the [Start Instructions](../views/mainwindow/applicationInstance.md#start-instructions) section of the target application in CodeGlass.
+- **DLL Paths** must be absolute. A common pattern is: `C:\home\site\wwwroot{your-folder-name}`. To confirm the correct base path, open the **Console** for your App Service from the Azure portal. The initial directory shown is the root path you should use.
+
+This configuration enables your Azure-hosted application to send profiling data to your local or cloud-hosted CodeGlass instance.
 
 ## Visual Studio Solution
-{% include alert.html  type="warning" title="Only available for experimental" content="This feature is still very experimental, therefor this is only available in the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
-{% include alert.html  type="success" title="JetBrains editors are also supported" content="If you want to use a JetBrains editor like Rider checkout <a href=\"JetbrainsEditors\" target=\"_blank\">this</a> page." %}
 
-The Visual Studio "runtime" allow you to profile supported runtime applications while debugging them in Visual Studio.
+{% include alert.html  type="warning" title="Only available for experimental" content="This feature is still experimental and available only in the <a href=\"../Editions/Experimental\">Experimental Edition</a>." %}
+{% include alert.html  type="success" title="JetBrains editors are also supported" content="JetBrains support is available. See the <a href=\"JetbrainsEditors\">JetBrains Editors</a> page." %}
 
+Allows profiling of supported runtimes while debugging in Visual Studio.
 
 ### Requirements
-- Devenv.exe is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings)
-- Requires the build folder to be in the same or the subfolder of the solution
-- ASP.NET Framework specific requirement: iisexpress.exe x86 path is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings) or enforce using x64 IIS Express in the Visual Studio Settings.
 
+- `devenv.exe` must be configured in [Client Settings](../views/clientusersettingswindow.md#client-settings)
+- Build output must reside in or beneath the solution folder
+-  ASP.NET Framework specific requirement: `iisexpress.exe` x86 path must be configured in the [Client Settings view](../views/clientusersettingswindow.md#client-settings), or alternatively, enforce the use of x64 IIS Express in the Visual Studio settings.
 
 ### Known Issues
-- Multiple startup projects might cause issues.
-- New [start filters](ProfilingDataFiltering.md#application-instance-start-filters) will only apply when you reopen visual studio through CodeGlass, NOT when you restart the VS debugger.
-- You get 'System.AccessViolationException: Attempted to read protected memory' from the VS Debugger. Try the following: Start once without debugging (CTRL+F5), rebuild the solution or reopen the solution through CodeGlass, Restart your computer. We always manage to get rid of the message in testing after trying the above; let us know if you can't get rid of it.
-- ASP.NET Framework specific issue: It might happen that it does not automatically open the web page. You have to open a browser yourself and go to the URL. If you do not know the URL, you can check IISExpress tray icon on the taskbar in the bottom right.
-- ASP.NET Framework specific issue: [CodeGlass Console](AttachConsole.md) input might not work; output always works. 
+
+- Multiple startup projects may cause conflicts
+- New [start filters](ProfilingDataFiltering.md#application-instance-start-filters) will only apply when Visual Studio is restarted through CodeGlass, **not** when you restart the VS debugger.
+- You get 'System.AccessViolationException: Attempted to read protected memory' from the VS Debugger. Try the following: Start once without debugging (CTRL+F5), rebuild the solution or reopen the solution through CodeGlass, Restart your computer. Be sure to reach out to support if the problems persist.
+- ASP.NET Framework specific issue: The web page might not be opened automatically. You should visit the web page manually. If you do not know the URL, you can check IISExpress tray icon on the taskbar in the bottom right.
 
 ## UWP
-{% include alert.html  type="warning" title="Experimental but available to everyone" content="This feature sometimes has some issues when launching an UWP application, but we did want to make it available to everyone anyways. To solve some of the issues, work arounds are described below." %}
 
-To profile a UWP application using CodeGlass, you need to run CodeGlass with administrator privileges. We are working on making it more stable and fixing this problem.
+{% include alert.html  type="warning" title="Experimental but available to everyone" content="This feature has known issues but is available to all users." %}
 
 ### Requirements
-- Requires the app not to be compiled with the [.net native tool chain](https://docs.microsoft.com/en-us/dotnet/framework/net-native/). If you know a way around this, please let us know.
-- Needs CodeGlass NOT to be started as administrator (not-elevated). <br/>
-Microsoft does not allow UWP applications to start in elevated mode. Since CodeGlass is started in the elevated mode, it can't start the application with lower permissions (not-elevated). 
+
+- The application must not be compiled with the [.NET Native Tool Chain](https://docs.microsoft.com/en-us/dotnet/framework/net-native/). If you know a workaround for this limitation, please let us know.
+- CodeGlass must **not** be started as administrator.  
+  Microsoft prevents UWP applications from launching in elevated mode. If CodeGlass is running with elevated permissions, it cannot start UWP apps, which require standard (non-elevated) privileges.
 
 ### Known Issues
-- Only able to profile applications that are built in Debug Mode.
-- Needs CodeGlass to be opened as administrator to [add UWP applications](../views/mainwindow/newapplication.md#uwp).
-Microsoft does not allow us to query UWP applications without administrator rights. <br/>
-- Needs CodeGlass NOT to be started as administrator (not-elevated) to start a UWP application.<br/>
-Microsoft does not allow UWP applications to start in elevated mode. Since CodeGlass is started in the elevated mode, it can't start the application with lower permissions (not-elevated). 
-- The application starts but is not visible on the foreground, please open Windows Task manager (CTRL + SHIFT + ESC), go to tab 'App History' and then right mouse button and press 'Switch to'.
-- The application does not start anymore <br/>
-Please check if it is not running in task manager and kill it if it is. After that ensure that it runs correctly when you start it normally (sometimes after a while it doesn't anymore). Restart the pc if necessary. After that you can try again to start it with CodeGlass. You could also try locating it in Task Manager under App History, and then left mouse button an Switch to. <br/>
-If the application also does not start anymore without CodeGlass even after you restart the PC, you need to rebuild it again to fix it.
 
+- Only applications built in **Debug Mode** can be profiled.
+- To [add UWP applications](../views/mainwindow/newapplication.md#uwp), CodeGlass **must** be run as administrator.  
+  This is because Microsoft restricts querying UWP app metadata without elevated permissions.
+- To **start** UWP applications, CodeGlass must **not** be run as administrator due to elevation restrictions.
+- The application might start but not appear in the foreground. If this happens:
+  - Open Task Manager (Ctrl + Shift + Esc)
+  - Go to the **App History** tab
+  - Right-click the application and choose **Switch to**
+- If the application does not start:
+  - Ensure it is not already running in the background
+  - Terminate it via Task Manager if needed
+  - Verify that it runs correctly without CodeGlass
+  - Restart the PC if necessary
+  - Try launching it again from CodeGlass
+  - If still unresponsive, rebuild the application and retry
 
 ## JavaScript Website
-{% include alert.html  type="warning" title="Only available for experimental" content="This feature is very experimental, because of this only available to the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
 
-{% include alert.html  type="warning" title="Do not use CodeGlass Chromium Browser for other use cases." content="The browser should be as safe as the Chromium browser (after we fix the security sandbox), but for the sake of arguments, just assume it is not, so don't use it when you do not want to profile the website you visit." %}
+{% include alert.html  type="warning" title="Only available for experimental" content="This feature is very experimental and only available in the <a href=\"../Editions/Experimental\" target=\"_blank\">Experimental Edition</a>." %}
 
-The JavaScript website "runtime" makes it possible to profile websites built with Javascript; this includes Typescript and all frameworks built upon JavaScript, as they all compile to JavaScript.<br/>
-It uses a custom version of the Chromium (read Chrome) browser made by us to make this possible.
+{% include alert.html  type="warning" title="Do not use CodeGlass Chromium Browser for other use cases." content="This browser is for profiling only. Do not use it for general browsing." %}
 
-It is currently in the early stages. Please check back when we release it to Pro and give it an another chance.
+The JavaScript website runtime allows profiling of websites built with JavaScript, including TypeScript and frameworks like React, Angular, and Vue. Since these compile to JavaScript, they are all supported by this runtime.
+
+This functionality is enabled via a custom Chromium-based browser developed specifically for CodeGlass.
+
+The feature is still in early development. We recommend checking back when it reaches the Pro release.
 
 ### Requirements
-- CodeGlass Chromium Browser is installed (optional install option in the [CodeGlass Installer](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases){:target="_blank"}).
-- CodeGlass Browser path is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings)
+
+- CodeGlass Chromium Browser must be [installed](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases){:target="_blank"}).
+- The path to the browser must be set in the [Client Settings View](../views/clientusersettingswindow.md#client-settings).
 
 ### Known Issues
-- Security sanbox is disabled, we had fixed this but it broke again when we updated chromium.
-- Page loading will fail with STATUS_BREAKPOINT, this happens because you loaded a cached page, please reload the page with CTRL + F5, and if that does not help open Dev tools (F12), go to network tab and check 'disable cache' and reload the page again with CTRL+F5
-- Many features that work for the CLR profiler do not work for this runtime, including:
-    - [Decompilation for Filters](Decompilation.md)
-    - [Memory Profiling](MemoryProfiling.md)
-    - [Garbage Collection Invocations](GarbageCollection.md)
-    - (probably more, we have to update this list manually)
-- New [start filters](ProfilingDataFiltering.md#application-instance-start-filters) will apply when you relaunch the browser through CodeGlass, NOT when you reload the page or use another tab.
-- CodeGlass always opens a new browser window instead of another tab.
-- We currently do not update and build the browser for each CodeGlass update with the latest Chromium changes as it takes a lot of time (read hours); because of this, the browser might not have the latest changes of Chromium.
-- Only x64 and Windows, Chromium takes a lot of time to build (See above), we want to first make x64 stable before we start compiling to other architectures.
-- When launching the CodeGlass Browser through the CodeGlass client, you decide under which [application](../views/mainwindow/applicationInstance.md) (instance) the browser will put the profiled data. It is unaware if you leave the specified website and will keep putting the other website's data in the same application in CodeGlass. Keep this in mind when reading statistics and such.
-- The browser is not uninstalled when you uninstall CodeGlass, you have to do it manually (CodeGlassChromium in Apps and Features in Windows)
+
+- The security sandbox is currently disabled. This was previously resolved but regressed with a Chromium update.
+- You may encounter a `STATUS_BREAKPOINT` error when loading a cached page. To resolve:
+  - Reload with **Ctrl + F5**
+  - If that fails, open DevTools (F12), navigate to the Network tab, enable **Disable cache**, and reload again with **Ctrl + F5**
+- Many features available in the CLR profiler do not work with this runtime, including:
+  - [Decompilation for Filters](Decompilation.md)
+  - [Memory Profiling](MemoryProfiling.md)
+  - [Garbage Collection Invocations](GarbageCollection.md)
+  - Additional limitations may apply
+- New [start filters](ProfilingDataFiltering.md#application-instance-start-filters) are only applied when the browser is launched through CodeGlass. **not** when refreshing a tab or navigating to another page.
+- Each session opens a new browser window rather than a tab.
+- Chromium builds are not regenerated with every CodeGlass release due to long build times.
+- Only x64 builds for Windows are supported at this time. Support for other platforms may follow once the x64 version is stable.
+- When launched via CodeGlass, the browser continues logging data under the selected [application instance](../views/mainwindow/applicationInstance.md), regardless of navigation away from the original website.
+- The browser is not removed when uninstalling CodeGlass. You must uninstall it manually via **Apps & Features** in Windows (look for "CodeGlassChromium").
 
 ### Limitations
-- A new [Application Instance](../views/mainwindow/applicationInstance.md) is made for every separated javascript process that starts in the CodeGlass browser (Like every tab and every website)
+
+- A new [Application Instance](../views/mainwindow/applicationInstance.md) is created for each isolated JavaScript process in the CodeGlass browser. This includes separate tabs and websites.
 
 ## Julia
-{% include alert.html  type="warning" title="Coming soon for experimental" content="This feature is not yet available, but will be made available soon. Also this feature is very experimental, because of this only available to the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
 
-The Julia runtime allows you to profile your Julia applications. You can profile both a script you select or directly run your code in a REPL. See [add new Julia application](../views/mainwindow/newapplication.md#julia) on how to setup a REPL.
+{% include alert.html  type="warning" title="Coming soon for experimental" content="Will be available soon in the <a href=\"../Editions/Experimental\">Experimental Edition</a>." %}
+
+Profiles both Julia scripts and REPL sessions.  See [add new Julia application](../views/mainwindow/newapplication.md#julia) on how to setup a REPL.
 
 ### Requirements
+
 - CodeGlass Julia is installed using the provided installer. The installer can be found [here](https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases){:target="_blank"} when it has been released.
 - CodeGlass Julia path is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings)
 
 ### Known Issues
-- It is not possible to set any [filters](ProfilingDataFiltering.md). This is due to a bug in how we track exceptions in Julia. We are working on making filtering possible again.
-- It is not possible to disable [memory profiling](MemoryProfiling.md). This is due to how we have to profile Julia. Julia uses precompiling for a lot of things. After something has been precompiled we cannot make our changes anymore. This makes it very hard to enable or disable specific parts. For this reason memory profiling is always enabled.
-- Certain packages fail to precompile. Some packages (like AllocCheck) can fail to precompile on CodeGlass Julia.
+
+- Filtering and memory profiling configuration are not currently supported
+- Some packages may fail to precompile
 
 ### Limitations
-- CodeGlass Julia is a completely separate installation from your normal Julia installation. This also means that non of your packages or configurations from you "normal" Julia installation are used in CodeGlass Julia. This might mean that you have to reinstall some of your packages. It is recommended to keep the amount of installed packages on CodeGlass Julia to a minimum because of precompiling. Julia tries to precompile every package that you install. CodeGlass tries to profile that precompilation process. This means that it can take a while to precompile all your packages. To speed up this process, you can try to install all your packages without having CodeGlass running. (All your CodeGlass Julia packages are installed in the folder `C:\Users\{USERNAME}\.codeglass-julia`)
+
+- CodeGlass Julia is separate from your normal Julia installation. None of your "normal" packages or configurations are used in CodeGlass Julia. You might have to reinstall some of your packages. It is recommended to keep the amount of installed packages on CodeGlass Julia to a minimum because of precompiling. Julia tries to precompile every package that you install. CodeGlass tries to profile that precompilation process. This means that it can take a while to precompile all your packages. To speed up this process, you can try to install all your packages without having CodeGlass running. All your CodeGlass Julia packages are installed in the folder `C:\Users\{USERNAME}\.codeglass-julia`
 - CodeGlass Julia does not automatically get uninstalled when you uninstall CodeGlass. You can do this in your Windows Settings.
 
 ## Java
-{% include alert.html  type="warning" title="Only available for experimental" content="This feature is very experimental, because of this only available to the <a href=\"../Editions/Experimental\" target=\"_blanc\">Experimental Edition</a>." %}
 
-The Java runtime allows you to profile your Java applications. You can profile .jar files or get Start Instruction on how to run your code using Gradle or Maven.
+{% include alert.html  type="warning" title="Only available for experimental" content="Available only in the <a href=\"../Editions/Experimental\">Experimental Edition</a>." %}
+
+Profiles `.jar` files or code run via Gradle or Maven.
 
 ### Requirements
-- Java is installed on the system
-- (optional) Java path is set in the Client settings view
+
+- Java must be installed
+- CodeGlass Java path is set in the [Client settings view](../views/clientusersettingswindow.md#client-settings)
 
 ### Known Issues
-- Inner classes are for now displayed as one class like OuterClass$InnerClass instead of sub classes.
-- Object names are displayed including namespaces instead of just the object names. E.g. java/lang/Object instead of Object
-- The generic type part \<T> is not yet profiled and displayed in CodeGlass. Instead, generic java/lang/Object will be displayed.
+
+- Inner classes appear as flat names. E.g. OuterClass$InnerClass
+- Fully-qualified names are shown. E.g. java/lang/Object instead of Object
+- Generic types are not displayed. E.g. generic java/lang/Object instead of java/lang/Object \<T>
 
 ### Limitations
-- It is not possible to profile Java specific/own namespaces.
-- It is not possible to profile some specific libraries and packages like org.xml and org.apache.
-- An error may occur if some not yet excluded libraries and packages that are like org.xml and org.apache are profiled. These packages can be added to the filter to bypass this issue. 
+- It is not possible to profile Java's own namespaces.
+- It is not possible to profile certain libraries and packages such as `org.xml` and `org.apache`.
+- An error may occur if some not yet excluded libraries and packages like `org.xml` and `org.apache` are profiled. These packages can be added to the filter to bypass this issue. 
 - Memory profiling is not yet implemented for Java.
 
 # See Also:
- - [View - Add new Application](../views/mainwindow/newapplication.md)
- - [View - Client settings](../views/clientusersettingswindow.md#client-settings)
- - [Roadmap - Non .NET Profiler](../Roadmap/NonDotNetProfiler.md)
+- [View - Add new Application](../views/mainwindow/newapplication.md)
+- [View - Client settings](../views/clientusersettingswindow.md#client-settings)
+- [Roadmap - Non .NET Profiler](../Roadmap/NonDotNetProfiler.md)

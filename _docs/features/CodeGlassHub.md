@@ -2,32 +2,38 @@
 title: Feature - CodeGlass Hub
 description: The central nervous system and brain of CodeGlass
 ---
+
 # CodeGlass Hub
-CodeGlass is from the ground up designed for remote profiling and to support any language, because of this CodeGlass exists out of multiple parts:
+
+CodeGlass is designed from the ground up for remote profiling and language-agnostic analysis. As a result, it is composed of several components:
 - [CodeGlass Client](CodeGlassClient.md)
 - CodeGlass Hub
 - [CodeGlass Profilers](CodeGlassProfilers.md)
 
-The Hub is the brain of the application, it processes all the data send by the [profilers](CodeGlassProfilers.md) and prepairs that data for the [clients](CodeGlassClient.md).
-You can connect as many profilers and clients to an hub, as long as your machine has the resources for it.
+The **CodeGlass Hub** acts as the central processing unit of the system. It ingests runtime data from connected [profilers](CodeGlassProfilers.md), processes it, and makes it accessible to [clients](CodeGlassClient.md) for analysis and visualization.
+
+You can connect multiple profilers and clients to a single Hub, provided the host system has sufficient resources to handle the load.
 
 ## Remote Hub
-You are also not bound to run the hub on the same machine as the application you want to profiler. You can also connect clients and profilers from another machine to the same hub. 
-However we highly suggest you run the profiler and hub on the same machine for performance reasons.
 
-Connecting to a remote Hub makes it possible for you and a college can look together at the same profiling data, without having to sit on each others lap. 
+The Hub does not need to run on the same machine as the application being profiled. Clients and profilers can connect remotely to the same Hub, allowing distributed workflows and collaborative analysis.
 
-The performance penalty for running your [client](CodeGlassClient.md) on another machine is negatable.
+For best performance, we recommend running the profiler and the Hub on the same machine.
 
-CodeGlass is not response for the security, we of course have some security implemented but for the sake of arguments just assume it is nothing. 
-So it is up to the user to keep the remote hub safe, we recommend keeping access within a trusted local network and using a VPN when you want to go beyond that. 
+Remote connectivity enables shared access to profiling sessions—for example, multiple engineers can analyze the same data in real time from different machines.
+
+Running the [Client](CodeGlassClient.md) on a separate machine from the Hub introduces negligible performance overhead.
+
+> **Security Note:**  
+> CodeGlass includes basic security mechanisms, but users should not rely on them for production-grade protection.  
+> Treat remote Hubs as untrusted by default. We recommend:
+> - Restricting access to a trusted local network
+> - Using a VPN when operating across broader networks
 
 ## Local Hub
-If you want to keep your hub local, the only thing you have to do is prevent access to it trough you PC's firewall. 
+
+To keep your Hub instance local, simply block external access using your PC’s firewall.
 
 # See Also:
 - [Feature - CodeGlass Client](CodeGlassClient.md)
 - [Feature - CodeGlass Profilers](CodeGlassProfilers.md)
-
-
-

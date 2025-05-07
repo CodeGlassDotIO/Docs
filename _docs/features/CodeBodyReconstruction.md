@@ -2,43 +2,49 @@
 title: Feature - Code Body Reconstruction
 description: Reconstructing the code body of a function without decompilation.
 ---
-# Code body Reconstruction
-{% include alert.html  type="warning" title="Experimental feature" content="This feature is still very experimental, though it is available in all <a href=\"../Editions\" >editions</a>, for more info see the <a href=\"#experimental-warning\" >Experimental warning</a> below." %}
+
+# Code Body Reconstruction
+{% include alert.html  type="warning" title="Experimental feature" content="This feature is still very experimental, though it is available in all <a href=\"../Editions\" >editions</a>. For more info, see the <a href=\"#experimental-warning\">experimental warning</a> below." %}
 
 ![assets/img/Features/CodeBodyReconstruction.png](../../assets/img/Features/CodeBodyReconstruction.png)
 
-Unlike other profilers that simply show how much time is spent in a function, CodeGlass goes a step further by analyzing the collected data to reconstruct the function body as accurately as possible, without decompiling or needing access to your source code!
+Unlike traditional profilers that only provide function-level timing, CodeGlass leverages runtime data to **reconstruct the internal structure of a function**, without requiring decompilation or access to the source code.
 
-This allows CodeGlass to provide a detailed view of your function's behavior, including:
-- Where time is spent within the function.
-- The number of times a loop is executed.
-- How often different code paths are taken (hot and cold paths).
-- The current position of a thread within the function.
-- Time taken by the function when called from different functions (e.g., Function "A" vs. Function "B").
-- The exact point where a function call was made in the code.
-- The paths that need to be taken inside the function to reach a specific call.
-- Time spent in the function body between function calls.
-- Insights into potential optimizations, like loop unrolling.
-- How your code behaves compared to your expectations.
+This enables granular insights into a function’s runtime behavior, including:
 
-Because this analysis is based on collected data instead of decompilation, CodeGlass shows you what your function is actually doing, and showing you the difference between your expectations and its actual behavior. Paths that are never taken are excluded from the analysis, ensuring only relevant information is displayed.
+- Time spent within individual blocks of code
+- Loop iteration frequencies
+- Hot vs. cold control paths
+- Real-time thread position within the function
+- Execution time broken down by caller (e.g., Function A vs. Function B)
+- Exact call sites within the reconstructed code body
+- Execution paths required to reach specific calls
+- Timing between internal calls
+- Optimization opportunities (e.g., loop unrolling)
+- Deviations between expected and actual control flow
 
-With these insights, you can uncover surprises like unexpected loop iterations or frequently called code paths. It also eliminates the need to manually add stopwatches to your code, as CodeGlass provides similar insights in environments where adding them is not possible.
+Because reconstruction is based purely on observed execution data, it only reflects paths that were actually taken at runtime. This minimizes noise and highlights relevant, real-world control flow. Thus exposing behavioral anomalies without requiring any code instrumentation.
+
+Typical insights include:
+- Hidden or unexpected loop iterations
+- High-frequency branching patterns
+- Temporal inconsistencies in execution
+- Profiling data from non-instrumentable environments
 
 ## Experimental Warning
-This feature is still highly experimental but is available in all [editions](../Editions.md). We didn’t want to limit it to paid versions only, even though it’s currently in a testing phase. It’s already proving to be very helpful, so we’ve made it accessible beyond just the [experimental Edition](../Editions/Experimental.md).
+This feature is currently experimental but is included in all [editions](../Editions.md), including the free tier. It is not restricted to the [Experimental Edition](../Editions/Experimental.md), as it is already proving useful despite its early-stage nature.
 
-We encourage you to report any issues you encounter in CodeGlass, but please note that you don’t need to report when this render fails, as you will receive an appropriate error message. We understand that this feature doesn't always perform perfectly, but we feel it’s too valuable to restrict it to the [experimental Edition](../Editions/Experimental.md) despite its current state.
+You are encouraged to report any issues. When reconstruction fails, a descriptive error will be shown and manual reporting is not necessary.
 
-Rest assured, this feature should never cause CodeGlass to crash; it’s not that experimental ;)
+While experimental, the feature is stable and will not cause CodeGlass to crash.
 
 ## Limitations
-Because this rendering is an assumptions based on data, it can never be perfect. Collecting every possible path would take a massive amount of RAM (even downloading more is not enough), so we settled on doing it within the confinement of limited ram.
-That does not mean that it will not improve in the future, but currently it is far from perfect and can still be improved on a lot (which we are also planning to do). 
+Reconstruction relies on execution data and is therefore incomplete by design. Exhaustively capturing all possible control paths would require unbounded memory. The current implementation operates within practical memory limits.
 
+We are actively working to improve both the accuracy and the completeness of this feature.
 
-## Known issues
-- In some cases where reconstruction should be possible, it still fails.
+## Known Issues
+- In some cases, reconstruction may not succeed even when runtime data appears sufficient.
 
-## Views using this feature
-- [Function Details View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md#code-body-view)
+## Views Using This Feature
+- [Code Body View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md#code-body-view)

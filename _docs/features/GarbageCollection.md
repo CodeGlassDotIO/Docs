@@ -4,19 +4,23 @@ description: The tracking of every executed garbage collection
 ---
 
 # Garbage Collection Invocations
+
 ![assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png](../../assets/img/ApplicationInstanceWindow/GarbageCollectionInvokedWindow.png)
 
-This feature allows you to gain insights into what your application does during garbage collection. This can help you track down objects that do not get removed or find objects that get removed to fast.
+This feature provides insight into your application’s behavior during garbage collection. It can help you identify memory leaks (objects not being collected) or objects that are being collected too aggressively.
 
 {% include alert.html  type="warning" title="Limited support" content="At this point the only languages to support this feature are Julia and .NET, but more will be added soon." %}
 
 ## Garbage Collection Invocations Explorer
-The garbage collection invocations explorer shows you all the rounds of garbage collection that have occurred during the execution of your application. This allows you to quickly see if your application is running more or less rounds of garbage collection than you expected.
+
+The Garbage Collection Invocations Explorer displays all garbage collection rounds that occurred during the application's execution. This enables a quick assessment of whether your application is triggering more or fewer collections than expected.
 
 ## Garbage Collection Statistics
-Besides seeing all the garbage collections that have happened, you can also view what happened during the garbage collection. The following pieces of information are available:
-- The method that was being executed when the garbage collection was triggered.
-- The type of the object that was being allocated when garbage collection was triggered.
-- The amount of time the garbage collection took.
-- The amount of bytes that were freed by the garbage collection.
-- Every object that was deallocated, including the method that originally allocated that object.
+
+In addition to listing each garbage collection event, detailed metrics are provided for analysis:
+
+- The method being executed when garbage collection was triggered
+- The type of the object being allocated at the time of trigger
+- The duration of the garbage collection event
+- The number of bytes freed during the event
+- A full list of deallocated objects, including the method responsible for their original allocation
