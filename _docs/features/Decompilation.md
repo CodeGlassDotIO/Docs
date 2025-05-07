@@ -4,26 +4,26 @@ description: Explanation of where and why we use decompilation (Because that can
 ---
 
 # Decompilation
-From the start, we did not want to use any decompilation, as we did not want anyone to think we were doing something with it and did not want any knowledge of your code.
 
-However, we added the following feature below as we did not see another way around it.
+From the beginning, we intentionally avoided decompilation to ensure users had full confidence that CodeGlass does not access or interpret their source code.
 
-So we made this page to clarify why there are standard decompilation libraries in our assembly.
+However, after extensive evaluation, we introduced a limited decompilation capability, outlined below, because there was no viable alternative for this specific use case.
+
+This page is intended to clarify our reasoning and explain why standard decompilation libraries are included in the CodeGlass assembly.
 
 ## Decompilation for Filters
-We wanted to make this page as we want to be transparent with everything CodeGlass does, and we can imagine that people might get anxious when they see standard decompilation libraries in our assembly.
-And that the use-case we use it for here is very useful.
 
-We only use decompilation when the user presses the decompilation buttons in [application filter views](../views/ApplicationSettingsWindow#decompilation). You supply data for the [profiling data filtering feature](ProfilingDataFiltering.md) with this.
-Then you do not have to run the application first and maybe a while to get the data you want to filter.
-Decompilation can be very helpful, especially in cases where you do not want to run it the first time (like solving bugs that only happen at first launch after installation).
+We value transparency, especially regarding features that may raise concerns. The presence of decompilation libraries is deliberate and limited in scope.
 
+Decompilation is only invoked when a user explicitly triggers it via the [application filter views](../views/ApplicationSettingsWindow#decompilation). This is used to assist in defining [profiling data filters](ProfilingDataFiltering.md) *before* any runtime data has been collected.
 
-Of course, you have to take our word for it, and we hope that is enough. However, if that is still a deal breaker for you, feel free to submit a ticket, then we will make it an installation option in the future.
- 
+This functionality is particularly helpful when profiling scenarios that are difficult to reproduce, such as issues that only occur on first launch after installation. By leveraging decompilation, users can configure filters in advance without having to run the target application.
 
+> **Note:**  
+> Decompilation is never used implicitly. It is strictly opt-in and only occurs through a user-initiated action.  
+
+We understand that trust is critical. If this behavior is a concern, please let us know. We are open to making decompilation support an optional install-time feature based on user feedback.
 
 # See Also:
 - [Profiling data filtering](ProfilingDataFiltering.md)
 - [View - Application Filters](../views/ApplicationSettingsWindow.md#application-filters)
-

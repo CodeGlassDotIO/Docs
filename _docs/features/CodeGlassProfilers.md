@@ -2,15 +2,17 @@
 title: Feature - CodeGlass Profilers
 description: The different supported data collection profilers of CodeGlass
 ---
+
 # CodeGlass Data Collection Profilers
-CodeGlass is made with remote profiling and support for any language in mind. Because of this, CodeGlass exists out of multiple parts:
+
+CodeGlass is built with remote profiling and cross-language support at its core. As such, the system is divided into multiple components:
 - [CodeGlass Client](CodeGlassClient.md)
 - [CodeGlass Hub](CodeGlassHub.md)
 - CodeGlass Profilers
 
-At CodeGlass, when we speak of profilers, we only mean the **Data Collection** portion of a profiler. This is because processing the data is done on the [Hub](CodeGlassHub.md) and display the data is done on the [Client](CodeGlassClient.md).
+In the context of CodeGlass, **profilers** refer specifically to the **data collection** layer. They are responsible for gathering runtime telemetry from supported applications. All data processing is handled by the [Hub](CodeGlassHub.md), and visualization is performed in the [Client](CodeGlassClient.md).
 
-For more information about the languages we support, see [supported runtimes](supportedruntimes.md).
+For details on the runtimes currently supported, refer to [supported runtimes](supportedruntimes.md).
 
 # See Also:
 - [Feature - CodeGlass Hub](CodeGlassHub.md)

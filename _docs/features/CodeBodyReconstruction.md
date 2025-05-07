@@ -8,43 +8,43 @@ description: Reconstructing the code body of a function without decompilation.
 
 ![assets/img/Features/CodeBodyReconstruction.png](../../assets/img/Features/CodeBodyReconstruction.png)
 
-Unlike traditional profilers that only show time spent per function, CodeGlass analyzes collected runtime data to **reconstruct the function body**—without decompilation or access to your source code.
+Unlike traditional profilers that only provide function-level timing, CodeGlass leverages runtime data to **reconstruct the internal structure of a function**, without requiring decompilation or access to the source code.
 
-This enables detailed insights into how a function behaves during execution, including:
+This enables granular insights into a function’s runtime behavior, including:
 
-- Time spent within specific parts of the function
-- Loop iteration counts
-- Hot vs. cold code paths
-- The current thread position within the function
-- Execution time by call origin (e.g., Function A vs. Function B)
-- Exact call sites within the function body
-- Required execution paths to reach a call
-- Time between internal function calls
-- Optimization candidates (e.g., loop unrolling)
-- Gaps between expected and actual behavior
+- Time spent within individual blocks of code
+- Loop iteration frequencies
+- Hot vs. cold control paths
+- Real-time thread position within the function
+- Execution time broken down by caller (e.g., Function A vs. Function B)
+- Exact call sites within the reconstructed code body
+- Execution paths required to reach specific calls
+- Timing between internal calls
+- Optimization opportunities (e.g., loop unrolling)
+- Deviations between expected and actual control flow
 
-Because reconstruction is based on runtime data, only the paths actually taken during execution are shown. This avoids clutter and focuses on relevant control flow, exposing unexpected behavior without requiring manual instrumentation.
+Because reconstruction is based purely on observed execution data, it only reflects paths that were actually taken at runtime. This minimizes noise and highlights relevant, real-world control flow. Thus exposing behavioral anomalies without requiring any code instrumentation.
 
-This feature can reveal:
-- Hidden loop iterations
-- Frequently hit branches
-- Timing irregularities
-- Profiling insights in environments where code instrumentation isn’t possible
+Typical insights include:
+- Hidden or unexpected loop iterations
+- High-frequency branching patterns
+- Temporal inconsistencies in execution
+- Profiling data from non-instrumentable environments
 
 ## Experimental Warning
-This feature is still highly experimental but is available in all [editions](../Editions.md), including free tiers. We chose not to restrict access to the [Experimental Edition](../Editions/Experimental.md), as the feature is already proving valuable, even in its current state.
+This feature is currently experimental but is included in all [editions](../Editions.md), including the free tier. It is not restricted to the [Experimental Edition](../Editions/Experimental.md), as it is already proving useful despite its early-stage nature.
 
-We encourage you to report any issues encountered in CodeGlass. However, if reconstruction fails, you will receive a descriptive error, so reporting these specific failures is not required.
+You are encouraged to report any issues. When reconstruction fails, a descriptive error will be shown and manual reporting is not necessary.
 
-Despite being experimental, this feature is stable: it will never cause CodeGlass to crash.
+While experimental, the feature is stable and will not cause CodeGlass to crash.
 
 ## Limitations
-Because this reconstruction is based on execution data, it is inherently imperfect. Mapping every possible path would require excessive memory, so we currently operate within practical memory constraints (We tried downloading some more, but even that wouldn't work).
+Reconstruction relies on execution data and is therefore incomplete by design. Exhaustively capturing all possible control paths would require unbounded memory. The current implementation operates within practical memory limits.
 
-We continue to improve accuracy and coverage over time.
+We are actively working to improve both the accuracy and the completeness of this feature.
 
 ## Known Issues
-- In some cases, reconstruction may fail even when sufficient data appears to be available.
+- In some cases, reconstruction may not succeed even when runtime data appears sufficient.
 
 ## Views Using This Feature
 - [Function Details View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md#code-body-view)

@@ -2,18 +2,19 @@
 title: Feature - CodeGlass Client
 description: The UI Of CodeGlass.
 ---
+
 # CodeGlass Client
 
-CodeGlass is from the ground up designed for remote profiling and to support any language, because of this, CodeGlass exists out of multiple parts:
+CodeGlass is designed from the ground up for remote profiling and language independence. To achieve this, it is composed of multiple components:
 - CodeGlass Client
 - [CodeGlass Hub](CodeGlassHub.md)
 - [CodeGlass Profilers](CodeGlassProfilers.md)
 
-The CodeGlassClient is nothing more than a light weight UI to manage the CodeGlass [profilers](CodeGlassProfilers.md) and display the data of the [CodeGlass Hub](CodeGlassHub.md), this allows us to easily adapt other clients, like a web interface, in the future.
+The **CodeGlass Client** is a lightweight UI responsible for managing [profilers](CodeGlassProfilers.md) and visualizing data received from the [CodeGlass Hub](CodeGlassHub.md). Its modular design enables future extensions, such as a web-based interface.
 
-From the Client you can start profiling any of the [supported runtimes](supportedruntimes.md) that are registered to the [Hub](CodeGlassHub.md) by any connected ([remote](CodeGlassHub.md#remote-hub)) clients, not specifically by the current client or the current machine.
+Through the Client, you can initiate profiling for any of the [supported runtimes](supportedruntimes.md) that have been registered with the [Hub](CodeGlassHub.md), regardless of whether they were registered by the local machine or a [remote](CodeGlassHub.md#remote-hub) client.
 
-Our current implementation is a WPF based desktop application, but we already have a prototype web based client that we might release in the future.
+The current implementation is a WPF-based desktop application. A prototype of a web-based client also exists and may be released in the future.
 
 # See Also:
 - [Feature - CodeGlass Hub](CodeGlassHub.md)
