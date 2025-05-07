@@ -47,4 +47,4 @@ We are actively working to improve both the accuracy and the completeness of thi
 - In some cases, reconstruction may not succeed even when runtime data appears sufficient.
 
 ## Views Using This Feature
-- [Function Details View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md#code-body-view)
+- [Code Body View](../views/ApplicationInstanceDockWindow/CodeMemberDetailsView.md#code-body-view)
