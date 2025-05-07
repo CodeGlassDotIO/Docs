@@ -4,25 +4,40 @@ description: The tracking of interactions that happened in your application
 ---
 
 # Interaction Tracking
-This feature allows you to easily see key interactions that occurred in your application. An interaction can be multiple things. An interaction can be something like an event but it can also be an API endpoint that was called, etc. At this point we only support the tracking of events but tracking of other interactions like an API call will be added soon.
+
+This feature enables you to observe and analyze key interactions that occur within your application. An interaction represents various runtime behaviors—such as event invocations or API calls. Support for additional types is planned for future releases.
 
 {% include alert.html type="warning" title="Limited support" content="At this point the only language to support this feature is C#, but more will be added soon." %}
 
 ![assets/img/ApplicationInstanceWindow/InteractionsOverview.png](../../assets/img/ApplicationInstanceWindow/InteractionsOverview.png)
 
 ## How It Works
-This view can be found on both the [call tree renderer](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) and the [call stack renderer](../views/ApplicationInstanceDockWindow/CallStackRendering.md)
 
-The interactions view has two lists. The "Active Interactions" and "Interactions History" lists. The active list shows all the interactions that have been called but have not yet returned. The history list shows all the interactions that can be found in the stored call stack history. The arrow in the history list points to the current position in the callstack. The amount of items shown in the history list is limited to the value that is set in [render settings](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#settings-window).
+This feature is integrated into both the [Call Tree Renderer](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) and the [Call Stack Renderer](../views/ApplicationInstanceDockWindow/CallStackRendering.md).
 
-The interaction lists are updated based on stepping events. If you step into or out of an method that is also an interaction, the "Active Interactions" list will add or remove the item. In the "Interaction History" list items are grayed out when they are in the "future" of the current position in the callstack. The further you step back into the history of the callstack, the more items will be grayed out.
+The Interactions View consists of two lists:
+- **Active Interactions**: Displays interactions that have been initiated but not yet returned.
+- **Interaction History**: Displays previously observed interactions from the recorded call stack history.
 
-Clicking on an active item will move that method into the viewport of your rendering screen, and will not change the state of your callstack. When you click on an item in the history the callstack will be moved until it reaches the point that this interaction was called. If this item cannot be found in you callstack history anymore nothing will happen. 
+The history view includes an arrow marker indicating the current position in the call stack. The number of items retained in the history is limited by the value defined in [render settings](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#settings-window).
 
-Note that the callstack will only change when your application is in a paused state. If you forget to pause your application and try to click on one of the interactions, CodeGlass will give you a little popup to tell you that your application should be paused for this operation to be executed.
+Both lists are updated in real-time based on stepping behavior. If you step into or out of a method associated with an interaction:
+- The *Active Interactions* list will reflect the entry or exit.
+- The *Interaction History* list will visually differentiate items based on temporal relevance. Items in the "future" relative to the current stack position are shown as grayed out.
+
+### Interaction Navigation
+
+- Clicking an item in the **Active Interactions** list centers that method in the rendering viewport. This does **not** modify the call stack state.
+- Clicking an item in the **Interaction History** causes the call stack to rewind to the moment that interaction was triggered. If the interaction is no longer available in the retained call stack history, no action is taken.
+
+> **Note:**  
+> Your application must be paused to interact with the call stack. If not paused, attempting to click an interaction will display a notification prompting you to pause execution.
 
 ## Coloring
-Every interaction item has a colored border around it. The color of the border is equal to the color of the thread that this interaction was called on. For more information about the coloring see [this](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#threads-and-coloring) page.
+
+Each interaction item is bordered with a color corresponding to the thread on which the interaction occurred. For thread-color mapping details, refer to [Threads and Coloring](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#threads-and-coloring).
 
 ## Max Interactions Reached
-There is a very small change that you will get the warning "Max Interactions Reached" when using this feature. When you leave a rendering view open and 4,294,967,295 (uint32 max value) interactions happen, our id for tracking interactions overflows. If this happens please close and reopen your rendering view, as this will reset the id counter.
+
+In rare cases, you may encounter the warning **"Max Interactions Reached"**. This occurs when the internal interaction ID counter exceeds the `uint32` maximum (4,294,967,295). If this happens, simply close and reopen the rendering view to reset the counter.
+

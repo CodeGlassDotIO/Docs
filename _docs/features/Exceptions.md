@@ -2,37 +2,42 @@
 title: Feature - Exceptions
 description: The exception handling and collecting of CodeGlass
 ---
-# Exceptions
-This feature is still in its early stages but we will expand much upon in the future; see [Improving Exceptions](../Roadmap/ImprovingExceptions.md) roadmap item for more information.
 
-Currently, we do have these functions:
+# Exceptions
+
+This feature is still in its early stages and will be expanded significantly. See the [Improving Exceptions](../Roadmap/ImprovingExceptions.md) roadmap item for planned improvements.
+
+Currently, the following functionality is available:
 
 ## Collection of Exceptions
-CodeGlass captures all exceptions that occur in your application, even if they are not caught.
-Along with the exception, we collect the unrolled stack trace up to the nearest catch block, as well as the [real-time collected callstack](RealtimeDataCollection.md#call-stack). However, the level of detail depends on how you have configured your [profiling data filters](ProfilingDataFiltering.md).
+
+CodeGlass captures all exceptions that occur within your application, including uncaught exceptions. For each exception, it collects:
+
+- The unrolled stack trace up to the nearest catch block
+- The [real-time collected call stack](RealtimeDataCollection.md#call-stack), if available
+
+The level of detail in captured exceptions depends on your configured [profiling data filters](ProfilingDataFiltering.md).
 
 ![assets/img/ApplicationInstanceWindow/AppInstanceExceptionDetails.png](../../assets/img/ApplicationInstanceWindow/AppInstanceExceptionDetails.png)
 
-You can see this data in the following views:
+This data can be viewed in:
 - [Exception Explorer](../views/ApplicationInstanceDockWindow/ExceptionExplorer.md)
 - [Exception Details View](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md)
 
 ## Pause Execution on Exception
-You can configure CodeGlass to pause execution when specific exceptions occur.
-This feature will be further enhanced in future updates. For more details, see [improving exceptions](../Roadmap/ImprovingExceptions.md).
 
-You can configure these exceptions in the following views:
-- [Applications Profiler Settings](../views/ApplicationSettingsWindow.md)
+CodeGlass allows you to pause execution when specific exceptions occur. This enables early investigation and live debugging of critical error paths.
+
+Configuration options for this feature are available in:
+- [Application Profiler Settings](../views/ApplicationSettingsWindow.md)
 - [Client & User Profiler Settings](../views/clientusersettingswindow.md)
 
 
-
 ### Limitations
-- Currently, you can only specify these exceptions before an application starts; in the future, we will remove this limitation.
 
+- Exception pause settings must currently be configured before the application starts. This limitation will be removed in a future release.
+- For future enhancements, see [Improving Exceptions](../Roadmap/ImprovingExceptions.md).
 
 # See Also:
 - [Feature - Execution Control](ApplicationInstanceExecutionControl.md)
 - [Feature - Realtime profiling](RealtimeDataCollection.md)
-
-

@@ -2,48 +2,47 @@
 title: Feature - Profiling Data Filtering
 description: Filter what data you want to collect while profiling.
 ---
-# Profiling Data Filtering
-Profiling every function in your application can affect its performance. To help mitigate this, CodeGlass allows you to filter which parts of your application you want to profile.
 
-By filtering out unnecessary data, you can improve your application's performance while profiling. We make this easy by offering a variety of options to configure and manage what gets profiled, so you can focus on the data that matters most.
+# Profiling Data Filtering
+
+Profiling every function in your application can impact runtime performance. To minimize overhead, CodeGlass allows you to define filters that control which parts of your application are profiled.
+
+By excluding irrelevant or low-priority sections of your codebase, you can improve performance and reduce noise in your profiling data. CodeGlass provides multiple configuration options to help you focus only on the data that matters.
 
 {% include alertNoTitle.html  type="info" content="This page does not go into much detail on how to configure them but more on how they work. However, you will find links to the views where you can configure them." %}
 
-
 ## Filtering in General
-Our filtering system operates based on a set of rules that you define. Each [data item](#data-item) in the application is evaluated against this ruleset. The rules are processed in [Order](#filter-order) and [matched](#matching-filters) against filter rules to determine whether the item will be filtered or not.
 
-Currently, there are 3 [types of filters rules](#filter-rule-types) that you can apply to every [filter groups](#filter-groups).
+Filtering is governed by a rule-based system. Each [data item](#data-item) is matched against a set of user-defined rules in [filter order](#filter-order) to determine whether the item should be included or excluded.
+
+There are currently three [types of filter rules](#filter-rule-types), each of which can be applied to [filter groups](#filter-groups).
 
 ## Matching Filters
-Every [data item](#data-item) is evaluated against the rules you define in [order](#filter-order). The first [filter](#filter-rule-types) that the [data item](#data-item) matches will determine whether the item should be filtered, based on the filter's [allowed access modifiers](#access-modifiers).
 
-The system will always find either a user-specified rule or the [root filter](#root-filter-rule). If no match is found, the default behavior is to not filter the item.
+Each [data item](#data-item) is matched against the rule set in [filter order](#filter-order). The first rule that matches the data item determines whether it is filtered, based on the specified [access modifiers](#access-modifiers).
 
+Every data item will match either a specific rule or the [root filter](#root-filter-rule). If no match is found, the item is not filtered by default.
 
 ## Access Modifiers
-On each [filter](#filter-rule-types), you can set one or more modifiers it should allow. By assigning no access modifiers, the item is filtered completely.
 
-The assignable access modifiers are:
-- Public 
-- Protected
-- Internal
-- Private
+Each [filter rule](#filter-rule-types) can define one or more access modifiers:
 
+- Public  
+- Protected  
+- Internal  
+- Private  
+
+If no modifiers are assigned, the data item is fully filtered.
 
 ## Filter Order
-The order of the filters is critical as this is the order they will try to [match](#matching-filters) with [data items](#data-item).
 
-We manage the order by processing the rules on the known [data items](#data-item) from previous [application instances](../views/mainwindow/applicationInstance.md); or by [decompiling](Decompilation.md) (decompilation is only used to extract the [data items](#data-item)).
+Filter rules are processed in creation/update order. Matching follows this sequence.
 
-However, it might be handy to know how it works in the background.
-The order is made by the creation / update date of the [filter rule](#filter-rule-types).
-Currently, there is no direct way to see the order as this is not needed by how we show it in our views.
+CodeGlass determines the rule order using previously known [data items](#data-item), either from earlier [application instances](../views/mainwindow/applicationInstance.md) or through [decompilation](Decompilation.md) (used only to extract data item metadata).
 
-(If you have a use case for it, please let us know by creating a GitHub issue. )
+While filter order is not exposed in the UI, it affects filtering behavior. If you need visibility into rule order, please submit a feature request.
 
-
-
+## Example Scenarios
 To explain this, we created the following example.
 Take this as an example application that you are profiling:
 
@@ -268,9 +267,8 @@ namespace CodeGlass.Profiler.Engine //Path is: CodeGlass.Profiler.Engine
 }
 ```
 
-
-Currently, it is not possible to filter functions based on their parameters. If you want this, please let us know by submitting a ticket.
-
+> **Note**  
+> Filtering based on method parameters is not yet supported. Let us know if you need this functionality.
 
 ### Data Item
 We mean anything our profiler can stumble upon with data items, like modules, namespaces, properties, functions/methods, etc.

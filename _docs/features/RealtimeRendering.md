@@ -2,90 +2,103 @@
 title: Feature - Realtime Rendering
 description: Realtime rendering of different kinds of data in CodeGlass
 ---
+
 # Realtime Rendering
 
-With CodeGlass you can visualize the data from the profiled application in realtime. CodeGlass provides three different views to visualize your data.
-These [render types](#render-types) include:
+CodeGlass allows you to visualize profiling data from a running application in real time. There are three primary rendering views available:
 - [Call Tree](#realtime-call-tree-rendering)
 - [Call Stack](#realtime-call-stack-rendering)
-- [Code Heat map](#realtime-code-heatmap)
+- [Code Heat Map](#realtime-code-heatmap)
 
-{% include Warnings/RenderingPhotosensitivityWarning.html  %}
+{% include Warnings/RenderingPhotosensitivityWarning.html %}
 
 ## Render Types
+
 ### Realtime Call Tree Rendering
+
 ![assets/img/ApplicationInstanceWindow/RealtimeCallTreeRendering.png](../../assets/img/ApplicationInstanceWindow/RealtimeCallTreeRendering.png)
 
-See [View - Realtime Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) or [View - Exception Call Tree Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-tree-view) for view specific information.
- 
-This rendering view gives you a look into the call tree of your application as it is running. Because the amount of data can sometimes be overwhelming, you can apply filters. These filters allow you to focus on the parts that really matter to you. More information about filters can be found here: [profiling data filters](ProfilingDataFiltering.md).
+See [View - Realtime Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md) or [View - Exception Call Tree Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-tree-view) for view-specific details.
 
-The rendering does also reflect [call stack steps](ApplicationInstanceStepping.md) that you might have made, forwards but also backwards! 
+This view displays the live call tree of your application. Because the volume of data can be large, filters can be applied to help narrow your focus. See [profiling data filters](ProfilingDataFiltering.md) for configuration guidance.
 
-To differentiate different threads, CodeGlass gives every thread its own color. 
-Every thread is assigned the most different color available. This is why the first 3 threads are red, green and blue (RGB). Then it will start using the most different shades of RGB and so forward.
+The rendering reflects [call stack steps](ApplicationInstanceStepping.md), including forward and backward navigation.
 
-This render view does not combine calls to the same function, like the [call stack rendering](#realtime-call-stack-rendering) would do, but instead separates them per root function.
+Each thread is assigned a distinct color, starting with red, green, and blue. Subsequent threads use increasingly different shades to ensure clarity. For thread-color mapping details, refer to [Threads and Coloring](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#threads-and-coloring).
 
-So for example
-```
-Thread 1 (red)   has a call stack of: A() -> B() -> C()
-Thread 2 (green) has a call stack of: B() -> C()
-Thread 3 (blue)  has a call Stack of: A() -> D() -> C()
+This view does not merge calls to the same function. Instead, it separates them by root function.
+
+Example:
+
 ```
 
-would result in render:
+Thread 1 (red)   → A() → B() → C()
+Thread 2 (green) → B() → C()
+Thread 3 (blue)  → A() → D() → C()
+
 ```
-A() r-> B() r-> C()
-|   b-> D() b-> C()
-B() g-> C()
+
+Renders as:
+
+```
+
+A() r→ B() r→ C()
+|   b→ D() b→ C()
+B() g→ C()
+
 ```
 
 ### Realtime Call Stack Rendering
+
 ![assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png](../../assets/img/ApplicationInstanceWindow/RealtimeGroupedCallStackRendering.png)
 
-See [View - Realtime Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md) or [View - Exception Call Stack Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-stack-view) for view specific information.
+See [View - Realtime Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md) or [View - Exception Call Stack Rendering](../views/ApplicationInstanceDockWindow/ExceptionDetailsView.md#exception-call-stack-view) for more information.
 
-This rendering view gives you a look into the call stack of your application as it is running. Because the amount of data can sometimes be overwhelming, you can apply filters. These filters allow you to focus on the parts that really matter to you. More information about filters can be found here: [profiling data filters](ProfilingDataFiltering.md).
+This view displays the live call tree of your application. Because the volume of data can be large, filters can be applied to help narrow your focus. See [profiling data filters](ProfilingDataFiltering.md) for configuration guidance.
 
-The rendering does also reflect [call stack steps](ApplicationInstanceStepping.md) that you might have made, forwards but also backwards!
+The rendering reflects [call stack steps](ApplicationInstanceStepping.md), including forward and backward navigation.
 
-To differentiate different threads, CodeGlass gives every thread its own color. Every thread is assigned the most different color available. This is why the first 3 threads are red, green and blue (RGB). Then it will start using the most different shades of RGB and so forward.
+Each thread is assigned a distinct color, starting with red, green, and blue. Subsequent threads use increasingly different shades to ensure clarity. For thread-color mapping details, refer to [Threads and Coloring](../views/ApplicationInstanceDockWindow/CallTreeRendering.md#threads-and-coloring).
 
-Unlike the [call tree rendering](#realtime-call-tree-rendering) this rendering view does combine all the calls to the same function.
+This view also displays the live call stack, but unlike the call tree, it groups repeated calls to the same function.
 
-So for example
-```
-Thread 1 (red)   has a call stack of: A() -> B() -> C()
-Thread 2 (green) has a call stack of: A() -> D() -> C()
-Thread 3 (blue)  has a call Stack of: A() -> F() -> E()
+Example:
+
 ```
 
-would result in:
+Thread 1 (red)   → A() → B() → C()
+Thread 2 (green) → A() → D() → C()
+Thread 3 (blue)  → A() → F() → E()
+
 ```
-A() r-> B() 
-|           rg-> C()
-|   g-> D()
-|   b-> F() b -> E();
+
+Renders as:
+
+```
+
+A() r→ B()
+|          rg→ C()
+|   g→ D()
+|   b→ F() b→ E()
+
 ```
 
 ### Realtime Code Heatmap
+
 ![assets/img/ApplicationInstanceWindow/CodeHeatMapWindow.png](../../assets/img/ApplicationInstanceWindow/CodeHeatMapWindow.png)
 
+See [View - Realtime Code Heat Map](../views/ApplicationInstanceDockWindow/CodeHeatMap.md) for configuration and usage.
 
-See [View - Realtime Code Heat map](../views/ApplicationInstanceDockWindow/CodeHeatMap.md) for view specific information.
+This view presents statistical data in a heat map format. You can group and sort data in several ways.
 
-This rendering view shows the statistics of your application in the form of a heat map.
-In this view you can group and sort your data in multiple different ways.
-
-For C# applications you can group the data by setting the `Object Type` option to one of the following values:
+For C# applications, group by:
 - Method
 - Property
 - Class
 - Namespace
 - Process
 
-To change what type of statistics it should sort by you can change the `Statistics` value. You can choose from the following options:
+Sort by:
 - None
 - Total Calls
 - Total Call Duration
@@ -95,21 +108,24 @@ To change what type of statistics it should sort by you can change the `Statisti
 - Longest Call
 - Shortest Call
 
+## Example Use Cases
 
-## Example Use cases
-### Find racing conditions
-To find racing conditions in your code using CodeGlass, you can use the [call stack rendering](#realtime-call-stack-rendering) view. By looking where two active threads cross each other when calling the same function you can get an idea of where the racing might be happening.
+### Find Race Conditions
 
-To see exactly what happened in your code, you can use [stepping](ApplicationInstanceStepping.md) to go forwards or backwards into the call stack of your application.
+Use the [call stack rendering](#realtime-call-stack-rendering) view to identify when multiple active threads enter the same function. This can help pinpoint areas in your code where race conditions may occur.
 
+Navigate the execution flow with [stepping](ApplicationInstanceStepping.md) to understand the exact sequence of operations.
 
-### Find why your application is slowing down or why it is unresponsive
-By using the [call tree renderer](#realtime-call-tree-rendering) or the [call stack renderer](#realtime-call-stack-rendering) you can instantly see what code your application is running. This way you can find out what it is slowing down on what causes it to be unresponsive.
+### Identify Performance Bottlenecks or Unresponsiveness
+
+Use either the [call tree renderer](#realtime-call-tree-rendering) or the [call stack renderer](#realtime-call-stack-rendering) to identify which parts of your application are currently executing. This makes it easier to identify slow or unresponsive code paths.
 
 ## Limitations
-Currently non of the renderers show you where an exception was thrown. This is an feature that will be added in the future. To see all the exceptions that your application has thrown you can take a look at the [exception explorer](../views/ApplicationInstanceDockWindow/ExceptionExplorer).
 
-## Views using this feature
+Currently, none of the rendering views indicate where exceptions were thrown. This feature is planned for a future update. For now, use the [Exception Explorer](../views/ApplicationInstanceDockWindow/ExceptionExplorer.md) to view exception details.
+
+## Views Using This Feature
+
 - [View - Call Tree Rendering](../views/ApplicationInstanceDockWindow/CallTreeRendering.md)
 - [View - Call Stack Rendering](../views/ApplicationInstanceDockWindow/CallStackRendering.md)
-- [View - Code heat map](../views/ApplicationInstanceDockWindow/CodeHeatMap.md)
+- [View - Code Heat Map](../views/ApplicationInstanceDockWindow/CodeHeatMap.md)
